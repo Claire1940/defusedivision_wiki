@@ -10,14 +10,7 @@
       "twitterDescription": "Defuse Division Wiki covers codes, weapons, skins, maps, crosshair, and bomb-defusal tactics for the Roblox tactical shooter."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",

@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Defuse Division Wiki - Codes, Skins & Maps",
+      "description": "Explore Defuse Division codes, weapons, skins, maps, settings, and bomb-defusal guides for Roblox players who want faster wins and cleaner aim.",
+      "keywords": "Defuse Division, Roblox, codes, skins, weapons, maps, crosshair, settings",
+      "ogTitle": "Defuse Division Wiki - Codes, Skins & Maps",
+      "ogDescription": "Explore Defuse Division codes, weapons, skins, maps, settings, and bomb-defusal guides for Roblox players who want faster wins and cleaner aim.",
+      "twitterTitle": "Defuse Division Wiki - Codes, Skins & Maps",
+      "twitterDescription": "Defuse Division Wiki covers codes, weapons, skins, maps, crosshair, and bomb-defusal tactics for the Roblox tactical shooter."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Roblox Tactical Bomb-Defusal Shooter",
+    "title": "Defuse Division Wiki",
+    "description": "Defuse Division is a Roblox team-based tactical shooter where attackers plant the bomb and defenders stop the plant, defuse it, or wipe the enemy team. Browse codes, weapons, skins, maps, settings, crosshair tips, and round-winning guides.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "36.7M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "212K+",
+        "label": "Favorites"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "119",
+        "label": "Players Online"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "27.1K+",
+        "label": "Discord Members"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Dominate Defuse Division?",
+    "description": "Join the Defuse Division community on Discord for codes, updates, events, and tactical discussions!",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Defuse Division Wiki",
+    "description": "Your community hub for Defuse Division codes, weapons, skins, maps, crosshair, settings, and bomb-defusal tactics on Roblox.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "reddit": "Reddit",
+    "robloxGame": "Play on Roblox",
+    "robloxGroup": "Roblox Group",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Defuse Division Wiki. Not affiliated with Fourteam or Roblox Corporation.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

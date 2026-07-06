@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Disallow internal legal/utility pages from being indexed where appropriate
+# (legal pages already set robots index:false via metadata)
+
+Sitemap: https://www.defusedivision.wiki/sitemap.xml

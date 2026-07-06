@@ -13,8 +13,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const path = '/about'
 
   return {
-    title: 'About Defuse Division Wiki - Your Ultimate Steam Game Resource',
-    description: 'Learn about Defuse Division Wiki, a community-driven resource hub providing comprehensive guides, crafting tips, creature info, and strategies for the Lucid Blocks Steam game.',
+    title: 'About Defuse Division Wiki - Your Ultimate Roblox Game Resource',
+    description: 'Learn about Defuse Division Wiki, a community-driven resource hub providing comprehensive guides, codes, weapons, skins, maps, and bomb-defusal tactics for the Defuse Division Roblox game.',
     robots: {
       index: false,
       follow: true,
@@ -32,10 +32,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: locale === 'en' ? `${siteUrl}${path}` : `${siteUrl}/${locale}${path}`,
       siteName: 'Defuse Division Wiki',
       title: 'About Defuse Division Wiki',
-      description: 'Learn about our mission to provide the best Lucid Blocks game resources and guides.',
+      description: 'Learn about our mission to provide the best Defuse Division game resources and guides.',
       images: [
         {
-          url: `${siteUrl}/og-image.jpg`,
+          url: `${siteUrl}/images/hero.webp`,
           width: 1200,
           height: 630,
           alt: 'Defuse Division Wiki',
@@ -45,8 +45,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     twitter: {
       card: 'summary_large_image',
       title: 'About Defuse Division Wiki',
-      description: 'Learn about our mission to provide the best Lucid Blocks game resources.',
-      images: [`${siteUrl}/og-image.jpg`],
+      description: 'Learn about our mission to provide the best Defuse Division game resources.',
+      images: [`${siteUrl}/images/hero.webp`],
     },
     alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
   }
@@ -62,7 +62,7 @@ export default function About() {
             About Defuse Division Wiki
           </h1>
           <p className="text-slate-300 text-lg mb-2">
-            Your community-driven resource center for Lucid Blocks
+            Your community-driven resource center for Defuse Division
           </p>
         </div>
       </section>
@@ -74,11 +74,11 @@ export default function About() {
             <h2>Welcome to Defuse Division Wiki</h2>
             <p>
               Defuse Division Wiki is an <strong>unofficial, fan-made resource website</strong> dedicated to helping players
-              master the Steam game "Lucid Blocks". We are a community-driven platform that provides comprehensive guides,
-              crafting tips, biome information, creature details, and strategic insights to enhance your gaming experience.
+              master the Roblox game "Defuse Division" by Fourteam. We are a community-driven platform that provides comprehensive guides,
+              redeem codes, weapon info, skins and cases, maps and callouts, crosshair and settings, and tactical insights to enhance your gaming experience.
             </p>
             <p>
-              Whether you're a new player just starting your survival journey or a seasoned veteran looking to optimize your strategies,
+              Whether you're a new player just learning the bomb sites or a seasoned veteran looking to optimize your aim and utility usage,
               Defuse Division Wiki is here to support you every step of the way.
             </p>
           </div>
@@ -91,7 +91,7 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>Our Mission</h2>
             <p>
-              Our mission is simple: <strong>to empower Lucid Blocks players with accurate, up-to-date information
+              Our mission is simple: <strong>to empower Defuse Division players with accurate, up-to-date information
               and powerful tools</strong> that help them succeed in the game. We strive to:
             </p>
             <ul>
@@ -103,9 +103,9 @@ export default function About() {
 
             <h2>Our Vision</h2>
             <p>
-              We envision Defuse Division Wiki as the <strong>go-to destination</strong> for every Lucid Blocks player seeking
+              We envision Defuse Division Wiki as the <strong>go-to destination</strong> for every Defuse Division player seeking
               to improve their gameplay. We want to be the resource that players trust and rely on, whether they need
-              crafting guides, want to explore new biomes, or are looking for advanced survival tactics.
+              fresh codes, want to master a new map, or are looking for advanced bomb-defusal tactics.
             </p>
           </div>
         </div>
@@ -118,51 +118,51 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-6">
             {/* Feature Card 1 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🔨</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Crafting Guides</h3>
+              <div className="text-2xl mb-3">🎫</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Redeem Codes</h3>
               <p className="text-slate-300">
-                Comprehensive crafting recipes and Apotheosis fusion guides to help you create powerful items.
-                Master the art of item synthesis!
+                A constantly updated list of active and expired Defuse Division codes, plus clear steps on
+                where and how to redeem them in-game.
               </p>
             </div>
 
             {/* Feature Card 2 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🌍</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Biome Information</h3>
+              <div className="text-2xl mb-3">🔫</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Weapons Guides</h3>
               <p className="text-slate-300">
-                Detailed guides on all biomes, their unique features, resources, and dangers.
-                Explore every corner of the surreal world safely.
+                Weapon stats, recoil patterns, and best-buy recommendations so you know which guns fit
+                your playstyle at every price point.
               </p>
             </div>
 
             {/* Feature Card 3 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🦋</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Creature Database</h3>
+              <div className="text-2xl mb-3">🎨</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Skins & Cases</h3>
               <p className="text-slate-300">
-                Complete information on all creatures, their behaviors, drops, and how to deal with them.
-                Know your friends from your foes.
+                Skins, cases, drop pools, and how to get them — including event and limited-time items
+                from Discord giveaways.
               </p>
             </div>
 
             {/* Feature Card 4 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🎯</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Achievement Guides</h3>
+              <div className="text-2xl mb-3">🗺️</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Maps & Callouts</h3>
               <p className="text-slate-300">
-                Step-by-step guides to unlock all 19 achievements in the game.
-                Complete your collection with our detailed walkthroughs.
+                Map overviews, bomb sites, common angles, retake and rotate routes, plus smoke and flash
+                lineups for each map.
               </p>
             </div>
 
             {/* Feature Card 5 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">📚</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Survival Strategies</h3>
+              <div className="text-2xl mb-3">🎯</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Crosshair & Settings</h3>
               <p className="text-slate-300">
-                Essential survival tips, building strategies, and exploration guides.
-                Learn how to thrive in the surreal sandbox world.
+                Recommended crosshairs, sensitivity, FPS-boost and low-spec settings, and keybinds for
+                desktop and mobile players.
               </p>
             </div>
 
@@ -171,8 +171,8 @@ export default function About() {
               <div className="text-2xl mb-3">🌍</div>
               <h3 className="text-xl font-semibold text-white mb-2">Multilingual Support</h3>
               <p className="text-slate-300">
-                Content available in multiple languages including English, Russian, Portuguese,
-                German, Spanish, Japanese, Korean, and French.
+                Content available in multiple languages to serve Defuse Division players
+                across the top Roblox markets around the world.
               </p>
             </div>
           </div>
@@ -195,7 +195,7 @@ export default function About() {
               <li><strong>Meta shifts:</strong> We track gameplay trends and update guides based on real player experiences</li>
             </ul>
             <p>
-              <strong>Want to contribute?</strong> Whether you've discovered a new crafting recipe, found a hidden biome,
+              <strong>Want to contribute?</strong> Whether you've found a fresh redeem code, a new crosshair setup,
               or have suggestions for new guides, we'd love to hear from you! Reach out through our contact channels below.
             </p>
           </div>
@@ -209,20 +209,20 @@ export default function About() {
             <h2>About the Team</h2>
             <p>
               Defuse Division Wiki is maintained by a dedicated team of passionate gamers and developers who love
-              Lucid Blocks as much as you do. We're players first, constantly testing strategies, exploring game
+              Defuse Division as much as you do. We're players first, constantly testing strategies, exploring game
               mechanics, and staying updated with the latest discoveries.
             </p>
             <p>
               Our team combines expertise in:
             </p>
             <ul>
-              <li><strong>Game analysis:</strong> Deep understanding of Lucid Blocks mechanics and strategies</li>
+              <li><strong>Game analysis:</strong> Deep understanding of Defuse Division mechanics and strategies</li>
               <li><strong>Web development:</strong> Building fast, user-friendly tools and interfaces</li>
               <li><strong>Content creation:</strong> Writing clear, helpful guides and tutorials</li>
               <li><strong>Community management:</strong> Listening to player feedback and fostering a positive environment</li>
             </ul>
             <p className="text-slate-400 italic text-sm">
-              Project Codename: "Dreamscape" – Navigating the surreal together.
+              Project Codename: "Site Control" – Holding the bomb sites together.
             </p>
           </div>
         </div>
@@ -235,7 +235,7 @@ export default function About() {
             <h2>Important Disclaimer</h2>
             <p className="text-yellow-400/90">
               <strong>Defuse Division Wiki is an unofficial fan-made website.</strong> We are NOT affiliated with,
-              endorsed by, or associated with the developers of Lucid Blocks or any official entities.
+              endorsed by, or associated with Fourteam, Roblox Corporation, or any official entities.
             </p>
             <p>
               All game content, trademarks, characters, and assets are the property of their respective owners.
@@ -294,7 +294,7 @@ export default function About() {
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Join Our Community</h2>
           <p className="text-slate-300 mb-6 max-w-2xl mx-auto">
-            Stay updated with the latest guides, tips, and Lucid Blocks news.
+            Stay updated with the latest guides, tips, and Defuse Division news.
             Bookmark this site and check back regularly for new content!
           </p>
           <Link

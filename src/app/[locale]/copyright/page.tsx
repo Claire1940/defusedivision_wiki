@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: 'Copyright and intellectual property information for Defuse Division Wiki.',
       images: [
         {
-          url: `${siteUrl}/og-image.jpg`,
+          url: `${siteUrl}/images/hero.webp`,
           width: 1200,
           height: 630,
           alt: 'Defuse Division Wiki',
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title: 'Copyright Notice - Defuse Division Wiki',
       description: 'Copyright and intellectual property information.',
-      images: [`${siteUrl}/og-image.jpg`],
+      images: [`${siteUrl}/images/hero.webp`],
     },
     alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
   }
@@ -65,7 +65,7 @@ export default function Copyright() {
             Intellectual property rights and usage terms
           </p>
           <p className="text-slate-400 text-sm">
-            Last Updated: March 14, 2026
+            Last Updated: July 6, 2026
           </p>
         </div>
       </section>
@@ -91,8 +91,8 @@ export default function Copyright() {
               endorsed by, or associated with:
             </p>
             <ul>
-              <li><strong>Steam</strong> - Owner of the Steam platform</li>
-              <li><strong>Lucid Blocks Developers</strong> - Creators of the Lucid Blocks game</li>
+              <li><strong>Roblox Corporation</strong> - Operator of the Roblox platform</li>
+              <li><strong>Fourteam</strong> - Developers of the Defuse Division game</li>
             </ul>
             <p>
               All game-related content, including but not limited to:
@@ -152,8 +152,8 @@ export default function Copyright() {
               The following trademarks and service marks are the property of their respective owners:
             </p>
             <ul>
-              <li><strong>STEAM</strong> - Trademark of Valve Corporation</li>
-              <li><strong>Lucid Blocks</strong> - Trademark of the game developers</li>
+              <li><strong>ROBLOX</strong> - Trademark of Roblox Corporation</li>
+              <li><strong>Defuse Division</strong> - Game developed by Fourteam on Roblox</li>
               <li><strong>Defuse Division Wiki</strong> - Our own branding (not affiliated with the game)</li>
             </ul>
             <p>

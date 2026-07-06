@@ -254,7 +254,7 @@ export default function HomePageClient({
                            border border-border hover:bg-white/10 rounded-lg
                            font-semibold text-base md:text-lg transition-colors"
               >
-                {t.hero.playOnSteamCTA}
+                {t.hero.playOnRobloxCTA}
                 <ArrowRight className="w-5 h-5" />
               </a>
             </div>
@@ -1400,7 +1400,7 @@ export default function HomePageClient({
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="https://www.roblox.com/games/112757576021097/Defuse-Division"
+                    href="https://discord.com/invite/defusedivision"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1410,22 +1410,12 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://www.roblox.com/groups/5628426/Fourteam"
+                    href="https://www.reddit.com/r/DefuseDivision/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
-                    {t.footer.twitter}
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://devforum.roblox.com/t/defuse-division-changelog/4003992/1"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
-                  >
-                    {t.footer.steamCommunity}
+                    {t.footer.reddit}
                   </a>
                 </li>
                 <li>
@@ -1435,7 +1425,17 @@ export default function HomePageClient({
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
-                    {t.footer.steamStore}
+                    {t.footer.robloxGame}
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.roblox.com/groups/5628426/Fourteam"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
+                  >
+                    {t.footer.robloxGroup}
                   </a>
                 </li>
               </ul>

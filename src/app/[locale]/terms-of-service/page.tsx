@@ -9,12 +9,12 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.defusedivision.wiki'
   const path = '/terms-of-service'
 
   return {
-    title: "Terms of Service - Lucid Blocks Wiki",
-    description: "Read the Terms of Service for Lucid Blocks Wiki. Learn about user responsibilities, content usage guidelines, and legal terms for using our Steam game resource platform.",
+    title: "Terms of Service - Defuse Division Wiki",
+    description: "Read the Terms of Service for Defuse Division Wiki. Learn about user responsibilities, content usage guidelines, and legal terms for using our Steam game resource platform.",
     robots: {
       index: false,
       follow: true,
@@ -30,22 +30,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale: locale,
       url: locale === 'en' ? `${siteUrl}${path}` : `${siteUrl}/${locale}${path}`,
-      siteName: "Lucid Blocks Wiki",
-      title: "Terms of Service - Lucid Blocks Wiki",
-      description: "Terms and conditions for using Lucid Blocks Wiki.",
+      siteName: "Defuse Division Wiki",
+      title: "Terms of Service - Defuse Division Wiki",
+      description: "Terms and conditions for using Defuse Division Wiki.",
       images: [
         {
           url: `${siteUrl}/og-image.jpg`,
           width: 1200,
           height: 630,
-          alt: "Lucid Blocks Wiki",
+          alt: "Defuse Division Wiki",
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: "Terms of Service - Lucid Blocks Wiki",
-      description: "Terms and conditions for using Lucid Blocks Wiki.",
+      title: "Terms of Service - Defuse Division Wiki",
+      description: "Terms and conditions for using Defuse Division Wiki.",
       images: [`${siteUrl}/og-image.jpg`],
     },
     alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
@@ -62,7 +62,7 @@ export default function TermsOfService() {
             Terms of Service
           </h1>
           <p className="text-slate-300 text-lg mb-2">
-            Terms and conditions for using Lucid Blocks Wiki
+            Terms and conditions for using Defuse Division Wiki
           </p>
           <p className="text-slate-400 text-sm">
             Last Updated: March 14, 2026
@@ -76,17 +76,17 @@ export default function TermsOfService() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>1. Acceptance of Terms</h2>
             <p>
-              By accessing and using Lucid Blocks Wiki ("the Website", "we", "our", or "us"), you agree to be bound
+              By accessing and using Defuse Division Wiki ("the Website", "we", "our", or "us"), you agree to be bound
               by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not use our Website.
             </p>
             <p>
-              These Terms constitute a legally binding agreement between you ("User", "you", or "your") and Lucid Blocks Wiki.
+              These Terms constitute a legally binding agreement between you ("User", "you", or "your") and Defuse Division Wiki.
               Your continued use of the Website signifies your acceptance of these Terms and any future modifications.
             </p>
 
             <h2>2. Description of Service</h2>
             <p>
-              Lucid Blocks Wiki is an unofficial, community-driven fan website that provides information, guides, tools,
+              Defuse Division Wiki is an unofficial, community-driven fan website that provides information, guides, tools,
               and resources related to the Steam game "Lucid Blocks". Our services include, but are not limited to:
             </p>
             <ul>
@@ -98,7 +98,7 @@ export default function TermsOfService() {
               <li>Community discussion and content</li>
             </ul>
             <p>
-              <strong>Important:</strong> Lucid Blocks Wiki is NOT affiliated with, endorsed by, or associated with
+              <strong>Important:</strong> Defuse Division Wiki is NOT affiliated with, endorsed by, or associated with
               Valve Corporation (Steam) or the official developers of Lucid Blocks. We are an independent fan community.
             </p>
 
@@ -130,7 +130,7 @@ export default function TermsOfService() {
             <h3>4.1 Website Content</h3>
             <p>
               The Website and its original content, features, and functionality (including but not limited to text,
-              graphics, logos, images, and software) are owned by Lucid Blocks Wiki and are protected by international
+              graphics, logos, images, and software) are owned by Defuse Division Wiki and are protected by international
               copyright, trademark, and other intellectual property laws.
             </p>
 
@@ -251,7 +251,7 @@ export default function TermsOfService() {
             <h2>13. Entire Agreement</h2>
             <p>
               These Terms, together with our Privacy Policy and Copyright Notice, constitute the entire agreement between
-              you and Lucid Blocks Wiki regarding the use of the Website and supersede any prior agreements or understandings.
+              you and Defuse Division Wiki regarding the use of the Website and supersede any prior agreements or understandings.
             </p>
 
             <h2>14. Contact Information</h2>
@@ -259,7 +259,7 @@ export default function TermsOfService() {
               If you have any questions, concerns, or feedback regarding these Terms of Service, please contact us at:
             </p>
             <p>
-              <strong>Email:</strong> <a href="mailto:legal@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">legal@lucidblocks.wiki</a>
+              <strong>Email:</strong> <a href="mailto:legal@defusedivision.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">legal@defusedivision.wiki</a>
             </p>
             <p>
               We will respond to all inquiries within a reasonable timeframe.

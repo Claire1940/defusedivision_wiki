@@ -1,12 +1,14 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Defuse Division Wiki - Maps, Weapons & Tactics",
+  "short_name": "Defuse Division",
+  "description": "Defuse Division Wiki is a community guide to the Roblox tactical bomb-defusal shooter by Fourteam: maps (Dust II, Mirage, Nuke), weapons, skins, economy, movement, and competitive tactics.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#fbbd23",
+  "background_color": "#0a0e16",
+  "categories": ["games", "entertainment"],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

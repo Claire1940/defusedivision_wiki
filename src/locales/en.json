@@ -79,6 +79,26 @@
         "icon": "Crosshair",
         "title": "Defuse Division Mechanics",
         "description": "Round structure, bomb timer, win conditions, and economy"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Defuse Division Controls",
+        "description": "Full keybind list plus sensitivity, crosshair, and audio setup"
+      },
+      {
+        "icon": "Map",
+        "title": "Defuse Division Maps",
+        "description": "Bombsites, rotations, chokepoints, and common angles per map"
+      },
+      {
+        "icon": "Newspaper",
+        "title": "Defuse Division Updates",
+        "description": "Patch notes, balance changes, new content, and bug fixes"
+      },
+      {
+        "icon": "Lightbulb",
+        "title": "Defuse Division Tips",
+        "description": "Positioning, trading, utility, and post-plant strategy to win more"
       }
     ]
   },
@@ -201,6 +221,124 @@
         {
           "topic": "Economy & Credits",
           "content": "Each round awards Credits for eliminations, objectives, and round outcomes. Managing your economy across rounds keeps your team armed with rifles, armor, and utility when it matters most."
+        }
+      ]
+    },
+    "defuseDivisionControlsSettings": {
+      "title": "Defuse Division Controls & Settings",
+      "displayType": "table",
+      "intro": "Master the Defuse Division control scheme on PC, mobile, and console. Every input — from movement and aim to bomb plant, defuse, and the menu where you tune sensitivity, crosshair, and audio — is mapped here so you build muscle memory faster and never fumble a clutch.",
+      "controls": [
+        {
+          "action": "Move",
+          "input": "W A S D / Left Stick",
+          "function": "Drive your operator through bombsites, rotation routes, and cover."
+        },
+        {
+          "action": "Look / Aim",
+          "input": "Mouse / Right Stick",
+          "function": "Track enemies, hold angles, and snap to clean crosshair placement."
+        },
+        {
+          "action": "Interact",
+          "input": "E / X Button",
+          "function": "Pick up the bomb, open doors, and trigger objective devices."
+        },
+        {
+          "action": "Fire Weapon",
+          "input": "Left Click / RT",
+          "function": "Shoot, pre-fire angles, and trade eliminations with your team."
+        },
+        {
+          "action": "Plant / Defuse Bomb",
+          "input": "Hold E / Context Key",
+          "function": "Plant at a bombsite as attacker, or defuse the device as defender."
+        },
+        {
+          "action": "Open Menu",
+          "input": "N / Menu Button",
+          "function": "Redeem codes and adjust sensitivity, keybinds, audio, and crosshair."
+        }
+      ]
+    },
+    "defuseDivisionMapsGuide": {
+      "title": "Defuse Division Maps Guide",
+      "displayType": "card-list",
+      "intro": "Read every Defuse Division map like a veteran. This guide breaks down bombsites, spawn zones, mid control, chokepoints, rotation paths, and the common angles that decide whether your team holds the site or gets picked off in the open.",
+      "areas": [
+        {
+          "title": "Bomb Sites A & B",
+          "description": "The two planted-objective zones where attackers commit to a plant and defenders retake to defuse. Site selection drives the round's utility plan and positioning."
+        },
+        {
+          "title": "Spawn Areas",
+          "description": "Attacker and defender spawn zones that set early-round positioning, default buys, and the first rotations toward mid or bombsites."
+        },
+        {
+          "title": "Mid Control",
+          "description": "The central map region that unlocks short rotations to both bombsites, lets attackers split pushes, and pressures enemy map control."
+        },
+        {
+          "title": "Chokepoints",
+          "description": "Narrow passages and doorways that funnel engagements — holding or smoking these off decides where fights happen and who holds the advantage."
+        },
+        {
+          "title": "Rotation Routes",
+          "description": "The fastest paths between bombsites and spawn, used to rotate defenders onto a planted site or to fake and reposition as attackers."
+        },
+        {
+          "title": "Common Angles",
+          "description": "Pre-aimed corners, head glitches, and off-angles where defenders hold or attackers clear — the foundation of consistent crosshair placement."
+        }
+      ]
+    },
+    "defuseDivisionUpdatesPatchNotes": {
+      "title": "Defuse Division Updates & Patch Notes",
+      "displayType": "accordion",
+      "intro": "Track every Defuse Division update as the meta evolves. This section summarizes the balance tuning, new content, bug fixes, and gameplay system changes that shift the competitive landscape from patch to patch.",
+      "updates": [
+        {
+          "title": "Balance Adjustments",
+          "content": "Weapon damage, recoil patterns, movement acceleration, and economy rewards are tuned each patch to keep the competitive meta fair and stop any single gun or strategy from dominating Defuse Division rounds."
+        },
+        {
+          "title": "New Content",
+          "content": "Patches ship new maps, weapons, skins, and limited-time events that expand the strategic options and give attackers and defenders fresh tools to break stalemate positions."
+        },
+        {
+          "title": "Bug Fixes",
+          "content": "Stability and performance fixes target crashes, hit-registration edge cases, and map exploits so every round plays out exactly as the rules intend."
+        },
+        {
+          "title": "Gameplay System Changes",
+          "content": "Core systems — plant time, defuse time, round length, and Credits economy — are adjusted to keep rounds tense, readable, and competitive at every skill tier."
+        }
+      ]
+    },
+    "defuseDivisionTipsTricks": {
+      "title": "Defuse Division Tips & Tricks",
+      "displayType": "step-by-step",
+      "intro": "Climb the Defuse Division ranks with the habits that win rounds. These advanced tips cover early positioning, trading, utility timing, objective control, and team play — the decisions that separate frag hunters from round winners.",
+      "tips": [
+        {
+          "title": "Take Early Map Control",
+          "description": "Push for mid or key chokepoints at round start so your team owns the rotations and forces the enemy into predictable, retakeable positions."
+        },
+        {
+          "title": "Trade Every Elimination",
+          "description": "Stay close enough to teammates that the instant one falls, you swing and trade the kill — keeping your team's numbers even and pressure constant."
+        },
+        {
+          "title": "Time Your Utility",
+          "description": "Hold smokes, flashes, and grenades for the exact moment you plant, retake, or push a chokepoint so utility forces movement instead of being wasted."
+        },
+        {
+          "title": "Play the Bomb Timer",
+          "description": "Once planted, attackers run down the clock and defenders commit to a defuse — read the timer, fake defuses, and coordinate the retake to win post-plant situations."
+        },
+        {
+          "title": "Avoid Isolated Fights",
+          "description": "Wandering alone hands the enemy isolated picks and map control. Stay near trade range of a teammate so every engagement becomes a 2-on-1 in your favor."
         }
       ]
     }

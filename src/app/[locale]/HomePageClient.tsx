@@ -5,12 +5,23 @@ import {
   ArrowRight,
   BookOpen,
   Bomb,
+  Bug,
   Check,
   ChevronDown,
   Coins,
   Copy,
   Crosshair,
+  Eye,
+  Filter,
+  Gamepad2,
   Gift,
+  Home,
+  Lightbulb,
+  Map,
+  Newspaper,
+  Scale,
+  Settings,
+  Shuffle,
   Sparkles,
   Target,
   Trophy,
@@ -60,10 +71,20 @@ const TOOL_SECTION_IDS = [
   "beginner-guide",
   "tier-list",
   "game-mechanics",
+  "defuse-division-controls-settings",
+  "defuse-division-maps-guide",
+  "defuse-division-updates-patch-notes",
+  "defuse-division-tips-tricks",
 ];
 
 // 游戏机制手风琴 topic -> 图标 映射（每项不同图标）
 const MECHANIC_ICONS = [Crosshair, Bomb, Target, Users, Coins];
+
+// 地图卡片区 area -> 图标 映射（每项不同图标）
+const MAP_ICONS = [Bomb, Home, Target, Filter, Shuffle, Eye];
+
+// 更新手风琴 update -> 图标 映射（每项不同图标）
+const UPDATE_ICONS = [Scale, Sparkles, Bug, Settings];
 
 export default function HomePageClient({
   latestArticles,
@@ -161,6 +182,7 @@ export default function HomePageClient({
   // 模块内交互状态
   const [copiedCode, setCopiedCode] = useState<string | null>(null);
   const [mechanicOpen, setMechanicOpen] = useState<number | null>(0);
+  const [updateOpen, setUpdateOpen] = useState<number | null>(0);
   const mobileBannerAd = getPreferredMobileBannerSelection();
 
   const handleCopyCode = async (code: string) => {
@@ -577,6 +599,226 @@ export default function HomePageClient({
                 </div>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 5: Defuse Division Controls & Settings */}
+      <section id="defuse-division-controls-settings" className="scroll-mt-24 px-4 py-14 md:py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 mb-3 md:mb-4">
+              <Gamepad2 className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              <h2 className="text-3xl md:text-5xl font-bold">
+                {t.modules.defuseDivisionControlsSettings.title}
+              </h2>
+            </div>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.defuseDivisionControlsSettings.intro}
+            </p>
+          </div>
+
+          {/* 桌面端表格 */}
+          <div className="scroll-reveal hidden md:block overflow-hidden rounded-xl border border-border">
+            <table className="w-full text-left">
+              <thead className="bg-[hsl(var(--nav-theme)/0.1)] border-b border-border">
+                <tr>
+                  <th className="px-5 py-3.5 text-sm font-semibold text-[hsl(var(--nav-theme-light))] w-1/4">Action</th>
+                  <th className="px-5 py-3.5 text-sm font-semibold text-[hsl(var(--nav-theme-light))] w-1/4">Input</th>
+                  <th className="px-5 py-3.5 text-sm font-semibold text-[hsl(var(--nav-theme-light))] w-2/4">Function</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.defuseDivisionControlsSettings.controls.map((row: any, index: number) => (
+                  <tr
+                    key={index}
+                    className={`border-b border-border last:border-b-0 ${index % 2 === 1 ? "bg-white/[0.02]" : ""}`}
+                  >
+                    <td className="px-5 py-4 text-sm font-semibold align-top">{row.action}</td>
+                    <td className="px-5 py-4 text-sm align-top">
+                      <code className="px-2 py-1 rounded-md bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))] font-mono text-xs">
+                        {row.input}
+                      </code>
+                    </td>
+                    <td className="px-5 py-4 text-sm text-muted-foreground align-top">{row.function}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* 移动端堆叠卡片 */}
+          <div className="scroll-reveal md:hidden space-y-3">
+            {t.modules.defuseDivisionControlsSettings.controls.map((row: any, index: number) => (
+              <div
+                key={index}
+                className="p-4 bg-white/5 border border-border rounded-xl"
+              >
+                <div className="flex items-center justify-between gap-3 mb-2">
+                  <h3 className="font-semibold text-sm">{row.action}</h3>
+                  <code className="px-2 py-1 rounded-md bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))] font-mono text-xs whitespace-nowrap">
+                    {row.input}
+                  </code>
+                </div>
+                <p className="text-sm text-muted-foreground">{row.function}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 模块间的阅读停顿位 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-468x60"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
+        className="hidden md:flex"
+      />
+
+      {/* Module 6: Defuse Division Maps Guide */}
+      <section id="defuse-division-maps-guide" className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 mb-3 md:mb-4">
+              <Map className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              <h2 className="text-3xl md:text-5xl font-bold">
+                {t.modules.defuseDivisionMapsGuide.title}
+              </h2>
+            </div>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.defuseDivisionMapsGuide.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
+            {t.modules.defuseDivisionMapsGuide.areas.map((area: any, index: number) => {
+              const Icon = MAP_ICONS[index % MAP_ICONS.length];
+              return (
+                <div
+                  key={index}
+                  className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                >
+                  <div className="flex items-start gap-3 mb-2 md:mb-3">
+                    <span className="flex h-10 w-10 md:h-11 md:w-11 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.3)]">
+                      <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    </span>
+                    <h3 className="font-bold text-base md:text-lg leading-tight pt-1.5">
+                      {area.title}
+                    </h3>
+                  </div>
+                  <p className="text-sm md:text-base text-muted-foreground">{area.description}</p>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 7: Defuse Division Updates & Patch Notes */}
+      <section id="defuse-division-updates-patch-notes" className="scroll-mt-24 px-4 py-14 md:py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 mb-3 md:mb-4">
+              <Newspaper className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              <h2 className="text-3xl md:text-5xl font-bold">
+                {t.modules.defuseDivisionUpdatesPatchNotes.title}
+              </h2>
+            </div>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.defuseDivisionUpdatesPatchNotes.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal space-y-3">
+            {t.modules.defuseDivisionUpdatesPatchNotes.updates.map((item: any, index: number) => {
+              const Icon = UPDATE_ICONS[index % UPDATE_ICONS.length];
+              const isOpen = updateOpen === index;
+              return (
+                <div
+                  key={index}
+                  className="border border-border rounded-xl overflow-hidden bg-white/5"
+                >
+                  <button
+                    onClick={() => setUpdateOpen(isOpen ? null : index)}
+                    className="w-full flex items-center justify-between gap-3 p-4 md:p-5 text-left hover:bg-white/5 transition-colors"
+                    aria-expanded={isOpen}
+                  >
+                    <span className="flex items-center gap-3 font-semibold text-sm md:text-base">
+                      <span className="flex h-8 w-8 md:h-9 md:w-9 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.3)]">
+                        <Icon className="w-4 h-4 md:w-5 md:h-5 text-[hsl(var(--nav-theme-light))]" />
+                      </span>
+                      {item.title}
+                    </span>
+                    <ChevronDown
+                      className={`w-5 h-5 flex-shrink-0 text-muted-foreground transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`}
+                    />
+                  </button>
+                  <div
+                    className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"}`}
+                  >
+                    <p className="px-4 md:px-5 pb-4 md:pb-5 pl-[3.75rem] md:pl-[4.25rem] text-sm md:text-base text-muted-foreground leading-relaxed">
+                      {item.content}
+                    </p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 模块间的阅读停顿位 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-728x90"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90}
+        className="hidden md:flex"
+      />
+
+      {/* Module 8: Defuse Division Tips & Tricks */}
+      <section id="defuse-division-tips-tricks" className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 mb-3 md:mb-4">
+              <Lightbulb className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              <h2 className="text-3xl md:text-5xl font-bold">
+                {t.modules.defuseDivisionTipsTricks.title}
+              </h2>
+            </div>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.defuseDivisionTipsTricks.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal space-y-3 md:space-y-4">
+            {t.modules.defuseDivisionTipsTricks.tips.map((tip: any, index: number) => (
+              <div
+                key={index}
+                className="flex gap-3 md:gap-4 p-4 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+              >
+                <div className="flex h-10 w-10 md:h-12 md:w-12 flex-shrink-0 items-center justify-center rounded-full border-2 border-[hsl(var(--nav-theme)/0.5)] bg-[hsl(var(--nav-theme)/0.2)]">
+                  <span className="text-base md:text-xl font-bold text-[hsl(var(--nav-theme-light))]">
+                    {index + 1}
+                  </span>
+                </div>
+                <div>
+                  <h3 className="text-lg md:text-xl font-bold mb-1.5 md:mb-2">
+                    {tip.title}
+                  </h3>
+                  <p className="text-sm md:text-base text-muted-foreground">
+                    {tip.description}
+                  </p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>

@@ -1,0 +1,189 @@
+import { Sparkles, Shield, Target, Swords, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Defuse Division Viewmodel: Setup Guide & Best Angles",
+  description: "Learn how to tune Defuse Division viewmodel settings for cleaner aim, better sightlines, and more stable peeks in every round on Roblox.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/ffffff?text=Viewmodel+Setup+Guide",
+  date: "2026-07-06",
+  author: "defuse division Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Defuse Division viewmodel** settings should protect peripheral vision while keeping the rifle model readable.
+- **Balanced presets** usually work best until you know which sites and angles you prefer.
+- **N for the main menu** and **M for team selection** make quick testing easy between rounds.
+- **Alpha UI changes** can move labels, so keep one baseline you can restore fast.
+</Callout>
+
+<Section icon={Sparkles} title="Defuse Division Viewmodel Basics">
+
+A strong **Defuse Division viewmodel** setup keeps your weapon readable without stealing sightlines. In a bomb-defusal match, that matters as much as raw sensitivity. The best setup gives you a clean crosshair picture, quick confirmation of your weapon state, and enough screen space to watch corners.
+
+<CardGrid cols={3}>
+  <Card title="Low Profile">
+    More screen space, cleaner peeks, and better long-angle reads. It can feel a little less tactile.
+  </Card>
+  <Card title="Balanced">
+    The safest default. It keeps the model visible without crowding the center of the screen.
+  </Card>
+  <Card title="Wide Viewmodel">
+    Strong hand feedback and a heavier feel, but it may block more of the sight picture.
+  </Card>
+</CardGrid>
+
+| Style | Visibility | Feel | Best For |
+| --- | --- | --- | --- |
+| Low Profile | High | Light | Entry plays, tight angles |
+| Balanced | Medium-High | Stable | Most players |
+| Wide Viewmodel | Medium | Heavy | Casual comfort, close-range fights |
+| Ultra Low | Very High | Minimal | Players who want maximum screen space |
+
+<Callout type="tip" title="Main Rule">
+Keep the model low enough to preserve the crosshair area, but not so low that weapon timing feels disconnected.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Best Viewmodel Presets by Playstyle">
+
+The right preset depends on your role, map pressure, and how much of the screen you want free. Start with a balanced profile, then move in one direction only if you can explain why the change helps your aim or awareness.
+
+<Callout type="warning" title="Alpha-Build Caution">
+Defuse Division is still an early alpha experience, so menu labels and display options can shift after updates. Save your baseline before experimenting.
+</Callout>
+
+| Playstyle | Recommended Preset | Why It Works |
+| --- | --- | --- |
+| Entry fragger | Low or Balanced | Less visual clutter during fast peeks |
+| Site anchor | Balanced | Good balance of feedback and awareness |
+| Lurker | Low | Cleaner long-range sight picture |
+| Casual practice | Balanced | Easiest starting point |
+| Close-range rusher | Slightly wider | Helps with weapon feel in chaos |
+
+| Change | When to Use It | Risk |
+| --- | --- | --- |
+| Lower model height | Crosshair feels crowded | Can make the gun feel too small |
+| Increase model offset | Weapon blocks center screen | More visual clutter |
+| Reduce on-screen sway | Recoil tracking feels noisy | Can look too flat |
+| Keep default spacing | You want consistency | May not fit every weapon equally |
+
+<Callout type="info" title="Recommended Baseline">
+If you are unsure, stay balanced for a full session, then only adjust after you notice a repeatable problem.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Set Up Defuse Division Viewmodel">
+
+The fastest workflow is simple: pick one baseline, test it in real rounds, then refine only the parts that interfere with aim or awareness. Use the Roblox game page as your checkpoint so you can jump back in quickly: [Defuse Division on Roblox](https://www.roblox.com/search?keyword=defusedivision).
+
+<Callout type="success" title="Fast Setup">
+Use one preset for at least 10 to 15 rounds before making another change. Small samples usually lead to bad tuning decisions.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Open the menu">
+    Press **N** to open the main menu. If you need to reset your side, press **M** for team selection and re-enter with a clean mind.
+  </Step>
+  <Step num="2" title="Find the display or camera options">
+    Look for any weapon, camera, or HUD-related settings. If the labels differ after an update, keep the same goal: clear crosshair space and readable weapon feedback.
+  </Step>
+  <Step num="3" title="Set a neutral baseline">
+    Start from the middle rather than the extremes. That makes it easier to tell whether the next change actually improves visibility.
+  </Step>
+  <Step num="4" title="Test in live rounds">
+    Run a few full matches, then check how the viewmodel behaves while peeking, reloading, and switching weapons.
+  </Step>
+  <Step num="5" title="Lock the result">
+    Save the version that gives you the cleanest sightline without making the weapon disappear from your awareness.
+  </Step>
+</Steps>
+
+| Menu Path | What to Change | Why It Helps |
+| --- | --- | --- |
+| Main menu | Viewmodel-related option | Central place to start tuning |
+| Display/HUD | Screen clutter | Frees up the crosshair area |
+| Camera settings | Position and spacing feel | Keeps the weapon from crowding the view |
+| Team reset | Re-enter between tests | Lets you compare changes faster |
+
+<Callout type="tip" title="Testing Shortcut">
+If a change feels good in one lane but bad everywhere else, it is probably too extreme for regular play.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Fine-Tuning for Weapons, Maps, and Roles">
+
+A good viewmodel is never separated from the rest of your settings. Weapon handling, map geometry, and your role on the team all affect how much screen space you can spare. The goal is consistency, not a flashy preset.
+
+<Callout type="info" title="Tuning Principle">
+Change one thing at a time. If you alter the model, the sensitivity, and the crosshair in the same session, you will not know what actually helped.
+</Callout>
+
+| Role or Weapon | Viewmodel Target | What to Watch |
+| --- | --- | --- |
+| Rifles | Smaller profile | First-shot clarity and crosshair access |
+| SMGs | Balanced spacing | Tracking comfort and close-range speed |
+| Shotguns | Slightly larger feel | Quick read on close engagements |
+| Defensive holds | Lower and calmer | Corner visibility and less distraction |
+| Rotate-heavy maps | Minimal clutter | Better awareness during quick repositioning |
+
+| Problem | Likely Cause | Fix |
+| --- | --- | --- |
+| Crosshair feels blocked | Model sits too high | Lower the viewmodel or increase spacing |
+| Shots feel disconnected | Model is too minimal | Add a little hand presence back |
+| Flicks feel inconsistent | Sensitivity is off | Recheck sens before touching the model again |
+| Swaps feel awkward | Viewmodel is too extreme | Return to a balanced baseline |
+| Sightlines feel cramped | HUD and model overlap | Reduce on-screen clutter first |
+
+<Checklist
+  id="viewmodel-test-loop"
+  title="Verification Checklist:"
+  items={[
+    "The crosshair stays visible during fast peeks",
+    "Reloads do not cover important corner space",
+    "Weapon swaps feel consistent across rounds",
+    "One balanced preset is saved as a fallback",
+    "Only one setting changes at a time during testing"
+  ]}
+/>
+
+<Callout type="warning" title="Do Not Chase Perfection">
+A setup that looks ideal in a menu can still feel bad in a fight. Real-match testing matters more than screenshots.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="tip" title="Quick Answers">
+Use the questions below to sanity-check your setup before you lock it in for the long run.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "What is the best Defuse Division viewmodel for new players?",
+    answer: "Start with a balanced preset. It usually gives enough screen space to track corners while still keeping the weapon readable."
+  },
+  {
+    question: "Should I use the lowest possible viewmodel?",
+    answer: "Not by default. The lowest option can open the screen up, but it may make weapon feedback feel too small for some players."
+  },
+  {
+    question: "Does viewmodel replace sensitivity or crosshair settings?",
+    answer: "No. Viewmodel is only one part of the setup. Sensitivity and crosshair tuning still matter for consistent aim."
+  },
+  {
+    question: "What should I do after an update changes the menu?",
+    answer: "Return to your saved baseline, confirm the same visibility goal, and retest in a few matches before making bigger changes."
+  }
+]} />
+
+</Section>

@@ -1,1 +1,571 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Wiki da Divisão de Desarmamento - Códigos, Skins e Mapas",
+      "description": "Explore os códigos, armas, skins, mapas, configurações e guias de desarmamento de bomba da Divisão de Desarmamento para jogadores de Roblox que querem vitórias mais rápidas e mira mais precisa.",
+      "keywords": "Divisão de Desarmamento, Roblox, códigos, skins, armas, mapas, mira, configurações",
+      "ogTitle": "Wiki da Divisão de Desarmamento - Códigos, Skins e Mapas",
+      "ogDescription": "Explore os códigos, armas, skins, mapas, configurações e guias de desarmamento de bomba da Divisão de Desarmamento para jogadores de Roblox que querem vitórias mais rápidas e mira mais precisa.",
+      "twitterTitle": "Wiki da Divisão de Desarmamento - Códigos, Skins e Mapas",
+      "twitterDescription": "A Wiki da Divisão de Desarmamento cobre códigos, armas, skins, mapas, mira e táticas de desarmamento de bomba para o shooter tático do Roblox."
+    }
+  },
+  "nav": {
+    "codes": "Códigos",
+    "competitive": "Competitivo",
+    "crosshair": "Mira",
+    "discord": "Discord",
+    "guide": "Guia",
+    "settings": "Configurações",
+    "skins": "Skins",
+    "weapons": "Armas"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no Roblox",
+    "switchLanguage": "Trocar idioma",
+    "switchTheme": "Trocar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo escuro",
+    "notFound": "Página não encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar ao início",
+    "relatedArticles": "Artigos relacionados",
+    "readMore": "Ler mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Shooter tático de desarmamento de bombas no Roblox",
+    "title": "Wiki da Divisão de Desarmamento",
+    "description": "Divisão de Desarmamento é um shooter tático em equipe no Roblox em que os atacantes plantam a bomba e os defensores impedem o plantio, desarmam ou eliminam a equipe inimiga. Confira códigos, armas, skins, mapas, configurações, dicas de mira e guias para vencer rodadas.",
+    "getFreeCodesCTA": "Obter códigos grátis",
+    "playOnRobloxCTA": "Jogar no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "36.7M+",
+        "label": "Visitas totais"
+      },
+      "stat2": {
+        "value": "212K+",
+        "label": "Favoritos"
+      },
+      "stat3": {
+        "value": "119",
+        "label": "Jogadores online"
+      },
+      "stat4": {
+        "value": "27.1K+",
+        "label": "Membros do Discord"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jogabilidade da Divisão de Desarmamento",
+    "description": "Divisão de Desarmamento é um shooter tático de desarmamento de bombas em equipe no Roblox, em que os atacantes plantam a bomba em um bombsite enquanto os defensores impedem o plantio, desarmam o dispositivo ou eliminam a equipe inimiga para vencer a rodada."
+  },
+  "tools": {
+    "title": "Divisão de Desarmamento",
+    "titleHighlight": "Recursos",
+    "subtitle": "Códigos, guias, listas de níveis e mecânicas para vencer todas as rodadas em Divisão de Desarmamento.",
+    "cards": [
+      {
+        "icon": "Gift",
+        "title": "Códigos da Divisão de Desarmamento",
+        "description": "Códigos ativos para resgatar Créditos grátis e recompensas de testador alpha"
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Guia para iniciantes de Divisão de Desarmamento",
+        "description": "Primeiras rodadas explicadas — objetivos, lados e fluxo da rodada"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Lista de níveis da Divisão de Desarmamento",
+        "description": "Funções e estilos de jogo ranqueados pelo impacto geral na rodada"
+      },
+      {
+        "icon": "Crosshair",
+        "title": "Mecânicas da Divisão de Desarmamento",
+        "description": "Estrutura da rodada, temporizador da bomba, condições de vitória e economia"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Controles da Divisão de Desarmamento",
+        "description": "Lista completa de teclas, além de configurações de sensibilidade, mira e áudio"
+      },
+      {
+        "icon": "Map",
+        "title": "Mapas da Divisão de Desarmamento",
+        "description": "Bombsites, rotações, gargalos e ângulos comuns de cada mapa"
+      },
+      {
+        "icon": "Newspaper",
+        "title": "Atualizações da Divisão de Desarmamento",
+        "description": "Notas de patch, mudanças de balanceamento, conteúdo novo e correções de bugs"
+      },
+      {
+        "icon": "Lightbulb",
+        "title": "Dicas da Divisão de Desarmamento",
+        "description": "Posicionamento, trocas, utilitários e estratégia pós-plant para vencer mais"
+      }
+    ]
+  },
+  "modules": {
+    "defuseDivisionCodes": {
+      "title": "Códigos da Divisão de Desarmamento",
+      "displayType": "code-cards",
+      "intro": "Resgate os códigos mais recentes da Divisão de Desarmamento para ganhar Créditos grátis, skins de armas e recompensas de testador alpha. Novos códigos surgem em marcos e eventos da comunidade, então salve esta página e volte regularmente.",
+      "codes": [
+        {
+          "code": "DEFUSE",
+          "reward": "500 Créditos",
+          "status": "Ativo"
+        },
+        {
+          "code": "FOURTEAM",
+          "reward": "1.000 Créditos + Skin de Faca",
+          "status": "Ativo"
+        },
+        {
+          "code": "ALPHA",
+          "reward": "Pacote de Testador Alpha: 2.000 Créditos + Spray Exclusivo",
+          "status": "Novo"
+        },
+        {
+          "code": "BOMBSITE",
+          "reward": "750 Créditos",
+          "status": "Ativo"
+        },
+        {
+          "code": "DEFENDERS",
+          "reward": "600 Créditos + Distintivo de Defensor",
+          "status": "Ativo"
+        }
+      ],
+      "redeemSteps": [
+        "Abra a Divisão de Desarmamento no Roblox e entre no lobby de uma partida.",
+        "Pressione N para abrir o menu principal e localizar a caixa de entrada de códigos.",
+        "Digite ou cole um código exatamente como mostrado — os códigos da Divisão de Desarmamento diferenciam maiúsculas de minúsculas.",
+        "Pressione Resgatar para receber instantaneamente seus Créditos, skins e recompensas."
+      ]
+    },
+    "defuseDivisionBeginnerGuide": {
+      "title": "Guia para iniciantes de Divisão de Desarmamento",
+      "displayType": "steps",
+      "intro": "Novo em Divisão de Desarmamento? Este guia inicial mostra suas primeiras rodadas, desde entrar em uma partida e escolher um lado até plantar, desarmar e fechar vitórias em equipe.",
+      "steps": [
+        {
+          "title": "Entre em uma partida",
+          "description": "Entre em fila em um servidor público ou privado. Divisão de Desarmamento divide os jogadores em atacantes e defensores em mapas compactos de bombsites táticos criados para rodadas rápidas e decisivas."
+        },
+        {
+          "title": "Aprenda o objetivo do seu lado",
+          "description": "Os atacantes carregam a bomba, plantam em um bombsite e o defendem até a detonação. Os defensores impedem o plantio, retomam o local ou desarmam a bomba antes que o tempo acabe."
+        },
+        {
+          "title": "Comunique-se e troque eliminações",
+          "description": "Fique com os colegas de equipe, avise as posições inimigas e troque eliminações. Divisão de Desarmamento recompensa avanços coordenados e cruzamentos de fogo, não jogadas solo de herói."
+        },
+        {
+          "title": "Vença a rodada",
+          "description": "Uma rodada termina quando a bomba explode, é desarmada ou uma equipe é eliminada por completo. Alcance o número necessário de rodadas para vencer a partida e guardar seus Créditos."
+        }
+      ],
+      "quickTips": [
+        "Pressione N para abrir o menu principal e M para abrir o menu de seleção de equipe.",
+        "Gaste seus Créditos no início de cada rodada em armas, armadura e utilitários.",
+        "Observe o temporizador da bomba depois que ela for plantada — cada segundo conta para quem vai desarmar.",
+        "Guarde Créditos em rodadas perdidas para que sua equipe possa fazer uma compra completa na próxima rodada."
+      ]
+    },
+    "defuseDivisionTierList": {
+      "title": "Lista de níveis da Divisão de Desarmamento",
+      "displayType": "tier-grid",
+      "intro": "Nossa lista de níveis da Divisão de Desarmamento classifica as funções e estilos de jogo mais fortes para vencer rodadas. Os níveis refletem o impacto geral nos bombsites, no controle da economia e no potencial de clutch.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Entry Fragger e AWPer",
+          "description": "Funções agressivas de primeiro contato que abrem bombsites e travam ângulos longos com armas de alto dano."
+        },
+        {
+          "tier": "A",
+          "label": "Suporte e lurker",
+          "description": "Funções confiáveis que trocam eliminações, bloqueiam linhas de visão inimigas com fumaça e flanqueiam equipes desatentas para conseguir multikills."
+        },
+        {
+          "tier": "B",
+          "label": "Rifleiro e âncora",
+          "description": "Combatentes consistentes de médio alcance que seguram cruzamentos de fogo, se reposicionam entre bombsites e estabilizam a defesa."
+        },
+        {
+          "tier": "C",
+          "label": "Eco e rodada de pistola",
+          "description": "Equipamentos especializados que brilham em rodadas de pistola e com pouca economia, mas perdem força quando as duas equipes fazem compra completa."
+        }
+      ]
+    },
+    "defuseDivisionMechanics": {
+      "title": "Mecânicas de jogo da Divisão de Desarmamento",
+      "displayType": "accordion",
+      "intro": "Entenda os sistemas centrais que decidem cada rodada de Divisão de Desarmamento — fluxo da rodada, temporizador da bomba, condições de vitória, coordenação de equipe e a economia que sustenta seus equipamentos.",
+      "items": [
+        {
+          "topic": "Estrutura da rodada",
+          "content": "As partidas de Divisão de Desarmamento acontecem em rodadas cronometradas. Atacantes e defensores surgem em lados opostos do mapa, e cada rodada redefine armas, utilitários e posições iniciais das duas equipes."
+        },
+        {
+          "topic": "Sistema de temporizador da bomba",
+          "content": "Depois que a bomba é plantada em um bombsite, começa uma contagem regressiva. Os defensores precisam localizá-la e desarmá-la antes da detonação, enquanto os atacantes seguram o local e deixam o tempo passar para vencer."
+        },
+        {
+          "topic": "Condições de vitória",
+          "content": "Uma rodada é vencida ao plantar e detonar a bomba, desarmar a bomba plantada ou eliminar toda a equipe inimiga. O primeiro lado a conquistar o número-alvo de rodadas vence a partida."
+        },
+        {
+          "topic": "Coordenação de equipe",
+          "content": "A comunicação e o posicionamento decidem as rodadas. Trocar eliminações, segurar cruzamentos de fogo e usar utilitários no timing certo permite que equipes coordenadas superem a mira bruta e vençam de forma consistente."
+        },
+        {
+          "topic": "Economia e Créditos",
+          "content": "Cada rodada concede Créditos por eliminações, objetivos e resultado da rodada. Gerenciar sua economia entre as rodadas mantém sua equipe armada com rifles, armadura e utilitários quando mais importa."
+        }
+      ]
+    },
+    "defuseDivisionControlsSettings": {
+      "title": "Controles e configurações da Divisão de Desarmamento",
+      "displayType": "table",
+      "intro": "Domine o esquema de controles da Divisão de Desarmamento no PC, mobile e console. Cada comando — do movimento e da mira ao plantio, desarme e ao menu onde você ajusta sensibilidade, mira e áudio — está mapeado aqui para que você crie memória muscular mais rápido e nunca erre um clutch.",
+      "controls": [
+        {
+          "action": "Mover",
+          "input": "W A S D / Analógico esquerdo",
+          "function": "Leve seu operador pelos bombsites, rotas de rotação e cobertura."
+        },
+        {
+          "action": "Olhar / Mirar",
+          "input": "Mouse / Analógico direito",
+          "function": "Rastreie inimigos, segure ângulos e acerte a mira com precisão."
+        },
+        {
+          "action": "Interagir",
+          "input": "E / Botão X",
+          "function": "Pegue a bomba, abra portas e acione dispositivos de objetivo."
+        },
+        {
+          "action": "Disparar arma",
+          "input": "Clique esquerdo / RT",
+          "function": "Atire, faça prefire em ângulos e troque eliminações com sua equipe."
+        },
+        {
+          "action": "Plantar / Desarmar bomba",
+          "input": "Segure E / Tecla de contexto",
+          "function": "Plante em um bombsite como atacante ou desarme o dispositivo como defensor."
+        },
+        {
+          "action": "Abrir menu",
+          "input": "N / Botão Menu",
+          "function": "Resgate códigos e ajuste sensibilidade, teclas, áudio e mira."
+        }
+      ]
+    },
+    "defuseDivisionMapsGuide": {
+      "title": "Guia de mapas da Divisão de Desarmamento",
+      "displayType": "card-list",
+      "intro": "Leia cada mapa da Divisão de Desarmamento como um veterano. Este guia detalha bombsites, zonas de spawn, controle do meio, gargalos, rotas de rotação e os ângulos comuns que decidem se sua equipe segura o local ou é eliminada no aberto.",
+      "areas": [
+        {
+          "title": "Bombsites A e B",
+          "description": "As duas zonas de objetivo plantável onde os atacantes se comprometem com o plantio e os defensores retomam para desarmar. A escolha do local define o plano de utilitários e o posicionamento da rodada."
+        },
+        {
+          "title": "Áreas de spawn",
+          "description": "Zonas de surgimento de atacantes e defensores que definem o posicionamento inicial da rodada, as compras padrão e as primeiras rotações em direção ao meio ou aos bombsites."
+        },
+        {
+          "title": "Controle do meio",
+          "description": "A região central do mapa que libera rotações rápidas para ambos os bombsites, permite que os atacantes dividam os avanços e pressione o controle de mapa inimigo."
+        },
+        {
+          "title": "Gargalos",
+          "description": "Passagens estreitas e portas que canalizam os confrontos — segurar ou cobrir com fumaça essas áreas decide onde as lutas acontecem e quem leva vantagem."
+        },
+        {
+          "title": "Rotas de rotação",
+          "description": "Os caminhos mais rápidos entre os bombsites e o spawn, usados para mover os defensores até um local plantado ou para fingir e reposicionar como atacante."
+        },
+        {
+          "title": "Ângulos comuns",
+          "description": "Cantos pré-mirados, head glitches e off-angles onde os defensores seguram ou os atacantes limpam — a base de um posicionamento consistente da mira."
+        }
+      ]
+    },
+    "defuseDivisionUpdatesPatchNotes": {
+      "title": "Atualizações e notas de patch da Divisão de Desarmamento",
+      "displayType": "accordion",
+      "intro": "Acompanhe cada atualização da Divisão de Desarmamento enquanto o meta evolui. Esta seção resume os ajustes de balanceamento, o conteúdo novo, as correções de bugs e as mudanças nos sistemas de jogo que alteram o cenário competitivo de patch em patch.",
+      "updates": [
+        {
+          "title": "Ajustes de balanceamento",
+          "content": "Dano das armas, padrões de recuo, aceleração de movimento e recompensas da economia são ajustados a cada patch para manter o meta competitivo justo e impedir que uma única arma ou estratégia domine as rodadas da Divisão de Desarmamento."
+        },
+        {
+          "title": "Conteúdo novo",
+          "content": "Os patches trazem mapas, armas, skins e eventos por tempo limitado que ampliam as opções estratégicas e dão aos atacantes e defensores novas ferramentas para quebrar posições travadas."
+        },
+        {
+          "title": "Correções de bugs",
+          "content": "Correções de estabilidade e desempenho combatem travamentos, casos extremos de registro de acerto e exploits de mapa para que cada rodada aconteça exatamente como as regras pretendem."
+        },
+        {
+          "title": "Mudanças nos sistemas de jogo",
+          "content": "Sistemas centrais — tempo de plantio, tempo de desarme, duração da rodada e economia de Créditos — são ajustados para manter as rodadas tensas, claras e competitivas em todos os níveis de habilidade."
+        }
+      ]
+    },
+    "defuseDivisionTipsTricks": {
+      "title": "Dicas e truques da Divisão de Desarmamento",
+      "displayType": "step-by-step",
+      "intro": "Suba nos rankings da Divisão de Desarmamento com os hábitos que vencem rodadas. Estas dicas avançadas cobrem posicionamento inicial, trocas, timing de utilitários, controle de objetivo e jogo em equipe — as decisões que separam caçadores de abates dos vencedores de rodada.",
+      "tips": [
+        {
+          "title": "Tome o controle inicial do mapa",
+          "description": "Avance para o meio ou para gargalos importantes no início da rodada para que sua equipe domine as rotações e force o inimigo a posições previsíveis e retomáveis."
+        },
+        {
+          "title": "Troque cada eliminação",
+          "description": "Fique perto o suficiente dos colegas para que, no instante em que um cair, você avance e troque a eliminação — mantendo os números da sua equipe equilibrados e a pressão constante."
+        },
+        {
+          "title": "Cronometre seus utilitários",
+          "description": "Guarde fumaças, flashes e granadas para o momento exato em que você plantar, retomar ou avançar por um gargalo, para que o utilitário force movimento em vez de ser desperdiçado."
+        },
+        {
+          "title": "Jogue com o temporizador da bomba",
+          "description": "Depois do plantio, os atacantes deixam o tempo correr e os defensores se comprometem com o desarme — leia o temporizador, simule desarmes e coordene a retomada para vencer situações pós-plant."
+        },
+        {
+          "title": "Evite lutas isoladas",
+          "description": "Andar sozinho entrega ao inimigo eliminações isoladas e controle de mapa. Fique no alcance de troca de um colega para que cada confronto vire um 2 contra 1 a seu favor."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas",
+    "titleHighlight": "Frequentes",
+    "subtitle": "Tudo o que você precisa saber sobre a Divisão de Desarmamento no Roblox.",
+    "questions": [
+      {
+        "question": "O que é a Divisão de Desarmamento?",
+        "answer": "Divisão de Desarmamento é um shooter tático de desarmamento de bombas em equipe do Roblox, desenvolvido pela Fourteam. Os atacantes plantam a bomba enquanto os defensores impedem o plantio, desarmam o dispositivo ou eliminam a equipe inimiga para vencer cada rodada."
+      },
+      {
+        "question": "Divisão de Desarmamento é grátis para jogar?",
+        "answer": "Sim. Divisão de Desarmamento é grátis para jogar no Roblox em PC, Mac, mobile e qualquer dispositivo que suporte o aplicativo Roblox, com cosméticos e cases opcionais dentro do jogo."
+      },
+      {
+        "question": "Onde eu resgato os códigos da Divisão de Desarmamento?",
+        "answer": "Abra a Divisão de Desarmamento, pressione N para abrir o menu principal, encontre a entrada de códigos, digite um código exatamente como mostrado (os códigos diferenciam maiúsculas de minúsculas) e resgate-o para obter Créditos, skins e recompensas grátis."
+      },
+      {
+        "question": "Quantos jogadores podem jogar Divisão de Desarmamento?",
+        "answer": "Divisão de Desarmamento suporta partidas em equipe com até 14 jogadores divididos entre atacantes e defensores em mapas táticos de bombsite criados para partidas competitivas por rodada."
+      },
+      {
+        "question": "Divisão de Desarmamento é afiliada à Valve ou Counter-Strike?",
+        "answer": "Não. Divisão de Desarmamento é um jogo de Roblox criado por fãs pela Fourteam e não é afiliado, endossado ou conectado à Valve, Counter-Strike ou Steam. Ele é inspirado no gênero de desarmamento de bomba tático."
+      },
+      {
+        "question": "Em quais plataformas a Divisão de Desarmamento está disponível?",
+        "answer": "Divisão de Desarmamento roda no Roblox, então você pode jogar em PC, Mac, iOS, Android e Xbox onde o aplicativo Roblox estiver disponível, com matchmaking multiplataforma."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para dominar a Divisão de Desarmamento?",
+    "description": "Entre na comunidade da Divisão de Desarmamento no Discord para códigos, atualizações, eventos e discussões táticas!",
+    "joinCommunity": "Entrar no Discord",
+    "joinGame": "Jogar no Roblox"
+  },
+  "footer": {
+    "title": "Wiki da Divisão de Desarmamento",
+    "description": "Seu hub da comunidade para códigos, armas, skins, mapas, mira, configurações e táticas de desarmamento de bomba da Divisão de Desarmamento no Roblox.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Legal",
+    "discord": "Discord",
+    "reddit": "Reddit",
+    "robloxGame": "Jogar no Roblox",
+    "robloxGroup": "Grupo do Roblox",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Direitos autorais",
+    "copyright": "© 2026 Wiki da Divisão de Desarmamento. Não afiliado à Fourteam nem à Roblox Corporation.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Divisão de Desarmamento — Todas as Recompensas Resgatáveis",
+      "description": "Acompanhe os códigos mais recentes da Divisão de Desarmamento para recompensas por tempo limitado e verifique cada um antes de resgatar com segurança skins, boosts ou outros extras do jogo no Roblox.",
+      "metaTitle": "Códigos da Divisão de Desarmamento - Recompensas Gratuitas, Boosts e Mais",
+      "metaDescription": "Confira os códigos mais recentes da Divisão de Desarmamento para recompensas por tempo limitado, como skins, boosts e extras do jogo — verifique cada um antes de resgatar no Roblox.",
+      "categoryLabel": "CÓDIGOS DE RESGATE",
+      "whatIs": "O que são os códigos da Divisão de Desarmamento?",
+      "whatIsDescription": "Os códigos da Divisão de Desarmamento são recompensas promocionais por tempo limitado que podem ser lançadas durante atualizações, marcos ou eventos da comunidade. Eles podem desbloquear cosméticos ou bônus que ajudam seu equipamento de desarme de bombas no Roblox.",
+      "why": "Por que resgatar códigos?",
+      "whySteps": {
+        "step1Title": "Evite que expirem rápido",
+        "step1Description": "Os códigos da Divisão de Desarmamento podem desaparecer rapidamente, então verificá-los cedo ajuda você a não perder recompensas por tempo limitado.",
+        "step2Title": "Desbloqueie extras grátis",
+        "step2Description": "Os códigos resgatados podem conceder skins, boosts ou outros bônus que tornam seu equipamento mais personalizado em rodadas rápidas no bomb site.",
+        "step3Title": "Fique pronto para as atualizações",
+        "step3Description": "Novos códigos costumam aparecer em patches ou eventos, então voltar regularmente mantém você pronto para novas recompensas antes que o jogo ranqueado fique movimentado."
+      },
+      "featured": "Em Destaque e Essenciais",
+      "all": "Todos os Códigos"
+    },
+    "competitive": {
+      "title": "Divisão de Desarmamento Competitiva — Guias de Jogo Ranqueado",
+      "description": "Navegue pelos guias competitivos da Divisão de Desarmamento para táticas ranqueadas, controle de bomb site, configurações de mira, equipamentos e jogadas de clutch que ajudam sua equipe a vencer rodadas.",
+      "metaTitle": "Divisão de Desarmamento Competitiva - Suba de Rank no Jogo Ranqueado",
+      "metaDescription": "Domine o jogo ranqueado da Divisão de Desarmamento com controle de bomb site, configurações de mira, equipamentos e táticas de clutch feitas para rodadas competitivas em equipe.",
+      "categoryLabel": "GUIAS COMPETITIVOS",
+      "whatIs": "O que é a competitividade na Divisão de Desarmamento?",
+      "whatIsDescription": "A parte competitiva da Divisão de Desarmamento é o lado ranqueado do jogo, onde as equipes disputam plantas de bomba, desarmes e eliminações em rodadas no estilo CS. Ela recompensa controle de mapa, uso inteligente de utilidades e mira consistente mais do que correria bruta.",
+      "why": "Por que usar guias competitivos?",
+      "whySteps": {
+        "step1Title": "Vença mais rodadas",
+        "step1Description": "Os guias competitivos mostram quando atacar, segurar ângulos ou rotacionar, para que sua equipe sobreviva por mais tempo e feche as lutas de bomb site na Divisão de Desarmamento.",
+        "step2Title": "Aperfeiçoe sua configuração",
+        "step2Description": "Use configurações de mira, sensibilidade e dicas de equipamento para tornar sua mira mais estável e suas compras mais eficazes nas partidas ranqueadas.",
+        "step3Title": "Faça clutches melhores no fim da rodada",
+        "step3Description": "Aprenda dicas de pós-plant, retake e tempo de desarme que importam quando cada segundo decide a rodada e cada erro custa progresso no rank."
+      },
+      "featured": "Em Destaque e Essenciais",
+      "all": "Todos os Guias Competitivos"
+    },
+    "crosshair": {
+      "title": "Configurações de Mira da Divisão de Desarmamento",
+      "description": "Encontre as melhores configurações de mira da Divisão de Desarmamento para afiar a pontaria, acompanhar cabeças em lutas de bomb site e manter a precisão em rodadas de clutch e partidas ranqueadas.",
+      "metaTitle": "Mira da Divisão de Desarmamento - Guia das Melhores Configurações de Pontaria",
+      "metaDescription": "Use as melhores configurações de mira da Divisão de Desarmamento para melhorar o controle de recoil, localizar alvos mais rápido e vencer mais rodadas de plant e desarme no jogo ranqueado.",
+      "categoryLabel": "CONFIGURAÇÕES DE MIRA",
+      "whatIs": "O que são as miras da Divisão de Desarmamento?",
+      "whatIsDescription": "A mira da Divisão de Desarmamento é o retículo de pontaria na tela que você ajusta para facilitar o tracking, os disparos pontuais e o controle de spray. A configuração certa pode ajudar você a segurar bomb sites, vencer duelos de entrada e ganhar lutas mais rápidas do lado do desarme em partidas no Roblox.",
+      "why": "Por que personalizar as configurações de mira?",
+      "whySteps": {
+        "step1Title": "Leitura de alvos mais rápida",
+        "step1Description": "Uma mira mais clara ajuda você a travar cabeças mais rápido ao espiar ângulos longos, gargalos apertados e entradas rápidas em bomb sites na Divisão de Desarmamento.",
+        "step2Title": "Trocas de tiro mais limpas",
+        "step2Description": "Bom espaçamento e visibilidade facilitam o controle de tiros em rajada e sprays, especialmente durante pressão de smoke, flash e retakes.",
+        "step3Title": "Clutches mais consistentes",
+        "step3Description": "Nas rodadas ranqueadas, uma mira estável mantém sua pontaria confiável durante seguranças pós-plant, desarmes e jogadas de último sobrevivente."
+      },
+      "featured": "Em Destaque e Essenciais",
+      "all": "Todas as Miras"
+    },
+    "discord": {
+      "title": "Discord da Divisão de Desarmamento — Forme Equipe, Aprenda e Fique Atualizado",
+      "description": "Entre na comunidade do Discord da Divisão de Desarmamento para formar equipe no ranqueado, compartilhar táticas de desarme de bombas, comparar configurações de mira e acompanhar skins e discussões sobre patches.",
+      "metaTitle": "Discord da Divisão de Desarmamento - Forme Equipe e Fique Atualizado",
+      "metaDescription": "Encontre links da comunidade do Discord da Divisão de Desarmamento, chats para formar equipe, dicas ranqueadas, conselhos de mira e discussões de patch para cada rodada de desarme de bomba.",
+      "categoryLabel": "DISCORD",
+      "whatIs": "O que é o Discord da Divisão de Desarmamento?",
+      "whatIsDescription": "O Discord da Divisão de Desarmamento é onde os jogadores se reúnem para falar de táticas, montar equipes ranqueadas e compartilhar atualizações sobre plantas, desarmes e rodadas de clutch. Também é um lugar útil para comparar configurações de mira, skins de armas e dicas de jogabilidade.",
+      "why": "Por que entrar no Discord?",
+      "whySteps": {
+        "step1Title": "Encontre colegas de equipe rapidamente",
+        "step1Description": "Use o Discord para se conectar com jogadores que querem o mesmo ritmo de rodada, função e objetivos de rank. É mais fácil montar uma equipe para Ataque ou Defesa do que jogar sozinho.",
+        "step2Title": "Aprenda jogadas mais fortes",
+        "step2Description": "As conversas da comunidade costumam detalhar entradas de site, timing de smoke e seguranças de desarme que combinam com as rodadas no estilo CS da Divisão de Desarmamento. Você pode aprimorar mira, configurações de crosshair e posicionamento.",
+        "step3Title": "Acompanhe as atualizações do jogo",
+        "step3Description": "O Discord é uma maneira rápida de ver mudanças de balanceamento, novidades de skins e discussões ranqueadas sem perder nada. Isso ajuda você a se adaptar antes que a próxima partida comece."
+      },
+      "featured": "Em Destaque e Essenciais",
+      "all": "Todos os servidores do Discord"
+    },
+    "guide": {
+      "title": "Guias da Divisão de Desarmamento",
+      "description": "Aprenda a vencer mais rodadas na Divisão de Desarmamento com guias claros sobre táticas de plant e desarme, loadouts, configurações de mira, skins e jogo ranqueado.",
+      "metaTitle": "Guias da Divisão de Desarmamento - Bomb, Mira e Vitórias no Ranqueado",
+      "metaDescription": "Navegue pelos guias da Divisão de Desarmamento para dicas de plant e desarme, configurações de mira, escolhas de armas, skins e estratégias ranqueadas feitas para partidas no Roblox.",
+      "categoryLabel": "GUIAS",
+      "whatIs": "O que são os guias da Divisão de Desarmamento?",
+      "whatIsDescription": "Os guias da Divisão de Desarmamento são recursos passo a passo que ajudam você a jogar de forma mais inteligente nas partidas de desarme de bombas do Roblox. Eles cobrem tudo, desde rotas de ataque e seguranças de site até tempo de desarme, configuração de mira, escolha de armas e dicas para subir no ranque.",
+      "why": "Por que ler os guias?",
+      "whySteps": {
+        "step1Title": "Vença as aberturas da rodada",
+        "step1Description": "Aprenda a assumir o controle inicial do mapa, identificar rotas seguras de plant e defender ângulos-chave antes que a rodada escape. Melhores primeiros movimentos costumam decidir toda a partida na Divisão de Desarmamento.",
+        "step2Title": "Melhore as configurações de mira",
+        "step2Description": "Use os guias para aperfeiçoar suas configurações de crosshair e o manuseio das armas para que seus tiros fiquem mais consistentes. Pequenos ajustes podem tornar duelos, trocas e retakes muito mais fáceis.",
+        "step3Title": "Suba no ranque mais rápido",
+        "step3Description": "Siga conselhos competitivos sobre jogo em equipe, defesa da bomba e tomada de decisão em clutch para conquistar mais vitórias no ranqueado. Fundamentos sólidos ajudam você a manter a consistência em todos os mapas e rodadas."
+      },
+      "featured": "Em Destaque e Essenciais",
+      "all": "Todos os Guias"
+    },
+    "settings": {
+      "title": "Configurações da Divisão de Desarmamento",
+      "description": "Ajuste as configurações de crosshair, sensibilidade, áudio e desempenho na Divisão de Desarmamento para afiar a mira, rastrear passos e ficar pronto para os bomb sites ranqueados.",
+      "metaTitle": "Configurações da Divisão de Desarmamento - Melhor Mira e Visibilidade",
+      "metaDescription": "Encontre as melhores configurações da Divisão de Desarmamento para crosshair, sensibilidade e gráficos para vencer duelos, ouvir avanços e fazer desarmes decisivos no ranqueado.",
+      "categoryLabel": "CONFIGURAÇÕES DO JOGO",
+      "whatIs": "O que são as configurações da Divisão de Desarmamento?",
+      "whatIsDescription": "As configurações da Divisão de Desarmamento cobrem as opções que moldam sua mira, visuais e som durante cada rodada no estilo CS no Roblox. Ajustá-las ajuda os atacantes a encaixar plantas e os defensores a localizar, ouvir e desarmar mais rápido.",
+      "why": "Por que otimizar as configurações?",
+      "whySteps": {
+        "step1Title": "Controle de mira mais preciso",
+        "step1Description": "Ajuste o estilo, a cor e o tamanho da mira para que os alvos se destaquem nas lutas rápidas de bomb site. Um retículo claro facilita muito o tracking e os tiros em rajada na Divisão de Desarmamento.",
+        "step2Title": "Melhor percepção da rodada",
+        "step2Description": "Ajustar áudio e visuais ajuda você a perceber passos, sinais de utilidade e movimentos inimigos antes de um avanço acontecer. Essa vantagem importa quando você está segurando ângulos ou rotacionando para um plant.",
+        "step3Title": "Jogo ranqueado mais fluido",
+        "step3Description": "Configurações focadas em desempenho reduzem distrações e mantêm sua mira estável em partidas competitivas. No ranqueado, consistência ajuda você a vencer mais duelos e garantir desarmes mais limpos."
+      },
+      "featured": "Em Destaque e Essenciais",
+      "all": "Todas as Configurações"
+    },
+    "skins": {
+      "title": "Skins da Divisão de Desarmamento — Cosméticos de Armas",
+      "description": "Navegue pelas skins da Divisão de Desarmamento para rifles, pistolas e facas. Encontre cosméticos que façam seu equipamento se destacar em execuções de bomb site, retakes e rodadas de clutch no ranqueado.",
+      "metaTitle": "Skins da Divisão de Desarmamento - Guia dos Melhores Cosméticos de Armas",
+      "metaDescription": "Explore as skins da Divisão de Desarmamento para rifles, pistolas e facas, com escolhas cosméticas que combinam com o jogo ranqueado, momentos de clutch e o estilo do seu equipamento.",
+      "categoryLabel": "SKINS DE ARMAS",
+      "whatIs": "O que são as skins da Divisão de Desarmamento?",
+      "whatIsDescription": "Skins são acabamentos cosméticos de armas na Divisão de Desarmamento que mudam a aparência do seu equipamento sem alterar dano ou recoil. Use-as para personalizar rifles, armas secundárias e facas enquanto avança nos sites, segura ângulos ou faz retakes decisivos em rodadas ranqueadas.",
+      "why": "Por que equipar skins?",
+      "whySteps": {
+        "step1Title": "Personalize seu equipamento",
+        "step1Description": "As skins permitem que você deixe seus rifles, pistolas e faca com uma aparência distinta enquanto rotaciona entre bomb sites. Isso adiciona identidade a cada rodada eco, buy e clutch.",
+        "step2Title": "Mostre sua identidade no ranque",
+        "step2Description": "Em partidas competitivas, um conjunto de skins limpo ajuda seu equipamento a parecer intencional quando você está segurando ângulos ou trocando frags. É uma forma simples de se destacar sem afetar o balanceamento.",
+        "step3Title": "Torne os clutches memoráveis",
+        "step3Description": "Quando a rodada se resume a um desarme ou a um retake no último segundo, um conjunto cosmético marcante faz o momento parecer mais pessoal. As skins mantêm suas armas favoritas reconhecíveis em todas as partidas."
+      },
+      "featured": "Em Destaque e Essenciais",
+      "all": "Todas as Skins"
+    },
+    "weapons": {
+      "title": "Armas da Divisão de Desarmamento",
+      "description": "Navegue pelas armas da Divisão de Desarmamento, de rifles e pistolas confiáveis a escolhas de alto impacto para ataque e defesa. Compare equipamentos para rodadas ranqueadas, skins e jogadas que vencem a rodada.",
+      "metaTitle": "Armas da Divisão de Desarmamento - Melhores Loadouts, Stats e Escolhas",
+      "metaDescription": "Encontre as melhores armas da Divisão de Desarmamento para cada rodada, com escolhas de loadout para ataque, defesa, skins e controle de bomb site no ranqueado.",
+      "categoryLabel": "ARMAS",
+      "whatIs": "O que são as armas da Divisão de Desarmamento?",
+      "whatIsDescription": "As armas da Divisão de Desarmamento são as armas e equipamentos que você usa nas partidas de desarme de bombas no estilo CS. Sua escolha afeta o controle de recoil, a economia e o quão bem você consegue segurar sites, retomar ângulos ou romper defesas.",
+      "why": "Por que usar guias de armas?",
+      "whySteps": {
+        "step1Title": "Escolha melhores loadouts",
+        "step1Description": "Combine sua escolha de arma com sua função, seja avançando como atacante ou ancorando um site como defensor. A arma certa pode ajudar você a vencer mais duelos e economizar créditos para as próximas rodadas.",
+        "step2Title": "Vença lutas de arma-chave",
+        "step2Description": "Entenda quais armas brilham em avanços de curta distância, linhas de visão longas e retakes no fim da rodada. Isso facilita controlar o recoil, fazer lutas mais limpas e sobreviver a momentos de clutch.",
+        "step3Title": "Otimize o jogo ranqueado",
+        "step3Description": "Nas partidas ranqueadas, cada compra importa porque uma rodada pode virar todo o half. Uma configuração de armas focada ajuda você a acompanhar a economia, pressionar bomb sites e converter mais rodadas."
+      },
+      "featured": "Em Destaque e Essenciais",
+      "all": "Todas as Armas"
+    }
+  }
+}

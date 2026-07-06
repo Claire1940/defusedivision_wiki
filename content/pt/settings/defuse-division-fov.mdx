@@ -1,0 +1,201 @@
+import { Map, Target, Shield, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "FOV de Divisão de Desarmamento: Melhores Configurações de Câmera e Sensibilidade",
+  description: "Aprenda as melhores configurações de FOV de Divisão de Desarmamento, métodos de teste de câmera e combinações de sensibilidade para melhorar a percepção, o controle e a mira mais limpa no Roblox.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Defuse+Division+FOV+Guide",
+  date: "2026-07-06",
+  author: "Equipe da Wiki de Divisão de Desarmamento"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **O FOV de Divisão de Desarmamento** funciona melhor em torno de **80-90** para a maioria dos jogadores que precisam de equilíbrio entre visão geral e tamanho do alvo.
+- **Comece mais estreito** se você vence duelos em ângulos curtos; **aumente o FOV** se estiver perdendo flancos, rotações ou peeks rápidos.
+- **Combine o FOV com a sensibilidade** em vez de ajustar só uma configuração, ou sua mira vai parecer inconsistente.
+- **Teste em partidas reais** por pelo menos **três jogos** antes de travar um preset final.
+</Callout>
+
+<Section icon={Map} title="Presets de FOV de Divisão de Desarmamento que Fazem Sentido">
+
+Divisão de Desarmamento é um shooter tático do Roblox em alpha inicial, então o ajuste de FOV deve ser prático, não chamativo. A melhor configuração é aquela que mantém o movimento dos inimigos legível sem impedir que você acompanhe lutas próximas e a pressão no local da bomba.
+
+Para a maioria dos jogadores, um FOV intermediário é o ponto de partida mais seguro. Configurações amplas ajudam na percepção, mas também podem fazer os alvos parecerem menores. Configurações estreitas melhoram o foco, mas podem esconder ângulos laterais e punir movimentos lentos de câmera.
+
+<CardGrid cols={3}>
+  <Card title="Combate Próximo">
+    - **70-80 de FOV**
+    - Maior foco no alvo
+    - Melhor para corredores apertados
+  </Card>
+  <Card title="Padrão Equilibrado">
+    - **80-90 de FOV**
+    - Boa percepção
+    - Ótimo para lutas variadas
+  </Card>
+  <Card title="Ampla Percepção">
+    - **90-100 de FOV**
+    - Melhor para checar flancos
+    - Rastreamento fino mais difícil
+  </Card>
+</CardGrid>
+
+| Preset | Faixa de FOV | Melhor Uso | Compromisso |
+|---|---:|---|---|
+| Combate Próximo | 70-80 | Controle na entrada, corredores estreitos | Menos visão periférica |
+| Padrão Equilibrado | 80-90 | A maioria dos mapas e funções | Exige rastreamento limpo |
+| Ampla Percepção | 90-100 | Rotações, áreas abertas | Os alvos parecem menores |
+
+<Callout type="tip" title="Regra Inicial">
+Faça ajustes em passos de **5 pontos**, não em saltos gigantes. Mudanças pequenas facilitam perceber se a alteração realmente ajudou.
+</Callout>
+
+Se quiser uma regra simples, escolha **80-85** primeiro e só suba se sentir que a câmera está te apertando. Esse ponto de partida geralmente preserva a clareza sem deixar o controle de recoil escorregadio.
+
+</Section>
+
+<Section icon={Target} title="Como Ajustar o FOV em Cinco Testes Rápidos">
+
+Um bom FOV não é algo que você chuta uma vez e esquece. Trate isso como um processo curto de calibração. Em um jogo como Divisão de Desarmamento, você quer um valor que ajude no controle de mapa, no timing do peek e na leitura rápida da pressão na bomba plantada.
+
+A experiência oficial no Roblox está listada como alpha inicial, e o layout de controles inclui acesso ao menu com **N** para o menu principal e **M** para seleção de equipe. Isso facilita redefinir seu fluxo, entrar novamente na rodada e testar configurações sem pensar demais na interface.
+
+<Steps>
+  <Step num="1" title="Escolha um valor intermediário">
+    Comece em **85 de FOV** se o slider existir. Isso oferece uma base neutra tanto para duelos curtos quanto para verificações de média distância.
+  </Step>
+  <Step num="2" title="Jogue por uma rota conhecida">
+    Use um caminho do mapa que você já conhece. Um terreno familiar ajuda a perceber melhor a diferença entre mudanças de câmera e confusão com o mapa.
+  </Step>
+  <Step num="3" title="Teste três tipos de combate">
+    Faça um peek curto, um ângulo de média distância e uma varredura de rotação. Cada situação revela um problema diferente de FOV.
+  </Step>
+  <Step num="4" title="Ajuste em passos pequenos">
+    Aumente ou reduza o FOV em **5 pontos**. Se você der um salto grande demais, pode confundir desconforto com melhoria.
+  </Step>
+  <Step num="5" title="Trave o melhor">
+    Mantenha a configuração que parece limpa após várias rodadas, não a que ficou boa em apenas uma luta.
+  </Step>
+</Steps>
+
+| Situação | FOV Sugerido | Por Que Ajuda |
+|---|---:|---|
+| Entrada agressiva | 85-95 | Melhor percepção lateral durante avanços |
+| Defesa do local | 75-85 | Segura ângulos apertados com mais clareza |
+| Controle do meio | 80-90 | Varredura equilibrada e precisão |
+| Aprendendo o mapa | 80-85 | Ajuste mais fácil e consistente |
+
+<Callout type="warning" title="Evite Este Erro">
+Não persiga a visão mais ampla possível só porque ela parece rápida. Se os modelos inimigos ficarem pequenos demais, sua confiança no primeiro tiro normalmente cai.
+</Callout>
+
+Quando seu FOV base parecer estável, compare-o com seu padrão normal de mira. Se você começar a passar demais do alvo, a câmera provavelmente está ampla demais para a sensibilidade atual.
+
+</Section>
+
+<Section icon={Shield} title="FOV, Sensibilidade e Combinações com a Mira">
+
+FOV e sensibilidade devem ser ajustados em conjunto. Quando uma configuração muda, a outra muitas vezes precisa de um pequeno ajuste. Se você aumentar o FOV, seu campo de visão cobre mais espaço, mas o movimento do mouse pode parecer menos controlado, a menos que sua sensibilidade esteja um pouco mais disciplinada.
+
+O objetivo não é deixar a câmera dramática. O objetivo é fazer sua mira cair exatamente onde você espera quando um defensor aparece ou um corredor do local da bomba se abre.
+
+| Faixa de FOV | Abordagem de Sensibilidade | Melhor Resultado |
+|---|---|---|
+| 70-80 | Sensibilidade um pouco mais baixa | Microajustes estáveis |
+| 80-90 | Sensibilidade média | Rastreamento e giro equilibrados |
+| 90-100 | Um pouco abaixo do normal | Reduz o overflick |
+| Qualquer faixa | Mantenha a sensação no ADS consistente | Memória muscular mais limpa |
+
+| Sintoma | Causa Provável | Correção Rápida |
+|---|---|---|
+| Overflick | FOV amplo demais para a sensibilidade atual | Baixe um pouco a sens ou reduza o FOV |
+| Giro lento | FOV estreito demais | Aumente levemente o FOV |
+| Perda de cabeça à distância | Sensibilidade alta demais | Reduza um nível |
+| Sensação de aperto | FOV baixo demais | Aumente o FOV gradualmente |
+
+<Callout type="info" title="Regra Prática">
+Se a mira estiver instável, reduza primeiro a sensibilidade. Se a percepção estiver apertada, então aumente o FOV. Não corrija os dois ao mesmo tempo, a menos que queira perder a referência.
+</Callout>
+
+Uma mira limpa também importa. Uma retícula simples e visível funciona melhor em FOV médio ou alto, porque continua legível quando os inimigos aparecem perto da borda da tela. Se a sua mira se misturar ao mapa, a configuração de câmera vai parecer pior do que realmente é.
+
+</Section>
+
+<Section icon={Sparkles} title="Checklist de Configurações para uma Mira Mais Limpa">
+
+Depois de definir um valor de câmera, use o restante da página de configurações para remover ruídos. O layout oficial de controles cobre movimento, mira, interação e ações com a bomba, então você deve tratar o FOV como parte de uma configuração geral de conforto, e não como um ajuste isolado.
+
+Esta também é a seção onde jogadores mais atentos mantêm anotado o listing do Roblox e qualquer patch note que consultem pela comunidade. Em uma experiência alpha inicial, configurações e sensação podem mudar com updates, então o melhor preset é aquele que você consegue testar novamente rapidamente.
+
+<Checklist
+  id="fov-settings-checklist"
+  title="Antes de Travar Seu Preset:"
+  items={[
+    "Confirme seu valor de FOV e mantenha ajustes em passos de 5 pontos",
+    "Combine a sensibilidade do mouse com a nova sensação da câmera",
+    "Teste uma luta curta e um peek em ângulo longo",
+    "Mantenha sua mira fácil de ver no zoom escolhido",
+    "Reverifique a configuração após grandes updates de jogabilidade"
+  ]}
+/>
+
+| Plataforma ou Situação | O Que Verificar | Por Que Importa |
+|---|---|---|
+| PC com DPI baixo | Mantenha a sensibilidade controlada | Evita micro-mira instável |
+| Tela de notebook | Evite FOV extremo | Telas pequenas já comprimem os detalhes |
+| Monitor de alta taxa de atualização | FOV médio-alto funciona bem | O movimento parece mais suave |
+| Update de alpha inicial | Refaça o teste do preset | O comportamento pode mudar após patches |
+
+<Callout type="success" title="Melhor Prática">
+Mantenha um preset reserva anotado. Se um patch deixar sua configuração atual estranha, você volta rápido para um valor conhecido e bom.
+</Callout>
+
+Se quiser um ponto de referência ao vivo, salve nos favoritos o listing de Divisão de Desarmamento no Roblox e compare suas configurações após qualquer grande mudança de balanceamento. Essa é a maneira mais rápida de evitar construir memória muscular em cima de uma configuração ultrapassada.
+
+</Section>
+
+<Section icon={Trophy} title="FAQ de FOV de Divisão de Desarmamento">
+
+As perguntas abaixo cobrem as decisões de câmera mais comuns que os jogadores tomam quando tentam melhorar a mira, a percepção, ou ambos. A resposta curta é simples: use uma configuração que ajude no seu comportamento real de partida, não nos seus instintos de highlight.
+
+<Callout type="tip" title="Lembrete da FAQ">
+Um bom FOV deve ajudar você a vencer rounds com mais consistência. Se a visão parece bonita, mas seus duelos pioram, a configuração provavelmente está extrema demais.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual é um bom FOV inicial em Divisão de Desarmamento?",
+    answer: "Comece em torno de 80-85 se o jogo oferecer um slider. Essa faixa geralmente equilibra percepção, tamanho do alvo e controle em curta distância."
+  },
+  {
+    question: "Devo usar o FOV mais amplo possível?",
+    answer: "Normalmente não. Um FOV muito amplo pode fazer os inimigos parecerem menores e aumentar o overflick se sua sensibilidade já estiver alta."
+  },
+  {
+    question: "O FOV substitui as configurações de sensibilidade?",
+    answer: "Não. O FOV muda o que você vê, enquanto a sensibilidade muda a velocidade de movimento da câmera. Os dois funcionam melhor quando são ajustados juntos."
+  },
+  {
+    question: "Por que o jogo parece diferente depois de uma atualização?",
+    answer: "Divisão de Desarmamento está listada como alpha inicial, então a sensação da câmera e o comportamento das configurações podem mudar. Refaça o teste do seu FOV após mudanças grandes."
+  }
+]} />
+
+| Tipo de Pergunta | Resposta Curta | Próximo Melhor Passo |
+|---|---|---|
+| Configuração para novatos | Comece na faixa média | Use 80-85 de FOV |
+| Parece apertado demais | Aumente um pouco o FOV | Suba 5 pontos |
+| Parece solto demais | Diminua um pouco o FOV | Desça 5 pontos |
+| A mira parece instável | Reduza a sensibilidade primeiro | Refaça o teste antes de mudar o FOV |
+
+<Callout type="info" title="Conclusão Final">
+Se você lembrar de uma coisa, lembre desta: o melhor FOV de Divisão de Desarmamento é aquele que faz seus tiros e rotações parecerem previsíveis, não chamativos.
+</Callout>
+
+</Section>

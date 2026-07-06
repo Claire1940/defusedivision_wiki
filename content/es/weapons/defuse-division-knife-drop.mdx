@@ -1,0 +1,173 @@
+import { Swords, Target, Shield, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Defuse Division: Guía de soltar y cambiar rápido el cuchillo",
+  description: "Aprende a soltar, guardar y cambiar tu cuchillo en Defuse Division con una mejor sincronización, hábitos de movimiento más seguros y menos errores que arruinan rondas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/111827/fff?text=Knife+Drop+Guide",
+  date: "2026-07-06",
+  author: "Equipo de la Wiki de Defuse Division"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Soltar el cuchillo en Defuse Division** funciona mejor como herramienta de sincronización, no como un hábito que uses en cada duelo.
+- **Suelta o guarda el cuchillo solo después de asegurar espacio** para no perder una baja gratis por un cambio apresurado.
+- **Mantén la acción cerca de tu mano de movimiento** si la versión actual permite reasignar controles.
+- **Practica toda la secuencia** en un servidor seguro antes de usarla en una partida real.
+</Callout>
+
+<Section icon={Swords} title="Conceptos básicos de soltar el cuchillo en Defuse Division">
+
+En la jugabilidad de soltar el cuchillo en Defuse Division, el objetivo real es el control. No intentas lucirte con un truco; intentas hacer más limpio el manejo cuerpo a cuerpo, reducir los cambios por pánico y mantener tu movimiento fluido cuando empieza un combate. Si tu versión actual permite una acción real de soltar, úsala con cuidado. Si solo permite guardar o cambiar desde el cuchillo, trátalo como la versión práctica de la misma decisión.
+
+<Callout type="info" title="Lee esto primero">
+Usa la tabla de abajo como una guía de decisión. Los esquemas de control pueden cambiar, así que no trates ninguna ruta de botones como permanente.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Velocidad">
+    Las transiciones más rápidas importan cuando necesitas moverte, asomarte o perseguir sin quedarte atascado con el cuerpo a cuerpo.
+  </Card>
+  <Card title="Seguridad">
+    Soltarlo en el momento equivocado puede exponerte, así que la mejor jugada suele ser la más segura.
+  </Card>
+  <Card title="Control">
+    Un cambio limpio mantiene tu equipamiento legible y reduce los golpes accidentales con el cuchillo en espacios reducidos.
+  </Card>
+</CardGrid>
+
+| Opción | Mejor uso | Riesgo principal |
+|---|---|---|
+| Soltar físicamente | Quieres que el cuchillo salga por completo de la mano | Ruido, muy visible y fácil de castigar |
+| Guardar o cambiar | Solo necesitas una transición de arma más limpia | No crea espacio real |
+| Mantener el cuchillo listo | Estás rotando o moviéndote en silencio | Malo si un duelo empieza de inmediato |
+
+Una buena regla general es simple: si el próximo segundo importa más que la siguiente animación, prioriza la transición más limpia. Si la zona no es segura, mantén el cuchillo en la mano y muévete primero.
+
+</Section>
+
+<Section icon={Target} title="Cómo soltar o cambiar tu cuchillo de forma segura">
+
+<Callout type="tip" title="Mejor práctica">
+Asigna la acción lo más cerca posible de tus teclas de movimiento si el juego te permite reasignarla. Cuantos menos movimientos de mano necesites, menos probable será que te equivoques al pulsar.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Asegura el ángulo inmediato">
+    Comprueba enemigos, señales de sonido y las líneas de empuje más comunes antes de tocar tu ranura de cuerpo a cuerpo.
+  </Step>
+  <Step num="2" title="Abre la acción correcta del inventario">
+    Usa el control de soltar, cambiar o equipamiento del juego si tu versión actual ofrece uno.
+  </Step>
+  <Step num="3" title="Completa la transición">
+    Termina la acción en un solo movimiento limpio en lugar de pulsar varias teclas o botones a medias.
+  </Step>
+  <Step num="4" title="Reajusta tu mira">
+    Vuelve a centrar la mira de inmediato para estar listo para el siguiente asomo, rotación o intercambio.
+  </Step>
+</Steps>
+
+| Patrón de entrada | Mejor situación | Por qué funciona |
+|---|---|---|
+| Una sola tecla bien asignada | Ejecución rápida en espacio abierto | Reduce la duda |
+| Cambio desde el inventario | Más seguro que soltarlo manualmente | Mantiene un control más firme |
+| Reasignación en ratón o mando | Comodidad en sesiones largas | Reduce la tensión de entrada |
+| Asignación predeterminada de respaldo | Recurso de emergencia | Ayuda si falla tu tecla personalizada |
+
+La versión más segura del movimiento es la que puedes repetir bajo presión. Si tienes que pensar en el orden de las teclas, la configuración sigue siendo demasiado complicada.
+
+</Section>
+
+<Section icon={Shield} title="Cuándo ayuda más soltar el cuchillo">
+
+<Callout type="warning" title="No lo fuerces">
+Nunca conviertas un truco de cuerpo a cuerpo en un hábito durante una entrada disputada o una rotación expuesta. Si la línea está caliente, el movimiento importa más que el estilo.
+</Callout>
+
+Usa la sincronización de soltar el cuchillo cuando te dé una ventaja real. En la mayoría de los casos, eso significa que ya tienes espacio, el enemigo está rotando o estás reposicionándote entre puntos seguros. Es menos útil cuando tu equipo necesita intercambios inmediatos o cuando la siguiente esquina puede esconder un duelo.
+
+<Checklist
+  id="knife-drop-situations"
+  title="Buenos momentos para usar soltar el cuchillo:"
+  items={[
+    "Después de limpiar una línea y necesitar un cambio de arma más rápido",
+    "Mientras rotas por una ruta segura sin contacto cercano",
+    "Cuando quieres evitar golpes accidentales con el cuerpo a cuerpo en una defensa cerrada",
+    "Durante el tiempo de preparación, si la acción no ralentiza tu posicionamiento",
+    "En prácticas, para construir memoria muscular antes de las rondas reales"
+  ]}
+/>
+
+| Escenario | Soltar o mantener | Motivo |
+|---|---|---|
+| Rotación al inicio de la ronda | Normalmente mantener | Necesitas movilidad y conciencia |
+| Movimiento seguro después de limpiar | Soltar o cambiar | Menor riesgo y manejo más limpio |
+| Reentrada bajo presión | Mantener | La velocidad de reacción importa más |
+| Reposicionamiento silencioso | Mantener o guardar | Conserva el control y la disciplina de sonido |
+| Sala de práctica | Soltar y repetir | El mejor lugar para construir memoria muscular |
+
+Una buena prueba es esta: si la acción con el cuchillo te hace más predecible, aún no la uses. Si te ayuda a moverte, apuntar o reiniciarte más rápido, entonces debe formar parte de tu rutina.
+
+</Section>
+
+<Section icon={Sparkles} title="Errores comunes y hábitos mejores">
+
+<Callout type="success" title="Usa un ritmo repetible">
+Los mejores jugadores no improvisan la secuencia cada vez. Usan la misma configuración, la misma sincronización y el mismo reinicio después del cambio.
+</Callout>
+
+Los problemas al soltar el cuchillo suelen venir del pánico, no del propio sistema. La mayoría de los errores ocurre cuando los jugadores lo hacen demasiado pronto, lo hacen a la vista de todos o olvidan que la transición puede dejarlos vulnerables por un momento. Los hábitos limpios valen más que los dedos rápidos.
+
+| Error | Por qué hace perder rondas | Mejor hábito |
+|---|---|---|
+| Soltarlo a plena vista | Te conviertes en un objetivo fácil | Espera cobertura o una línea segura |
+| Repetir la acción sin parar | Pierdes tiempo y creas confusión | Usa una sola entrada deliberada |
+| Olvidar el reajuste de mira posterior | Ganas el cambio pero pierdes el combate | Re-centra la mira al instante |
+| Practicar solo en partidas reales | Genera malos hábitos bajo presión | Practica primero en un servidor de bajo riesgo |
+| Tratar todas las rondas igual | Ignora el mapa y el estado del equipo | Decide según el espacio y la sincronización |
+
+<CardGrid cols={2}>
+  <Card title="Hábito pre-ronda">
+    Revisa tu tecla una vez, confirma tu ruta de cambio y sabe a dónde quieres moverte después.
+  </Card>
+  <Card title="Hábito a mitad de ronda">
+    Usa la acción solo después de una ventana clara de tiempo, no mientras entras en un ángulo peligroso.
+  </Card>
+</CardGrid>
+
+Cuanto más aburrida sea la rutina, más fuerte será el resultado. Si la secuencia se siente automática, dejarás de regalar rondas por pequeños errores de entrada.
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="info" title="Respuestas rápidas">
+Estas respuestas se centran en el manejo práctico del cuchillo, la sincronización segura y cómo mantener la mecánica útil sin convertirla en una distracción.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Siempre vale la pena usar soltar el cuchillo en Defuse Division?",
+    answer: "No siempre. Es más valioso cuando mejora el movimiento, reduce errores accidentales con el cuerpo a cuerpo o te ayuda a reiniciar tu equipamiento de forma limpia. Si el combate ya está en marcha, céntrate en el posicionamiento."
+  },
+  {
+    question: "¿Debo soltar mi cuchillo al inicio de cada ronda?",
+    answer: "Normalmente no. El inicio de la ronda se aprovecha mejor para la ruta, el espaciado y la obtención de información. Suelta o guarda el cuchillo solo si apoya un plan de movimiento específico."
+  },
+  {
+    question: "¿Cuál es la forma más segura de practicar soltar el cuchillo?",
+    answer: "Usa un servidor privado o de baja presión y repite la misma secuencia hasta que se sienta natural. Practica la entrada, el reajuste de la mira y la continuación del movimiento como un solo gesto."
+  },
+  {
+    question: "¿Soltar el cuchillo sustituye una mejor configuración o la práctica de apuntado?",
+    answer: "No. Es una pequeña herramienta de eficiencia, no un sustituto de una buena sensibilidad, una colocación estable de la mira o un buen posicionamiento sonoro. Funciona mejor como parte de una rutina más amplia."
+  }
+]} />
+
+</Section>

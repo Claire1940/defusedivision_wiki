@@ -10,7 +10,16 @@
       "twitterDescription": "Defuse Division Wiki covers codes, weapons, skins, maps, crosshair, and bomb-defusal tactics for the Roblox tactical shooter."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "competitive": "Competitive",
+    "crosshair": "Crosshair",
+    "discord": "Discord",
+    "guide": "Guide",
+    "settings": "Settings",
+    "skins": "Skins",
+    "weapons": "Weapons"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -397,5 +406,166 @@
     "copyright": "© 2026 Defuse Division Wiki. Not affiliated with Fourteam or Roblox Corporation.",
     "disclaimer": "Unofficial fan-made resource website."
   },
-  "pages": {}
+  "pages": {
+    "codes": {
+      "title": "Defuse Division Codes — All Redeemable Rewards",
+      "description": "Track the latest Defuse Division codes for time-sensitive rewards, then verify each one before redeeming for skins, boosts, or other in-game extras safely in Roblox.",
+      "metaTitle": "Defuse Division Codes - Free Rewards, Boosts & More",
+      "metaDescription": "Check the latest Defuse Division codes for time-sensitive rewards like skins, boosts, and in-game extras—verify each one before redeeming in Roblox.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What Are Defuse Division Codes?",
+      "whatIsDescription": "Defuse Division codes are limited-time promo rewards that may be released during updates, milestones, or community events. They can unlock cosmetics or bonuses that support your bomb-defusal loadout in Roblox.",
+      "why": "Why Redeem Codes?",
+      "whySteps": {
+        "step1Title": "Beat Expiration Fast",
+        "step1Description": "Defuse Division codes can disappear quickly, so checking them early helps you avoid missing limited-time rewards.",
+        "step2Title": "Unlock Free Extras",
+        "step2Description": "Redeemed codes may grant skins, boosts, or other bonuses that make your loadout feel more personal in fast bomb-site rounds.",
+        "step3Title": "Stay Update-Ready",
+        "step3Description": "New codes often appear around patches or events, so returning regularly keeps you ready for fresh rewards before ranked play gets busy."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "competitive": {
+      "title": "Defuse Division Competitive — Ranked Play Guides",
+      "description": "Browse Defuse Division competitive guides for ranked tactics, bomb-site control, crosshair settings, loadouts, and clutch plays that help your team win rounds.",
+      "metaTitle": "Defuse Division Competitive - Rank Up in Ranked Play",
+      "metaDescription": "Master Defuse Division ranked play with bomb-site control, crosshair settings, loadouts, and clutch tactics built for competitive team rounds.",
+      "categoryLabel": "COMPETITIVE GUIDES",
+      "whatIs": "What Is Defuse Division Competitive?",
+      "whatIsDescription": "Defuse Division competitive is the ranked side of the game, where teams fight over bomb plants, defuses, and eliminations across CS-style rounds. It rewards map control, smart utility use, and consistent aim more than raw rushing.",
+      "why": "Why Use Competitive Guides?",
+      "whySteps": {
+        "step1Title": "Win More Rounds",
+        "step1Description": "Competitive guides break down when to attack, hold angles, or rotate so your team can survive longer and close out bomb-site fights in Defuse Division.",
+        "step2Title": "Refine Your Setup",
+        "step2Description": "Use crosshair settings, sensitivity, and loadout advice to make your aim steadier and your buys more effective in ranked matches.",
+        "step3Title": "Clutch Better Late-Round",
+        "step3Description": "Learn post-plant, retake, and defuse timing tips that matter when every second decides the round and every mistake costs rank progress."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Competitive Guides"
+    },
+    "crosshair": {
+      "title": "Defuse Division Crosshair Settings",
+      "description": "Find the best Defuse Division crosshair settings to sharpen aim, track heads in bombsite fights, and stay accurate in clutch defuse rounds and ranked matches.",
+      "metaTitle": "Defuse Division Crosshair - Best Aim Settings Guide",
+      "metaDescription": "Use the best Defuse Division crosshair settings to improve recoil control, spot targets faster, and win more plant-and-defuse rounds in ranked play.",
+      "categoryLabel": "CROSSHAIR SETTINGS",
+      "whatIs": "What Are Defuse Division Crosshairs?",
+      "whatIsDescription": "A Defuse Division crosshair is the on-screen aiming reticle you tune for easier tracking, tapping, and spray control. The right setup can help you hold bombsites, swing entry duels, and win faster defuse-side fights in Roblox matches.",
+      "why": "Why Customize Crosshair Settings?",
+      "whySteps": {
+        "step1Title": "Faster Target Reads",
+        "step1Description": "A clearer crosshair helps you lock onto heads faster when peeking long angles, tight chokepoints, and fast site entries in Defuse Division.",
+        "step2Title": "Cleaner Gunfights",
+        "step2Description": "Good spacing and visibility make burst taps and sprays easier to manage, especially during smoke, flash, and retake pressure.",
+        "step3Title": "More Consistent Clutches",
+        "step3Description": "In ranked rounds, a stable crosshair keeps your aim reliable during post-plant holds, defuses, and last-player-standing plays."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Crosshairs"
+    },
+    "discord": {
+      "title": "Defuse Division Discord — Team Up, Learn, and Stay Updated",
+      "description": "Join the Defuse Division Discord community to squad up for ranked, share bomb-defusal tactics, compare crosshair settings, and follow skins and patch talk.",
+      "metaTitle": "Defuse Division Discord - Team Up and Stay Updated",
+      "metaDescription": "Find Defuse Division Discord community links, squad-up chats, ranked tips, crosshair advice, and patch discussions for every bomb-defusal round.",
+      "categoryLabel": "DISCORD",
+      "whatIs": "What Is the Defuse Division Discord?",
+      "whatIsDescription": "The Defuse Division Discord is where players gather to talk tactics, build ranked squads, and share updates around bomb plants, defuses, and clutch rounds. It’s also a handy place to compare crosshair settings, weapon skins, and gameplay advice.",
+      "why": "Why Join Discord?",
+      "whySteps": {
+        "step1Title": "Find Teammates Fast",
+        "step1Description": "Use Discord to link up with players who want the same round pace, role, and rank goals. It’s easier to build a squad for Attack or Defense than queueing alone.",
+        "step2Title": "Learn Stronger Plays",
+        "step2Description": "Community chats often break down site takes, smoke timing, and defuse holds that fit Defuse Division’s CS-style rounds. You can refine aim, crosshair settings, and positioning.",
+        "step3Title": "Track Game Updates",
+        "step3Description": "Discord is a quick way to catch balance changes, skin drops, and ranked discussion without missing a beat. That helps you adapt before the next match starts."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Discords"
+    },
+    "guide": {
+      "title": "Defuse Division Guides",
+      "description": "Learn how to win more rounds in Defuse Division with clear guides on plant and defuse tactics, loadouts, crosshair settings, skins, and ranked play.",
+      "metaTitle": "Defuse Division Guides - Bomb, Aim, and Ranked Wins",
+      "metaDescription": "Browse Defuse Division guides for planting and defusing tips, crosshair settings, weapon choices, skins, and ranked strategies built for Roblox matches.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What Are Defuse Division Guides?",
+      "whatIsDescription": "Defuse Division guides are step-by-step resources that help you play smarter in Roblox’s bomb-defusal matches. They cover everything from attack routes and site holds to defuse timing, crosshair setup, weapon picks, and ranked climb tips.",
+      "why": "Why read Guides?",
+      "whySteps": {
+        "step1Title": "Win Round Openings",
+        "step1Description": "Learn how to take early map control, spot safe plant paths, and defend key angles before the round slips away. Better first moves often decide the whole match in Defuse Division.",
+        "step2Title": "Improve Aim Settings",
+        "step2Description": "Use guides to refine your crosshair settings and weapon handling so your shots feel more consistent. Small adjustments can make duels, trades, and retakes much easier.",
+        "step3Title": "Climb Ranked Faster",
+        "step3Description": "Follow competitive advice for team play, bomb defense, and clutch decision-making to earn more wins in ranked. Strong fundamentals help you stay consistent across every map and round."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guides"
+    },
+    "settings": {
+      "title": "Defuse Division Settings",
+      "description": "Tune crosshair, sensitivity, audio, and performance settings in Defuse Division to sharpen aim, track footsteps, and stay ready for ranked bomb sites.",
+      "metaTitle": "Defuse Division Settings - Best Aim and Visibility",
+      "metaDescription": "Find the best Defuse Division settings for crosshair, sensitivity, and graphics so you can win duels, hear pushes, and clutch defuses in ranked.",
+      "categoryLabel": "GAME SETTINGS",
+      "whatIs": "What Are Defuse Division Settings?",
+      "whatIsDescription": "Defuse Division settings cover the options that shape your aim, visuals, and sound during each CS-style round on Roblox. Adjusting them helps attackers line up plants and defenders spot, hear, and defuse faster.",
+      "why": "Why optimize Settings?",
+      "whySteps": {
+        "step1Title": "Sharper Crosshair Control",
+        "step1Description": "Dial in crosshair style, color, and size so targets stand out in fast bombsite fights. A clear reticle makes tracking and burst firing much easier in Defuse Division.",
+        "step2Title": "Better Round Awareness",
+        "step2Description": "Tuning audio and visuals helps you catch footsteps, utility cues, and enemy movement before a push lands. That edge matters when you are holding angles or rotating to a plant.",
+        "step3Title": "Smoother Ranked Play",
+        "step3Description": "Performance-friendly settings reduce distractions and keep your aim stable in competitive matches. In ranked, consistency helps you win more duels and secure cleaner defuses."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Settings"
+    },
+    "skins": {
+      "title": "Defuse Division Skins — Weapon Cosmetics",
+      "description": "Browse Defuse Division skins for rifles, pistols, and knives. Find cosmetics that make your loadout stand out in bombsite executes, retakes, and ranked clutch rounds.",
+      "metaTitle": "Defuse Division Skins - Best Weapon Cosmetics Guide",
+      "metaDescription": "Explore Defuse Division skins for rifles, pistols, and knives, with cosmetic picks that fit ranked play, clutch moments, and your loadout style.",
+      "categoryLabel": "WEAPON SKINS",
+      "whatIs": "What Are Defuse Division Skins?",
+      "whatIsDescription": "Skins are cosmetic weapon finishes in Defuse Division that change how your loadout looks without altering damage or recoil. Use them to personalize rifles, sidearms, and knives while you push sites, hold angles, or clutch retakes in ranked rounds.",
+      "why": "Why Equip Skins?",
+      "whySteps": {
+        "step1Title": "Customize Your Loadout",
+        "step1Description": "Skins let you make your rifles, pistols, and knife feel distinct while you rotate between bomb sites. It adds identity to every eco, buy, and clutch round.",
+        "step2Title": "Show Rank Identity",
+        "step2Description": "In competitive matches, a clean skin set helps your loadout look intentional when you’re holding angles or trading frags. It’s a simple way to stand out without affecting balance.",
+        "step3Title": "Make Clutches Memorable",
+        "step3Description": "When a round comes down to a defuse or last-second retake, a sharp cosmetic set makes the moment feel more personal. Skins keep your favorite weapons recognizable across every match."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Skins"
+    },
+    "weapons": {
+      "title": "Defuse Division Weapons",
+      "description": "Browse Defuse Division weapons, from reliable rifles and pistols to high-impact picks for attack and defense. Compare loadouts for ranked rounds, skins, and round-winning plays.",
+      "metaTitle": "Defuse Division Weapons - Best Loadouts, Stats & Picks",
+      "metaDescription": "Find the best Defuse Division weapons for every round, with loadout picks for attacking, defending, skins, and ranked bomb-site control.",
+      "categoryLabel": "WEAPONS",
+      "whatIs": "What Are Defuse Division Weapons?",
+      "whatIsDescription": "Defuse Division weapons are the guns and gear you use in its CS-style bomb-defusal matches. Your choice affects recoil control, economy, and how well you can hold sites, retake angles, or break through defenses.",
+      "why": "Why Use Weapons Guides?",
+      "whySteps": {
+        "step1Title": "Pick Better Loadouts",
+        "step1Description": "Match your weapon choice to your role, whether you are pushing as attackers or anchoring a site as defenders. The right gun can help you win more duels and save credits for later rounds.",
+        "step2Title": "Win Key Gunfights",
+        "step2Description": "Understand which weapons shine in close-quarters rushes, long sightlines, and late-round retakes. That makes it easier to control recoil, take cleaner fights, and survive clutch moments.",
+        "step3Title": "Optimize Ranked Play",
+        "step3Description": "In ranked matches, every purchase matters because one round can swing the whole half. A focused weapon setup helps you keep pace with the economy, pressure bomb sites, and convert more rounds."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Weapons"
+    }
+  }
 }

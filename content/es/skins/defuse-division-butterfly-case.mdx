@@ -1,0 +1,241 @@
+import { Map, Shield, Target, Swords, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Defuse Division: Mapas, ajustes y consejos para ganar rondas",
+  description: "Aprende lo básico de Defuse Division, sus ajustes, el control del mapa y hábitos para ganar rondas con una guía práctica para jugadores de Roblox que quieren una puntería más limpia y victorias más rápidas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Defuse+Division+Guide",
+  date: "2026-07-06",
+  author: "Equipo de Wiki de Defuse Division"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Defuse Division** es un shooter de desactivación de bombas en Roblox basado en plantar, detener, desactivar y hacer limpieza total del equipo enemigo.
+- Los **ajustes limpios** importan al principio; usa los menús del juego y ajusta la sensibilidad antes de ir a por jugadas espectaculares.
+- El **control del mapa** gana más rondas que las incursiones en solitario, especialmente en los puntos de estrangulamiento y las rutas de rotación.
+- El **timing del objetivo** importa; juega con el reloj de la ronda, no solo con el combate.
+- Los **centros oficiales** como Roblox, Discord y los registros de cambios son los lugares más seguros para seguir las novedades.
+</Callout>
+
+<Section icon={Map} title="Conceptos básicos de las partidas de Defuse Division">
+
+<Callout type="info" title="Bucle principal">
+La forma más segura de aprender Defuse Division es tratar cada ronda como una carrera por el objetivo. Un lado planta, el otro retrasa, desactiva o gana eliminando al equipo enemigo.
+</Callout>
+
+Defuse Division está estructurado como un shooter táctico de desactivación de bombas, pero los mejores resultados llegan de hábitos simples, no de movimientos llamativos. La página del juego en Roblox confirma el bucle principal: los atacantes plantan, los defensores detienen o desactivan, y ambos equipos también pueden ganar si eliminan al otro lado por completo.
+
+| Rol | Trabajo principal | Mentalidad ideal |
+|---|---|---|
+| Atacantes | Llegar al sitio, abrir espacio, plantar la bomba | Moverse juntos, intercambiar bajas, proteger a quien planta |
+| Defensores | Mantener los sitios, retrasar la planta, impedir la desactivación | Sostener posiciones, reunir información, rotar con propósito |
+| Rotadores | Reforzar el lado débil | Leer la ronda pronto y llegar antes de que se pierda el sitio |
+
+<CardGrid cols={3}>
+  <Card title="Ataque">
+    Enfócate en el timing de entrada, el espaciamiento y en mantenerte lo bastante cerca para intercambiar bajas.
+  </Card>
+  <Card title="Defensa">
+    Mantén ángulos que obliguen a los atacantes a frenar y a dedicar tiempo a limpiar la zona.
+  </Card>
+  <Card title="Rotar">
+    Sal pronto cuando cambie la presión, no cuando el sitio ya se haya perdido.
+  </Card>
+</CardGrid>
+
+La página oficial de Roblox también señala que el juego sigue en alfa temprana, así que el equilibrio y las sensaciones pueden cambiar. Eso significa que el jugador más listo suele ser quien se adapta primero, en lugar de forzar obstinadamente un solo estilo.
+
+| Centro oficial | Por qué importa | Mejor uso |
+|---|---|---|
+| Página del juego en Roblox | Confirma el bucle del juego y su estado | Acceso al juego, resumen general |
+| Discord oficial | Actualizaciones y eventos de la comunidad | Comentarios sobre parches, debate activo |
+| Registro de cambios de DevForum | Seguimiento de versiones | Historial de actualizaciones y monitoreo de cambios |
+
+<Callout type="tip" title="Regla de las primeras partidas">
+No persigas peleas aisladas a menos que ayuden al objetivo. Una ronda tranquila con buena posición suele vencer a una ronda ruidosa con malos intercambios.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mejores ajustes para una puntería más limpia">
+
+<Callout type="tip" title="Primero los ajustes">
+Antes de farmear partidas, dedica unos minutos a los controles, la sensibilidad y la visibilidad. Un pequeño ajuste puede valer más que un nuevo equipamiento.
+</Callout>
+
+La página principal señala que los jugadores pueden abrir el menú principal con **N** y el menú de selección de equipo con **M**. Eso hace que el proceso de preparación sea sencillo, y también significa que los nuevos jugadores deberían comprobar el flujo de menús antes de entrar en partidas en vivo.
+
+<Steps>
+  <Step num="1" title="Abre el menú principal">
+    Usa **N** para revisar la sensibilidad, el audio y cualquier opción visual disponible.
+  </Step>
+  <Step num="2" title="Configura el flujo de equipo">
+    Usa **M** para entender cómo funciona la selección de equipo antes de que empiece la ronda.
+  </Step>
+  <Step num="3" title="Estabiliza tu puntería">
+    Elige una sensibilidad que te permita seguir esquinas sin pasarte en los ángulos comunes.
+  </Step>
+  <Step num="4" title="Prueba la visibilidad">
+    Asegúrate de que las siluetas enemigas, los elementos de la interfaz y el contraste de la mira sean fáciles de leer.
+  </Step>
+  <Step num="5" title="Mantén la consistencia">
+    Fija una sola configuración durante varias partidas antes de volver a cambiarla.
+  </Step>
+</Steps>
+
+| Área de ajuste | Qué tocar | Buen objetivo inicial |
+|---|---|---|
+| Sensibilidad | Velocidad del ratón o respuesta del mando | Seguimiento estable, no giros bruscos |
+| Audio | Volumen maestro y efectos | Oír pasos, cambios de arma y señales del objetivo |
+| Visibilidad | Brillo, contraste, claridad de la interfaz | Detectar amenazas sin forzar la vista |
+| Flujo de teclas | Acceso a menús y hábitos de interacción | Selección de equipo más rápida y preparación más limpia |
+
+| Problema | Solución probable | Por qué ayuda |
+|---|---|---|
+| Fallar tiros fáciles | Baja un poco la sensibilidad | Reduce la sobrecorrección |
+| Perder de vista a los enemigos | Sube el contraste o reduce el desorden visual | Mejora la separación del objetivo |
+| Inicio lento de la ronda | Aprende el flujo de menús con N y M | Ahorra tiempo antes de la ronda |
+| Hacer clic erróneamente en acciones del objetivo | Reasigna teclas o practica el timing de interacción | Reduce errores de entrada |
+
+<Callout type="warning" title="Evita esto">
+No sigas cambiando tu configuración después de cada derrota. Una mala ronda no demuestra que tus ajustes estén mal.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Control del mapa y prioridades de ruta">
+
+<Callout type="warning" title="Disciplina en el mapa">
+La mayoría de los errores tácticos ocurren cuando los jugadores se comprometen demasiado con una sola línea y olvidan el resto del mapa. Vigila los puntos de estrangulamiento y luego rota con intención.
+</Callout>
+
+Los hábitos de mapa más fuertes en Defuse Division son simples: mantener espacio, negar entradas fáciles y evitar regalar el control del centro. Incluso sin un glosario público del mapa, la estructura estándar es lo bastante clara como para construir hábitos fiables alrededor de los sitios de bomba, los pasos estrechos y las rutas de rotación.
+
+| Zona del mapa | Qué hace | Qué deberías hacer |
+|---|---|---|
+| Sitio de bomba | La zona principal del objetivo | Limpia ángulos antes de plantar o entrar |
+| Paso estrecho | Ruta de entrada estrecha | Úsalo para frenar avances y forzar combates |
+| Control del centro | Espacio central de rotación | Mantenlo el tiempo suficiente para predecir rotaciones |
+| Ruta de rotación | Movimiento lateral más rápido | Úsala solo cuando el estado de la ronda lo justifique |
+
+Un buen plan de ronda suele verse así:
+
+| Fase | Plan de ataque | Plan de defensa |
+|---|---|---|
+| Ronda temprana | Tomar espacio juntos | Reunir información, sostener líneas clave |
+| Ronda media | Buscar ángulos débiles | Retrasar, cebar utilidad, mantener el sitio seguro |
+| Ronda tardía | Comprometerse solo tras tener ventaja numérica | Rotar rápido si cambia la presión |
+
+La forma más segura de aprender un mapa es repetir la misma ruta varias veces y notar dónde mueres, dónde te detectan y dónde tu equipo pierde contacto. Ese bucle de retroalimentación importa más que memorizar diez rutas llamativas.
+
+| Error común | Hábito mejor |
+|---|---|
+| Correr en solitario hacia un paso estrecho | Moverte con un compañero e intercambiar bajas |
+| Rotar demasiado pronto | Esperar información más clara |
+| Fijarte demasiado tiempo en un solo ángulo | Limpiar ángulos en un orden planificado |
+| Ignorar las señales sonoras del objetivo | Reaccionar al reloj de la ronda y a la presión del mapa |
+
+<Callout type="success" title="Buen hábito">
+Si tu equipo tiene control del mapa, baja el ritmo de la ronda. Si el enemigo tiene el control del mapa, deja de adivinar y recuperen espacio juntos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Hábitos para ganar rondas y juego en equipo">
+
+<Callout type="success" title="Juega la ronda, no el marcador de bajas">
+No necesitas tener el mayor número de eliminaciones para cargar una partida. El buen espaciamiento, el timing y los intercambios importan más que los clips individuales espectaculares.
+</Callout>
+
+Defuse Division recompensa la coordinación porque los shooters de objetivos castigan la sobreextensión. Los mejores jugadores mantienen sus combates conectados a un plan mayor: abrir espacio, forzar errores y convertir esos errores en control del sitio o en una desactivación segura.
+
+<CardGrid cols={3}>
+  <Card title="Espacio">
+    Tomen territorio como grupo para que el enemigo no pueda aislar tu entrada.
+  </Card>
+  <Card title="Intercambio">
+    Quédate lo bastante cerca como para que una muerte se convierta en una baja de respuesta inmediata.
+  </Card>
+  <Card title="Tiempo">
+    Usa el reloj para presionar a los defensores o forzar a los atacantes a entrar apresuradamente.
+  </Card>
+</CardGrid>
+
+| Situación de la ronda | Mejor respuesta | Motivo |
+|---|---|---|
+| Un compañero abre una línea | Sigue de inmediato | Convierte daño en territorio |
+| El enemigo acumula jugadores en un lado | Rota antes | Evita entrar en una trampa |
+| La bomba está plantada | Protege a quien planta o la ruta de desactivación | El objetivo pasa a ser la ronda |
+| Tu equipo va por detrás en jugadores | Juega más despacio y aísla los combates | Reduce el riesgo y conserva opciones |
+
+La página oficial del juego en Roblox y los canales de la comunidad apuntan a un juego vivo, no a un conjunto de reglas congelado. Por eso tus hábitos de ronda deben ser flexibles: bases sólidas, ajustes rápidos y cero pánico cuando cambia el ritmo.
+
+<Checklist
+  id="round-habits"
+  title="Lista de verificación de partidas:"
+  items={[
+    "Muévete con al menos un compañero al entrar en una zona disputada",
+    "Usa el reloj de la ronda para decidir si debes bajar el ritmo o comprometerte",
+    "Limpia los ángulos probables antes de perseguir el objetivo",
+    "Rota solo cuando la información sea lo bastante sólida como para justificarlo",
+    "Revisa un error después de cada partida y corrígelo en la siguiente ronda"
+  ]}
+/>
+
+<Callout type="info" title="Regla práctica">
+Si tu equipo sigue perdiendo el mismo tipo de ronda, cambia el orden de tus decisiones antes de cambiarlo todo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Referencia rápida y FAQ">
+
+<Callout type="tip" title="Repaso rápido">
+Usa esta sección cuando quieras el camino más corto entre aprender y ganar: buena configuración, posición segura y hábitos de equipo repetibles.
+</Callout>
+
+| Tema | Mejor práctica | Por qué funciona |
+|---|---|---|
+| Primera partida | Aprende primero los controles y el flujo del equipo | Reduce los errores iniciales |
+| Preparación de puntería | Mantén la sensibilidad estable | Mejora la consistencia |
+| Juego en el sitio | Limpia ángulos antes de avanzar | Disminuye las muertes sorpresa |
+| Defensa | Retrasa y reúne información | Gana tiempo para las rotaciones |
+| Ataque | Intercambia a tus jugadores de entrada | Hace más eficiente el avance |
+
+| Prioridad | En qué enfocarse primero | Enfoque secundario |
+|---|---|---|
+| 1 | Controles y visibilidad | Ajuste fino de la sensibilidad |
+| 2 | Rutas del mapa y pasos estrechos | Tiempo de rotación |
+| 3 | Espaciado del equipo e intercambios | Coordinación tipo utilidad |
+| 4 | Disciplina en el objetivo | Combates de limpieza |
+
+<FAQ items={[
+  {
+    question: "¿Qué es Defuse Division?",
+    answer: "Defuse Division es un shooter táctico de Roblox basado en plantar, detener o desactivar la bomba, con la eliminación total del equipo también como vía de victoria."
+  },
+  {
+    question: "¿Qué debería cambiar primero para rendir mejor?",
+    answer: "Empieza por la sensibilidad, la visibilidad y la familiaridad con los menús. El flujo oficial de preparación usa N para el menú principal y M para la selección de equipo."
+  },
+  {
+    question: "¿Cómo mejoro rápido en los mapas?",
+    answer: "Repite las mismas rutas, aprende los pasos estrechos comunes y observa dónde tu equipo pierde espacio o queda atrapado durante las rotaciones."
+  },
+  {
+    question: "¿Debería jugar por las bajas o por los objetivos?",
+    answer: "Relaciona siempre tus combates con el objetivo. El buen espaciamiento, los intercambios y el timing suelen importar más que perseguir eliminaciones puras."
+  }
+]} />
+
+<Callout type="info" title="Enlaces oficiales que vale la pena guardar">
+Usa la [página del juego Defuse Division en Roblox](https://www.roblox.com/search?keyword=defusedivision) para acceder, el [servidor oficial de Discord](https://discord.gg/) para las novedades de la comunidad y el [registro de cambios de Roblox DevForum](https://devforum.roblox.com/) para el seguimiento de versiones.
+</Callout>
+
+</Section>

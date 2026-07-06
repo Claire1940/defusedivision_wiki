@@ -1,0 +1,193 @@
+import { Target, Sparkles, Shield, Map, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Viewmodel Padrão de Defuse Division: Melhor Guia de Configuração",
+  description: "Aprenda o viewmodel padrão de Defuse Division, como ajustar visibilidade, conforto no recuo e espaço na tela, e mantenha sua configuração de 2026 limpa sem perder linhas de visão.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Default+Viewmodel+Guide",
+  date: "2026-07-06",
+  author: "Equipe da Wiki de Defuse Division"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **O viewmodel padrão de Defuse Division** é sua base; priorize visibilidade em vez de estilo em lutas apertadas.
+- **Ajuste uma configuração por vez** para conseguir saber se a mudança ajudou sua mira.
+- **Jogadores agressivos** geralmente querem menos obstrução; âncoras precisam de linhas de visão mais limpas e enquadramento mais estável.
+- **Teste em rodadas reais** depois de pressionar a tecla do menu principal, não apenas em um lobby tranquilo.
+</Callout>
+
+<Section icon={Target} title="Noções Básicas do Viewmodel Padrão de Defuse Division">
+
+O viewmodel padrão de Defuse Division é o enquadramento de base de como sua arma, suas mãos e o centro da tela dividem espaço. Em uma partida de desarme de bomba, isso importa mais do que a maioria dos jogadores imagina. Se o modelo bloqueia os ombros do inimigo, esconde pistas do recuo ou faz sua mira parecer apertada demais, você perde informação antes mesmo do confronto começar.
+
+O melhor ponto de partida é simples: mantenha a tela legível e depois construa conforto em cima disso. Defuse Division é uma criação de fãs no Roblox, então este não é um jogo em que você deve correr atrás de uma imitação exata do visual de outro shooter. Construa primeiro para clareza, depois para velocidade.
+
+<Callout type="info" title="Comece Pela Legibilidade">
+Se o enquadramento atual dificulta enxergar cantos ou ler movimentação, a configuração está barulhenta demais para um jogo prático.
+</Callout>
+
+| Fator do viewmodel | O que ele altera | Bom alvo |
+|---|---|---|
+| Tamanho da arma | Quanto do centro da tela fica coberto | Baixa obstrução |
+| Posição das mãos | Quão fácil é ler o recuo e o ritmo de toques | Natural e estável |
+| Sensação da câmera | Como o enquadramento da arma reage quando você se move | Suave, sem trancos |
+| Clareza das linhas de visão | Quão bem você percebe bordas inimigas e interações com a bomba | Prioridade máxima |
+
+| Situação | O enquadramento padrão geralmente funciona se... | Você deve ajustar se... |
+|---|---|---|
+| Jogador novo | Você ainda está aprendendo os ângulos do mapa | O modelo te distrai mais do que o inimigo |
+| Entry fragger | Você avança primeiro e faz peek com frequência | Sua arma bloqueia checagens rápidas de alvo |
+| Âncora defensiva | Você segura corredores apertados | Você precisa de uma visão periférica mais ampla |
+| Jogador de utilidade | Você alterna entre ações da bomba e troca de armas | O enquadramento torna as interações desajeitadas |
+
+<Callout type="tip" title="Onde Verificar as Mudanças">
+Use a página do jogo ao vivo no Roblox como ponto de referência quando comparar configurações após uma atualização: [Defuse Division no Roblox](https://www.roblox.com/search?keyword=defusedivision).
+</Callout>
+
+A ideia principal é consistência. Um viewmodel que parece um pouco mais simples, mas continua legível em todas as rodadas, normalmente é melhor do que uma configuração chamativa que só fica bonita no lobby. Mantenha o enquadramento honesto, e sua mira vai parecer mais fácil de controlar.
+
+</Section>
+
+<Section icon={Sparkles} title="Melhores Presets de Viewmodel por Estilo de Jogo">
+
+O preset certo depende de como você entra nas trocas. Alguns jogadores querem uma tela mais baixa e limpa para avanços agressivos. Outros querem um enquadramento estável que nunca os distraia durante trocas mais lentas. O viewmodel padrão ideal de Defuse Division é aquele que combina com sua velocidade de decisão, e não com o estilo do seu streamer favorito.
+
+<Callout type="warning" title="Não Copie às Cegas">
+Um preset que funciona para um jogador pode parecer errado para outro se o tamanho do monitor, a sensibilidade ou o alcance das lutas for diferente.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Entrada Agressiva">
+    - **Melhor para:** Piques rápidos e lutas de primeiro contato
+    - **Objetivo:** Reduzir a obstrução
+    - **Desvantagem:** Menos personalidade visual
+  </Card>
+  <Card title="Padrão Balanceado">
+    - **Melhor para:** A maioria dos jogadores
+    - **Objetivo:** Manter o modelo presente, mas discreto
+    - **Desvantagem:** Não é extremo em nenhuma direção
+  </Card>
+  <Card title="Âncora Defensiva">
+    - **Melhor para:** Segurar corredores e retomar
+    - **Objetivo:** Visão periférica limpa
+    - **Desvantagem:** Pode parecer menos “mão na massa” no começo
+  </Card>
+</CardGrid>
+
+| Preset | Melhor para | Principal desvantagem | Nota |
+|---|---|---|---|
+| Entrada Agressiva | Movimentos rápidos, duelos, ritmo de rush | Pode parecer simples demais para alguns jogadores | 5/5 para velocidade |
+| Padrão Balanceado | Jogo geral, funções mistas, novos usuários | Menos especializado que configurações de nicho | 5/5 para estabilidade |
+| Âncora Defensiva | Segurar ângulos apertados, controle de bombsite, paciência | Pode demorar um pouco mais para parecer natural | 4/5 para clareza |
+| Ajuste Híbrido | Jogadores ainda aprendendo preferências | Precisa de mais tempo de teste | 4/5 para flexibilidade |
+
+Uma boa regra é começar equilibrado e depois puxar para uma direção. Se você continua perdendo de vista o inimigo durante os movimentos laterais, reduza o excesso visual. Se a tela parecer vazia e estranha, volte um pouco para um enquadramento mais completo. Isso mantém a configuração útil sem transformá-la em um projeto de ciência.
+
+</Section>
+
+<Section icon={Map} title="Como Configurar No Jogo">
+
+A forma mais limpa de ajustar um viewmodel é trabalhar em pequenos passos. As notas oficiais de controle de Defuse Division apontam a tecla do menu principal para navegação, então comece por ali e trate a primeira passagem como uma checagem de base, não como uma configuração final. Se você também precisar trocar de time, a tecla de seleção de time ajuda a voltar rapidamente para um estado de partida ao vivo para testar.
+
+<Callout type="tip" title="Ordem de Ajuste">
+Altere primeiro o enquadramento visível, depois teste o movimento e depois teste o manuseio da arma. Não misture edições de sensibilidade até que o próprio modelo pareça certo.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Abra o menu principal">
+    Pressione a tecla do menu principal e localize a área de configurações. Use esta primeira passagem para encontrar a base atual e evitar mudar várias coisas ao mesmo tempo.
+  </Step>
+  <Step num="2" title="Ajuste levemente o enquadramento">
+    Se o jogo oferecer opções de enquadramento da arma ou da câmera, mova-as um pequeno passo por vez. Seu objetivo é menos obstrução, não uma reformulação visual dramática.
+  </Step>
+  <Step num="3" title="Teste em uma rodada ao vivo">
+    Volte para a partida e veja como o modelo se comporta ao andar, fazer peek, desarmar e alternar entre objetivos. Um teste no lobby não é suficiente.
+  </Step>
+  <Step num="4" title="Compare o resultado">
+    Depois de várias rodadas, compare a nova configuração com sua base. Fique com a versão que faz a leitura da mira e a checagem de cantos parecerem mais suaves.
+  </Step>
+</Steps>
+
+| Caminho do menu | O que verificar | Por que isso importa |
+|---|---|---|
+| Menu principal | Acesso às configurações e às opções relacionadas à câmera | É o lugar mais seguro para começar |
+| Seleção de time | Retorno rápido para a partida ao vivo | Permite testar sob pressão |
+| Aquecimento da partida | Movimento, peeks e leitura de mira | Mostra se o enquadramento está distraindo |
+| Rodada ativa | Ações com a bomba e sensação do recuo | Melhor teste de conforto real de jogo |
+
+<Callout type="info" title="Uma Mudança por Vez">
+Se você mexer em viewmodel, sensibilidade e FOV na mesma sessão, não vai saber qual mudança realmente ajudou.
+</Callout>
+
+Um processo simples de configuração economiza tempo depois. Quando o enquadramento parece certo, você para de pensar nele e passa a ler a rodada mais rápido. Esse é o verdadeiro trabalho de um viewmodel padrão: ficar discreto o suficiente para que suas decisões virem o foco.
+
+</Section>
+
+<Section icon={Shield} title="Checklist e Correções Comuns">
+
+Quando o enquadramento parecer aceitável, fixe isso e siga para a prática. O objetivo não é perfeição. O objetivo é um viewmodel que continue confiável em sessões longas, mudanças de patch e mapas diferentes.
+
+<Callout type="success" title="Trave uma Build Estável">
+Uma configuração estável que você consegue repetir é melhor do que uma configuração que muda o tempo todo e você não consegue memorizar.
+</Callout>
+
+<Checklist
+  id="defuse-division-viewmodel-checklist"
+  title="Checklist Final de Configuração:"
+  items={[
+    "Evite que o modelo da arma cubra o centro da tela",
+    "Teste movimento e peek em pelo menos três rodadas ao vivo",
+    "Evite mudar a sensibilidade ao mesmo tempo que as configurações do viewmodel",
+    "Revise a configuração após um patch ou atualização de menu",
+    "Salve a versão que faz a leitura de cantos parecer mais rápida"
+  ]}
+/>
+
+| Problema | Causa provável | Correção rápida |
+|---|---|---|
+| O modelo cobre a cabeça dos inimigos | O enquadramento está grande demais ou alto demais | Reduza o peso visual em um nível |
+| A mira parece instável | Houve alteração de sensibilidade misturada | Restaure a configuração antiga de mira e teste de novo |
+| A tela parece vazia | O enquadramento foi reduzido demais | Adicione um pouco mais de presença ao modelo |
+| A configuração funciona no lobby, mas não na partida | Nenhum teste sob pressão foi feito | Verifique de novo em uma rodada real |
+| Cada patch estraga sua sensação | Você nunca salvou uma base | Anote seus valores preferidos |
+
+<Callout type="warning" title="Regra do Dia do Patch">
+Se uma nova atualização mudar o comportamento da interface ou dos menus, reconstrua a partir da sua base em vez de empilhar ajustes extras por cima.
+</Callout>
+
+Você também pode usar o ritmo das atualizações a seu favor. O ecossistema de changelog do jogo significa que suas melhores configurações podem mudar depois de ajustes de balanceamento ou interface, então vale manter uma pequena nota do que você gostava antes do patch. Isso transforma o ajuste futuro em uma correção rápida, não em uma reconstrução total.
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="tip" title="Notas do FAQ">
+Use estas respostas como uma base prática. Se sua tela parecer lotada ou vazia demais, a opção mais segura é voltar para uma configuração equilibrada e testar de novo.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual é o melhor viewmodel padrão de Defuse Division para a maioria dos jogadores?",
+    answer: "Um enquadramento equilibrado geralmente é o melhor ponto de partida. Ele mantém a arma visível sem roubar muito espaço da tela, o que ajuda nos peeks, nas ações com a bomba e no acompanhamento de alvos."
+  },
+  {
+    question: "Devo copiar exatamente o viewmodel de um jogador profissional?",
+    answer: "Normalmente não. Um preset que funciona para um jogador pode ficar errado no seu monitor, na sua sensibilidade ou no seu estilo de jogo. Use as configurações de pro apenas como referência."
+  },
+  {
+    question: "O viewmodel importa mais do que a sensibilidade?",
+    answer: "Eles importam de maneiras diferentes. A sensibilidade afeta como você mira, enquanto o viewmodel afeta com que clareza você consegue ler a luta. Ajuste primeiro o enquadramento e depois mude as configurações de mira separadamente."
+  },
+  {
+    question: "Com que frequência devo revisitar minha configuração?",
+    answer: "Verifique após atualizações grandes, depois de pausas longas ou sempre que sua mira começar a parecer apertada demais. Se as suas vitórias parecerem mais difíceis do que deveriam, talvez o enquadramento precise ser redefinido."
+  }
+]} />
+
+</Section>

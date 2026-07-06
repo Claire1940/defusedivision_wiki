@@ -1,0 +1,228 @@
+import { Map, Swords, Target, Shield, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Defuse Division Competitivo: Dicas, Funções e Guia de Configuração",
+  description: "Domine o competitivo de Defuse Division com prioridades de round, funções de equipe, controle de mapa, configurações e hábitos práticos que ajudam você a vencer mais rounds.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Defuse+Division+Competitive+Guide",
+  date: "2026-07-06",
+  author: "Equipe da Wiki de Defuse Division"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **O competitivo de Defuse Division** recompensa trocas, timing e controle de área mais do que avanços solo imprudentes.
+- **O ritmo do round** importa: conquiste espaço cedo e depois finalize com um plant, desarme ou eliminação limpa da equipe inimiga.
+- **As configurações** devem priorizar FPS estável, visuais simples e teclas de interação rápidas.
+- **O controle de mapa** em torno do meio, dos gargalos e das rotas de rotação decide a maioria dos rounds sob alta pressão.
+- **Hábito de prática**: revise um erro por sessão e corrija-o na partida seguinte.
+</Callout>
+
+<Section icon={Swords} title="Fundamentos do Competitivo de Defuse Division">
+
+Jogar Defuse Division no competitivo é transformar pequenas vantagens em vitórias de round. O ciclo principal é simples: os atacantes plantam a bomba, os defensores impedem o plant ou fazem o desarme, e qualquer lado também pode vencer eliminando toda a equipe inimiga. Isso significa que cada round é, na prática, uma corrida por espaço, informação e timing. Se sua equipe conseguir o melhor padrão de trocas, normalmente também conseguirá o melhor resultado no round.
+
+**Destaques do Vídeo:**
+- Comece os rounds com propósito, não com barulho.
+- Faça a troca imediatamente quando um colega for pressionado.
+- Guarde a utilidade para o momento em que ela mudar a disputa pelo site.
+- Jogue em torno do objetivo da bomba, não de jogadas individuais de destaque.
+
+| Caminho para a Vitória | Melhor Uso | Prioridade |
+|---|---|---|
+| Execução no site | Você tem vantagem numérica e controle da rota | Limpe ângulos, plante com segurança, segure o pós-plant |
+| Pick e avanço | O inimigo está dividido ou avançado demais | Isole uma luta e troque rápido |
+| Retenção e retake | Você está defendendo com pouco espaço | Segure o avanço, reorganize e retome junto |
+| Avanço completo em equipe | Você tem informação confirmada sobre a posição inimiga | Avance como uma unidade e finalize o round |
+
+<CardGrid cols={3}>
+  <Card title="Atacantes">
+    - Conquiste espaço cedo
+    - Force os defensores a saírem de ângulos fortes
+    - Plante somente quando o site estiver realmente estável
+  </Card>
+  <Card title="Defensores">
+    - Segure o primeiro contato
+    - Atrase a tentativa de plant
+    - Faça o retake com os colegas em vez de espiar sozinho
+  </Card>
+  <Card title="Clutch no Fim do Round">
+    - Escute o aviso de plant
+    - Use o tempo como pressão
+    - Vença com paciência, não com pânico
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Mentalidade Central">
+Se um duelo não melhora sua posição no round, geralmente não vale forçar. Os hábitos competitivos mais fortes são spacing limpo, trocas rápidas e resets disciplinados após cada abate.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Fluxo de Round e Funções da Equipe">
+
+A forma mais limpa de evoluir é dar uma função para cada jogador. Quando as funções não estão claras, a equipe se dispersa, faz peek sozinho e perde ritmo. Quando as funções estão claras, sua equipe consegue avançar junta, segurar espaço e reagir à pressão com menos hesitação. Isso é especialmente importante em um jogo tático de desarme de bomba, onde uma rotação ruim pode abrir o mapa inteiro.
+
+<Steps>
+  <Step num="1" title="Leia a abertura">
+    Observe as posições de spawn, as rotas do primeiro contato e onde o inimigo provavelmente vai contestar. Não gaste os primeiros segundos vagando.
+  </Step>
+  <Step num="2" title="Conquiste uma rota">
+    Escolha uma rota, um gargalo ou o controle do meio e avance como grupo. Vencer uma rota é melhor do que tocar três rotas mal.
+  </Step>
+  <Step num="3" title="Troque todas as lutas">
+    Fique perto o suficiente para responder se um colega for desafiado. Uma boa troca mantém a pressão viva e evita mudanças bruscas de momentum.
+  </Step>
+  <Step num="4" title="Finalize com o objetivo">
+    Assim que o site estiver aberto, comprometa-se com o plant ou com o retake. Hesitar dá tempo ao outro lado para se reorganizar e punir você.
+  </Step>
+</Steps>
+
+| Função | Trabalho | Bons Hábitos |
+|---|---|---|
+| Entry | Iniciar o avanço e forçar o primeiro contato | Limpar cantos, chamar contato cedo, esperar uma troca |
+| Âncora | Segurar um site ou rota-chave | Manter a calma, atrasar avanços, evitar perseguição excessiva |
+| Suporte | Dar cobertura ao primeiro contato | Seguir o entry, cobrir flancos, usar utilidade na hora certa |
+| Rotator | Reforçar o lado mais fraco | Mover-se com base na informação, não antes dela |
+
+<Callout type="warning" title="Evite Este Hábito">
+Peeks solo destroem a estrutura da equipe. Se o seu primeiro contato morre e ninguém consegue trocar, o round muitas vezes desmorona antes mesmo de a disputa pelo objetivo começar.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Configurações, Áudio e Bases da Mira">
+
+As melhores configurações são aquelas que ajudam você a ver, ouvir e reagir mais rápido. A vantagem competitiva de Defuse Division vem de entradas limpas e desempenho estável, não de visuais chamativos. Mantenha a configuração simples: sensibilidade confiável, crosshair legível e controles que façam a interação com a bomba parecer natural. As notas oficiais de controle também mostram que o acesso ao menu importa, então aprenda a movimentação entre o menu principal e a seleção de equipe sem se atrapalhar.
+
+| Configuração | Ponto de Partida | Por que Importa |
+|---|---|---|
+| Sensibilidade do mouse | Média-baixa | Ajuda na micro mira e reduz exageros |
+| Crosshair | Forma estática simples | Mais fácil de ler em mapas escuros e com fumaça |
+| Mix de áudio | Efeitos mais altos que a música | Facilita perceber passos, plant e desarme |
+| Gráficos | FPS estável em vez de detalhes | Tracking mais suave em lutas próximas |
+| Tecla de interagir | Confortável e fácil de alcançar | Manejo da bomba e uso do objetivo mais rápidos |
+| Fluxo do menu | Entenda o comportamento de N e M | Reduz segundos perdidos entre os rounds |
+
+<CardGrid cols={4}>
+  <Card title="Mira">
+    Mantenha o crosshair fácil de enxergar e evite elementos que se misturem ao mapa.
+  </Card>
+  <Card title="Áudio">
+    Aumente os sinais sonoros que ajudam a rastrear movimento, plant e desarme.
+  </Card>
+  <Card title="Entrada">
+    Faça com que interagir, recarregar e mover-se pareçam naturais sob pressão.
+  </Card>
+  <Card title="Desempenho">
+    Prefira um frame pacing estável para que sua mira não pareça diferente de luta para luta.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Regra Prática">
+Se uma mudança nas configurações fizer sua mira piorar por mais de alguns matches, volte atrás. Evolução competitiva vem primeiro da consistência, não de perseguir um menu com aparência perfeita.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Controle de Mapa e Pressão no Site">
+
+O controle de mapa decide quem escolhe a luta. O objetivo prático não é “dominar tudo”. É segurar as áreas que mais importam: meio, gargalos, sites da bomba e rotas de rotação. No ataque, isso significa conquistar espaço antes da investida. Na defesa, significa atrasar o avanço o suficiente para que os colegas possam rotacionar ou fazer o retake.
+
+| Zona | Valor no Ataque | Valor na Defesa | Prioridade |
+|---|---|---|---|
+| Meio | Abre rotações e dá pressão rápida | Permite aos defensores reforçar qualquer site | Alta |
+| Gargalos | Cria caminhos de entrada limpos | Retarda avanços e força lutas previsíveis | Alta |
+| Site A | Rota direta para plant e controle pós-plant | Forte valor para âncora e retake | Alta |
+| Site B | Rota alternativa de ataque e potencial de fake | Útil para seguranças isoladas | Alta |
+| Rotas de rotação | Permite aos atacantes dividir a pressão | Ajuda os defensores a recuperar espaço perdido | Média |
+
+Você não precisa estar em todos os lugares. Você precisa estar em um lugar útil. Vencer uma rota, forçar uma rotação ou enganar um defensor para o site errado pode ser o suficiente para inclinar o round a seu favor.
+
+<Checklist
+  id="map-discipline"
+  title="Checklist de Disciplina de Mapa"
+  items={[
+    "Conquiste o meio ou um gargalo antes de se comprometer com uma investida ao site",
+    "Limpe ângulos comuns antes de plantar ou segurar um desarme",
+    "Mantenha um jogador pronto para uma rotação rápida",
+    "Guarde pelo menos uma ferramenta de utilidade para a luta final",
+    "Recuar e reiniciar se a pressão no site se quebrar"
+  ]}
+/>
+
+<Callout type="info" title="Prioridade de Mapa">
+As equipes mais fortes tratam espaço de mapa como moeda. Gaste-o apenas quando isso levar a um plant melhor, a um retake mais seguro ou a uma troca mais limpa.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hábitos para Subir de Rank, Erros e FAQ">
+
+A forma mais rápida de evoluir é eliminar erros repetidos. Em um round competitivo, a maioria das derrotas vem dos mesmos poucos erros: peek excessivo, trocas tardias, rotações ruins ou pânico quando o tempo da bomba aperta. Corrija isso primeiro e sua taxa de vitória normalmente sobe mais rápido do que se você apenas buscar jogadas de destaque.
+
+| Erro | Correção Melhor |
+|---|---|
+| Fazer peek sozinho | Mova-se com um colega e troque imediatamente |
+| Ignorar o objetivo | Centralize cada decisão em plant, desarme ou pressão do tempo |
+| Rotacionar cedo demais | Espere informação confirmada antes de se mover |
+| Guardar utilidade por tempo demais | Use as ferramentas quando elas realmente mudarem a luta |
+
+<CardGrid cols={3}>
+  <Card title="Revisão">
+    Após cada sessão, escolha um round perdido e identifique a primeira decisão ruim.
+  </Card>
+  <Card title="Repetição">
+    Pratique a mesma rota inicial até que sua posição se torne automática.
+  </Card>
+  <Card title="Ritmo">
+    Aprenda quando desacelerar, porque mais rápido nem sempre é melhor em jogo de objetivo.
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="rank-up-habits"
+  title="Checklist Semanal de Evolução"
+  items={[
+    "Revise uma derrota de round e anote o primeiro erro",
+    "Jogue alguns rounds focando apenas em trocas",
+    "Teste uma mudança de sensibilidade ou crosshair por vez",
+    "Pratique limpezas rápidas de site antes de avançar",
+    "Aprenda uma nova rota de rotação ou ângulo por semana"
+  ]}
+/>
+
+| Recurso | Uso |
+|---|---|
+| [Pesquisa de jogos no Roblox](https://www.roblox.com/search?keyword=defusedivision) | Verifique a página atual do jogo, visibilidade e estatísticas ao vivo |
+| [Pesquisa no Roblox DevForum por changelog de Defuse Division](https://devforum.roblox.com/search?q=Defuse%20Division%20Changelog) | Acompanhe notas de atualização, correções e discussões sobre patches |
+
+<Callout type="tip" title="FAQ">
+Mantenha seu ciclo de aprendizado pequeno: um hábito de mapa, um hábito de mira e um hábito de equipe. Isso geralmente basta para fazer a próxima série de rounds parecer mais limpa.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor forma de melhorar no competitivo de Defuse Division?",
+    answer: "Foque em trocas, controle de mapa e timing do round. Se você continuar avançando com os colegas e jogando em torno do objetivo, vai vencer mais rounds limpos."
+  },
+  {
+    question: "Devo jogar agressivamente em todos os rounds?",
+    answer: "Não. A agressividade funciona melhor quando cria informação ou uma troca. Se um avanço não melhorar a posição da sua equipe, jogue de forma mais controlada."
+  },
+  {
+    question: "Quais configurações mais importam em partidas competitivas?",
+    answer: "FPS estável, crosshair legível e controles de interação confortáveis são o mais importante. Mantenha a configuração simples para que sua mira continue consistente."
+  },
+  {
+    question: "O que devo priorizar em cada mapa?",
+    answer: "Conquiste o meio, os gargalos e as rotas de rotação que ajudam você a chegar primeiro à luta pelo site. Essas áreas geralmente decidem se o plant ou o retake será limpo."
+  }
+]} />
+
+</Section>

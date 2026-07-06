@@ -1,0 +1,186 @@
+import { Map, Settings, Shield, Target, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "defuse division mão esquerda: Guia de Configurações para Canhotos",
+  description: "Aprenda a configurar o defuse division mão esquerda, ajustar o conforto do viewmodel e combiná-lo com uma melhor mira e noção de mapa.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Left+Hand+Settings+Guide",
+  date: "2026-07-06",
+  author: "Equipe Wiki do defuse division"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **defuse division mão esquerda** pode melhorar a visibilidade em cantos, especialmente em peeks pelo lado direito e ângulos apertados.
+- **Teste as duas mãos** no mesmo mapa e nas mesmas rotas de duelo antes de decidir uma preferência.
+- **Mantenha a mira simples** para que o viewmodel nunca distraia do acompanhamento do alvo.
+- **Use uma configuração estável** por várias partidas em vez de trocar a cada rodada.
+</Callout>
+
+<Section icon={Map} title="Noções Básicas do defuse division mão esquerda">
+
+A configuração de mão esquerda no defuse division gira principalmente em torno de clareza, conforto e caminhos de mira repetíveis. Se o modelo da arma esconde o movimento inimigo, ou se seus olhos preferem o lado oposto da tela, uma visão em mão esquerda pode deixar as lutas mais limpas. Não é uma vantagem mágica, mas pode reduzir o excesso visual exatamente nos pontos em que jogos táticos exigem leituras rápidas.
+
+| Situação | Benefício da Mão Esquerda | Melhor Caso de Uso |
+|---|---|---|
+| Peek pelo lado direito | Menos bloqueio da arma na borda da parede | Entradas agressivas |
+| Corredor apertado | Visão mais limpa da linha de abertura | Limpezas de ângulos curtos |
+| Rodada com muita utilidade | Mais espaço perto do centro da tela | Jogo de suporte |
+| Hold longo | Melhor percepção da linha de visão | Segurar lanes |
+
+<CardGrid cols={3}>
+  <Card title="Conforto">
+    Uma configuração de mão esquerda pode parecer mais natural se seus olhos acompanharem com mais facilidade o lado esquerdo da tela.
+  </Card>
+  <Card title="Controle de Cantos">
+    Pode ajudar você a ler a cobertura do lado direito mais rápido ao sair em direção a esconderijos comuns.
+  </Card>
+  <Card title="Consistência">
+    Mantenha a mesma orientação por várias partidas para que sua memória de mira continue estável.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Quando Testar Primeiro">
+Se você costuma perder o alvo ao limpar portas ou corredores estreitos, teste primeiro a visão em mão esquerda usando a mesma sensibilidade que normalmente utiliza.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Como Ativar e Verificar">
+
+Nem toda build expõe as mesmas opções de viewmodel, então a melhor abordagem é verificar o menu de configurações com atenção e confirmar a mudança em um teste ao vivo. O objetivo não é apenas alternar a opção; o objetivo é garantir que a nova perspectiva realmente melhore a forma como você limpa espaços, controla o recuo e lê o movimento.
+
+<Steps>
+  <Step num="1" title="Abra as configurações">
+    Entre no menu de configurações do jogo e procure uma opção de lateralidade, viewmodel ou lado da arma.
+  </Step>
+  <Step num="2" title="Mude para a mão esquerda">
+    Aplique a alteração e depois volte para um servidor vazio ou partida privada para avaliar o resultado sem pressão.
+  </Step>
+  <Step num="3" title="Faça a mesma rota de teste">
+    Limpe a mesma porta, ângulo e faixa central duas vezes para comparar a diferença visual de forma justa.
+  </Step>
+  <Step num="4" title="Mantenha ou reverta">
+    Se suas primeiras lutas parecerem mais limpas, mantenha. Se ficar estranho depois de algumas rodadas, volte e teste novamente mais tarde.
+  </Step>
+</Steps>
+
+| Ponto de Verificação | Como é o Sucesso |
+|---|---|
+| Visão no spawn | A mira permanece centralizada e desobstruída |
+| Primeiro peek | Você vê o alvo antes de o modelo da arma ficar intrusivo |
+| Controle de recuo | Os padrões de spray continuam previsíveis |
+| Limpeza de ângulo | Bordas de parede e cabeças ficam mais fáceis de ler |
+
+<Callout type="warning" title="Não Julgue Cedo Demais">
+Uma única rodada não basta. Jogue várias lutas antes de decidir, porque a orientação da mão costuma parecer estranha nos primeiros minutos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Melhor Configuração de Mão Esquerda por Estilo de Jogo">
+
+Uma boa configuração de mão esquerda depende de como você joga, não apenas do que parece diferente. Jogadores de entry geralmente querem a visão de borda mais limpa possível. Anchors costumam se importar mais com consistência do que com novidade. Jogadores de suporte podem se beneficiar de uma área central mais aberta se observarem utilitários e companheiros ao mesmo tempo. A melhor configuração é aquela que reduz o atrito visual na sua função principal.
+
+| Estilo de Jogo | Lateralidade | Foco |
+|---|---|---|
+| Entry fragger | Mão esquerda | Swings mais rápidos pelo lado direito |
+| Anchor | Qualquer uma | Linhas de visão estáveis e paciência |
+| Suporte | Mão esquerda | Utilitários e companheiros mais limpos de acompanhar |
+| Jogador mobile | Teste ambas | Conforto em telas menores |
+
+| Configuração | Ponto de Partida | Por que Ajuda |
+|---|---|---|
+| Sensibilidade | Um pouco menor que o normal | Facilita controlar o novo alinhamento da mão |
+| FOV | Moderado | Equilibra percepção e tamanho do alvo |
+| Mira | Pequena e estática | Reduz a poluição visual em peeks rápidos |
+| Viewmodel | Mínimo, se disponível | Deixa a tela menos carregada |
+
+<Callout type="info" title="Salve Dois Perfis">
+Se você alterna entre sessões casuais e sérias, mantenha um perfil para a mão esquerda e outro para a configuração de reserva. Isso torna a troca mais limpa e reduz a confusão.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mira, Mapas e Noção de Jogo">
+
+O modo de mão esquerda funciona melhor quando o resto da sua configuração está igualmente limpo. Uma mira poluída, um modelo de arma grande demais ou uma sensibilidade agressiva demais podem apagar o benefício. Você quer que a tela ajude nas decisões rápidas, não que concorra com elas. Em lutas no estilo Defuse Division, isso normalmente significa simplificar a imagem do alvo e tornar seu movimento previsível.
+
+| Hábito no Mapa | Vantagem da Mão Esquerda | Hábito a Desenvolver |
+|---|---|---|
+| Ângulos do lado direito | Menos obstrução na borda de onde você sai | Limpar cantos mais rápido |
+| Rotas de rotação | Melhor visão do movimento ao virar | Pré-aim mais cedo |
+| Lutas no bomb site | Linha de visão mais limpa ao redor da cobertura | Comunique antes de peekar |
+| Áreas com pouca luz | Leitura de silhueta mais fácil | Aumente o contraste na escolha da mira |
+
+| Erro Comum | Correção Melhor |
+|---|---|
+| Excesso de HUD | Reduza o ruído visual e mantenha apenas a interface essencial |
+| Overflick após a troca | Diminua um pouco a sensibilidade e teste novamente |
+| Mudar muitas configurações ao mesmo tempo | Ajuste uma configuração por vez |
+| Trocar toda sessão | Fique com uma opção tempo suficiente para aprendê-la |
+
+<Callout type="success" title="Vitórias Simples">
+Uma mira limpa e uma sensibilidade consistente geralmente fazem mais pelos seus resultados do que qualquer mudança de lateralidade por si só.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Plano de Prática, Recursos e FAQ">
+
+Use um ciclo curto de prática antes de se comprometer com qualquer escolha de viewmodel. O objetivo é comparar lutas reais, não teoria. Um aquecimento estruturado ajuda você a perceber se o modo de mão esquerda realmente melhora suas leituras ou se só parece novo por alguns minutos. Esse mesmo hábito também deixa sua mira e movimento mais estáveis de partida para partida.
+
+| Recurso | Por que Importa |
+|---|---|
+| [Página do jogo no Roblox](https://www.roblox.com/) | Ponto de partida para a build atual e as sessões de jogo |
+| [Discord oficial](https://discord.com/) | Atualizações da comunidade, eventos e anúncios diretos |
+| [Changelog do DevForum](https://devforum.roblox.com/) | Útil para acompanhar atualizações e o timing dos patches |
+
+<Checklist
+  id="left-hand-practice"
+  title="Checklist de Prática com a Mão Esquerda"
+  items={[
+    "Teste mão esquerda e mão direita na mesma rota do mapa",
+    "Mantenha a sensibilidade inalterada durante a primeira comparação",
+    "Verifique se os peeks pelo lado direito parecem mais limpos",
+    "Jogue várias rodadas antes de tomar a decisão final",
+    "Trave uma configuração e pare de mudar a cada sessão"
+  ]}
+/>
+
+| Problema | Correção Provável |
+|---|---|
+| A tela parece estranha depois da troca | Dê mais tempo ou compare com a configuração antiga |
+| A mira some nas lutas | Aumente o contraste e reduza o excesso visual |
+| Ângulos curtos parecem mais difíceis | Diminua um pouco a sensibilidade e desacelere seu swing |
+| A mira parece inconsistente | Pare de mudar as configurações por várias partidas |
+
+<FAQ items={[
+  {
+    question: "O defuse division mão esquerda melhora a mira?",
+    answer: "Não diretamente. Ele melhora principalmente a visibilidade e o conforto, o que pode ajudar você a mirar de forma mais consistente se o novo viewmodel combinar com seus hábitos."
+  },
+  {
+    question: "Iniciantes devem usar o modo de mão esquerda?",
+    answer: "Iniciantes devem testar, mas não devem forçar. Use a orientação que torne os peeks e o tracking mais simples para seus olhos."
+  },
+  {
+    question: "E se a mão esquerda parecer pior depois de algumas partidas?",
+    answer: "Volte para a outra opção e continue praticando com a configuração melhor. Alguns jogadores se adaptam lentamente, mas não há motivo para manter uma configuração que prejudica a clareza."
+  },
+  {
+    question: "Posso combinar o modo de mão esquerda com sensibilidade baixa?",
+    answer: "Sim. Essa combinação costuma parecer estável para jogadores cuidadosos, desde que a sensibilidade ainda seja alta o bastante para giros defensivos rápidos."
+  }
+]} />
+
+<Callout type="tip" title="Nota Final do Editor">
+Se você quer o resultado mais confiável, trate a lateralidade como uma configuração de conforto, não como um distintivo de status. A melhor configuração é aquela que ajuda você a enxergar mais rápido e lutar com mais limpeza.
+</Callout>
+
+</Section>

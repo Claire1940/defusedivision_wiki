@@ -1,0 +1,201 @@
+import { Map, Target, Shield, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "FOV de Defuse Division: Mejores ajustes de cámara y sensibilidad",
+  description: "Aprende los mejores ajustes de FOV de Defuse Division, métodos de prueba de cámara y combinaciones de sensibilidad para mejorar la percepción, el control y una puntería más limpia en Roblox.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Defuse+Division+FOV+Guide",
+  date: "2026-07-06",
+  author: "Equipo de Wiki de Defuse Division"
+}
+
+<Callout type="info" title="Guía rápida">
+- **El FOV de Defuse Division** funciona mejor alrededor de **80-90** para la mayoría de los jugadores que necesitan equilibrio entre percepción y tamaño de los objetivos.
+- **Empieza con un valor estrecho** si ganas duelos a corta distancia; **sube el FOV** si se te escapan flanqueos, rotaciones o asomadas rápidas.
+- **Combina el FOV con la sensibilidad** en lugar de ajustar una sola opción por separado, o tu puntería se sentirá inconsistente.
+- **Prueba en rondas reales** durante al menos **tres partidas** antes de fijar un ajuste final.
+</Callout>
+
+<Section icon={Map} title="Ajustes de FOV de Defuse Division que tienen sentido">
+
+Defuse Division es un shooter táctico de Roblox en alfa temprana, así que ajustar el FOV debería sentirse práctico, no llamativo. El mejor ajuste es el que mantiene legible el movimiento enemigo sin dejar de permitirte seguir combates cercanos y la presión en el sitio de la bomba.
+
+Para la mayoría de los jugadores, un FOV intermedio es el punto de partida más seguro. Los valores amplios ayudan con la percepción, pero también pueden hacer que los objetivos parezcan más pequeños. Los valores estrechos mejoran el enfoque, pero pueden ocultar ángulos laterales y castigar un movimiento lento de cámara.
+
+<CardGrid cols={3}>
+  <Card title="Distancias cortas">
+    - **70-80 FOV**
+    - Mayor enfoque en el objetivo
+    - Mejor para corredores estrechos
+  </Card>
+  <Card title="Equilibrado por defecto">
+    - **80-90 FOV**
+    - Percepción clara
+    - Bueno para combates mixtos
+  </Card>
+  <Card title="Amplio para percepción">
+    - **90-100 FOV**
+    - Mejor para revisar flancos
+    - Más difícil el microseguimiento
+  </Card>
+</CardGrid>
+
+| Preset | Rango de FOV | Mejor uso | Compensación |
+|---|---:|---|---|
+| Distancias cortas | 70-80 | Control de entrada, pasillos estrechos | Menos visión periférica |
+| Equilibrado por defecto | 80-90 | La mayoría de mapas y roles | Requiere un seguimiento limpio |
+| Amplio para percepción | 90-100 | Rotaciones, sitios abiertos | Los objetivos se sienten más pequeños |
+
+<Callout type="tip" title="Regla inicial">
+Muévete en pasos de **5 puntos**, no con saltos enormes. Los cambios pequeños facilitan saber si la modificación realmente ayudó.
+</Callout>
+
+Si quieres una regla simple, elige primero **80-85** y luego sube solo si sientes que la cámara te encierra. Ese punto de partida suele conservar la claridad sin volver resbaladizo el control del retroceso.
+
+</Section>
+
+<Section icon={Target} title="Cómo ajustar el FOV en cinco pruebas rápidas">
+
+Un buen FOV no es algo que adivinas una vez y olvidas. Trátalo como un proceso corto de calibración. En un juego como Defuse Division, quieres un valor que apoye el control del mapa, el momento de asomarse y las lecturas rápidas de la presión sobre la bomba plantada.
+
+La experiencia oficial de Roblox figura como alfa temprana, y la distribución de controles incluye acceso al menú con **N** para el menú principal y **M** para la selección de equipo. Eso facilita reiniciar tu flujo, volver a entrar en una ronda y probar ajustes sin pensar demasiado en la interfaz.
+
+<Steps>
+  <Step num="1" title="Elige un valor intermedio">
+    Empieza en **85 FOV** si existe el deslizador. Te da una base neutral tanto para duelos cercanos como para comprobaciones a media distancia.
+  </Step>
+  <Step num="2" title="Juega una ruta conocida">
+    Usa una ruta del mapa que ya conozcas. Un terreno familiar facilita notar la diferencia entre cambios de cámara y confusión con el mapa.
+  </Step>
+  <Step num="3" title="Prueba tres tipos de combate">
+    Comprueba una asomada corta, un ángulo a media distancia y un barrido de rotación. Cada situación revela un problema distinto del FOV.
+  </Step>
+  <Step num="4" title="Ajusta en pasos pequeños">
+    Sube o baja el FOV en **5 puntos**. Si te vas demasiado lejos, puedes confundir incomodidad con mejora.
+  </Step>
+  <Step num="5" title="Quédate con el ganador">
+    Conserva el ajuste que se sienta limpio tras varias rondas, no el que solo se vio bien en un único combate.
+  </Step>
+</Steps>
+
+| Situación | FOV sugerido | Por qué ayuda |
+|---|---:|---|
+| Entrada al frag | 85-95 | Mejor percepción lateral durante los avances |
+| Defensa del sitio | 75-85 | Mantiene más limpios los ángulos cerrados |
+| Control del medio | 80-90 | Equilibrio entre barrido y precisión |
+| Aprender el mapa | 80-85 | Ajuste y consistencia más fáciles |
+
+<Callout type="warning" title="Evita este error">
+No persigas la vista más amplia posible solo porque se siente rápida. Si los modelos enemigos se vuelven demasiado pequeños, tu confianza en el primer disparo suele caer.
+</Callout>
+
+Una vez que tu FOV base se sienta estable, puedes compararlo con tu patrón de puntería habitual. Si empiezas a sobrepasarte en los flicks, probablemente la cámara sea demasiado amplia para tu sensibilidad actual.
+
+</Section>
+
+<Section icon={Shield} title="Combinaciones de FOV, sensibilidad y punto de mira">
+
+El FOV y la sensibilidad deben ajustarse como un conjunto. Cuando cambia un ajuste, el otro suele necesitar una pequeña corrección. Si subes el FOV, tu vista cubre más espacio, pero el movimiento del ratón puede sentirse menos controlado a menos que tu sensibilidad esté un poco más disciplinada.
+
+El objetivo no es hacer que la cámara se sienta dramática. El objetivo es que tu punto de mira caiga donde esperas que caiga cuando un defensor asoma o se abre un carril del sitio de la bomba.
+
+| Rango de FOV | Enfoque de sensibilidad | Mejor resultado |
+|---|---|---|
+| 70-80 | Sensibilidad ligeramente más baja | Microajustes estables |
+| 80-90 | Sensibilidad media | Seguimiento y giro equilibrados |
+| 90-100 | Ligeramente más baja de lo habitual | Reduce los sobre-flicks |
+| Cualquier rango | Mantén consistente la sensación en ADS | Memoria muscular más limpia |
+
+| Síntoma | Causa probable | Solución rápida |
+|---|---|---|
+| Sobre-flicks | FOV demasiado amplio para la sensibilidad actual | Baja un poco la sensibilidad o reduce el FOV |
+| Giro lento | FOV demasiado estrecho | Sube un poco el FOV |
+| Perder cabezas a distancia | Sensibilidad demasiado alta | Baja la sensibilidad un nivel |
+| Sensación de encierro | FOV demasiado bajo | Aumenta el FOV gradualmente |
+
+<Callout type="info" title="Regla práctica">
+Si la puntería se siente temblorosa, baja primero la sensibilidad. Si la percepción se siente apretada, entonces sube el FOV. No arregles ambas cosas a la vez a menos que quieras perder el rastro.
+</Callout>
+
+Un punto de mira limpio también importa. Una retícula simple y visible funciona mejor con FOV medio a amplio porque sigue siendo legible cuando los enemigos aparecen cerca del borde de la pantalla. Si tu punto de mira se mezcla con el mapa, el ajuste de cámara parecerá peor de lo que realmente es.
+
+</Section>
+
+<Section icon={Sparkles} title="Lista de verificación de ajustes para una puntería más limpia">
+
+Una vez que te quedes con un valor de cámara, usa el resto de la página de ajustes para eliminar ruido. La distribución oficial de controles cubre movimiento, puntería, interacción y acciones de bomba, así que deberías tratar el FOV como parte de una configuración general de comodidad y no como un ajuste aislado.
+
+Esta también es la sección donde los jugadores inteligentes anotan la lista actual de Roblox y cualquier nota de parche que consulten en la comunidad. En una experiencia de alfa temprana, los ajustes y la sensación pueden cambiar con las actualizaciones, así que el mejor preset es el que puedas volver a probar rápidamente.
+
+<Checklist
+  id="fov-settings-checklist"
+  title="Antes de fijar tu preset:"
+  items={[
+    "Confirma tu valor de FOV y mantenlo en pasos de 5 puntos",
+    "Ajusta la sensibilidad del ratón a la nueva sensación de cámara",
+    "Prueba un combate cercano y una asomada a largo alcance",
+    "Mantén tu punto de mira fácil de ver con el zoom elegido",
+    "Vuelve a revisar el ajuste después de actualizaciones importantes del juego"
+  ]}
+/>
+
+| Plataforma o situación | Qué verificar | Por qué importa |
+|---|---|---|
+| PC con DPI bajo | Mantén la sensibilidad controlada | Evita microapuntado tembloroso |
+| Pantalla de portátil | Evita FOV extremos | Las pantallas pequeñas ya comprimen el detalle |
+| Monitor de alta tasa de refresco | Un FOV medio-alto funciona bien | El movimiento se siente más suave |
+| Actualización de alfa temprana | Vuelve a probar tu preset | El comportamiento puede cambiar tras parches |
+
+<Callout type="success" title="Mejor práctica">
+Guarda un preset de respaldo por escrito. Si un parche hace que tu configuración actual se sienta rara, puedes volver rápido a un valor conocido y bueno.
+</Callout>
+
+Si quieres un punto de referencia en vivo, guarda en favoritos la ficha de Roblox de Defuse Division y compara tus ajustes después de cualquier cambio importante de equilibrio. Esa es la forma más rápida de evitar construir memoria muscular sobre una configuración obsoleta.
+
+</Section>
+
+<Section icon={Trophy} title="FAQ sobre el FOV de Defuse Division">
+
+Las preguntas de abajo cubren las decisiones más comunes sobre la cámara que toman los jugadores cuando intentan mejorar la puntería, la percepción o ambas. La respuesta corta es simple: usa un ajuste que apoye tu comportamiento real en partida, no tus instintos de jugada destacada.
+
+<Callout type="tip" title="Recordatorio de la FAQ">
+Un buen FOV debería ayudarte a ganar rondas con más consistencia. Si la vista se ve bien pero tus duelos empeoran, probablemente el ajuste sea demasiado extremo.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es un buen FOV inicial en Defuse Division?",
+    answer: "Empieza alrededor de 80-85 si el juego ofrece un deslizador. Ese rango suele equilibrar percepción, tamaño del objetivo y control a corta distancia."
+  },
+  {
+    question: "¿Debería usar el FOV más amplio posible?",
+    answer: "Normalmente no. Un FOV muy amplio puede hacer que los enemigos parezcan más pequeños y aumentar los sobre-flicks si tu sensibilidad ya es alta."
+  },
+  {
+    question: "¿El FOV reemplaza los ajustes de sensibilidad?",
+    answer: "No. El FOV cambia lo que ves, mientras que la sensibilidad cambia la velocidad a la que se mueve la cámara. Funcionan mejor cuando se ajustan juntos."
+  },
+  {
+    question: "¿Por qué el juego se siente distinto después de una actualización?",
+    answer: "Defuse Division figura como alfa temprana, así que la sensación de cámara y el comportamiento de los ajustes pueden cambiar. Vuelve a probar tu FOV tras cambios importantes."
+  }
+]} />
+
+| Tipo de pregunta | Respuesta breve | Siguiente paso |
+|---|---|---|
+| Configuración de nuevo jugador | Empieza en rango medio | Usa 80-85 FOV |
+| Se siente demasiado apretado | Sube un poco el FOV | Sube 5 puntos |
+| Se siente demasiado suelto | Baja un poco el FOV | Baja 5 puntos |
+| La puntería se siente temblorosa | Baja primero la sensibilidad | Vuelve a probar antes de cambiar el FOV |
+
+<Callout type="info" title="Conclusión final">
+Si recuerdas una sola cosa, recuerda esto: el mejor FOV de Defuse Division es el que hace que tus disparos y rotaciones se sientan predecibles, no llamativos.
+</Callout>
+
+</Section>

@@ -1,0 +1,218 @@
+import { Map, Shield, Target, Swords, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Jugabilidad de Defuse Division: flujo de rondas, roles y consejos",
+  description: "Aprende los fundamentos de la jugabilidad de Defuse Division, las prioridades de rol, el control del mapa y consejos de configuración para que los jugadores de Roblox ganen más rondas con una puntería más precisa.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Defuse+Division+Gameplay+Guide",
+  date: "2026-07-06",
+  author: "Equipo de la Wiki de Defuse Division"
+}
+
+<Callout type="info" title="Guía rápida">
+- **La jugabilidad de Defuse Division** recompensa los intercambios rápidos, la comunicación clara y una temporización disciplinada de la bomba.
+- **Los atacantes** ganan plantando, manteniendo espacio o eliminando a los defensores antes de la retoma.
+- **Los defensores** ganan retrasando las entradas, protegiendo ángulos y desactivando bajo presión.
+- **La configuración** importa: una sensibilidad estable, una mira legible y un audio limpio mejoran la consistencia.
+</Callout>
+
+<Section icon={Map} title="Bucle central y flujo de ronda">
+
+La jugabilidad de Defuse Division se basa en un bucle simple pero tenso: un equipo presiona el sitio mientras el otro retrasa, defiende y busca la desactivación. El juego sigue en alfa temprana y es una creación de fans, no un proyecto oficial de Valve, así que espera que la meta cambie a medida que lleguen actualizaciones.
+
+<Callout type="tip" title="Lógica de la partida">
+Trata cada ronda como un rompecabezas de tiempos. Si tu equipo gana espacio pronto, la ronda se vuelve mucho más fácil; si pierdes el control tarde, la retoma se complica muy rápido.
+</Callout>
+
+**Resumen del flujo de ronda**
+
+| Fase | Objetivo | Enfoque | Error común |
+|---|---|---|---|
+| Inicio | Ganar espacio | Ganar un duelo temprano, reunir información | Entrar corriendo en solitario |
+| Mitad de ronda | Preparar el plant o impedirlo | Intercambiar compañeros, controlar carriles clave | Asomarse de más sin apoyo |
+| Post-plant | Proteger la bomba | Jugar con el tiempo, cubrir ángulos, forzar la retoma | Perseguir bajas en lugar del tiempo |
+| Ventana de desactivación | Recuperar el sitio | Limpiar ángulos, tocar la bomba, cubrir al desactivador | Empezar la desactivación sin seguridad |
+
+<Steps>
+  <Step num="1" title="Lee el inicio de la ronda">
+    Revisa tu lado de aparición, compra o equipa rápido y muévete con intención. Los primeros diez segundos suelen decidir qué equipo controla el mapa.
+  </Step>
+  <Step num="2" title="Toma un ángulo útil">
+    Elige un carril que aporte información o una primera pelea. Los buenos jugadores valoran más la supervivencia y los intercambios que una entrada llamativa.
+  </Step>
+  <Step num="3" title="Juega el objetivo">
+    Si atacas, prepara el plant. Si defiendes, retrasa el plant o fuerza al enemigo a un mal timing.
+  </Step>
+  <Step num="4" title="Termina con disciplina">
+    Después del plant, gana tiempo y cubre la bomba. En defensa, limpia esquinas antes de comprometerte con la desactivación.
+  </Step>
+</Steps>
+
+Una ronda sólida suele ser el resultado de pequeñas decisiones tomadas a tiempo. Si sabes dónde debe ocurrir la pelea, dejas de desperdiciar movimiento y empiezas a ganar intercambios más limpios.
+
+</Section>
+
+<Section icon={Shield} title="Roles de ataque vs defensa">
+
+Los dos bandos en la jugabilidad de Defuse Division exigen hábitos distintos, pero ambos premian la estructura. Los atacantes quieren velocidad con control. Los defensores quieren paciencia con una reacción rápida. Los jugadores en cola en solitario deberían simplificar su rol y evitar forzar jugadas heroicas en cada ronda.
+
+<Callout type="warning" title="Disciplina de rol">
+Si tu equipo no tiene un plan, no improvises corriendo hacia cada ángulo. Una ronda aburrida con buenos intercambios suele vencer a una ronda caótica con buena puntería.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Atacantes">
+    Presión para plantar, intercambiar bajas de entrada y mantener el espacio post-plant. Son mejores cuando el equipo se mueve junto.
+  </Card>
+  <Card title="Defensores">
+    Retrasan empujes, anclan rutas clave y retoman con ventaja numérica. Son mejores cuando el equipo mantiene buena separación.
+  </Card>
+  <Card title="Cola en solitario">
+    Juega un ángulo flexible, comparte información y evita peleas aisladas. Es mejor cuando mantienes opciones abiertas.
+  </Card>
+</CardGrid>
+
+**Comparación de roles**
+
+| Rol | Tarea principal | Hábito ideal | Riesgo a evitar |
+|---|---|---|---|
+| Entrada atacante | Abrir el sitio | Limpiar un ángulo y luego intercambiar | Asomarse antes de que el equipo esté listo |
+| Apoyo atacante | Asegurar el plant | Seguir la entrada y cubrir flancos | Permanecer demasiado lejos del objetivo |
+| Ancla defensiva | Frenar el avance | Sostener un carril y sobrevivir más tiempo | Retar cada asomo |
+| Rotador defensor | Reforzar puntos débiles | Rotar tras información real | Abandonar un sitio demasiado pronto |
+
+Si eres nuevo, elige un rol por bando y aprende bien ese rol. La consistencia importa más que intentar cubrir todos los puestos a la vez.
+
+</Section>
+
+<Section icon={Sparkles} title="Configuración, puntería y ajuste del equipamiento">
+
+Una buena configuración hace que la jugabilidad de Defuse Division sea más fácil de leer. El material de referencia apunta a una dirección de interfaz táctica, así que una configuración oscura con una mira legible encaja mejor con el ritmo del juego que una pantalla brillante y recargada. En el menú, **N** abre el menú principal y **M** abre la selección de equipo, algo útil de recordar durante los reinicios rápidos.
+
+<Callout type="success" title="Regla de configuración">
+Empieza con una sensibilidad estable y luego prueba tu puntería en rondas reales. Los ajustes pequeños ganan a los cambios constantes.
+</Callout>
+
+**Tabla de configuración básica**
+
+| Ajuste | Recomendación | Por qué ayuda |
+|---|---|---|---|
+| Sensibilidad | Punto de partida medio-bajo | Facilita las microcorrecciones |
+| Mira | Forma simple y de alto contraste | Lee mejor el objetivo más rápido |
+| Audio | Efectos claros, música más baja | Mejora el tiempo de reacción a las señales sonoras |
+| Gráficos | Prioriza la visibilidad limpia | Menos distracciones visuales en combate |
+| Teclas del menú | Aprende N y M | Configuración más rápida entre rondas |
+
+**Tabla de prioridad del equipamiento**
+
+| Prioridad | Qué favorecer | Por qué |
+|---|---|---|
+| 1 | Rifle fiable o arma principal | La mayoría de las rondas se deciden por intercambios |
+| 2 | Pistola fácil de seguir | Ayuda cuando tu tiempo de recarga falla |
+| 3 | Utilidad o herramientas de equipo | Abre sitios y retrasa empujes |
+| 4 | Opciones cosméticas | El estilo importa, pero no antes que la consistencia |
+
+<Callout type="info" title="Consejo de puntería">
+Mantén la mira a la altura de la cabeza cuando te muevas por los puntos de paso estrechos. Ese solo hábito reduce los movimientos bruscos de pánico.
+</Callout>
+
+No necesitas una configuración perfecta para jugar bien. Necesitas una configuración que te permita ver enemigos rápido, moverte con comodidad y repetir el mismo patrón de puntería en cada ronda.
+
+</Section>
+
+<Section icon={Target} title="Control del mapa y fundamentos de la rotación">
+
+Los mapas son el punto en el que la jugabilidad de Defuse Division deja de ser solo un shooter y pasa a ser un juego de tiempos. Los mejores equipos controlan el espacio en lugar de perseguir bajas. El control del centro, los puntos de paso estrechos y las rutas de rotación importan porque deciden quién llega primero al sitio y quién queda atrapado en una pelea mala.
+
+<Callout type="tip" title="Consejo de posicionamiento">
+Mantén espacio útil, no espacio aleatorio. Si tu ángulo nunca cambia la ruta del enemigo, probablemente no merece la pena sostenerlo demasiado tiempo.
+</Callout>
+
+**Tabla de control del mapa**
+
+| Zona | Por qué importa | Hábito útil | Mal hábito |
+|---|---|---|---|
+| Carril de aparición | Marca la presión inicial | Moverse con un compañero | Asomarse seco en cada ronda |
+| Control del medio | Abre opciones de rotación | Reunir información antes de avanzar | Comprometerse de más sin apoyo |
+| Punto de paso estrecho | Fuerza peleas directas | Mantener un ángulo cerrado | Permanecer expuesto en abierto |
+| Ruta de rotación | Salva rondas perdidas | Reposicionarse tras contacto | Rotar antes de confirmar el peligro |
+
+**Rutas comunes de la ronda**
+
+| Situación | Mejor respuesta | Resultado |
+|---|---|---|
+| Presión temprana al sitio | Intercambiar el primer contacto | Mejor oportunidad de plantar |
+| Empuje atacante retrasado | Mantén tu ángulo y espera | Obliga a una entrada apresurada |
+| Sitio perdido en defensa | Retoma con números | Mejora las probabilidades de desactivación |
+| Bomba plantada | Limpiar, tocar y cubrir | Evita una desactivación gratis |
+
+Las rotaciones más limpias son las que ocurren después de información real. Si rotas por intuición, a menudo cedes justo el espacio que tu equipo necesitaba mantener.
+
+</Section>
+
+<Section icon={Trophy} title="Gana más rondas con hábitos más inteligentes">
+
+Una vez que entiendes lo básico, el siguiente paso es convertir buenos hábitos en victorias repetibles. La mayoría de las derrotas vienen de los mismos problemas: avances en solitario, mala separación y decisiones en pánico alrededor de la bomba. Corrige eso y tu tasa de victorias suele mejorar incluso antes de que mejore tu puntería.
+
+<Callout type="success" title="Mentalidad para ganar rondas">
+Intercambia primero, sobrevive más tiempo y deja que el objetivo decida la pelea. Un jugador calmado suele ser un jugador útil.
+</Callout>
+
+<Checklist
+  id="defuse-division-habits"
+  title="Objetivos de ronda para repetir:"
+  items={[
+    "Juega con al menos un compañero cuando tomes espacio",
+    "Revisa las esquinas antes de perseguir una baja",
+    "Mantén el sitio de la bomba en lugar de alejarte demasiado a buscar",
+    "Usa señales de sonido antes de asomarte a un carril",
+    "Retoma o desactiva con cobertura, no en campo abierto"
+  ]}
+/>
+
+**Tabla de error vs corrección**
+
+| Error común | Mejor corrección | Resultado |
+|---|---|---|---|
+| Correr en solitario | Muévete con apoyo | Más intercambios, menos rondas regaladas |
+| Asomarse demasiado | Mantén el ángulo más tiempo | Mejor supervivencia |
+| Ignorar el sonido | Escucha antes de avanzar | Rotaciones más seguras |
+| Desactivar demasiado pronto | Limpia y cubre primero | Menos desactivaciones fallidas |
+| Perseguir bajas | Respeta el temporizador | Mejor control del objetivo |
+
+Si quieres un plan de mejora sencillo, revisa una ronda mala después de cada sesión y pregúntate qué falló primero: la separación, el tiempo o la información. Eso mantiene tu práctica enfocada y útil.
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<Callout type="warning" title="Nota de la FAQ">
+Estas respuestas se centran en las partes prácticas de la jugabilidad de Defuse Division: tiempo, roles, configuración y juego en equipo.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿En qué se basa la jugabilidad de Defuse Division?",
+    answer: "Se basa en la presión para plantar la bomba, el tiempo de defensa y el control de la ronda. Un equipo ataca el objetivo mientras el otro retrasa, retoma o desactiva."
+  },
+  {
+    question: "¿Debería aprender primero puntería o posicionamiento?",
+    answer: "Empieza por el posicionamiento. Una buena separación, mejores ángulos y un timing más fuerte suelen mejorar tus resultados más rápido que la pura puntería."
+  },
+  {
+    question: "¿Cuál es el mejor hábito para jugar en solitario?",
+    answer: "Quédate con un compañero, busca peleas útiles y evita los avances aislados. Los jugadores en solitario ganan más rondas cuando se mantienen intercambiables."
+  },
+  {
+    question: "¿Qué configuración ayuda más al principio?",
+    answer: "Usa una mira legible, sensibilidad media-baja y un audio limpio. Esos tres cambios hacen que los objetivos sean más fáciles de ver y de reaccionar."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,203 @@
+import { Target, Shield, Sparkles, Map, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Defuse Division: Como Desarmar — Noções Básicas para Vencer Rodadas",
+  description: "Aprenda o timing do desarme, os papéis da equipe, os controles e os hábitos de mapa em Defuse Division para que cada rodada fique mais fácil de ler, segurar e fechar.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Defuse+Division+How+to+Defuse",
+  date: "2026-07-06",
+  author: "Equipe da Wiki de Defuse Division"
+}
+
+<!-- slug: /defuse-division-how-to-defuse -->
+
+<Callout type="info" title="Guia Rápido">
+- **defuse division how to defuse** começa lendo o timer, o estado da bomba e a troca mais próxima.
+- **Rodadas de defesa** melhoram quando você segura espaço, evita lutas isoladas e força os atacantes a entrar em ângulos ruins.
+- **Som, sensibilidade e FPS** importam mais do que configurações chamativas que deixam sua mira inconsistente.
+- **Controle de mapa** decide se você consegue plantar com segurança, desarmar com segurança ou rotacionar com tempo suficiente.
+</Callout>
+
+<Section icon={Target} title="Noções Básicas de Como Desarmar em Defuse Division">
+
+As decisões de como desarmar em Defuse Division se resumem a uma coisa: quem controla a rodada primeiro. Trate cada partida como um quebra-cabeça de timing, não como uma disputa bruta de mira. O jogo é uma criação de fãs em alfa inicial no Roblox, então os melhores hábitos são simples, repetíveis e fáceis de verificar pela entrada oficial do Roblox e pelas atualizações da comunidade.
+
+Uma rodada limpa começa com informação. Se você sabe onde está a bomba, onde seus companheiros estão e quais ângulos ainda estão abertos, suas chances de tomar a decisão certa aumentam muito.
+
+<CardGrid cols={3}>
+  <Card title="Atacantes">
+    - **Criar espaço**
+    - Forçar os defensores a adivinhar
+    - Proteger a janela de plant
+  </Card>
+  <Card title="Defensores">
+    - **Atrasar a investida**
+    - Segurar gargalos
+    - Fazer trade rápido após o contato
+  </Card>
+  <Card title="Prioridades Compartilhadas">
+    - **Ficar agrupado**
+    - Compartilhar informações cedo
+    - Vencer os próximos 5 segundos
+  </Card>
+</CardGrid>
+
+| Situação | Melhor jogada | Por que funciona |
+|---|---|---|
+| Segundos iniciais | Segure um ângulo seguro | Você ganha informação sem se comprometer demais |
+| Bomba avistada | Faça trade primeiro, depois avance | Dois jogadores vencem um jogador com mais consistência |
+| Companheiro abatido | Reposicione antes de espiar | Uma retomada previsível é punida |
+| Tempo baixo | Comprometa-se com o objetivo | Hesitar custa mais do que um avanço disciplinado |
+
+<Callout type="tip" title="Regra da Rodada Inicial">
+Se a rodada parecer caótica, desacelere. Um trade limpo geralmente vale mais do que um avanço solo chamativo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Timing de Plant, Desarme e Troca">
+
+O timing é onde a maioria das rodadas é ganha ou perdida. Um jogador forte não mira bem apenas; ele entende quando espiar, quando esperar e quando começar o desarme. Se a bomba estiver ativa, cada segundo deve ser usado para forçar o inimigo a tomar uma decisão pior do que a sua.
+
+Use a rodada em fases. O contato inicial é sobre localizar pressão. O meio da rodada é sobre controlar o melhor espaço. O fim da rodada é sobre impedir que o inimigo feche de forma limpa.
+
+<Steps>
+  <Step num="1" title="Leia o estado da rodada">
+    Verifique se a bomba está plantada, caída ou ainda em jogo. Sua próxima jogada muda imediatamente com base nessa resposta.
+  </Step>
+  <Step num="2" title="Vença o duelo ou trade mais próximo">
+    Não persiga primeiro o alvo mais distante. Elimine a ameaça mais imediata e depois transforme essa vantagem em espaço.
+  </Step>
+  <Step num="3" title="Cubra o caminho do desarme">
+    Se sua equipe quer desarmar, crie uma cortina de pressão para que o inimigo não consiga avançar livremente sobre a bomba.
+  </Step>
+  <Step num="4" title="Comprometa-se com confiança">
+    Meio-compromisso geralmente é pior do que esperar mais um segundo. Comece a ação apenas quando sua cobertura e seu espaçamento estiverem prontos.
+  </Step>
+</Steps>
+
+| Função | Trabalho principal | Erro comum |
+|---|---|---|
+| Entry | Fazer o primeiro contato | Entrar sem apoio |
+| Anchor | Segurar um site ou corredor | Rotacionar cedo demais |
+| Rotator | Preencher lacunas rápido | Deixar um site exposto |
+| Support | Capacitar a equipe | Entrar em lutas solo sem valor |
+
+<Callout type="warning" title="Aviso de Timing do Desarme">
+Nunca comece um desarme se ninguém puder vigiar o ângulo óbvio de avanço. Um erro de cobertura no fim transforma uma rodada vencida em reset.
+</Callout>
+
+As melhores rodadas parecem entediantes de fora. Um defensor segura o corredor, um companheiro faz trade no primeiro contato e o último jogador só desarma quando o ângulo está seguro. Esse é o padrão que vale a pena repetir.
+
+</Section>
+
+<Section icon={Sparkles} title="Controles, Sensibilidade e Configuração do Menu">
+
+O layout padrão de comandos é simples, o que é uma boa notícia. Use WASD ou o analógico esquerdo para mover, mouse ou analógico direito para mirar, E ou X para interagir, clique esquerdo ou RT para atirar e segure a tecla de contexto para interagir com a bomba. A configuração oficial também indica que N abre o menu principal e M abre a seleção de equipe.
+
+Esse layout de menu importa porque mantém o básico fácil de encontrar. Você não deve brigar com suas configurações enquanto tenta aprender o fluxo da rodada.
+
+| Entrada | Ação padrão | Melhor uso |
+|---|---|---|
+| WASD / Left Stick | Movimento | Posicionamento limpo e strafe |
+| Mouse / Right Stick | Olhar e mirar | Rastrear alvos e limpar ângulos |
+| E / X | Interagir | Portas, itens e objetivos |
+| Clique esquerdo / RT | Disparar arma | Ação principal de combate |
+| Segurar E | Plantar ou desarmar | Manipulação do objetivo |
+| N | Menu principal | Configurações e visão geral |
+| M | Seleção de equipe | Preparação da partida e escolha de time |
+
+<CardGrid cols={3}>
+  <Card title="FPS Primeiro">
+    Mantenha o desempenho estável antes de adicionar enfeites visuais. Um frame pacing melhor deixa mira e tracking mais consistentes.
+  </Card>
+  <Card title="Controle de Sensibilidade">
+    Comece um pouco mais baixo do que seu instinto pede. Pequenos ajustes são mais fáceis de construir do que overflicks agressivos.
+  </Card>
+  <Card title="Visibilidade">
+    Use uma mira e uma paleta de cores que continuem legíveis em superfícies escuras, bagunça parecida com fumaça e efeitos brilhantes.
+  </Card>
+</CardGrid>
+
+| Configuração | Direção boa | Por que ajuda |
+|---|---|---|
+| Gráficos | Priorize estabilidade em vez de enfeite | Menos travamentos, tracking mais limpo |
+| Sensibilidade | Médio-baixa para começar | Melhores microajustes |
+| Mira | Simples e visível | Captação mais rápida de alvos |
+| Áudio | Limpo e equilibrado | Melhor timing e consciência situacional |
+
+<Callout type="success" title="Prioridade da Configuração">
+Se sua mira estiver estranha, corrija FPS e sensibilidade antes de culpar sua crosshair. Entradas limpas normalmente vencem ajustes complicados.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Mapas, Callouts e Plano de Prática">
+
+Os mapas importam porque Defuse Division recompensa controle inicial, rotas de rotação limpas e espaçamento disciplinado em torno de gargalos. A estrutura oficial aponta os jogadores para sites da bomba, áreas de spawn, controle de mid, pontos de estrangulamento e rotas de rotação. Isso já é suficiente para montar um plano de treino forte, mesmo antes de memorizar cada ângulo.
+
+Use um mapa por vez. Aprenda por onde os atacantes costumam entrar, onde os defensores costumam segurar e qual rota permite rotacionar sem ser pego no aberto.
+
+| Hábito no mapa | Aprenda primeiro | Benefício |
+|---|---|---|
+| Entrada no site | Gargalos e primeiros cantos | Limpezas mais rápidas |
+| Controle de mid | Rotas comuns de cruzamento | Melhores rotações |
+| Segurar site | Posições de anchor | Defesa mais forte |
+| Jogo no fim da rodada | Pressão do timer da bomba | Decisões de desarme melhores |
+
+<Checklist
+  id="defuse-practice-plan"
+  title="Metas Semanais de Prática:"
+  items={[
+    "Aprenda as rotas da bomba A e B de um mapa",
+    "Memorize três posições seguras de defesa",
+    "Pratique um padrão confiável de espaçamento para trade",
+    "Revise os atalhos do menu e o layout de entrada",
+    "Confira a entrada oficial do jogo antes de confiar em dicas desatualizadas"
+  ]}
+/>
+
+Um ciclo prático de revisão funciona melhor do que matchmaking aleatório. Comece com um mapa, uma função e uma faixa de sensibilidade, e só amplie depois que suas decisões parecerem automáticas. Esse método traz progresso repetível em vez de avanço bagunçado.
+
+Para verificação ao vivo, mantenha a entrada oficial do Roblox e o histórico de atualizações nos favoritos:
+- [Busca do jogo Defuse Division no Roblox](https://www.roblox.com/search?keyword=defusedivision)
+- [Busca no Roblox DevForum por Defuse Division](https://devforum.roblox.com/search?q=Defuse%20Division)
+
+<Callout type="info" title="Foco da Prática">
+Se você lembrar de apenas uma coisa, lembre-se disto: o conhecimento do mapa reduz as opções do inimigo e deixa sua janela de desarme mais segura.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="tip" title="Respostas Rápidas">
+Estas respostas focam no ciclo central da rodada: ler o estado, manter o espaçamento limpo e evitar jogadas solo desnecessárias.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual é a forma mais rápida de aprender a desarmar em Defuse Division?",
+    answer: "Comece com o estado da bomba, depois aprenda uma rota segura até o site, um ângulo seguro para cobrir e um padrão de trade com companheiro que você possa repetir em toda partida."
+  },
+  {
+    question: "Os defensores devem sempre avançar depois de avistar quem carrega a bomba?",
+    answer: "Não sempre. Um bom defensor muitas vezes vence atrasando, segurando um corredor ou forçando o carregador a uma posição ruim em vez de entrar em um duelo apressado."
+  },
+  {
+    question: "Quais configurações devo mudar primeiro?",
+    answer: "Estabilize seu FPS, depois ajuste a sensibilidade em passos pequenos e, por fim, escolha uma crosshair que continue legível nas visuais táticas mais escuras do jogo."
+  },
+  {
+    question: "Defuse Division é um projeto oficial da Valve ou de Counter-Strike?",
+    answer: "Não. A página oficial do Roblox o descreve como uma criação de fãs e observa que não é afiliado à VALVe."
+  }
+]} />
+
+</Section>

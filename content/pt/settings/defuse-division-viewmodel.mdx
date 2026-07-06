@@ -1,0 +1,189 @@
+import { Sparkles, Shield, Target, Swords, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Viewmodel da Defuse Division: Guia de Configuração e Melhores Ângulos",
+  description: "Aprenda a ajustar as configurações de viewmodel da Defuse Division para uma mira mais limpa, linhas de visão melhores e avanços mais estáveis em cada rodada no Roblox.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/ffffff?text=Viewmodel+Setup+Guide",
+  date: "2026-07-06",
+  author: "Equipe da Wiki da Defuse Division"
+}
+
+<Callout type="info" title="Guia Rápido">
+- As configurações de **viewmodel da Defuse Division** devem proteger a visão periférica sem comprometer a leitura do rifle.
+- Os **presets equilibrados** normalmente funcionam melhor até você saber quais bombsites e ângulos prefere.
+- **N para o menu principal** e **M para a seleção de equipe** facilitam testes rápidos entre as rodadas.
+- **Mudanças na UI da alpha** podem deslocar rótulos, então mantenha uma base que você possa restaurar rápido.
+</Callout>
+
+<Section icon={Sparkles} title="Noções Básicas de Viewmodel da Defuse Division">
+
+Uma configuração forte de **viewmodel da Defuse Division** mantém sua arma legível sem roubar linhas de visão. Em uma partida de desarme de bomba, isso importa tanto quanto a sensibilidade pura. A melhor configuração oferece uma imagem limpa da mira, confirmação rápida do estado da arma e espaço suficiente na tela para vigiar os cantos.
+
+<CardGrid cols={3}>
+  <Card title="Perfil Baixo">
+    Mais espaço na tela, avanços mais limpos e melhor leitura de ângulos longos. Pode parecer um pouco menos tátil.
+  </Card>
+  <Card title="Equilibrado">
+    O padrão mais seguro. Mantém o modelo visível sem poluir o centro da tela.
+  </Card>
+  <Card title="Viewmodel Largo">
+    Boa sensação de presença nas mãos e um peso maior, mas pode bloquear mais a visão.
+  </Card>
+</CardGrid>
+
+| Estilo | Visibilidade | Sensação | Melhor Para |
+| --- | --- | --- | --- |
+| Perfil Baixo | Alta | Leve | Plays de entrada, ângulos fechados |
+| Equilibrado | Médio-Alta | Estável | A maioria dos jogadores |
+| Viewmodel Largo | Média | Pesado | Conforto casual, lutas de curta distância |
+| Ultra Baixo | Muito Alta | Mínima | Jogadores que querem o máximo de espaço na tela |
+
+<Callout type="tip" title="Regra Principal">
+Mantenha o modelo baixo o suficiente para preservar a área da mira, mas não tão baixo a ponto de a percepção do tempo da arma parecer desconectada.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Melhores Presets de Viewmodel por Estilo de Jogo">
+
+O preset certo depende da sua função, da pressão do mapa e de quanto da tela você quer livre. Comece com um perfil equilibrado e só siga em uma direção se conseguir explicar por que a mudança melhora sua mira ou percepção.
+
+<Callout type="warning" title="Cuidado com a Versão Alpha">
+A Defuse Division ainda está em uma experiência alpha inicial, então os rótulos do menu e as opções de exibição podem mudar após atualizações. Salve sua base antes de experimentar.
+</Callout>
+
+| Estilo de Jogo | Preset Recomendado | Por Que Funciona |
+| --- | --- | --- |
+| Entry fragger | Baixo ou Equilibrado | Menos poluição visual durante avanços rápidos |
+| Anchor de bombsite | Equilibrado | Bom equilíbrio entre feedback e percepção |
+| Lurker | Baixo | Visão mais limpa para confrontos de longa distância |
+| Prática casual | Equilibrado | Ponto de partida mais fácil |
+| Rush de curta distância | Um pouco mais largo | Ajuda na sensação da arma no caos |
+
+| Mudança | Quando Usar | Risco |
+| --- | --- | --- |
+| Diminuir a altura do modelo | A mira parece apertada | Pode deixar a arma pequena demais |
+| Aumentar o offset do modelo | A arma bloqueia o centro da tela | Mais poluição visual |
+| Reduzir a oscilação na tela | O acompanhamento do recoil fica confuso | Pode parecer plano demais |
+| Manter o espaçamento padrão | Você quer consistência | Talvez não se ajuste igualmente a todas as armas |
+
+<Callout type="info" title="Base Recomendada">
+Se estiver em dúvida, mantenha o equilíbrio por uma sessão inteira e só ajuste depois de notar um problema repetível.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Como Configurar o Viewmodel da Defuse Division">
+
+O fluxo mais rápido é simples: escolha uma base, teste em rodadas reais e depois refine apenas os pontos que atrapalham a mira ou a percepção. Use a página do jogo no Roblox como seu ponto de referência para voltar rápido: [Defuse Division no Roblox](https://www.roblox.com/search?keyword=defusedivision).
+
+<Callout type="success" title="Configuração Rápida">
+Use um único preset por pelo menos 10 a 15 rodadas antes de fazer outra mudança. Amostras pequenas normalmente levam a decisões ruins de ajuste.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Abra o menu">
+    Pressione **N** para abrir o menu principal. Se precisar redefinir seu lado, pressione **M** para a seleção de equipe e entre novamente com a mente limpa.
+  </Step>
+  <Step num="2" title="Encontre as opções de exibição ou câmera">
+    Procure por qualquer configuração relacionada à arma, câmera ou HUD. Se os rótulos mudarem após uma atualização, mantenha o mesmo objetivo: espaço limpo para a mira e feedback legível da arma.
+  </Step>
+  <Step num="3" title="Defina uma base neutra">
+    Comece pelo meio, em vez dos extremos. Isso facilita perceber se a próxima mudança realmente melhora a visibilidade.
+  </Step>
+  <Step num="4" title="Teste em rodadas ao vivo">
+    Jogue algumas partidas completas e depois veja como o viewmodel se comporta ao avançar, recarregar e trocar de arma.
+  </Step>
+  <Step num="5" title="Trave o resultado">
+    Salve a versão que lhe der a linha de visão mais limpa sem fazer a arma sumir da sua percepção.
+  </Step>
+</Steps>
+
+| Caminho do Menu | O Que Alterar | Por Que Ajuda |
+| --- | --- | --- |
+| Menu principal | Opção relacionada ao viewmodel | Ponto central para começar os ajustes |
+| Display/HUD | Poluição visual na tela | Libera a área da mira |
+| Configurações da câmera | Sensação de posição e espaçamento | Evita que a arma ocupe demais a visão |
+| Redefinição da equipe | Entrar novamente entre testes | Permite comparar mudanças mais rápido |
+
+<Callout type="tip" title="Atalho de Teste">
+Se uma mudança parece boa em uma rota, mas ruim em todo o resto, provavelmente ela é extrema demais para o jogo normal.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Ajustes Finos para Armas, Mapas e Funções">
+
+Um bom viewmodel nunca está separado do restante das suas configurações. O manuseio da arma, a geometria do mapa e sua função na equipe influenciam o quanto de espaço você pode abrir na tela. O objetivo é consistência, não um preset chamativo.
+
+<Callout type="info" title="Princípio de Ajuste">
+Mude uma coisa por vez. Se você alterar o modelo, a sensibilidade e a mira na mesma sessão, não vai saber o que realmente ajudou.
+</Callout>
+
+| Função ou Arma | Meta de Viewmodel | O Que Observar |
+| --- | --- | --- |
+| Rifles | Perfil menor | Clareza no primeiro disparo e acesso à mira |
+| SMGs | Espaçamento equilibrado | Conforto no tracking e velocidade em curta distância |
+| Shotguns | Sensação um pouco maior | Leitura rápida em confrontos próximos |
+| Holds defensivos | Mais baixo e calmo | Visibilidade de cantos e menos distração |
+| Mapas com muito rotate | Poluição mínima | Melhor percepção durante reposicionamentos rápidos |
+
+| Problema | Causa Provável | Correção |
+| --- | --- | --- |
+| A mira parece bloqueada | O modelo está muito alto | Abaixe o viewmodel ou aumente o espaçamento |
+| Os tiros parecem desconectados | O modelo está minimalista demais | Traga um pouco mais de presença da arma de volta |
+| Os flicks parecem inconsistentes | A sensibilidade está errada | Reavalie a sens antes de mexer no modelo de novo |
+| As trocas parecem estranhas | O viewmodel está extremo demais | Volte para uma base equilibrada |
+| As linhas de visão parecem apertadas | HUD e modelo se sobrepõem | Reduza primeiro a poluição visual da tela |
+
+<Checklist
+  id="viewmodel-test-loop"
+  title="Checklist de Verificação:"
+  items={[
+    "A mira continua visível durante avanços rápidos",
+    "Os recarregamentos não cobrem espaços importantes nos cantos",
+    "As trocas de arma parecem consistentes entre as rodadas",
+    "Um preset equilibrado foi salvo como fallback",
+    "Apenas uma configuração é alterada por vez durante os testes"
+  ]}
+/>
+
+<Callout type="warning" title="Não Busque a Perfeição">
+Uma configuração que parece ideal no menu ainda pode ser ruim em combate. Testar em partidas reais importa mais do que capturas de tela.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="tip" title="Respostas Rápidas">
+Use as perguntas abaixo para validar sua configuração antes de travá-la a longo prazo.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual é o melhor viewmodel da Defuse Division para jogadores novos?",
+    answer: "Comece com um preset equilibrado. Ele normalmente oferece espaço suficiente para vigiar cantos sem deixar a arma difícil de ler."
+  },
+  {
+    question: "Devo usar o viewmodel mais baixo possível?",
+    answer: "Não por padrão. A opção mais baixa pode abrir mais a tela, mas pode fazer o feedback da arma parecer pequeno demais para alguns jogadores."
+  },
+  {
+    question: "O viewmodel substitui a sensibilidade ou as configurações da mira?",
+    answer: "Não. O viewmodel é apenas uma parte da configuração. A sensibilidade e o ajuste da mira ainda são importantes para uma mira consistente."
+  },
+  {
+    question: "O que devo fazer depois que uma atualização mudar o menu?",
+    answer: "Volte para sua base salva, confirme o mesmo objetivo de visibilidade e teste novamente em algumas partidas antes de fazer mudanças maiores."
+  }
+]} />
+
+</Section>

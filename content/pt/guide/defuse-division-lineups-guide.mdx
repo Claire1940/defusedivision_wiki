@@ -1,0 +1,230 @@
+import { Map, Target, Shield, Sparkles, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia de Lineups da Divisão de Desarmamento: Melhores Estratégias e Dicas",
+  description: "Use estas lineups da Divisão de Desarmamento para controlar A, B e Mid com holds mais limpos, retakes mais seguros e jogadas ensaiadas repetíveis.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Defuse+Division+Lineups+Guide",
+  date: "2026-07-06",
+  author: "Equipe da Wiki da Divisão de Desarmamento"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guia de lineups da Divisão de Desarmamento**: Monte setups repetíveis para A, B e Mid em vez de adivinhar a cada rodada.
+- **Melhor abordagem**: Use os mesmos padrões de entrada, hold e retake até que sua equipe consiga executá-los com limpeza.
+- **Foco principal**: Controle de mapa, crossfires e timing importam mais do que avanços solo chamativos.
+- **Objetivo de prática**: Treine um setup de ataque e um de defesa para cada rota do mapa.
+</Callout>
+
+<Section icon={Map} title="Guia de Lineups da Divisão de Desarmamento: Princípios Básicos">
+
+Divisão de Desarmamento é um shooter tático de desarme de bomba no Roblox, construído em torno de timing de rodada, controle de site e coordenação em equipe. Uma boa lineup não é um truque; é um setup repetível que dá ao seu time a mesma leitura, o mesmo timing e a mesma resposta em toda rodada. Isso faz diferença em um jogo em que gargalos, bomb sites e rotas de rotação definem se a rodada parece controlada ou caótica.
+
+Se você quer a base mais limpa, comece estudando a página oficial do jogo no [Roblox](https://www.roblox.com/search?keyword=defusedivision) e trate cada lineup como um problema de rota e timing. Quanto mais consistentes forem suas posições de abertura, mais fácil fica trocar eliminações, fazer retake e segurar espaço.
+
+**Destaques do vídeo:**
+- Monte lineups em torno do **controle de site**, não de duelos aleatórios.
+- Use um **timing repetível** para que seus colegas consigam trocar sua peek.
+- Segure **Mid** apenas quando isso apoiar um avanço ou retake de site.
+- Tenha sempre uma saída segura para cada setup agressivo.
+
+<CardGrid cols={3}>
+  <Card title="Defaults de Ataque">
+    Comece a rodada com uma lane estável, um ângulo de entrada seguro e um colega pronto para trocar.
+  </Card>
+  <Card title="Anchors de Defesa">
+    Segure o mesmo gargalo, atrase o avanço e deixe espaço para um retake mais tarde.
+  </Card>
+  <Card title="Padrões de Retake">
+    Mova-se em conjunto, limpe os cantos em ordem e evite lutas isoladas depois do plant.
+  </Card>
+</CardGrid>
+
+| Tipo de Lineup | Melhor Uso | Risco Típico | Quando Usar |
+|---|---|---|---|
+| Entrada Padrão | Ganho inicial de mapa | Exposição excessiva | Quando seu time precisa do primeiro contato |
+| Split de Mid | Pressão no site | Erros de timing no split | Quando Mid conecta os dois sites |
+| Hold de Anchor | Atraso e informação | Ficar isolado | Quando você precisa segurar um rush |
+| Stack de Retake | Reivindicar o site plantado | Desperdício de utilidade | Quando a bomba já foi plantada |
+
+<Callout type="tip" title="Princípio Profissional">
+Uma boa lineup é simples o suficiente para ser repetida sob pressão. Se você não consegue explicá-la em uma frase, provavelmente ela está complicada demais para rodadas ao vivo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Lineups de Ataque para o Site A, Site B e Mid">
+
+Lineups de ataque funcionam melhor quando você trata o mapa como três problemas conectados: como entrar, como dividir a atenção e como finalizar o plant com segurança. Como a Divisão de Desarmamento usa a estrutura padrão de bomb sites, os setups ofensivos mais seguros normalmente são os que controlam um gargalo primeiro e depois convertem essa pressão em uma entrada no site.
+
+Ao montar um plano de ataque, mantenha o foco nas linhas de visão e nas janelas de timing. Não se comprometa demais com um avanço profundo se o seu time ainda tiver uma jogada melhor por Mid ou por uma segunda lane. Pressão repetível vence jogadas de herói forçadas com mais frequência do que o contrário.
+
+<Callout type="warning" title="Evite Este Erro">
+Não memorize uma lineup sem conferir a geometria real. Uma jogada ensaiada só funciona se sua mira, movimentação e timing de entrada combinarem com a rota.
+</Callout>
+
+| Fase do Ataque | Objetivo | Melhor Hábito da Lineup | Erro Comum |
+|---|---|---|---|
+| Início da Rodada | Ganhar espaço com segurança | Segure um ângulo estável antes de avançar | Correr para o primeiro contato |
+| Meio da Rodada | Dividir os defensores | Sincronizar duas lanes ao mesmo tempo | Chegar um por um |
+| Entrada no Site | Quebrar a defesa do anchor | Limpar primeiro os cantos próximos | Plantar antes de o controle estar garantido |
+| Pós-Plant | Proteger a bomba | Reposicionar para um crossfire seguro | Vigiar a mesma lane duas vezes |
+
+<Steps>
+  <Step num="1" title="Escolha a lane de entrada">
+    Escolha A, B ou Mid com base em onde seu time tem o melhor timing e o menor número de ângulos expostos.
+  </Step>
+  <Step num="2" title="Defina um parceiro de troca">
+    Todo jogador da linha de frente deve ter alguém perto o suficiente para punir o defensor que vencer o primeiro duelo.
+  </Step>
+  <Step num="3" title="Force o anchor a recuar">
+    Aplique pressão no gargalo principal por tempo suficiente para que o defensor não consiga permanecer no site com confiança total.
+  </Step>
+  <Step num="4" title="Plante da cobertura">
+    Use uma posição que proteja quem está plantando e dê ao seu time um ângulo limpo de pós-plant.
+  </Step>
+</Steps>
+
+Uma regra útil é pensar em termos de “lane, troca e finalização”. Se seu time domina a lane, a troca está pronta e o local do plant é seguro, as lineups de ataque já estão cumprindo seu papel. Essa mesma estrutura também evita que seu time perca tempo em espaço vazio.
+
+Para um planejamento de rota mais estruturado, a página oficial do Roblox e os posts de atualização do jogo são referências melhores do que rumores aleatórios da comunidade. Em 2026, as estatísticas públicas do jogo também indicam uma base ativa de jogadores, o que é uma das razões pelas quais jogadas ensaiadas consistentes continuam valiosas em partidas ao vivo.
+
+<Callout type="info" title="Prioridade no Ataque">
+Se a rodada começar com espaçamento ruim, desacelere o avanço e reconstrua a cadeia de trocas. Um ataque atrasado, mas organizado, geralmente é mais forte do que um colapso apressado.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lineups de Defesa, Crossfires e Rotas de Retake">
+
+Na defesa é onde as lineups viram disciplina. No lado defensivo, sua função é atrasar o avanço, coletar informação e sobreviver tempo suficiente para um colega chegar. Os melhores setups geralmente são os que criam um crossfire ou forçam os atacantes a limpar vários ângulos ao mesmo tempo.
+
+É aqui que a percepção do bomb site importa mais. Você quer um anchor que consiga atrasar a entrada, uma posição de suporte que puna a sequência da jogada e uma lane de rotação que não fique bloqueada por overpeek. Se você perder o controle do mapa cedo demais, seu retake fica mais difícil antes mesmo de a bomba ser plantada.
+
+| Função Defensiva | Objetivo de Posicionamento | Melhor Uso | Evite Quando |
+|---|---|---|---|
+| Anchor | Segurar o primeiro ponto de contato | Atraso no início da rodada | Você está sozinho e sem apoio |
+| Suporte | Cobrir um segundo ângulo | Punir swings amplos | O site já foi rompido |
+| Rotator | Chegar tarde e limpar | Retake ou reforço | Você abandona o site cedo demais |
+| Vigilância de Flanco | Impedir rotações livres | Parar jogadas de split inimigas | Seu time já tem informação total do mapa |
+
+<Callout type="success" title="Condição de Vitória na Defesa">
+Uma lineup defensiva bem-sucedida não precisa vencer instantaneamente. Ela só precisa comprar tempo, forçar erros e manter o retake viável.
+</Callout>
+
+Se você estiver jogando um hold defensivo, o hábito mais importante é resistir à vontade de lutar sozinho contra todo ângulo. Um crossfire é mais forte do que uma peek solo porque obriga o atacante a escolher entre duas ameaças. Essa escolha é o que gera trocas fáceis.
+
+A outra metade da defesa é o retake. Depois que o plant acontece, sua lineup deve sair de segurar espaço para retomá-lo em ordem. Limpe primeiro o perigo mais próximo, depois a área principal do site e, por fim, o provável ângulo de pós-plant. Correr para a bomba sem apoio normalmente devolve a rodada para o adversário.
+
+Uma mentalidade defensiva prática fica assim:
+- Segure uma linha estável em vez de ficar vagando.
+- Guarde vida para o retake se o site já foi perdido.
+- Rotacione com propósito, não em pânico.
+- Comunique quando abrir espaço para que seus colegas entendam o timing.
+
+A estrutura oficial do jogo também favorece esse estilo de jogo: a Divisão de Desarmamento é construída em torno de bombas, timers e coordenação em equipe, então as lineups de defesa são mais fortes quando são pacientes e estruturadas.
+
+<Callout type="warning" title="Armadilha Defensiva">
+Não empilhe jogadores demais em um único ângulo no começo. Se os atacantes vierem pelo outro lado, sua rotação pode chegar tarde demais para fazer diferença.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Configurações e Rotina de Prática para Lineups Mais Limpas">
+
+As lineups só ficam boas quando suas configurações não brigam com você. O modelo básico de controles na Divisão de Desarmamento é direto: movimento, controle de visão, interação e manejo da bomba precisam estar consistentes antes de seus setups táticos se tornarem confiáveis. Por isso, disciplina de mira e configurações de conforto devem ser treinadas juntas.
+
+Comece com uma sensibilidade estável, uma mira legível e keybinds que você não vai esquecer sob pressão. O layout público de controles inclui movimento, mira, interação, disparo primário, interação com a bomba e o próprio menu de configurações. Se você ainda estiver ajustando tudo o tempo todo, estará treinando inconsistência em vez de memória muscular.
+
+| Configuração | Direção Recomendada | Por Que Ajuda |
+|---|---|---|
+| Sensibilidade | Mantenha estável | Ajuda as lineups a continuarem repetíveis |
+| Mira | Simples e visível | Melhora o acompanhamento do alvo em meio ao caos |
+| Áudio | Passos e sinais de ação nítidos | Facilita leituras de timing |
+| Keybinds | Confortáveis e fixos | Reduz erros de entrada por nervosismo |
+| FOV / Sensação de Visão | Use o que deixe os ângulos legíveis | Melhora a percepção sem distração |
+
+<Checklist
+  id="lineup-practice"
+  title="Metas Semanais de Prática:"
+  items={[
+    "Execute uma lineup de ataque para A, B e Mid",
+    "Pratique um anchor defensivo em cada lane do mapa",
+    "Treine uma rota de retake com um colega",
+    "Trave sua sensibilidade antes das sessões ranqueadas",
+    "Revise quais lineups falharam por timing, não por mira"
+  ]}
+/>
+
+<Steps>
+  <Step num="1" title="Aqueça os controles">
+    Passe alguns minutos em movimento e mira até que seus inputs fiquem limpos e previsíveis.
+  </Step>
+  <Step num="2" title="Teste uma rota por vez">
+    Escolha uma única lane, repita a mesma entrada ou hold e compare o resultado a cada execução.
+  </Step>
+  <Step num="3" title="Adicione um colega">
+    Pratique o parceiro de troca e o crossfire para que a lineup funcione em uma partida real, não apenas sozinho.
+  </Step>
+  <Step num="4" title="Revise o ponto de falha">
+    Se a jogada quebrar, identifique se o problema foi timing, espaçamento ou posicionamento.
+  </Step>
+</Steps>
+
+Uma estrutura simples de treino normalmente vence uma longa e bagunçada. Dez repetições focadas na mesma rota são mais úteis do que uma dúzia de tentativas aleatórias em mapas diferentes. Quando o movimento fica automático, a própria lineup fica mais fácil de confiar.
+
+<Callout type="tip" title="Regra de Consistência">
+As melhores configurações não são as mais chamativas. São as que você consegue usar durante uma sessão inteira sem ficar se questionando.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recursos, Erros Comuns e FAQ">
+
+A maneira mais segura de se manter atualizado é seguir fontes oficiais do jogo em vez de correr atrás de ruído reciclado da comunidade. Para a Divisão de Desarmamento, isso significa verificar a página do Roblox, o espaço oficial da comunidade e as notas de patch quando novas rotas, mapas ou mudanças de balanceamento aparecerem. Se uma mudança afetar linhas de visão ou timing, sua lineup antiga pode precisar de um pequeno ajuste.
+
+| Recurso | Link | Melhor Para |
+|---|---|---|
+| Página do jogo no Roblox | [Abrir no Roblox](https://www.roblox.com/search?keyword=defusedivision) | Iniciar o jogo e verificar o status público |
+| Busca de changelog no DevForum | [Pesquisar notas de patch](https://devforum.roblox.com/search?q=Defuse%20Division%20Changelog) | Acompanhar atualizações e mudanças de gameplay |
+| Comunidade no Discord | Servidor oficial | Anúncios da comunidade e discussões entre jogadores |
+
+Os erros mais comuns geralmente caem nos mesmos três grupos:
+- Fazer peek antes de a troca estar pronta.
+- Rotacionar cedo demais e entregar espaço de site.
+- Praticar lineups sem checar se a rota ainda combina com o mapa.
+
+<Callout type="info" title="Consciência de Atualização">
+Se um patch alterar uma entrada de site, um gargalo ou uma rota de rotação, revise sua planilha de lineups antes da próxima sessão.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "O que significa um guia de lineups na Divisão de Desarmamento?",
+    answer: "Significa um conjunto repetível de posições de ataque, defesa e retake que ajuda seu time a controlar A, B e Mid com melhor timing."
+  },
+  {
+    question: "Existem lineups fixas de granada em todos os mapas?",
+    answer: "Não necessariamente. Na Divisão de Desarmamento, as lineups mais confiáveis geralmente se baseiam em ângulos, espaçamento e timing, então você deve adaptá-las a cada layout de mapa."
+  },
+  {
+    question: "O que os iniciantes devem aprender primeiro?",
+    answer: "Comece com uma entrada de ataque, um anchor defensivo e uma rota de retake. Isso já lhe dá uma estrutura utilizável antes de tentar setups mais avançados."
+  },
+  {
+    question: "Como posso deixar minhas lineups da Divisão de Desarmamento mais consistentes?",
+    answer: "Mantenha sua sensibilidade estável, pratique a mesma rota repetidamente e garanta que um colega esteja pronto para trocar seu primeiro contato."
+  }
+]} />
+
+<Callout type="success" title="Conclusão Final">
+Se você quer rodadas mais limpas, construa em torno de rotas simples, timing estável e espaçamento pronto para a equipe. Essa é a base de um guia forte de lineups da Divisão de Desarmamento.
+</Callout>
+
+</Section>

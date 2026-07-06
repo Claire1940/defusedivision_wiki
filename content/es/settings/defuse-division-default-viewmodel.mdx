@@ -1,0 +1,193 @@
+import { Target, Sparkles, Shield, Map, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Viewmodel predeterminado de División de desactivación: la mejor guía de configuración",
+  description: "Aprende el viewmodel predeterminado de División de desactivación, cómo ajustar la visibilidad, la comodidad del retroceso y el espacio en pantalla, y mantener tu configuración de 2026 limpia sin perder líneas de visión.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Default+Viewmodel+Guide",
+  date: "2026-07-06",
+  author: "Equipo de Wiki de División de desactivación"
+}
+
+<Callout type="info" title="Guía rápida">
+- **El viewmodel predeterminado de División de desactivación** es tu base; prioriza la visibilidad sobre el estilo en los duelos cerrados.
+- **Ajusta una sola opción a la vez** para poder saber si el cambio ayudó a tu puntería.
+- **Los jugadores agresivos** suelen querer menos obstrucción; los anclajes necesitan líneas de visión más limpias y un encuadre más estable.
+- **Prueba en rondas reales** después de pulsar la tecla del menú principal, no solo en un lobby tranquilo.
+</Callout>
+
+<Section icon={Target} title="Conceptos básicos del viewmodel predeterminado de División de desactivación">
+
+El viewmodel predeterminado de División de desactivación es el marco base de cómo tu arma, tus manos y el centro de la pantalla comparten espacio. En una partida de desactivación de bombas, eso importa más de lo que la mayoría de los jugadores cree. Si el modelo bloquea los hombros del enemigo, oculta señales del retroceso o hace que la mira se sienta abarrotada, pierdes información incluso antes de que empiece el enfrentamiento.
+
+El mejor punto de partida es simple: mantén la pantalla legible y luego construye la comodidad sobre eso. División de desactivación es una creación fan de Roblox, así que este no es un juego en el que debas perseguir una imitación exacta del aspecto de otro shooter. Construye primero para la claridad, luego para la velocidad.
+
+<Callout type="info" title="Empieza por la legibilidad">
+Si el encuadre actual dificulta ver esquinas o leer movimientos, la configuración es demasiado llamativa para jugar de forma práctica.
+</Callout>
+
+| Factor del viewmodel | Qué cambia | Buen objetivo |
+|---|---|---|
+| Tamaño del arma | Cuánto del centro de la pantalla queda cubierto | Obstrucción baja |
+| Posición de las manos | Qué tan fácil es leer el retroceso y el ritmo de disparo | Natural y estable |
+| Sensación de la cámara | Cómo reacciona el encuadre del arma cuando te mueves | Suave, no brusca |
+| Claridad de la línea de visión | Qué tan bien detectas los bordes del enemigo y las interacciones con la bomba | Máxima prioridad |
+
+| Situación | El marco predeterminado suele funcionar si... | Deberías ajustarlo si... |
+|---|---|---|
+| Nuevo jugador | Todavía estás aprendiendo los ángulos del mapa | El modelo te distrae más que el enemigo |
+| Entry fragger | Entras primero y asomas con frecuencia | Tu arma bloquea las comprobaciones rápidas de objetivos |
+| Ancla defensiva | Mantienes carriles estrechos | Necesitas una visión periférica más amplia |
+| Jugador de utilidad | Alternas entre acciones de bomba y gunplay | El marco hace que las interacciones se sientan torpes |
+
+<Callout type="tip" title="Dónde verificar los cambios">
+Usa la página en vivo del juego de Roblox como punto de referencia cuando compares ajustes después de una actualización: [Defuse Division on Roblox](https://www.roblox.com/search?keyword=defusedivision).
+</Callout>
+
+La idea principal es la consistencia. Un viewmodel que se siente un poco sencillo pero sigue siendo legible en cada ronda suele ser mejor que una configuración vistosa que solo se ve bien en el lobby. Mantén el marco discreto y tu puntería te resultará más fácil de controlar.
+
+</Section>
+
+<Section icon={Sparkles} title="Mejores preajustes de viewmodel según el estilo de juego">
+
+El preajuste correcto depende de cómo entras en combate. Algunos jugadores quieren una pantalla más baja y limpia para asomarse de forma agresiva. Otros prefieren un marco estable que no los distraiga durante intercambios más lentos. El viewmodel predeterminado ideal de División de desactivación es el que encaja con tu velocidad de decisión, no con el estilo de tu streamer favorito.
+
+<Callout type="warning" title="No copies a ciegas">
+Un preajuste que funciona para un jugador puede sentirse mal para otro si tu tamaño de monitor, sensibilidad o distancia de combate es diferente.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Entrada agresiva">
+    - **Mejor para:** Asomadas rápidas y duelos de primer contacto
+    - **Objetivo:** Reducir la obstrucción
+    - **Desventaja:** Menos personalidad visual
+  </Card>
+  <Card title="Predeterminado equilibrado">
+    - **Mejor para:** La mayoría de los jugadores
+    - **Objetivo:** Mantener el modelo presente pero discreto
+    - **Desventaja:** No es extremo en ninguna dirección
+  </Card>
+  <Card title="Ancla defensiva">
+    - **Mejor para:** Sostener carriles y retakes
+    - **Objetivo:** Visión periférica limpia
+    - **Desventaja:** Puede sentirse menos “práctico” al principio
+  </Card>
+</CardGrid>
+
+| Preajuste | Ideal para | Principal desventaja | Valoración |
+|---|---|---|---|
+| Entrada agresiva | Giros rápidos, duelos, timing de rush | Puede sentirse demasiado vacío para algunos jugadores | 5/5 en velocidad |
+| Predeterminado equilibrado | Juego general, roles mixtos, usuarios nuevos | Menos especializado que las configuraciones de nicho | 5/5 en estabilidad |
+| Ancla defensiva | Holds estrechos, control del sitio de bomba, paciencia | Tarda un poco más en sentirse natural | 4/5 en claridad |
+| Ajuste híbrido | Jugadores que aún están descubriendo sus preferencias | Necesita más tiempo de pruebas | 4/5 en flexibilidad |
+
+Una buena regla es empezar con equilibrio y luego inclinarse en una dirección. Si sigues perdiendo de vista al enemigo durante las asomadas, reduce el ruido visual. Si la pantalla se siente vacía y extraña, vuelve hacia un marco más completo. Eso mantiene la configuración útil sin convertirla en un proyecto científico.
+
+</Section>
+
+<Section icon={Map} title="Cómo configurarlo dentro del juego">
+
+La forma más limpia de ajustar un viewmodel es trabajar en pasos pequeños. Las notas oficiales de controles de División de desactivación señalan la tecla del menú principal para la navegación, así que empieza allí y trata el primer intento como una comprobación de base, no como una configuración final. Si también necesitas cambiar de equipo, la tecla de selección de equipo te ayuda a volver rápidamente a un estado de partida en vivo para probar.
+
+<Callout type="tip" title="Orden de ajuste">
+Cambia primero el marco visible, luego prueba el movimiento y después prueba el manejo del arma. No mezcles cambios de sensibilidad hasta que el modelo en sí se sienta correcto.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Abre el menú principal">
+    Pulsa la tecla del menú principal y localiza el área de configuración. Usa este primer paso para encontrar la base actual y evitar cambiar varias cosas a la vez.
+  </Step>
+  <Step num="2" title="Ajusta el marco con suavidad">
+    Si el juego expone opciones de encuadre del arma o de la cámara, muévelas un pequeño paso cada vez. Tu objetivo es menos obstrucción, no una revisión visual drástica.
+  </Step>
+  <Step num="3" title="Prueba en una ronda en vivo">
+    Vuelve a la partida y comprueba cómo se comporta el modelo al caminar, asomarte, desactivar y alternar entre objetivos. Una prueba en el lobby no basta.
+  </Step>
+  <Step num="4" title="Compara el resultado">
+    Después de varias rondas, compara la nueva configuración con tu base. Quédate con la versión que haga que leer la mira y comprobar esquinas se sienta más fluido.
+  </Step>
+</Steps>
+
+| Ruta del menú | Qué comprobar | Por qué importa |
+|---|---|---|
+| Menú principal | Acceso a ajustes y opciones relacionadas con la cámara | Es el lugar más seguro para empezar |
+| Selección de equipo | Volver rápidamente al juego en vivo | Te permite probar bajo presión |
+| Calentamiento de partida | Movimiento, asomadas y lectura de la puntería | Muestra si el marco distrae |
+| Ronda activa | Acciones con la bomba y sensación del retroceso | La mejor prueba de comodidad real en partida |
+
+<Callout type="info" title="Un cambio a la vez">
+Si tocas el viewmodel, la sensibilidad y el FOV en una sola sesión, no sabrás qué cambio ayudó realmente.
+</Callout>
+
+Un proceso de configuración sencillo ahorra tiempo más adelante. Cuando el marco se siente bien, dejas de pensar en él y empiezas a leer la ronda más rápido. Esa es la verdadera función de un viewmodel predeterminado: mantenerse lo bastante silencioso para que tus decisiones sean el centro de atención.
+
+</Section>
+
+<Section icon={Shield} title="Lista de verificación y soluciones comunes">
+
+Una vez que el marco te parezca aceptable, déjalo fijado y pasa a practicar. El objetivo no es la perfección. El objetivo es un viewmodel que siga siendo fiable en sesiones largas, tras parches y en mapas diferentes.
+
+<Callout type="success" title="Fija una configuración estable">
+Una configuración estable que puedas repetir es mejor que una configuración que cambia constantemente y no puedes recordar.
+</Callout>
+
+<Checklist
+  id="defuse-division-viewmodel-checklist"
+  title="Lista final de verificación:"
+  items={[
+    "Evita que el modelo del arma cubra el centro de la pantalla",
+    "Prueba el movimiento y las asomadas en al menos tres rondas en vivo",
+    "Evita cambiar la sensibilidad al mismo tiempo que los ajustes del viewmodel",
+    "Revisa la configuración después de un parche o una actualización del menú",
+    "Guarda la versión que haga que leer esquinas se sienta más rápido"
+  ]}
+/>
+
+| Problema | Causa probable | Solución rápida |
+|---|---|---|
+| El modelo cubre las cabezas enemigas | El marco es demasiado grande o demasiado alto | Baja el peso visual un paso |
+| La puntería se siente inestable | Se mezcló un cambio de sensibilidad | Restaura el ajuste antiguo de puntería y vuelve a probar |
+| La pantalla se siente vacía | Se redujo demasiado el marco | Añade un poco más de presencia del modelo |
+| La configuración funciona en el lobby pero no en la partida | No se hizo una prueba bajo presión | Vuelve a comprobarlo en una ronda real |
+| Cada parche rompe tu sensación | Nunca guardaste una base | Anota tus valores preferidos |
+
+<Callout type="warning" title="Regla del día del parche">
+Si una nueva actualización cambia el comportamiento de la interfaz o los menús, reconstruye desde tu base en lugar de acumular ajustes extra encima.
+</Callout>
+
+También puedes aprovechar el ritmo de actualizaciones a tu favor. El ecosistema de notas de cambios del juego hace que tus mejores ajustes puedan variar después de cambios de equilibrio o de interfaz, así que conviene guardar una pequeña nota de lo que te gustaba antes del parche. Eso convierte el ajuste futuro en una corrección rápida, no en una reconstrucción total.
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="tip" title="Notas de la FAQ">
+Usa estas respuestas como una base práctica. Si tu pantalla se siente abarrotada o demasiado vacía, lo más seguro es volver a una configuración equilibrada y volver a probar.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el mejor viewmodel predeterminado de División de desactivación para la mayoría de los jugadores?",
+    answer: "Un marco equilibrado suele ser el mejor punto de partida. Mantiene el arma visible sin robar demasiado espacio en pantalla, lo que ayuda con las asomadas, las acciones con la bomba y el seguimiento de objetivos."
+  },
+  {
+    question: "¿Debería copiar exactamente el viewmodel de un jugador profesional?",
+    answer: "No suele ser lo mejor. Un preajuste que funciona para un jugador puede sentirse mal en tu monitor, sensibilidad o estilo de juego. Usa las configuraciones profesionales solo como referencia."
+  },
+  {
+    question: "¿Importa más el viewmodel que la sensibilidad?",
+    answer: "Importan de formas distintas. La sensibilidad afecta a cómo apuntas, mientras que el viewmodel afecta a qué tan claro puedes leer el combate. Ajusta primero el marco y luego modifica la puntería por separado."
+  },
+  {
+    question: "¿Con qué frecuencia debería revisar mi configuración?",
+    answer: "Revísala después de actualizaciones importantes, tras pausas largas o siempre que tu puntería empiece a sentirse abarrotada. Si tus victorias parecen más difíciles de lo que deberían, quizá el marco necesite un reinicio."
+  }
+]} />
+
+</Section>

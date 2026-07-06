@@ -1,1 +1,571 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Wiki de División de Desactivación - Códigos, aspectos y mapas",
+      "description": "Explora los códigos, armas, aspectos, mapas, ajustes y guías de desactivación de bombas de División de Desactivación para jugadores de Roblox que quieren ganar más rápido y apuntar con mayor precisión.",
+      "keywords": "División de Desactivación, Roblox, códigos, aspectos, armas, mapas, mira, ajustes",
+      "ogTitle": "Wiki de División de Desactivación - Códigos, aspectos y mapas",
+      "ogDescription": "Explora los códigos, armas, aspectos, mapas, ajustes y guías de desactivación de bombas de División de Desactivación para jugadores de Roblox que quieren ganar más rápido y apuntar con mayor precisión.",
+      "twitterTitle": "Wiki de División de Desactivación - Códigos, aspectos y mapas",
+      "twitterDescription": "La Wiki de División de Desactivación cubre códigos, armas, aspectos, mapas, mira y tácticas de desactivación de bombas para el shooter táctico de Roblox."
+    }
+  },
+  "nav": {
+    "codes": "Códigos",
+    "competitive": "Competitivo",
+    "crosshair": "Retícula",
+    "discord": "Discord",
+    "guide": "Guía",
+    "settings": "Configuración",
+    "skins": "Skins",
+    "weapons": "Armas"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Roblox",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Shooter táctico de desactivación de bombas de Roblox",
+    "title": "Wiki de División de Desactivación",
+    "description": "División de Desactivación es un shooter táctico por equipos de Roblox donde los atacantes colocan la bomba y los defensores impiden el plantado, la desactivan o eliminan al equipo enemigo. Consulta códigos, armas, aspectos, mapas, ajustes, consejos de mira y guías para ganar rondas.",
+    "getFreeCodesCTA": "Obtener códigos gratis",
+    "playOnRobloxCTA": "Jugar en Roblox",
+    "stats": {
+      "stat1": {
+        "value": "36.7M+",
+        "label": "Visitas totales"
+      },
+      "stat2": {
+        "value": "212K+",
+        "label": "Favoritos"
+      },
+      "stat3": {
+        "value": "119",
+        "label": "Jugadores en línea"
+      },
+      "stat4": {
+        "value": "27.1K+",
+        "label": "Miembros de Discord"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de División de Desactivación",
+    "description": "División de Desactivación es un shooter táctico por equipos de Roblox centrado en la desactivación de bombas, donde los atacantes plantan la bomba en un sitio mientras los defensores impiden el plantado, desactivan el dispositivo o eliminan al equipo enemigo para ganar la ronda."
+  },
+  "tools": {
+    "title": "División de Desactivación",
+    "titleHighlight": "Recursos",
+    "subtitle": "Códigos, guías, listas de niveles y mecánicas para ganar cada ronda en División de Desactivación.",
+    "cards": [
+      {
+        "icon": "Gift",
+        "title": "Códigos de División de Desactivación",
+        "description": "Códigos de canje activos para conseguir Créditos gratis y recompensas de probador alfa"
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Guía para principiantes de División de Desactivación",
+        "description": "Primeras rondas explicadas: objetivos, bandos y desarrollo de la ronda"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Lista de niveles de División de Desactivación",
+        "description": "Clasificación de roles y estilos de juego según su impacto general en la ronda"
+      },
+      {
+        "icon": "Crosshair",
+        "title": "Mecánicas de División de Desactivación",
+        "description": "Estructura de la ronda, temporizador de la bomba, condiciones de victoria y economía"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Controles de División de Desactivación",
+        "description": "Lista completa de teclas más configuración de sensibilidad, mira y audio"
+      },
+      {
+        "icon": "Map",
+        "title": "Mapas de División de Desactivación",
+        "description": "Sitios de bomba, rotaciones, puntos de estrangulamiento y ángulos comunes por mapa"
+      },
+      {
+        "icon": "Newspaper",
+        "title": "Actualizaciones de División de Desactivación",
+        "description": "Notas de parche, cambios de balance, contenido nuevo y correcciones de errores"
+      },
+      {
+        "icon": "Lightbulb",
+        "title": "Consejos de División de Desactivación",
+        "description": "Posicionamiento, intercambio de bajas, utilidad y estrategia postplantado para ganar más"
+      }
+    ]
+  },
+  "modules": {
+    "defuseDivisionCodes": {
+      "title": "Códigos de División de Desactivación",
+      "displayType": "code-cards",
+      "intro": "Canjea los últimos códigos de División de Desactivación para conseguir Créditos gratis, aspectos de armas y recompensas de probador alfa. Los nuevos códigos aparecen durante hitos y eventos de la comunidad, así que guarda esta página en favoritos y vuelve a revisarla con regularidad.",
+      "codes": [
+        {
+          "code": "DEFUSE",
+          "reward": "500 Créditos",
+          "status": "Activo"
+        },
+        {
+          "code": "FOURTEAM",
+          "reward": "1,000 Créditos + Aspecto de cuchillo",
+          "status": "Activo"
+        },
+        {
+          "code": "ALPHA",
+          "reward": "Paquete de probador alfa: 2,000 Créditos + Grafiti exclusivo",
+          "status": "Nuevo"
+        },
+        {
+          "code": "BOMBSITE",
+          "reward": "750 Créditos",
+          "status": "Activo"
+        },
+        {
+          "code": "DEFENDERS",
+          "reward": "600 Créditos + Insignia de defensor",
+          "status": "Activo"
+        }
+      ],
+      "redeemSteps": [
+        "Inicia División de Desactivación en Roblox y entra en el lobby de una partida.",
+        "Pulsa N para abrir el menú principal y localizar el cuadro de entrada de códigos.",
+        "Escribe o pega un código exactamente como se muestra: los códigos de División de Desactivación distinguen mayúsculas y minúsculas.",
+        "Pulsa Canjear para reclamar al instante tus Créditos, aspectos y recompensas."
+      ]
+    },
+    "defuseDivisionBeginnerGuide": {
+      "title": "Guía para principiantes de División de Desactivación",
+      "displayType": "steps",
+      "intro": "¿Nuevo en División de Desactivación? Esta guía de inicio te acompaña en tus primeras rondas, desde entrar en una partida y elegir un bando hasta plantar, desactivar y cerrar victorias en equipo.",
+      "steps": [
+        {
+          "title": "Únete a una partida",
+          "description": "Entra en cola en un servidor público o privado. División de Desactivación divide a los jugadores entre atacantes y defensores en mapas tácticos compactos de sitios de bomba diseñados para rondas rápidas y decisivas."
+        },
+        {
+          "title": "Aprende el objetivo de tu bando",
+          "description": "Los atacantes llevan la bomba, la plantan en un sitio y la defienden hasta la detonación. Los defensores impiden el plantado, recuperan el sitio o desactivan la bomba antes de que termine el tiempo."
+        },
+        {
+          "title": "Comunícate e intercambia bajas",
+          "description": "Mantente con tus compañeros, avisa de la posición enemiga e intercambia bajas. División de Desactivación premia los empujes coordinados y los cruces de fuego por encima de las jugadas heroicas en solitario."
+        },
+        {
+          "title": "Gana la ronda",
+          "description": "Una ronda termina cuando la bomba detona, se desactiva o un equipo es eliminado por completo. Consigue el número de rondas necesario para ganar la partida y acumular tus Créditos."
+        }
+      ],
+      "quickTips": [
+        "Pulsa N para abrir el menú principal y M para abrir el menú de selección de equipo.",
+        "Gasta Créditos al inicio de cada ronda en armas, armadura y utilidad.",
+        "Vigila el temporizador de la bomba una vez esté plantada: cada segundo cuenta para quien la desactiva.",
+        "Ahorra Créditos en las rondas perdidas para que tu equipo pueda permitirse una compra completa en la siguiente."
+      ]
+    },
+    "defuseDivisionTierList": {
+      "title": "Lista de niveles de División de Desactivación",
+      "displayType": "tier-grid",
+      "intro": "Nuestra lista de niveles de División de Desactivación clasifica los roles y estilos de juego más fuertes para ganar rondas. Los niveles reflejan el impacto general en los sitios de bomba, la gestión de la economía y el potencial para remontadas.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Fragger de entrada y AWPer",
+          "description": "Roles agresivos de primer contacto que abren los sitios de bomba y controlan ángulos largos con armas de alto daño."
+        },
+        {
+          "tier": "A",
+          "label": "Apoyo y lurker",
+          "description": "Roles fiables que intercambian bajas, bloquean líneas de visión enemigas y flanquean a equipos desprevenidos para conseguir múltiples bajas."
+        },
+        {
+          "tier": "B",
+          "label": "Riflero y ancla",
+          "description": "Luchadores consistentes de media distancia que mantienen cruces de fuego, se reubican entre sitios de bomba y estabilizan la defensa."
+        },
+        {
+          "tier": "C",
+          "label": "Eco y ronda de pistolas",
+          "description": "Equipamientos especializados que brillan en rondas de fuerza con pocos Créditos y rondas de pistola, pero pierden eficacia cuando ambos equipos hacen compra completa."
+        }
+      ]
+    },
+    "defuseDivisionMechanics": {
+      "title": "Mecánicas del juego de División de Desactivación",
+      "displayType": "accordion",
+      "intro": "Comprende los sistemas principales que deciden cada ronda de División de Desactivación: el flujo de la ronda, el temporizador de la bomba, las condiciones de victoria, la coordinación del equipo y la economía que impulsa tus equipamientos.",
+      "items": [
+        {
+          "topic": "Estructura de la ronda",
+          "content": "Las partidas de División de Desactivación se juegan en rondas con tiempo limitado. Atacantes y defensores aparecen en lados opuestos del mapa, y cada ronda reinicia las armas, la utilidad y las posiciones iniciales de ambos equipos."
+        },
+        {
+          "topic": "Sistema de temporizador de la bomba",
+          "content": "Una vez que la bomba se planta en un sitio, comienza una cuenta regresiva. Los defensores deben localizarla y desactivarla antes de la detonación, mientras los atacantes mantienen el sitio y hacen correr el reloj para ganar."
+        },
+        {
+          "topic": "Condiciones de victoria",
+          "content": "Se gana una ronda al plantar y detonar la bomba, desactivar la bomba plantada o eliminar a todo el equipo enemigo. El primer bando que alcance el número objetivo de rondas gana la partida."
+        },
+        {
+          "topic": "Coordinación del equipo",
+          "content": "La comunicación y el posicionamiento deciden las rondas. Intercambiar bajas, mantener cruces de fuego y sincronizar el uso de la utilidad permite a los equipos coordinados superar la puntería pura y ganar de forma constante."
+        },
+        {
+          "topic": "Economía y Créditos",
+          "content": "Cada ronda otorga Créditos por bajas, objetivos y resultado de la ronda. Gestionar tu economía entre rondas mantiene a tu equipo armado con rifles, armadura y utilidad cuando más importa."
+        }
+      ]
+    },
+    "defuseDivisionControlsSettings": {
+      "title": "Controles y ajustes de División de Desactivación",
+      "displayType": "table",
+      "intro": "Domina el esquema de control de División de Desactivación en PC, móvil y consola. Aquí está todo lo que puedes pulsar, desde el movimiento y la puntería hasta plantar, desactivar y el menú donde ajustas sensibilidad, mira y audio, para que construyas memoria muscular más rápido y nunca falles una jugada decisiva.",
+      "controls": [
+        {
+          "action": "Moverse",
+          "input": "W A S D / Stick izquierdo",
+          "function": "Mueve a tu operador por los sitios de bomba, las rutas de rotación y la cobertura."
+        },
+        {
+          "action": "Mirar / Apuntar",
+          "input": "Ratón / Stick derecho",
+          "function": "Sigue a los enemigos, mantén ángulos y apunta con una mira limpia."
+        },
+        {
+          "action": "Interactuar",
+          "input": "E / Botón X",
+          "function": "Recoge la bomba, abre puertas y activa dispositivos de objetivo."
+        },
+        {
+          "action": "Disparar arma",
+          "input": "Clic izquierdo / RT",
+          "function": "Dispara, pre-dispara ángulos e intercambia bajas con tu equipo."
+        },
+        {
+          "action": "Plantar / Desactivar bomba",
+          "input": "Mantener E / Tecla contextual",
+          "function": "Planta en un sitio de bomba como atacante o desactiva el dispositivo como defensor."
+        },
+        {
+          "action": "Abrir menú",
+          "input": "N / Botón Menú",
+          "function": "Canjea códigos y ajusta la sensibilidad, las asignaciones de teclas, el audio y la mira."
+        }
+      ]
+    },
+    "defuseDivisionMapsGuide": {
+      "title": "Guía de mapas de División de Desactivación",
+      "displayType": "card-list",
+      "intro": "Lee cada mapa de División de Desactivación como un veterano. Esta guía desglosa los sitios de bomba, las zonas de aparición, el control del centro, los puntos de estrangulamiento, las rutas de rotación y los ángulos comunes que deciden si tu equipo mantiene el sitio o cae eliminado en campo abierto.",
+      "areas": [
+        {
+          "title": "Sitios de bomba A y B",
+          "description": "Las dos zonas de objetivo plantado donde los atacantes se comprometen a plantar y los defensores recuperan el sitio para desactivar. La elección del sitio define el plan de utilidad y el posicionamiento de la ronda."
+        },
+        {
+          "title": "Zonas de aparición",
+          "description": "Las zonas de aparición de atacantes y defensores que marcan el posicionamiento inicial de la ronda, las compras predeterminadas y las primeras rotaciones hacia el centro o los sitios de bomba."
+        },
+        {
+          "title": "Control del centro",
+          "description": "La región central del mapa que permite rotaciones rápidas hacia ambos sitios de bomba, facilita a los atacantes dividir los empujes y presiona el control del mapa del enemigo."
+        },
+        {
+          "title": "Puntos de estrangulamiento",
+          "description": "Pasillos y puertas estrechas que canalizan los enfrentamientos: mantenerlos o cubrirlos con humo decide dónde ocurren los combates y quién lleva la ventaja."
+        },
+        {
+          "title": "Rutas de rotación",
+          "description": "Los caminos más rápidos entre sitios de bomba y aparición, usados para rotar defensores hacia un sitio plantado o para fingir y reubicarse como atacantes."
+        },
+        {
+          "title": "Ángulos comunes",
+          "description": "Esquinas preapuntadas, coberturas de cabeza y ángulos poco habituales donde se mantienen defensores o limpian atacantes: la base de una colocación de mira constante."
+        }
+      ]
+    },
+    "defuseDivisionUpdatesPatchNotes": {
+      "title": "Actualizaciones y notas de parche de División de Desactivación",
+      "displayType": "accordion",
+      "intro": "Sigue cada actualización de División de Desactivación a medida que evoluciona la meta. Esta sección resume el ajuste de balance, el contenido nuevo, las correcciones de errores y los cambios del sistema de juego que modifican el panorama competitivo de un parche a otro.",
+      "updates": [
+        {
+          "title": "Ajustes de balance",
+          "content": "El daño de las armas, los patrones de retroceso, la aceleración del movimiento y las recompensas de la economía se ajustan en cada parche para mantener justa la meta competitiva y evitar que un solo arma o estrategia domine las rondas de División de Desactivación."
+        },
+        {
+          "title": "Contenido nuevo",
+          "content": "Los parches añaden mapas, armas, aspectos y eventos por tiempo limitado que amplían las opciones estratégicas y ofrecen a atacantes y defensores nuevas herramientas para romper posiciones de empate."
+        },
+        {
+          "title": "Corrección de errores",
+          "content": "Las correcciones de estabilidad y rendimiento atacan cierres inesperados, casos límite de registro de impacto y exploits de mapa para que cada ronda se desarrolle exactamente como pretenden las reglas."
+        },
+        {
+          "title": "Cambios en el sistema de juego",
+          "content": "Los sistemas principales: tiempo de plantado, tiempo de desactivación, duración de la ronda y economía de Créditos, se ajustan para mantener las rondas tensas, claras y competitivas en cada nivel de habilidad."
+        }
+      ]
+    },
+    "defuseDivisionTipsTricks": {
+      "title": "Consejos y trucos de División de Desactivación",
+      "displayType": "step-by-step",
+      "intro": "Súbete en los rangos de División de Desactivación con los hábitos que ganan rondas. Estos consejos avanzados cubren posicionamiento temprano, intercambio de bajas, sincronización de la utilidad, control del objetivo y juego en equipo: las decisiones que separan a los cazadores de bajas de los ganadores de rondas.",
+      "tips": [
+        {
+          "title": "Toma el control temprano del mapa",
+          "description": "Presiona el centro o los puntos de estrangulamiento clave al inicio de la ronda para que tu equipo controle las rotaciones y obligue al enemigo a posiciones predecibles y recuperables."
+        },
+        {
+          "title": "Intercambia cada baja",
+          "description": "Mantente lo bastante cerca de tus compañeros para que, en el instante en que uno caiga, tú saltes y recuperes la baja, manteniendo el número de tu equipo equilibrado y la presión constante."
+        },
+        {
+          "title": "Sincroniza tu utilidad",
+          "description": "Guarda humos, destellos y granadas para el momento exacto en que plantes, recuperes o empujes un punto de estrangulamiento, de modo que la utilidad obligue a moverse en vez de desperdiciarse."
+        },
+        {
+          "title": "Juega con el temporizador de la bomba",
+          "description": "Una vez plantada, los atacantes hacen correr el reloj y los defensores se comprometen a desactivarla: lee el temporizador, simula desactivaciones y coordina la recuperación para ganar en situaciones postplantado."
+        },
+        {
+          "title": "Evita los combates aislados",
+          "description": "Caminar solo regala al enemigo bajas aisladas y control del mapa. Mantente dentro del rango de intercambio de un compañero para que cada enfrentamiento se convierta en un 2 contra 1 a tu favor."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre División de Desactivación en Roblox.",
+    "questions": [
+      {
+        "question": "¿Qué es División de Desactivación?",
+        "answer": "División de Desactivación es un shooter táctico por equipos de Roblox creado por Fourteam. Los atacantes plantan la bomba mientras los defensores impiden el plantado, desactivan el dispositivo o eliminan al equipo enemigo para ganar cada ronda."
+      },
+      {
+        "question": "¿División de Desactivación es gratis?",
+        "answer": "Sí. División de Desactivación es gratis en Roblox en PC, Mac, móvil y cualquier dispositivo que admita la aplicación de Roblox, con cosméticos y cajas opcionales dentro del juego."
+      },
+      {
+        "question": "¿Dónde canjeo los códigos de División de Desactivación?",
+        "answer": "Inicia División de Desactivación, pulsa N para abrir el menú principal, encuentra la entrada de códigos, escribe un código exactamente como se muestra (los códigos distinguen mayúsculas y minúsculas) y canjéalo por Créditos, aspectos y recompensas gratis."
+      },
+      {
+        "question": "¿Cuántos jugadores pueden jugar División de Desactivación?",
+        "answer": "División de Desactivación admite partidas por equipos de hasta 14 jugadores divididos entre atacantes y defensores en mapas tácticos de sitios de bomba diseñados para el juego competitivo por rondas."
+      },
+      {
+        "question": "¿División de Desactivación está afiliado con Valve o Counter-Strike?",
+        "answer": "No. División de Desactivación es un juego fan-made de Roblox creado por Fourteam y no está afiliado, respaldado ni conectado con Valve, Counter-Strike o Steam. Está inspirado en el género táctico de desactivación de bombas."
+      },
+      {
+        "question": "¿En qué plataformas está División de Desactivación?",
+        "answer": "División de Desactivación funciona en Roblox, así que puedes jugar en PC, Mac, iOS, Android y Xbox dondequiera que la aplicación de Roblox esté disponible, con emparejamiento multiplataforma."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para dominar División de Desactivación?",
+    "description": "¡Únete a la comunidad de División de Desactivación en Discord para obtener códigos, actualizaciones, eventos y debates tácticos!",
+    "joinCommunity": "Unirse a Discord",
+    "joinGame": "Jugar en Roblox"
+  },
+  "footer": {
+    "title": "Wiki de División de Desactivación",
+    "description": "Tu centro de la comunidad para códigos, armas, aspectos, mapas, mira, ajustes y tácticas de desactivación de bombas de División de Desactivación en Roblox.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "reddit": "Reddit",
+    "robloxGame": "Jugar en Roblox",
+    "robloxGroup": "Grupo de Roblox",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Derechos de autor",
+    "copyright": "© 2026 Wiki de División de Desactivación. No afiliado con Fourteam ni Roblox Corporation.",
+    "disclaimer": "Sitio de recursos no oficial hecho por fans."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de División de Desactivación — Todas las recompensas canjeables",
+      "description": "Sigue los últimos códigos de División de Desactivación para recompensas por tiempo limitado y luego verifica cada uno antes de canjearlo de forma segura en Roblox por aspectos, potenciadores u otros extras del juego.",
+      "metaTitle": "Códigos de División de Desactivación - Recompensas gratis, potenciadores y más",
+      "metaDescription": "Consulta los últimos códigos de División de Desactivación para recompensas por tiempo limitado como aspectos, potenciadores y extras del juego; verifica cada uno antes de canjearlo en Roblox.",
+      "categoryLabel": "CÓDIGOS CANJEABLES",
+      "whatIs": "¿Qué son los códigos de División de Desactivación?",
+      "whatIsDescription": "Los códigos de División de Desactivación son recompensas promocionales por tiempo limitado que pueden publicarse durante actualizaciones, hitos o eventos de la comunidad. Pueden desbloquear cosméticos o bonificaciones que apoyan tu equipamiento de desactivación de bombas en Roblox.",
+      "why": "¿Por qué canjear códigos?",
+      "whySteps": {
+        "step1Title": "Vence la caducidad rápido",
+        "step1Description": "Los códigos de División de Desactivación pueden desaparecer rápido, así que revisarlos pronto te ayuda a no perder recompensas por tiempo limitado.",
+        "step2Title": "Desbloquea extras gratis",
+        "step2Description": "Los códigos canjeados pueden otorgar aspectos, potenciadores u otras bonificaciones que hacen que tu equipamiento se sienta más personal en rondas rápidas de sitios de bombas.",
+        "step3Title": "Mantente listo para las actualizaciones",
+        "step3Description": "Los nuevos códigos suelen aparecer alrededor de parches o eventos, así que volver con regularidad te mantiene listo para nuevas recompensas antes de que se intensifique el juego clasificatorio."
+      },
+      "featured": "Destacados e imprescindibles",
+      "all": "Todos los códigos"
+    },
+    "competitive": {
+      "title": "División de Desactivación Competitivo — Guías de juego clasificatorio",
+      "description": "Explora las guías competitivas de División de Desactivación para tácticas clasificatorias, control de zonas de bomba, ajustes de mira, equipamientos y jugadas clutch que ayudan a tu equipo a ganar rondas.",
+      "metaTitle": "División de Desactivación Competitivo - Sube de rango en el juego clasificatorio",
+      "metaDescription": "Domina el juego clasificatorio de División de Desactivación con control de zonas de bomba, ajustes de mira, equipamientos y tácticas clutch pensadas para rondas competitivas en equipo.",
+      "categoryLabel": "GUÍAS COMPETITIVAS",
+      "whatIs": "¿Qué es el competitivo de División de Desactivación?",
+      "whatIsDescription": "El competitivo de División de Desactivación es la parte clasificatoria del juego, donde los equipos luchan por plantar bombas, desactivarlas y conseguir eliminaciones en rondas de estilo CS. Recompensa más el control del mapa, el uso inteligente de utilidades y la puntería constante que el simple avance agresivo.",
+      "why": "¿Por qué usar guías competitivas?",
+      "whySteps": {
+        "step1Title": "Gana más rondas",
+        "step1Description": "Las guías competitivas explican cuándo atacar, aguantar ángulos o rotar para que tu equipo sobreviva más y cierre mejor los enfrentamientos por las zonas de bomba en División de Desactivación.",
+        "step2Title": "Perfecciona tu configuración",
+        "step2Description": "Usa los ajustes de mira, la sensibilidad y los consejos de equipamiento para que tu puntería sea más estable y tus compras más efectivas en las partidas clasificatorias.",
+        "step3Title": "Rinde mejor en los cierres de ronda",
+        "step3Description": "Aprende consejos de post-plant, retoma y temporización de desactivación que importan cuando cada segundo decide la ronda y cada error cuesta progreso de rango."
+      },
+      "featured": "Destacados e imprescindibles",
+      "all": "Todas las guías competitivas"
+    },
+    "crosshair": {
+      "title": "Ajustes de retícula de División de Desactivación",
+      "description": "Encuentra los mejores ajustes de retícula de División de Desactivación para afinar la puntería, seguir cabezas en los enfrentamientos por el sitio y mantener la precisión en rondas decisivas de desactivación y partidas clasificatorias.",
+      "metaTitle": "Retícula de División de Desactivación - Guía de mejores ajustes de puntería",
+      "metaDescription": "Usa los mejores ajustes de retícula de División de Desactivación para mejorar el control del retroceso, detectar objetivos más rápido y ganar más rondas de plantado y desactivación en el juego clasificatorio.",
+      "categoryLabel": "AJUSTES DE RETÍCULA",
+      "whatIs": "¿Qué son las retículas de División de Desactivación?",
+      "whatIsDescription": "Una retícula de División de Desactivación es el punto de mira en pantalla que ajustas para facilitar el seguimiento, los disparos a tap y el control del spray. La configuración adecuada puede ayudarte a defender zonas de bomba, asomarte en duelos de entrada y ganar más rápido los enfrentamientos del lado de la desactivación en partidas de Roblox.",
+      "why": "¿Por qué personalizar los ajustes de retícula?",
+      "whySteps": {
+        "step1Title": "Lectura más rápida del objetivo",
+        "step1Description": "Una retícula más clara te ayuda a fijarte en las cabezas más rápido cuando asomas ángulos largos, puntos estrechos y entradas rápidas al sitio en División de Desactivación.",
+        "step2Title": "Tiroteos más limpios",
+        "step2Description": "Un buen espaciado y visibilidad hacen que los disparos en ráfaga y los sprays sean más fáciles de controlar, especialmente durante la presión de humo, flash y retoma.",
+        "step3Title": "Clutchs más consistentes",
+        "step3Description": "En rondas clasificatorias, una retícula estable mantiene tu puntería fiable durante los retenimientos post-plant, las desactivaciones y las jugadas cuando queda un solo jugador."
+      },
+      "featured": "Destacados e imprescindibles",
+      "all": "Todas las retículas"
+    },
+    "discord": {
+      "title": "Discord de División de Desactivación — Forma equipo, aprende y mantente al día",
+      "description": "Únete a la comunidad de Discord de División de Desactivación para hacer equipo en clasificatorias, compartir tácticas de desactivación de bombas, comparar ajustes de retícula y seguir conversaciones sobre skins y parches.",
+      "metaTitle": "Discord de División de Desactivación - Forma equipo y mantente al día",
+      "metaDescription": "Encuentra enlaces de la comunidad de Discord de División de Desactivación, chats para hacer equipo, consejos para clasificatorias, sugerencias de retícula y debates sobre parches para cada ronda de desactivación de bombas.",
+      "categoryLabel": "DISCORD",
+      "whatIs": "¿Qué es el Discord de División de Desactivación?",
+      "whatIsDescription": "El Discord de División de Desactivación es donde los jugadores se reúnen para hablar de tácticas, formar equipos clasificatorios y compartir novedades sobre plantados, desactivaciones y rondas clutch. También es un lugar útil para comparar ajustes de retícula, skins de armas y consejos de juego.",
+      "why": "¿Por qué unirse a Discord?",
+      "whySteps": {
+        "step1Title": "Encuentra compañeros de equipo rápido",
+        "step1Description": "Usa Discord para conectar con jugadores que buscan el mismo ritmo de ronda, rol y objetivos de rango. Es más fácil formar un equipo para Ataque o Defensa que esperar en cola solo.",
+        "step2Title": "Aprende jugadas más sólidas",
+        "step2Description": "Los chats de la comunidad suelen desglosar tomas de sitio, tiempos de humo y defensas de desactivación que encajan con las rondas de estilo CS de División de Desactivación. Puedes mejorar la puntería, los ajustes de retícula y el posicionamiento.",
+        "step3Title": "Sigue las actualizaciones del juego",
+        "step3Description": "Discord es una forma rápida de enterarte de cambios de equilibrio, nuevas skins y debates de clasificatorias sin perder detalle. Eso te ayuda a adaptarte antes de que empiece la siguiente partida."
+      },
+      "featured": "Destacados e imprescindibles",
+      "all": "Todos los servidores de Discord"
+    },
+    "guide": {
+      "title": "Guías de División de Desactivación",
+      "description": "Aprende a ganar más rondas en División de Desactivación con guías claras sobre tácticas de plantado y desactivación, equipamientos, ajustes de retícula, skins y juego clasificatorio.",
+      "metaTitle": "Guías de División de Desactivación - Bombas, puntería y victorias clasificatorias",
+      "metaDescription": "Explora guías de División de Desactivación sobre consejos para plantar y desactivar, ajustes de retícula, elección de armas, skins y estrategias clasificatorias pensadas para partidas de Roblox.",
+      "categoryLabel": "GUÍAS",
+      "whatIs": "¿Qué son las guías de División de Desactivación?",
+      "whatIsDescription": "Las guías de División de Desactivación son recursos paso a paso que te ayudan a jugar con más inteligencia en las partidas de desactivación de bombas de Roblox. Cubren todo, desde rutas de ataque y defensa de sitios hasta la temporización de la desactivación, la configuración de la retícula, la elección de armas y consejos para subir en clasificatorias.",
+      "why": "¿Por qué leer guías?",
+      "whySteps": {
+        "step1Title": "Gana las aperturas de ronda",
+        "step1Description": "Aprende a tomar el control temprano del mapa, detectar rutas seguras para plantar y defender ángulos clave antes de que la ronda se escape. Las mejores primeras jugadas suelen decidir toda la partida en División de Desactivación.",
+        "step2Title": "Mejora los ajustes de puntería",
+        "step2Description": "Usa las guías para perfeccionar los ajustes de retícula y el manejo de armas para que tus disparos sean más consistentes. Pequeños cambios pueden hacer que los duelos, intercambios y retomas sean mucho más fáciles.",
+        "step3Title": "Sube en clasificatorias más rápido",
+        "step3Description": "Sigue consejos competitivos sobre juego en equipo, defensa de la bomba y toma de decisiones en clutch para conseguir más victorias en clasificatorias. Una base sólida te ayuda a mantener la consistencia en cada mapa y ronda."
+      },
+      "featured": "Destacados e imprescindibles",
+      "all": "Todas las guías"
+    },
+    "settings": {
+      "title": "Configuración de División de Desactivación",
+      "description": "Ajusta la retícula, la sensibilidad, el audio y el rendimiento en División de Desactivación para afinar la puntería, seguir pasos y estar listo para las zonas de bomba clasificatorias.",
+      "metaTitle": "Configuración de División de Desactivación - Mejor puntería y visibilidad",
+      "metaDescription": "Encuentra los mejores ajustes de División de Desactivación para la retícula, la sensibilidad y los gráficos, así podrás ganar duelos, oír avances y clavar desactivaciones en clasificatorias.",
+      "categoryLabel": "CONFIGURACIÓN DEL JUEGO",
+      "whatIs": "¿Qué son los ajustes de División de Desactivación?",
+      "whatIsDescription": "Los ajustes de División de Desactivación abarcan las opciones que moldean tu puntería, los gráficos y el sonido durante cada ronda de estilo CS en Roblox. Ajustarlos ayuda a los atacantes a preparar los plantados y a los defensores a detectar, oír y desactivar más rápido.",
+      "why": "¿Por qué optimizar los ajustes?",
+      "whySteps": {
+        "step1Title": "Mayor control de la retícula",
+        "step1Description": "Ajusta el estilo, color y tamaño de la retícula para que los objetivos destaquen en los enfrentamientos rápidos por el sitio. Un punto de mira claro hace mucho más fácil seguir objetivos y disparar en ráfaga en División de Desactivación.",
+        "step2Title": "Mejor conciencia de la ronda",
+        "step2Description": "Ajustar el audio y lo visual te ayuda a detectar pasos, señales de utilidades y movimiento enemigo antes de que llegue un avance. Esa ventaja importa cuando estás defendiendo ángulos o rotando hacia un plantado.",
+        "step3Title": "Juego clasificatorio más fluido",
+        "step3Description": "Los ajustes que favorecen el rendimiento reducen distracciones y mantienen tu puntería estable en partidas competitivas. En clasificatorias, la consistencia te ayuda a ganar más duelos y asegurar desactivaciones más limpias."
+      },
+      "featured": "Destacados e imprescindibles",
+      "all": "Todos los ajustes"
+    },
+    "skins": {
+      "title": "Skins de División de Desactivación — Cosméticos de armas",
+      "description": "Explora skins de División de Desactivación para rifles, pistolas y cuchillos. Encuentra cosméticos que hagan destacar tu equipamiento en ejecuciones de sitios, retomas y rondas decisivas clasificatorias.",
+      "metaTitle": "Skins de División de Desactivación - Guía de los mejores cosméticos de armas",
+      "metaDescription": "Explora skins de División de Desactivación para rifles, pistolas y cuchillos, con opciones cosméticas que encajan con el juego clasificatorio, momentos decisivos y tu estilo de equipamiento.",
+      "categoryLabel": "SKINS DE ARMAS",
+      "whatIs": "¿Qué son las skins de División de Desactivación?",
+      "whatIsDescription": "Las skins son acabados cosméticos de armas en División de Desactivación que cambian el aspecto de tu equipamiento sin alterar el daño ni el retroceso. Úsalas para personalizar rifles, armas secundarias y cuchillos mientras avanzas por los sitios, defiendes ángulos o haces retomas decisivas en rondas clasificatorias.",
+      "why": "¿Por qué equipar skins?",
+      "whySteps": {
+        "step1Title": "Personaliza tu equipamiento",
+        "step1Description": "Las skins te permiten hacer que tus rifles, pistolas y cuchillo se sientan distintos mientras rotas entre zonas de bomba. Añaden identidad a cada ronda eco, de compra y decisiva.",
+        "step2Title": "Muestra tu identidad en rango",
+        "step2Description": "En partidas competitivas, un conjunto de skins limpio hace que tu equipamiento parezca intencional cuando estás defendiendo ángulos o intercambiando bajas. Es una forma sencilla de destacar sin afectar el equilibrio.",
+        "step3Title": "Haz memorables las jugadas decisivas",
+        "step3Description": "Cuando una ronda se decide por una desactivación o una retoma en el último segundo, un conjunto cosmético llamativo hace que el momento se sienta más personal. Las skins mantienen tus armas favoritas reconocibles en cada partida."
+      },
+      "featured": "Destacados e imprescindibles",
+      "all": "Todas las skins"
+    },
+    "weapons": {
+      "title": "Armas de División de Desactivación",
+      "description": "Explora las armas de División de Desactivación, desde rifles y pistolas fiables hasta opciones de gran impacto para ataque y defensa. Compara equipamientos para rondas clasificatorias, skins y jugadas que ganan rondas.",
+      "metaTitle": "Armas de División de Desactivación - Mejores equipamientos, estadísticas y opciones",
+      "metaDescription": "Encuentra las mejores armas de División de Desactivación para cada ronda, con opciones de equipamiento para atacar, defender, skins y control de zonas de bomba en clasificatorias.",
+      "categoryLabel": "ARMAS",
+      "whatIs": "¿Qué son las armas de División de Desactivación?",
+      "whatIsDescription": "Las armas de División de Desactivación son las armas y el equipo que usas en sus partidas de desactivación de bombas estilo CS. Tu elección afecta el control del retroceso, la economía y lo bien que puedes defender sitios, retomar ángulos o romper defensas.",
+      "why": "¿Por qué usar guías de armas?",
+      "whySteps": {
+        "step1Title": "Elige mejores equipamientos",
+        "step1Description": "Ajusta la elección de arma a tu rol, ya sea avanzando como atacante o anclando un sitio como defensor. El arma adecuada puede ayudarte a ganar más duelos y ahorrar créditos para las rondas posteriores.",
+        "step2Title": "Gana tiroteos clave",
+        "step2Description": "Entiende qué armas brillan en asaltos a corta distancia, líneas de visión largas y retomas de final de ronda. Así será más fácil controlar el retroceso, pelear con más limpieza y sobrevivir a los momentos decisivos.",
+        "step3Title": "Optimiza el juego clasificatorio",
+        "step3Description": "En las partidas clasificatorias, cada compra importa porque una ronda puede cambiar toda la mitad. Una configuración de armas enfocada te ayuda a seguir el ritmo de la economía, presionar zonas de bomba y convertir más rondas."
+      },
+      "featured": "Destacados e imprescindibles",
+      "all": "Todas las armas"
+    }
+  }
+}

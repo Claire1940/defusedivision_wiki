@@ -1,0 +1,183 @@
+import { Target, Shield, Sparkles, Map, CheckCircle2 } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Defuse Division Crosshair: Best Settings, Presets & Tips",
+  description: "Learn Defuse Division crosshair presets, tuning steps, color choices, and common mistakes so you can read targets faster and aim cleaner.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Crosshair+Guide",
+  date: "2026-07-06",
+  author: "defuse division Wiki Team"
+}
+
+<!-- slug: defuse-division-crosshair-best-settings-presets-tips -->
+
+<Callout type="info" title="Quick Guide">
+- **Defuse Division crosshair** works best when it is small, static, and easy to spot on dark maps.
+- **Amber or cyan** usually reads better than muted gray on tactical backgrounds and explosion-heavy fights.
+- **One preset per role** helps muscle memory: entry, anchor, and long-angle play all want different clarity.
+- **Retest after updates** because the game is still in early alpha and aim feel can shift.
+</Callout>
+
+<Section icon={Target} title="Defuse Division Crosshair Basics">
+
+Defuse Division is a Roblox tactical bomb-defusal shooter, so the crosshair should help you identify threats fast, not decorate the screen. The best setup is usually compact, centered, and readable during fast strafes, flashes, and bomb-site chaos.
+
+| Trait | Recommended Baseline | Why It Works |
+|---|---|---|
+| Size | Small | Preserves target visibility at head level |
+| Center gap | Tiny gap or filled dot | Keeps the aim point easy to read |
+| Outline | Thin, darker outline | Prevents the reticle from washing out |
+| Movement | Static if possible | Gives a stable visual reference |
+| Opacity | High enough to stand out | Helps in bright effects and particle clutter |
+
+<CardGrid cols={3}>
+  <Card title="Minimal Dot">
+    Best for players who want the cleanest center point. It supports taps, bursts, and very fast target acquisition.
+  </Card>
+  <Card title="Slim Cross">
+    A balanced choice that keeps the aim point visible without covering too much of the enemy model.
+  </Card>
+  <Card title="Hybrid Ring">
+    Useful if you lose your center during fast movement. Keep the ring thin so it does not block the head.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Branding Note">
+Defuse Division is a Roblox fan creation in early alpha, not a Valve or Counter-Strike title. Keep your content and visuals clean, and use the official Roblox game page for current build context: [Roblox search](https://www.roblox.com/search?keyword=defusedivision) (accessed 2026-07-06).
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Best Crosshair Presets for Different Roles">
+
+Pick one preset and stay with it long enough to build muscle memory. If your crosshair changes every match, your aim learns nothing. Use the table below as a practical shortlist, then narrow it down after a few rounds.
+
+| Preset | Best For | Watch Out For |
+|---|---|---|
+| Minimal dot | Flick shots, tap firing, clean head-level aim | Can be hard to find if the color is too soft |
+| Slim cross | General play, mid-range fights, balanced tracking | Too much line length can hide small targets |
+| Hollow ring | Players who want a strong center frame | Large rings can become distracting in close fights |
+| High-contrast hybrid | New players, mixed ranges, chaotic fights | Too many elements will clutter the screen |
+
+<Callout type="tip" title="Preset Rule of Thumb">
+If you hesitate while aiming, the crosshair is too complex. If you lose it during movement, it is too subtle. The best preset sits between those two mistakes.
+</Callout>
+
+**Recommended style by situation**
+
+| Situation | Best Style | Reason |
+|---|---|---|
+| Entry fragging | Minimal dot | Fast reads matter more than decoration |
+| Anchor defense | Slim cross | Easier to hold angles for longer periods |
+| Long-angle peeking | Dot or hybrid | Helps you keep the center precise |
+| Learning the game | High-contrast hybrid | Gives a stronger visual anchor |
+
+</Section>
+
+<Section icon={Sparkles} title="Tune Crosshair and Settings Together">
+
+Crosshair settings do not live alone. Sensitivity, resolution, and general menu comfort all affect how readable the reticle feels in combat. If one part feels off, adjust the whole setup in small steps instead of making a dramatic change.
+
+<Steps>
+  <Step num="1" title="Start With the Smallest Readable Shape">
+    Begin with a compact preset. The goal is to keep the enemy visible while still giving yourself a clean center point.
+  </Step>
+  <Step num="2" title="Test Against Dark and Bright Surfaces">
+    Check the crosshair on dark walls, bright explosions, and busy site angles. A good setup survives all three without blending in.
+  </Step>
+  <Step num="3" title="Match Sensitivity to the Crosshair">
+    If the crosshair feels steady but your aim feels shaky, lower the sensitivity slightly. If you over-correct targets, the sensitivity is probably too high.
+  </Step>
+  <Step num="4" title="Play Several Rounds Before Locking In">
+    Run at least a few matches before deciding. Your eyes need time to confirm whether the setup actually helps under pressure.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Settings Mindset">
+The cleanest results come from changing one variable at a time. Tune size, opacity, and sensitivity separately so you can tell what actually improved.
+</Callout>
+
+| Setting | Direction | Effect |
+|---|---|---|
+| Sensitivity | Moderate, then refine | Helps you track without overshooting |
+| Crosshair size | Small but visible | Keeps the target model readable |
+| Outline thickness | Thin and clear | Protects the reticle in bright effects |
+| Motion behavior | Static or minimal | Makes the center easier to trust |
+| Display clarity | Stable resolution and scale | Prevents the crosshair from feeling inconsistent |
+
+</Section>
+
+<Section icon={Map} title="Color Choices, Contrast, and Common Mistakes">
+
+The safest visual language for Defuse Division is dark navy, hazard amber, and cyan accents. That palette fits the game’s tactical look and tends to stay readable on maps with explosions, shadows, and heavy UI elements.
+
+<Callout type="success" title="Best Visual Pairing">
+On dark backgrounds, amber and cyan are usually the strongest practical choices. They fit the tactical theme and stand out better than low-contrast gray.
+</Callout>
+
+| Color | Best Against | Notes |
+|---|---|---|
+| Amber | Dark navy, gray interiors | Matches the tactical hazard feel and stays visible |
+| Cyan | Warm explosions, orange effects | Strong contrast when the screen gets busy |
+| White | Mixed lighting | Safe fallback, but can wash out in bright scenes |
+| Red | Dark spaces with little particle clutter | Can blend into damage cues and explosions |
+
+| Common Mistake | Why It Hurts | Fix |
+|---|---|---|
+| Too large | Covers the target’s head and chest | Shrink the lines or dot until the center stays clear |
+| Too transparent | Gets lost during fights | Increase opacity |
+| Too decorative | Distracts from the duel | Use simple geometry |
+| Constantly changing presets | Slows muscle memory | Keep one setup for several sessions |
+
+<Callout type="warning" title="Avoid These Traps">
+Do not chase a flashy reticle just because it looks good in a screenshot. In a bomb-defusal round, readability wins more fights than style.
+</Callout>
+
+</Section>
+
+<Section icon={CheckCircle2} title="Final Checklist and FAQ">
+
+Lock your setup after a full session, not after one lucky round. A good crosshair should feel boring in the best possible way: consistent, readable, and easy to trust.
+
+<Callout type="info" title="Final Review">
+If you can spot your center point instantly during movement, on-site fights, and post-explosion clutter, the setup is probably ready.
+</Callout>
+
+<Checklist
+  id="defuse-division-crosshair-checklist"
+  title="Crosshair Finish Checklist:"
+  items={[
+    "The center point is easy to find at a glance",
+    "The reticle stays visible on dark and bright surfaces",
+    "The size does not block enemy heads at mid range",
+    "The color remains readable during explosions and clutter",
+    "The preset feels consistent across several matches"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "What is the best Defuse Division crosshair style for most players?",
+    answer: "A small static crosshair is the safest all-around choice. It gives you a clear center without covering too much of the enemy model."
+  },
+  {
+    question: "Should I use a dot or a cross?",
+    answer: "Use a dot if you want the cleanest center point. Use a slim cross if you want a little more visual guidance while still keeping the screen uncluttered."
+  },
+  {
+    question: "Do I need to change my crosshair after updates?",
+    answer: "Yes, it is smart to retest after major updates or performance changes. Defuse Division is still in early alpha, so feel can shift."
+  },
+  {
+    question: "Why does a bright crosshair sometimes feel worse?",
+    answer: "A bright reticle can blend into explosions, UI elements, or particle effects. If that happens, try a higher-contrast color or a thinner outline."
+  }
+]} />
+
+</Section>

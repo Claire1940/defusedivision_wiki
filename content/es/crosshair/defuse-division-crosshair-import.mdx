@@ -1,0 +1,205 @@
+import { Map, Target, Shield, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Importación de la mira en Defuse Division: guía de configuración y consejos",
+  description: "Recrea un ajuste preestablecido de importación de mira en Defuse Division, ajusta la visibilidad y adapta la configuración de Roblox para apuntar con más limpieza, leer mejor los objetivos y tener un mejor control.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Crosshair+Import+Guide",
+  date: "2026-07-06",
+  author: "Equipo de Wiki de defuse division"
+}
+
+<Callout type="info" title="Guía rápida">
+- La **importación de la mira en Defuse Division** es más rápida cuando reconstruyes un único ajuste limpio y guardas los valores.
+- Las **formas pequeñas y de alto contraste** siguen siendo legibles frente a la interfaz táctica oscura del juego y los brillantes efectos de explosión.
+- **N abre el menú principal** y **M gestiona la selección de equipo**, así que el acceso a los ajustes sigue siendo rápido.
+- **Cian, ámbar o blanco** suelen rendir mejor que los colores de bajo contraste en combates intensos de ronda.
+- **Prueba en una sala en vivo** antes de cerrar tu configuración final, porque el movimiento cambia la visibilidad.
+</Callout>
+
+<Section icon={Map} title="Conceptos básicos de importación de la mira en Defuse Division">
+
+La forma más limpia de gestionar una **importación de la mira en Defuse Division** es pensar en ajustes preestablecidos, no en la perfección. Defuse Division es un shooter táctico de Roblox con superficies oscuras, efectos brillantes y combates de equipo muy rápidos, así que tu mira debe seguir siendo legible sin tapar al objetivo. La página oficial de Roblox también describe el juego como una creación de fans en alfa temprana, así que los ajustes pueden cambiar con el tiempo. A fecha de 2026-07-06, todavía puedes empezar desde la entrada oficial de Roblox aquí: [Jugar a Defuse Division en Roblox](https://www.roblox.com/search?keyword=defusedivision).
+
+<Callout type="tip" title="Filosofía del ajuste preestablecido">
+Construye primero una base fiable y luego cópiala en todos los modos que juegues. Un ajuste simple es más fácil de confiar que uno recargado.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Punto mínimo">
+    - Mejor para disparos precisos
+    - Muy poco desorden visual
+    - Fuerte enfoque a nivel de la cabeza
+  </Card>
+  <Card title="Cruz pequeña">
+    - La mejor opción general
+    - Referencia central fácil
+    - Funciona con rifles y pistolas
+  </Card>
+  <Card title="Anillo + punto">
+    - Excelente seguimiento a corta distancia
+    - Punto central claro
+    - Un poco más cargado en pantalla
+  </Card>
+</CardGrid>
+
+| Ajuste preestablecido | Mejor uso | Visibilidad | Inconveniente |
+| --- | --- | --- | --- |
+| Punto mínimo | Disparos de precisión | Excelente | Menos retroalimentación al controlar ráfagas |
+| Cruz pequeña | Juego general | Muy buena | Puede sentirse simple si es demasiado fina |
+| Anillo + punto | Peleas cercanas | Buena | Puede recargar el centro |
+| Cruz grande | Fase de aprendizaje | Buena | Bloquea más detalles del objetivo |
+
+Un buen ajuste de importación para este juego suele empezar pequeño y luego se afina para ganar contraste. Si ya juegas a otros shooters tácticos, mantén la misma forma básica y cambia solo el color, el tamaño y el grosor. Así será más fácil recordar el ajuste cuando cambies de cuenta o restablezcas la configuración.
+
+<Callout type="info" title="Objetivo principal">
+Tu mira debe ayudarte a disparar más rápido, no convertirse en lo que miras fijamente durante cada duelo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo reconstruir tu ajuste preestablecido dentro del juego">
+
+Si quieres el flujo de importación más rápido, trátalo como un proceso de reconstrucción en 4 pasos. El objetivo es copiar una configuración conocida y fiable en los ajustes de Defuse Division y luego verificarla en una partida real. La referencia oficial de controles indica que **N** abre el menú principal y **M** abre el menú de selección de equipo, lo que te ayuda a moverte por los menús más rápido.
+
+<Steps>
+  <Step num="1" title="Abre el menú correcto">
+    Usa primero la ruta del menú principal para que estés editando el perfil correcto y no adivinando desde la memoria.
+  </Step>
+  <Step num="2" title="Anota tu configuración de respaldo">
+    Escribe tus valores actuales de la mira antes de cambiar nada, para poder volver atrás rápidamente si el nuevo ajuste no se siente bien.
+  </Step>
+  <Step num="3" title="Define la forma central">
+    Ajusta el tamaño, el grosor y el contorno antes de tocar el color. Los cambios de forma son los que más afectan a la comodidad al apuntar.
+  </Step>
+  <Step num="4" title="Prueba con movimiento real">
+    Entra en una sala real, muévete en diagonal, asómate y mantén ángulos. Un ajuste que se ve bien en los menús puede sentirse distinto durante el retroceso.
+  </Step>
+</Steps>
+
+| Paso | Acción | Por qué importa |
+| --- | --- | --- |
+| 1 | Abre los ajustes desde el menú principal | Mantiene rápido el flujo de trabajo |
+| 2 | Guarda tus valores actuales | Evita que se queden cambios malos |
+| 3 | Ajusta primero el tamaño y el grosor | Define lo legible que se siente el centro |
+| 4 | Prueba en una ronda real | Confirma la visibilidad real bajo presión |
+
+<Callout type="warning" title="Evita este error">
+No copies una mira vistosa de otro juego y esperes que funcione igual. El ritmo y la iluminación de Defuse Division son lo bastante diferentes como para importar.
+</Callout>
+
+Un orden fiable para reconstruir es: forma, color, opacidad y luego ajuste fino. Esa secuencia evita que pierdas tiempo en pequeños retoques antes de que la mira sea siquiera legible. Si tu configuración tiene alguna opción de contorno o borde, actívala solo si el centro sigue viéndose limpio.
+
+</Section>
+
+<Section icon={Shield} title="Mejores ajustes de visibilidad para mapas tácticos oscuros">
+
+Defuse Division apuesta por superficies oscuras, efectos de colores de advertencia y espacios de combate compactos, así que la visibilidad importa tanto como la forma. El material de origen apunta a una dirección estética de azul marino táctico, ámbar y cian, lo que encaja con el ambiente del juego y refuerza el uso de colores de mira de alto contraste. Si la retícula se mezcla con el mapa, te fallará durante los asomos rápidos.
+
+<Callout type="info" title="Regla de visibilidad">
+Elige un color que destaque tanto sobre paredes oscuras como sobre efectos de explosión brillantes, no solo en la pantalla del menú.
+</Callout>
+
+| Ajuste | Rango recomendado | Mejor motivo |
+| --- | --- | --- |
+| Color | Cian, ámbar o blanco | Fuerte contraste sobre fondos oscuros |
+| Tamaño | Pequeño | Menor obstrucción de pantalla |
+| Grosor | Fino | Más fácil seguir al objetivo |
+| Contorno | Activado, si está disponible | Mejora la legibilidad |
+| Opacidad | Media | Mantiene visible el centro sin sobreexponerlo |
+| Brillo | Moderado | Evita un aspecto deslavado |
+
+| Problema | Causa probable | Solución rápida |
+| --- | --- | --- |
+| La mira desaparece en paredes oscuras | Color de bajo contraste | Cambia a cian o ámbar |
+| La mira se siente demasiado cargada | Demasiadas líneas o capas | Elimina extras y simplifica |
+| El apuntado se siente inestable | Desajuste de sensibilidad | Baja la sensibilidad en pequeños pasos |
+| La mira tapa las cabezas de los objetivos | Tamaño demasiado grande | Reduce el centro y las líneas externas |
+
+Para la mayoría de los jugadores, el punto de partida más seguro es una forma pequeña, brillante y simple con un marcador central claro. Eso te da suficiente información para controlar el retroceso y hacer disparos precisos sin convertir el centro de la pantalla en ruido visual. Si juegas de forma agresiva, prioriza la lectura rápida del objetivo por encima del estilo decorativo. Si juegas anclando ángulos, prioriza la precisión por encima del brillo.
+
+<Callout type="success" title="Mejor opción inicial">
+Una cruz pequeña de color cian o ámbar con un contorno fino suele ser el primer ajuste más fácil de confiar.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Ajuste de la mira según el arma">
+
+Tu mira debería cambiar un poco según cómo entras en combate. Defuse Division gira en torno a la presión sobre el sitio de la bomba, la defensa y las eliminaciones rápidas, así que distintas armas se benefician de distintas formas centrales. No necesitas un ajuste distinto para cada arma, pero sí conviene tener una versión para precisión y otra para seguimiento a corta distancia.
+
+| Tipo de arma | Estilo de mira | Por qué encaja |
+| --- | --- | --- |
+| Pistolas | Punto fino | Disparos limpios y correcciones rápidas |
+| Rifles | Cruz pequeña | Equilibrada para combates a media distancia |
+| SMG | Anillo pequeño o cruz | Ayuda al seguimiento a corta distancia |
+| Armas de ráfaga intensa | Cruz algo más grande | Da más retroalimentación del retroceso |
+| Disparos a larga distancia | Punto mínimo | Mantiene la imagen de mira limpia |
+
+<Callout type="tip" title="Regla práctica">
+Si fallas por exceso de elementos, reduce la mira. Si fallas porque pierdes el centro, simplifica la forma en su lugar.
+</Callout>
+
+También puedes adaptar tu ajuste a tu rol. Los jugadores de entrada suelen preferir un centro un poco más visible porque entran en acción rápidamente. Los anclajes y defensores a menudo quieren una forma más pequeña y limpia porque mantienen ángulos más cerrados. Si cambias de rol entre partidas, mantén el mismo color y ajusta solo un poco la forma. Eso preserva la memoria muscular.
+
+Un enfoque útil es mantener un ajuste principal para rifles y un ajuste secundario para pistolas o rondas de corta distancia. Así obtienes flexibilidad sin obligarte a reconfigurar todo cada vez que cambias de equipamiento.
+
+<Callout type="warning" title="Cambios de rol">
+No ajustes en exceso cada arma por separado salvo que realmente lo necesites. Demasiados ajustes preestablecidos pueden ralentizar tu reacción y debilitar la consistencia.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Solución de problemas, lista de verificación y preguntas frecuentes">
+
+Cuando un ajuste no se siente bien, normalmente la solución es pequeña. La mayoría de las malas configuraciones de mira fallan por una de estas tres razones: contraste débil, demasiado desorden visual o desajuste de sensibilidad. Antes de reconstruirlo todo, revisa primero lo básico y cambia solo una variable a la vez.
+
+| Síntoma | Qué revisar primero | Solución rápida |
+| --- | --- | --- |
+| La mira se mezcla con el mapa | Color y contorno | Usa cian, ámbar o blanco |
+| La mira se siente demasiado grande | Tamaño y grosor | Reduce ambos un paso |
+| Cuesta encontrar el centro | Claridad de la forma | Añade un punto pequeño o reduce líneas extra |
+| El apuntado se siente inconsistente | Sensibilidad | Bájala un poco y vuelve a probar |
+
+<Checklist
+  id="crosshair-checklist"
+  title="Antes de entrar en cola:"
+  items={[
+    "Abre el menú principal con N y confirma la ruta de ajustes",
+    "Guarda tus valores anteriores antes de cambiar la mira",
+    "Elige primero un color de alto contraste",
+    "Prueba el ajuste en una sala en vivo",
+    "Mantén solo una forma principal por ajuste preestablecido"
+  ]}
+/>
+
+<Callout type="info" title="Pulido final">
+Un buen ajuste debería sentirse invisible durante el movimiento y completamente claro al mantener un ángulo. Si lo notas demasiado, simplifícalo otra vez.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el mejor estilo de importación de la mira en Defuse Division para principiantes?",
+    answer: "Empieza con una cruz pequeña o un híbrido de punto y cruz. Sigue siendo legible, da un punto central claro y no tapa a los objetivos."
+  },
+  {
+    question: "¿Defuse Division necesita un sistema especial de código de importación?",
+    answer: "Usa un flujo manual de ajuste preestablecido salvo que tu configuración admita específicamente compartir valores. Reconstruir un ajuste limpio es la opción más segura."
+  },
+  {
+    question: "¿Qué color funciona mejor en mapas tácticos oscuros?",
+    answer: "Cian, ámbar o blanco son las opciones más seguras porque contrastan bien con paredes oscuras y efectos brillantes."
+  },
+  {
+    question: "¿Debería usar la misma mira para todas las armas?",
+    answer: "Puedes conservar un ajuste principal, pero una alternativa pequeña para armas de corta distancia puede mejorar la comodidad y el seguimiento."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,230 @@
+import { Map, Target, Shield, Sparkles, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de alineaciones de Defuse Division: mejores jugadas preparadas y consejos",
+  description: "Usa estas alineaciones de Defuse Division para controlar A, B y Mid con holds más limpios, retomas más seguras y jugadas preparadas repetibles.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Defuse+Division+Lineups+Guide",
+  date: "2026-07-06",
+  author: "Equipo de la Wiki de Defuse Division"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Guía de alineaciones de Defuse Division**: crea configuraciones repetibles para A, B y Mid en lugar de improvisar cada ronda.
+- **Mejor enfoque**: usa los mismos patrones de entrada, hold y retoma hasta que tu equipo pueda ejecutarlos con limpieza.
+- **Enfoque principal**: el control del mapa, los cruces de fuego y el timing importan más que las entradas individuales espectaculares.
+- **Objetivo de práctica**: ensaya una configuración de ataque y una de defensa para cada ruta del mapa.
+</Callout>
+
+<Section icon={Map} title="Guía de alineaciones de Defuse Division: principios básicos">
+
+Defuse Division es un shooter táctico de desactivación de bombas en Roblox, construido alrededor del timing de ronda, el control de sitios y la coordinación en equipo. Una buena alineación no es un truco; es una configuración repetible que le da a tu equipo la misma lectura, el mismo timing y la misma respuesta en cada ronda. Eso importa en un juego donde los cuellos de botella, los sitios de bomba y las rutas de rotación deciden si una ronda se siente controlada o caótica.
+
+Si quieres la base más limpia, empieza estudiando la página oficial del juego en [Roblox](https://www.roblox.com/search?keyword=defusedivision) y trata cada alineación como un problema de ruta y timing. Cuanto más consistentes sean tus posiciones iniciales, más fácil será intercambiar bajas, retomar y anclar espacio.
+
+**Destacados del video:**
+- Construye alineaciones alrededor del **control del sitio**, no de duelos aleatorios.
+- Usa un **timing repetible** para que tus compañeros puedan intercambiar tu asomo.
+- Mantén **Mid** solo cuando apoye un avance o una retoma del sitio.
+- Conserva una salida segura para cada configuración agresiva.
+
+<CardGrid cols={3}>
+  <Card title="Defaults de ataque">
+    Abre la ronda con una carril estable, un ángulo de entrada seguro y un compañero listo para intercambiar.
+  </Card>
+  <Card title="Anclas de defensa">
+    Mantén el mismo cuello de botella, retrasa la entrada y deja espacio para una retoma posterior.
+  </Card>
+  <Card title="Patrones de retoma">
+    Muévanse juntos, limpien las esquinas en orden y eviten peleas aisladas después del plantado.
+  </Card>
+</CardGrid>
+
+| Tipo de alineación | Mejor uso | Riesgo típico | Cuándo usarla |
+|---|---|---|---|
+| Entrada por defecto | Ganar espacio temprano | Exponerse demasiado | Cuando tu equipo necesita el primer contacto |
+| Split por Mid | Presionar un sitio | Errores de sincronización | Cuando Mid conecta con ambos sitios |
+| Hold de ancla | Retrasar y obtener info | Quedar aislado | Cuando necesitas frenar una incursión |
+| Stack de retoma | Recuperar un sitio plantado | Desperdicio de utilidad | Cuando la bomba ya está puesta |
+
+<Callout type="tip" title="Principio pro">
+Una buena alineación es lo bastante simple como para repetirse bajo presión. Si no puedes explicarla en una sola frase, probablemente sea demasiado complicada para rondas reales.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Alineaciones de ataque para A, B y Mid">
+
+Las alineaciones de ataque funcionan mejor cuando tratas el mapa como tres problemas conectados: cómo entrar, cómo dividir la atención y cómo terminar el plantado con seguridad. Como Defuse Division usa una estructura estándar de sitios de bomba, las configuraciones ofensivas más seguras suelen ser las que controlan primero un cuello de botella y luego convierten esa presión en un asalto al sitio.
+
+Cuando construyas un plan de ataque, céntrate en las líneas de visión y las ventanas de timing. No te comprometas demasiado con una entrada profunda si tu equipo todavía tiene una mejor jugada por Mid o por un segundo carril. La presión repetible suele vencer a las jugadas forzadas de héroe más a menudo de lo que parece.
+
+<Callout type="warning" title="Evita este error">
+No memorices una alineación sin comprobar la geometría real. Una jugada preparada solo funciona si tu mira, tu movimiento y tu timing de entrada coinciden con la ruta.
+</Callout>
+
+| Fase de ataque | Objetivo | Mejor hábito de alineación | Error común |
+|---|---|---|---|
+| Inicio de ronda | Tomar espacio con seguridad | Mantener un ángulo estable antes de moverse | Entrar corriendo al primer contacto |
+| Mitad de ronda | Dividir a los defensores | Sincronizar dos carriles al mismo tiempo | Llegar de uno en uno |
+| Asalto al sitio | Romper la configuración del ancla | Limpiar primero las esquinas cercanas | Plantar antes de asegurar el control |
+| Post-plantado | Proteger la bomba | Reposicionarse a un cruce de fuego seguro | Vigilar dos veces el mismo carril |
+
+<Steps>
+  <Step num="1" title="Elige el carril de entrada">
+    Elige A, B o Mid según dónde tu equipo tenga mejor timing y menos ángulos expuestos.
+  </Step>
+  <Step num="2" title="Asigna un compañero de intercambio">
+    Cada jugador de primera línea debería tener a alguien lo bastante cerca para castigar al defensor que gane el primer duelo.
+  </Step>
+  <Step num="3" title="Fuerza al ancla a retroceder">
+    Presiona el cuello de botella principal el tiempo suficiente para que el defensor no pueda quedarse en el sitio con total confianza.
+  </Step>
+  <Step num="4" title="Planta desde cobertura">
+    Usa una posición que proteja al que planta y le dé a tu equipo un ángulo limpio de post-plantado.
+  </Step>
+</Steps>
+
+Una regla útil es pensar en términos de “carril, intercambio y cierre”. Si tu equipo domina el carril, el intercambio está listo y la ubicación del plantado es segura, las alineaciones de ataque ya están cumpliendo su trabajo. Esa misma estructura también evita que tu equipo pierda tiempo en espacio vacío.
+
+Para una planificación de rutas más estructurada, la página oficial de Roblox y las publicaciones de actualización del propio juego son mejores referencias que los rumores aleatorios de la comunidad. A fecha de 2026, las estadísticas públicas del juego también sugieren una base activa de jugadores, lo que es una de las razones por las que las jugadas preparadas consistentes siguen siendo valiosas en partidas reales.
+
+<Callout type="info" title="Prioridad de ataque">
+Si la ronda empieza con mala separación, ralentiza el avance y reconstruye la cadena de intercambios. Un asalto retrasado pero organizado suele ser más fuerte que un colapso apresurado.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Alineaciones de defensa, cruces de fuego y rutas de retoma">
+
+La defensa es donde las alineaciones se convierten en disciplina. En defensa, tu trabajo es frenar el avance, recopilar información y sobrevivir lo suficiente para que llegue un compañero. Las mejores configuraciones suelen ser las que crean un cruce de fuego o fuerzan a los atacantes a limpiar varios ángulos a la vez.
+
+Aquí es donde la conciencia del sitio de bomba importa más. Quieres un ancla que pueda ralentizar la entrada, una posición de apoyo que castigue la continuación y un carril de rotación que no quede bloqueado por asomarse demasiado. Si pierdes el control del mapa demasiado pronto, tu retoma se vuelve más difícil incluso antes de que se plante la bomba.
+
+| Rol defensivo | Objetivo de posicionamiento | Mejor uso | Evitar cuando |
+|---|---|---|---|
+| Ancla | Mantener el primer punto de contacto | Frenar al inicio de la ronda | Estás solo y sin apoyo |
+| Apoyo | Cubrir un segundo ángulo | Castigar los swings amplios | El sitio ya está desbordado |
+| Rotador | Llegar tarde y limpiar | Retoma o refuerzo | Abandonas el sitio demasiado pronto |
+| Vigilancia de flanco | Evitar rotaciones gratis | Detener jugadas de split enemigas | Tu equipo ya tiene información total del mapa |
+
+<Callout type="success" title="Condición de victoria en defensa">
+Una alineación defensiva exitosa no necesita ganar al instante. Solo necesita comprar tiempo, provocar errores y mantener la retoma viable.
+</Callout>
+
+Si estás jugando una hold defensiva, el hábito más importante es resistir la tentación de pelear solo cada ángulo. Un cruce de fuego es más fuerte que un asomo individual porque obliga al atacante a elegir entre dos amenazas. Esa elección es la que crea intercambios fáciles.
+
+La otra mitad de la defensa es la retoma. Una vez que la bomba está plantada, tu alineación debe pasar de mantener espacio a recuperarlo en orden. Limpia primero el peligro más cercano, luego el cuerpo del sitio y después el ángulo probable de post-plantado. Correr hacia la bomba sin apoyo suele regalar la ronda.
+
+Una mentalidad defensiva práctica se ve así:
+- Mantén una línea estable en vez de deambular.
+- Guarda vida para la retoma si el sitio ya está perdido.
+- Rota con intención, no por pánico.
+- Comunica cuando cedes espacio para que tus compañeros conozcan el timing.
+
+El planteamiento oficial del juego también respalda este estilo: Defuse Division está construido alrededor de bombas, temporizadores y coordinación en equipo, así que las alineaciones de defensa son más fuertes cuando son pacientes y estructuradas.
+
+<Callout type="warning" title="Trampa defensiva">
+No juntes a demasiados jugadores en un solo ángulo al principio. Si los atacantes golpean el otro lado, tu rotación puede llegar demasiado tarde como para importar.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Ajustes y rutina de práctica para alineaciones más limpias">
+
+Las alineaciones solo se sienten bien cuando tus ajustes no van en tu contra. El modelo básico de control en Defuse Division es sencillo: movimiento, control de la mirada, interacción y manejo de la bomba deben ser consistentes antes de que tus configuraciones tácticas se vuelvan fiables. Por eso el control del aim y los ajustes de comodidad deben entrenarse juntos.
+
+Empieza con una sensibilidad estable, una mira legible y combinaciones de teclas que no olvides bajo presión. El esquema público de controles incluye movimiento, apuntado, interacción, disparo principal, interacción con la bomba y el propio menú de ajustes. Si sigues ajustando todo constantemente, estás entrenando inconsistencia en lugar de memoria muscular.
+
+| Ajuste | Dirección recomendada | Por qué ayuda |
+|---|---|---|
+| Sensibilidad | Mantenla estable | Ayuda a que las alineaciones sean repetibles |
+| Mira | Simple y visible | Mejora el seguimiento de objetivos en situaciones caóticas |
+| Audio | Pasos claros y señales de acción | Facilita leer el timing |
+| Teclas | Cómodas y fijas | Reduce errores de pulsación por pánico |
+| FOV / Sensación de vista | Usa lo que mantenga los ángulos legibles | Mejora la percepción sin distraer |
+
+<Checklist
+  id="lineup-practice"
+  title="Objetivos de práctica semanales:"
+  items={[
+    "Ejecuta una alineación de ataque para A, B y Mid",
+    "Practica un ancla defensiva en cada carril del mapa",
+    "Ensaya una ruta de retoma con un compañero",
+    "Fija tu sensibilidad antes de las sesiones clasificatorias",
+    "Revisa qué alineaciones fallaron por timing y no por aim"
+  ]}
+/>
+
+<Steps>
+  <Step num="1" title="Calienta los controles">
+    Dedica unos minutos al movimiento y al aim hasta que tus entradas se sientan limpias y predecibles.
+  </Step>
+  <Step num="2" title="Prueba una ruta a la vez">
+    Elige un solo carril, repite la misma entrada o hold y compara el resultado en cada intento.
+  </Step>
+  <Step num="3" title="Añade a un compañero">
+    Practica el compañero de intercambio y el cruce de fuego para que la alineación funcione en una partida real, no solo en solitario.
+  </Step>
+  <Step num="4" title="Revisa el punto de fallo">
+    Si la jugada se rompe, identifica si el problema fue timing, separación o posicionamiento.
+  </Step>
+</Steps>
+
+Una estructura de práctica sencilla suele superar a una larga y desordenada. Diez repeticiones enfocadas con la misma ruta son más útiles que una docena de intentos aleatorios en mapas distintos. Una vez que el movimiento se vuelve automático, la alineación en sí misma resulta más fácil de confiar.
+
+<Callout type="tip" title="Regla de consistencia">
+Los mejores ajustes no son los más llamativos. Son los que puedes usar durante toda una sesión sin dudar de ellos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recursos, errores comunes y preguntas frecuentes">
+
+La forma más segura de mantenerte al día es seguir fuentes oficiales del propio juego en vez de perseguir ruido reciclado de la comunidad. En Defuse Division, eso significa revisar la página del juego en Roblox, el espacio oficial de la comunidad y las notas de parche cuando aparezcan nuevas rutas, mapas o cambios de balance. Si un cambio afecta líneas de visión o timing, tu alineación antigua puede necesitar un pequeño ajuste.
+
+| Recurso | Enlace | Para qué sirve |
+|---|---|---|
+| Página del juego en Roblox | [Abrir en Roblox](https://www.roblox.com/search?keyword=defusedivision) | Iniciar el juego y comprobar el estado público |
+| Búsqueda de changelog en DevForum | [Buscar notas de parche](https://devforum.roblox.com/search?q=Defuse%20Division%20Changelog) | Seguir actualizaciones y cambios de jugabilidad |
+| Comunidad de Discord | Servidor oficial | Anuncios de la comunidad y conversación entre jugadores |
+
+Los errores comunes suelen caer en los mismos tres grupos:
+- Asomarse antes de que el intercambio esté listo.
+- Rotar demasiado pronto y ceder espacio del sitio.
+- Practicar alineaciones sin comprobar si la ruta sigue encajando con el mapa.
+
+<Callout type="info" title="Conciencia de actualización">
+Si un parche cambia una entrada de sitio, un cuello de botella o una ruta de rotación, revisa tu hoja de alineaciones antes de la siguiente sesión.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Qué significa una guía de alineaciones en Defuse Division?",
+    answer: "Significa un conjunto repetible de posiciones de ataque, defensa y retoma que ayudan a tu equipo a controlar A, B y Mid con mejor timing."
+  },
+  {
+    question: "¿Hay alineaciones fijas de granadas en cada mapa?",
+    answer: "No necesariamente. En Defuse Division, las alineaciones más fiables suelen basarse en ángulos, separación y timing, así que debes adaptarlas a la estructura de cada mapa."
+  },
+  {
+    question: "¿Qué deberían aprender primero los principiantes?",
+    answer: "Empieza con una entrada de ataque, un ancla defensiva y una ruta de retoma. Eso te da una base útil antes de probar configuraciones más avanzadas."
+  },
+  {
+    question: "¿Cómo hago que mis alineaciones de Defuse Division sean más consistentes?",
+    answer: "Mantén estable tu sensibilidad, practica la misma ruta repetidamente y asegúrate de que un compañero esté listo para intercambiar tu primer contacto."
+  }
+]} />
+
+<Callout type="success" title="Conclusión final">
+Si quieres rondas más limpias, construye alrededor de rutas simples, timing estable y una separación lista para el equipo. Esa es la base de una guía sólida de alineaciones de Defuse Division.
+</Callout>
+
+</Section>

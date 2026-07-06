@@ -1,0 +1,218 @@
+import { Map, Shield, Target, Swords, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Jogabilidade de Defuse Division: Fluxo das Rodadas, Funções e Dicas",
+  description: "Aprenda o básico da jogabilidade de Defuse Division, prioridades de função, controle de mapa e dicas de configuração para que jogadores de Roblox venham a vencer mais rodadas com mira mais consistente.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Defuse+Division+Gameplay+Guide",
+  date: "2026-07-06",
+  author: "Equipe da Wiki de Divisão de Desarmamento"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **A jogabilidade de Defuse Division** recompensa trocas rápidas, comunicação clara e timing disciplinado da bomba.
+- **Atacantes** vencem ao plantar, segurar espaço ou eliminar os defensores antes da retomada.
+- **Defensores** vencem ao atrasar as entradas, proteger ângulos e desarmar sob pressão.
+- **As configurações** importam: sensibilidade estável, mira legível e áudio limpo melhoram a consistência.
+</Callout>
+
+<Section icon={Map} title="Loop Central e Fluxo das Rodadas">
+
+A jogabilidade de Defuse Division é construída em torno de um ciclo simples, mas tenso: uma equipe pressiona o site, enquanto a outra atrasa, defende e caça o desarme. O jogo ainda está em alfa inicial e é uma criação de fãs, não um projeto oficial da Valve, então espere que o meta mude conforme as atualizações forem chegando.
+
+<Callout type="tip" title="Lógica da Partida">
+Trate cada rodada como um quebra-cabeça de tempo. Se sua equipe conquistar espaço cedo, a rodada fica muito mais fácil; se você perder o controle no fim, a retomada fica bagunçada rapidamente.
+</Callout>
+
+**Visão Geral do Fluxo da Rodada**
+
+| Fase | Objetivo | Foco | Erro Comum |
+|---|---|---|---|
+| Início | Conquistar espaço | Vencer um duelo inicial, coletar informação | Avançar sozinho correndo |
+| Meio da Rodada | Preparar o plant ou negá-lo | Trocar com os colegas, segurar corredores-chave | Expor-se demais sem apoio |
+| Pós-Plant | Proteger a bomba | Ganhar tempo, cobrir ângulos, forçar retomadas | Correr atrás de abates em vez de tempo |
+| Janela de Desarme | Recuperar o site | Limpar ângulos, tocar a bomba, cobrir quem desarma | Começar o desarme sem segurança |
+
+<Steps>
+  <Step num="1" title="Leia o início da rodada">
+    Confira de que lado você nasceu, compre ou equipe-se rapidamente e se mova com propósito. Os primeiros dez segundos geralmente decidem qual equipe controla o mapa.
+  </Step>
+  <Step num="2" title="Pegue um ângulo útil">
+    Escolha um corredor que dê informação ou uma primeira luta. Bons jogadores valorizam sobreviver e trocar mais do que um avanço inicial chamativo.
+  </Step>
+  <Step num="3" title="Jogue o objetivo">
+    Se você estiver atacando, prepare o plant. Se estiver defendendo, atrase o plant ou force o inimigo a agir em um timing ruim.
+  </Step>
+  <Step num="4" title="Finalize com disciplina">
+    Depois do plant, segure o tempo e cubra a bomba. Na defesa, limpe os cantos antes de se comprometer com o desarme.
+  </Step>
+</Steps>
+
+Uma rodada forte geralmente é resultado de pequenas decisões tomadas no tempo certo. Se você sabe onde a luta deve acontecer, para de desperdiçar movimento e começa a vencer trocas mais limpas.
+
+</Section>
+
+<Section icon={Shield} title="Funções no Ataque vs Defesa">
+
+Os dois lados na jogabilidade de Defuse Division pedem hábitos diferentes, mas ambos recompensam estrutura. Atacantes querem velocidade com controle. Defensores querem paciência com uma reação afiada. Jogadores solo queue devem simplificar sua função e evitar forçar jogadas de herói em toda rodada.
+
+<Callout type="warning" title="Disciplina de Função">
+Se sua equipe não tiver um plano, não improvise correndo para todo ângulo. Uma rodada sem graça com boas trocas costuma vencer uma rodada caótica com boa mira.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Atacantes">
+    Pressão para plantar, troque eliminações de entrada e segure o espaço pós-plant. Melhor quando a equipe avança junta.
+  </Card>
+  <Card title="Defensores">
+    Atrase avanços, ancore rotas-chave e retome com vantagem numérica. Melhor quando a equipe mantém um bom espaçamento.
+  </Card>
+  <Card title="Solo Queue">
+    Jogue em um ângulo flexível, compartilhe informação e evite lutas isoladas. Melhor quando você mantém suas opções em aberto.
+  </Card>
+</CardGrid>
+
+**Comparação de Funções**
+
+| Função | Tarefa Principal | Hábito Ideal | Risco a Evitar |
+|---|---|---|---|
+| Entrada do Atacante | Abrir o site | Limpar um ângulo e depois trocar | Espiar antes da equipe estar pronta |
+| Suporte do Atacante | Garantir o plant | Seguir a entrada e cobrir flancos | Ficar longe demais do objetivo |
+| Âncora da Defesa | Segurar o avanço | Manter um corredor e sobreviver mais tempo | Desafiar toda e qualquer peek |
+| Rotador da Defesa | Reforçar pontos fracos | Rotacionar após informação real | Abandonar um site cedo demais |
+
+Se você está começando, escolha uma função de cada lado e aprenda bem. Consistência importa mais do que tentar cobrir todos os papéis ao mesmo tempo.
+
+</Section>
+
+<Section icon={Sparkles} title="Configurações, Mira e Montagem do Loadout">
+
+Boas configurações tornam a jogabilidade de Defuse Division mais fácil de ler. O material de origem aponta para uma direção de interface tática, então uma configuração escura com uma mira legível combina melhor com o ritmo do jogo do que uma tela clara e poluída. No menu, **N** abre o menu principal e **M** abre a seleção de equipe, algo útil de lembrar durante reinícios rápidos.
+
+<Callout type="success" title="Regra de Configuração">
+Comece com uma sensibilidade estável e depois teste sua mira em rodadas reais. Pequenos ajustes vencem mudanças constantes.
+</Callout>
+
+**Tabela de Configurações Principais**
+
+| Configuração | Recomendação | Por que ajuda |
+|---|---|---|
+| Sensibilidade | Ponto de partida médio-baixo | Facilita microcorreções |
+| Mira | Forma simples e de alto contraste | Leitura mais rápida do alvo |
+| Áudio | Efeitos claros, música mais baixa | Melhor timing dos sons |
+| Gráficos | Priorize visibilidade limpa | Menos poluição visual nas lutas |
+| Teclas do Menu | Aprenda N e M | Configuração mais rápida entre rodadas |
+
+**Tabela de Prioridade do Loadout**
+
+| Prioridade | O que Priorizar | Por quê |
+|---|---|---|
+| 1 | Rifle confiável ou arma principal | A maioria das rodadas é decidida por trocas |
+| 2 | Pistola fácil de controlar | Ajuda quando seu timing de recarga falha |
+| 3 | Utilitários ou ferramentas de equipe | Abrem sites e atrasam avanços |
+| 4 | Escolhas cosméticas | Estilo importa, mas não antes da consistência |
+
+<Callout type="info" title="Dica de Mira">
+Mantenha a mira na altura da cabeça ao atravessar gargalos. Esse único hábito reduz flicks de pânico.
+</Callout>
+
+Você não precisa de uma configuração perfeita para jogar bem. Você precisa de uma configuração que permita ver os inimigos rapidamente, se mover com conforto e repetir o mesmo padrão de mira em toda rodada.
+
+</Section>
+
+<Section icon={Target} title="Controle de Mapa e Noções Básicas de Rotação">
+
+É nos mapas que a jogabilidade de Defuse Division deixa de ser só um shooter e vira um jogo de tempo. As melhores equipes controlam espaço em vez de correr atrás de eliminações. Controle do meio, gargalos e rotas de rotação importam porque determinam quem chega ao site primeiro e quem fica preso em uma luta ruim.
+
+<Callout type="tip" title="Dica de Posicionamento">
+Segure espaço útil, não espaço aleatório. Se seu ângulo nunca muda a rota do inimigo, provavelmente não vale a pena segurá-lo por muito tempo.
+</Callout>
+
+**Tabela de Controle de Mapa**
+
+| Área | Por que importa | Hábito bom | Hábito ruim |
+|---|---|---|---|
+| Corredor de Spawn | Define a pressão inicial | Mova-se com um colega | Fazer dry peek em toda rodada |
+| Controle do Meio | Abre opções de rotação | Reúna informação antes de avançar | Se comprometer demais sem apoio |
+| Gargalo | Força lutas diretas | Segure um ângulo fechado | Ficar exposto no aberto |
+| Rota de Rotação | Salva rodadas perdidas | Reposicione após contato | Rotacionar antes de confirmar o perigo |
+
+**Caminhos Comuns da Rodada**
+
+| Situação | Melhor Resposta | Resultado |
+|---|---|---|
+| Pressão inicial no site | Trocar o primeiro contato | Melhor chance de plantar |
+| Avanço tardio do atacante | Segure seu ângulo e espere | Força uma entrada apressada |
+| Site perdido na defesa | Retome com números | Melhora as chances de desarme |
+| Bomba plantada | Limpe, toque e cubra | Evita um desarme grátis |
+
+As rotações mais limpas são as que acontecem depois de informação real. Se você rotacionar no chute, muitas vezes entrega justamente o espaço que sua equipe precisava segurar.
+
+</Section>
+
+<Section icon={Trophy} title="Vença Mais Rodadas com Hábitos Mais Inteligentes">
+
+Depois que você entende o básico, o próximo passo é transformar bons hábitos em vitórias repetíveis. A maioria das derrotas vem dos mesmos problemas: avanços solo, espaçamento ruim e decisões no pânico ao redor da bomba. Corrija isso e sua taxa de vitória normalmente melhora antes mesmo da sua mira melhorar.
+
+<Callout type="success" title="Mentalidade para Vencer Rodadas">
+Troque primeiro, sobreviva mais tempo e deixe o objetivo decidir a luta. Um jogador calmo geralmente é um jogador útil.
+</Callout>
+
+<Checklist
+  id="defuse-division-habits"
+  title="Metas de Rodada para Repetir:"
+  items={[
+    "Jogue com pelo menos um colega ao conquistar espaço",
+    "Cheque os cantos antes de correr atrás de uma eliminação",
+    "Segure o site da bomba em vez de caçar longe demais",
+    "Use pistas sonoras antes de avançar por um corredor",
+    "Retome ou desarme com cobertura, não no aberto"
+  ]}
+/>
+
+**Tabela de Erro vs Correção**
+
+| Erro Comum | Correção Melhor | Resultado |
+|---|---|---|
+| Avançar sozinho | Mover-se com apoio | Mais trocas, menos rodadas entregues |
+| Expor-se demais | Segurar o ângulo por mais tempo | Melhor sobrevivência |
+| Ignorar o som | Ouvir antes de avançar | Rotações mais seguras |
+| Desarmar cedo demais | Limpar e cobrir primeiro | Menos desarmes falhos |
+| Correr atrás de abates | Respeitar o tempo | Melhor controle do objetivo |
+
+Se quiser um plano simples de melhoria, revise uma rodada ruim após cada sessão e pergunte o que falhou primeiro: espaçamento, timing ou informação. Isso mantém sua prática focada e útil.
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<Callout type="warning" title="Nota do FAQ">
+Estas respostas focam nos aspectos práticos da jogabilidade de Defuse Division: tempo, funções, configurações e jogo em equipe.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Em que a jogabilidade de Defuse Division é baseada?",
+    answer: "Ela é baseada na pressão para plantar a bomba, no timing da defesa e no controle da rodada. Uma equipe ataca o objetivo enquanto a outra atrasa, retoma ou desarma."
+  },
+  {
+    question: "Devo aprender mira ou posicionamento primeiro?",
+    answer: "Comece pelo posicionamento. Bom espaçamento, ângulos melhores e timing mais forte geralmente melhoram seus resultados mais rápido do que só a mira bruta."
+  },
+  {
+    question: "Qual é o melhor hábito no solo queue?",
+    answer: "Fique com um colega, busque lutas úteis e evite avanços isolados. Jogadores solo vencem mais rodadas quando continuam passíveis de troca."
+  },
+  {
+    question: "Quais configurações ajudam mais no começo?",
+    answer: "Use uma mira legível, sensibilidade médio-baixa e áudio limpo. Essas três mudanças tornam os alvos mais fáceis de enxergar e reagir."
+  }
+]} />
+
+</Section>

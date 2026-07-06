@@ -1,0 +1,173 @@
+import { Swords, Target, Shield, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Defuse Division Knife Drop: Guia de Troca Rápida e Soltura da Faca",
+  description: "Aprenda a largar, guardar e trocar sua faca em Defuse Division com timing mais seguro, melhores hábitos de movimento e menos erros que custam a rodada.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/111827/fff?text=Knife+Drop+Guide",
+  date: "2026-07-06",
+  author: "Equipe da Wiki de Defuse Division"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **O knife drop em Defuse Division** funciona melhor como ferramenta de timing, não como um hábito que você usa em todo duelo.
+- **Largue ou guarde só depois de abrir espaço** para não desperdiçar uma eliminação fácil com uma troca apressada.
+- **Mantenha a ação próxima da sua mão de movimento** se a versão atual permitir remapeamento.
+- **Pratique a sequência completa** em um servidor seguro antes de usá-la em uma partida real.
+</Callout>
+
+<Section icon={Swords} title="Noções Básicas do Knife Drop em Defuse Division">
+
+No knife drop em Defuse Division, o objetivo real é controle. Você não está tentando exibir um truque; está tentando deixar o manuseio corpo a corpo mais limpo, reduzir trocas em pânico e manter seu movimento fluindo quando a luta começa. Se a sua versão atual permitir uma ação real de soltar, use-a com cuidado. Se ela só permitir guardar ou trocar para longe da faca, trate isso como a versão prática da mesma decisão.
+
+<Callout type="info" title="Leia Isto Primeiro">
+Use a tabela abaixo como guia de decisão. Os esquemas de controle podem mudar, então não trate nenhum caminho de botão como permanente.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Velocidade">
+    Transições mais rápidas importam quando você precisa se mover, espiar ou perseguir sem travar no corpo a corpo.
+  </Card>
+  <Card title="Segurança">
+    Largar no momento errado pode te expor, então a melhor jogada geralmente é a mais segura.
+  </Card>
+  <Card title="Controle">
+    Uma troca limpa mantém seu loadout legível e reduz golpes acidentais de faca em espaços apertados.
+  </Card>
+</CardGrid>
+
+| Opção | Melhor uso | Risco principal |
+|---|---|---|
+| Largada física | Você quer a faca totalmente fora da mão | Barulhenta, óbvia e fácil de punir |
+| Guardar ou trocar | Você só precisa de uma transição de arma mais limpa | Não cria espaço real |
+| Manter a faca pronta | Você está rotacionando ou se movendo em silêncio | Ruim se um duelo começar na hora |
+
+Uma boa regra geral é simples: se o próximo segundo importa mais do que a próxima animação, priorize a transição mais limpa. Se a área não estiver segura, mantenha a faca na mão e mova-se primeiro.
+
+</Section>
+
+<Section icon={Target} title="Como Largar ou Trocar Sua Faca com Segurança">
+
+<Callout type="tip" title="Melhor Prática">
+Vincule a ação o mais perto possível das suas teclas de movimento, se o jogo permitir remapeamento. Quanto menos movimento de mão for necessário, menor a chance de errar o clique.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Limpe o ângulo imediato">
+    Verifique inimigos, sinais sonoros e rotas comuns de avanço antes de mexer no slot de corpo a corpo.
+  </Step>
+  <Step num="2" title="Abra a ação correta do inventário">
+    Use o controle de largar, trocar ou loadout do jogo, se a sua versão atual oferecer um.
+  </Step>
+  <Step num="3" title="Complete a transição">
+    Conclua a ação em um único movimento limpo, em vez de apertar várias teclas ou botões pela metade.
+  </Step>
+  <Step num="4" title="Reposicione sua mira">
+    Centralize a mira imediatamente para ficar pronto para o próximo peek, rotação ou troca.
+  </Step>
+</Steps>
+
+| Padrão de entrada | Melhor situação | Por que funciona |
+|---|---|---|
+| Tecla única bem definida | Execução rápida em espaço aberto | Reduz a hesitação |
+| Troca de inventário | Mais seguro que uma largada manual | Mantém mais controle |
+| Remapeamento no mouse ou controle | Conforto em sessões longas | Diminui o esforço de entrada |
+| Tecla padrão de backup | Plano de emergência | Ajuda se o seu bind personalizado falhar |
+
+A versão mais segura do movimento é aquela que você consegue repetir sob pressão. Se você precisa pensar na ordem das teclas, a configuração ainda está complicada demais.
+
+</Section>
+
+<Section icon={Shield} title="Quando o Knife Drop Ajuda Mais">
+
+<Callout type="warning" title="Não Force">
+Nunca transforme um truque de corpo a corpo em hábito durante uma entrada contestada ou uma rotação exposta. Se a rota estiver quente, movimento importa mais do que estilo.
+</Callout>
+
+Use o timing do knife drop quando ele criar uma vantagem real. Na maioria dos casos, isso significa que você já tem espaço, o inimigo está rotacionando ou você está reposicionando entre pontos seguros. Ele é menos útil quando sua equipe precisa de trocas imediatas ou quando a próxima esquina pode esconder um duelo.
+
+<Checklist
+  id="knife-drop-situations"
+  title="Bons Momentos para Usar Knife Drop:"
+  items={[
+    "Depois de limpar uma rota e precisar de uma troca de arma mais rápida",
+    "Ao rotacionar por um caminho seguro, sem contato próximo",
+    "Quando você quer evitar golpes acidentais de melee em uma defesa apertada",
+    "Durante o tempo de preparação, se a ação não atrapalhar seu posicionamento",
+    "Em treinos, para construir memória muscular antes das partidas reais"
+  ]}
+/>
+
+| Cenário | Largar ou Manter | Motivo |
+|---|---|---|
+| Rotação no início da rodada | Geralmente manter | Você precisa de mobilidade e consciência |
+| Movimento seguro após limpar a área | Largar ou trocar | Menor risco e manuseio mais limpo |
+| Retomada sob pressão | Manter | A velocidade de reação importa mais |
+| Reposicionamento silencioso | Manter ou guardar | Preserve o controle e a disciplina sonora |
+| Sala de treino | Largar e repetir | Melhor lugar para criar memória muscular |
+
+Um bom teste é este: se a ação com a faca te deixa mais fácil de ler, ainda não use. Se ela ajuda você a se mover, mirar ou resetar mais rápido, ela merece estar na sua rotina.
+
+</Section>
+
+<Section icon={Sparkles} title="Erros Comuns e Hábitos Melhores">
+
+<Callout type="success" title="Use um Ritmo Repetível">
+Os melhores jogadores não improvisam a sequência toda vez. Eles usam a mesma configuração, o mesmo timing e o mesmo reset depois da troca.
+</Callout>
+
+Os problemas do knife drop geralmente vêm do pânico, não da mecânica em si. A maioria dos erros acontece quando o jogador faz cedo demais, faz em campo aberto ou esquece que a transição pode deixá-lo vulnerável por um instante. Hábitos limpos valem mais do que dedos rápidos.
+
+| Erro | Por que isso custa rodadas | Melhor hábito |
+|---|---|---|
+| Largar à vista de todos | Você vira um alvo fácil | Espere cobertura ou uma rota segura |
+| Spammar a ação | Perde tempo e cria confusão | Use uma entrada deliberada |
+| Esquecer o reset de mira depois | Você vence a troca, mas perde a luta | Recentralize a mira imediatamente |
+| Praticar só em partidas reais | Cria hábitos ruins sob pressão | Treine primeiro em um servidor de baixo risco |
+| Tratar todas as rodadas como iguais | Ignora o mapa e o estado da equipe | Decida com base em espaço e timing |
+
+<CardGrid cols={2}>
+  <Card title="Hábito Pré-Rodada">
+    Confira seu bind uma vez, confirme seu caminho de troca e saiba para onde quer ir em seguida.
+  </Card>
+  <Card title="Hábito no Meio da Rodada">
+    Use a ação somente depois de uma janela clara de timing, não ao entrar em um ângulo perigoso.
+  </Card>
+</CardGrid>
+
+Quanto mais chata a rotina, mais forte o resultado. Se a sequência parecer automática, você vai parar de perder rodadas por pequenos erros de entrada.
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="info" title="Respostas Rápidas">
+Estas respostas focam no manuseio prático da faca, no timing seguro e em como manter a mecânica útil sem transformá-la em distração.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "O knife drop em Defuse Division sempre vale a pena?",
+    answer: "Não sempre. Ele é mais valioso quando melhora o movimento, reduz erros acidentais de corpo a corpo ou ajuda a reorganizar o loadout com limpeza. Se a luta já estiver ativa, mantenha o foco no posicionamento."
+  },
+  {
+    question: "Devo largar minha faca no começo de toda rodada?",
+    answer: "Geralmente não. O início da rodada é melhor aproveitado para rota, espaçamento e coleta de informações. Largue ou guarde a faca só se isso apoiar um plano específico de movimento."
+  },
+  {
+    question: "Qual é a forma mais segura de praticar knife drop?",
+    answer: "Use um servidor privado ou de baixa pressão e repita a mesma sequência até ela parecer natural. Pratique a entrada, o reset da mira e a continuação do movimento como um único gesto."
+  },
+  {
+    question: "Knife drop substitui boas configurações ou treino de mira?",
+    answer: "Não. É uma pequena ferramenta de eficiência, não um substituto para boa sensibilidade, posicionamento estável da mira ou disciplina sonora. Funciona melhor como parte de uma rotina maior."
+  }
+]} />
+
+</Section>

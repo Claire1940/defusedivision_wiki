@@ -1,0 +1,183 @@
+import { Target, Shield, Sparkles, Map, CheckCircle2 } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mira de Defuse Division: mejores ajustes, preajustes y consejos",
+  description: "Aprende preajustes de la mira de Defuse Division, pasos de ajuste, opciones de color y errores comunes para leer objetivos más rápido y apuntar con mayor limpieza.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Crosshair+Guide",
+  date: "2026-07-06",
+  author: "Equipo de la wiki de Defuse Division"
+}
+
+<!-- slug: defuse-division-crosshair-best-settings-presets-tips -->
+
+<Callout type="info" title="Guía rápida">
+- **La mira de Defuse Division** funciona mejor cuando es pequeña, estática y fácil de distinguir en mapas oscuros.
+- **Ámbar o cian** suelen leerse mejor que el gris apagado en fondos tácticos y combates con muchas explosiones.
+- **Un preajuste por rol** ayuda a la memoria muscular: entrar primero, anclar y jugar a ángulos largos requieren una claridad distinta.
+- **Vuelve a probarla después de las actualizaciones** porque el juego sigue en alfa temprana y la sensación al apuntar puede cambiar.
+</Callout>
+
+<Section icon={Target} title="Conceptos básicos de la mira de Defuse Division">
+
+Defuse Division es un shooter táctico de desactivación de bombas en Roblox, así que la mira debe ayudarte a identificar amenazas con rapidez, no a decorar la pantalla. La mejor configuración suele ser compacta, centrada y legible durante los cambios rápidos de dirección, los flashes y el caos de los puntos de bomba.
+
+| Atributo | Base recomendada | Por qué funciona |
+|---|---|---|
+| Tamaño | Pequeño | Conserva la visibilidad del objetivo a la altura de la cabeza |
+| Espacio central | Espacio mínimo o punto relleno | Mantiene el punto de mira fácil de leer |
+| Contorno | Contorno fino y más oscuro | Evita que la mira se pierda en el fondo |
+| Movimiento | Estático si es posible | Da una referencia visual estable |
+| Opacidad | Lo bastante alta para destacar | Ayuda con efectos brillantes y saturación de partículas |
+
+<CardGrid cols={3}>
+  <Card title="Punto minimalista">
+    Ideal para jugadores que quieren el centro más limpio posible. Favorece los toques, las ráfagas y la adquisición de objetivos muy rápida.
+  </Card>
+  <Card title="Cruz delgada">
+    Una opción equilibrada que mantiene visible el punto de mira sin cubrir demasiado el modelo enemigo.
+  </Card>
+  <Card title="Anillo híbrido">
+    Útil si pierdes el centro durante movimientos rápidos. Mantén el anillo fino para que no bloquee la cabeza.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Nota de marca">
+Defuse Division es una creación de fans en Roblox y está en alfa temprana, no un título de Valve ni de Counter-Strike. Mantén tu contenido y tus visuales limpios, y usa la página oficial del juego en Roblox para el contexto de la versión actual: [búsqueda en Roblox](https://www.roblox.com/search?keyword=defusedivision) (consultado el 2026-07-06).
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Los mejores preajustes de mira para distintos roles">
+
+Elige un preajuste y mantente con él el tiempo suficiente para crear memoria muscular. Si tu mira cambia en cada partida, tu puntería no aprende nada. Usa la tabla de abajo como una selección práctica y luego afínala después de unas cuantas rondas.
+
+| Preajuste | Ideal para | Qué vigilar |
+|---|---|---|
+| Punto minimalista | Disparos rápidos, disparo a toques, puntería limpia a la altura de la cabeza | Puede costar encontrarlo si el color es demasiado suave |
+| Cruz delgada | Juego general, combates a media distancia, seguimiento equilibrado | Demasiada longitud de línea puede ocultar objetivos pequeños |
+| Anillo hueco | Jugadores que quieren un marco central fuerte | Los anillos grandes pueden volverse molestos en peleas cercanas |
+| Híbrido de alto contraste | Jugadores nuevos, distancias mixtas, combates caóticos | Demasiados elementos saturarán la pantalla |
+
+<Callout type="tip" title="Regla general del preajuste">
+Si dudas al apuntar, la mira es demasiado compleja. Si la pierdes mientras te mueves, es demasiado sutil. El mejor preajuste se sitúa entre esos dos errores.
+</Callout>
+
+**Estilo recomendado según la situación**
+
+| Situación | Mejor estilo | Motivo |
+|---|---|---|
+| Entrada agresiva | Punto minimalista | Leer rápido importa más que decorar |
+| Defensa de ancla | Cruz delgada | Es más fácil mantener ángulos durante más tiempo |
+| Asomarse a ángulos largos | Punto o híbrido | Te ayuda a mantener el centro preciso |
+| Aprender el juego | Híbrido de alto contraste | Da un ancla visual más fuerte |
+
+</Section>
+
+<Section icon={Sparkles} title="Ajusta la mira y los parámetros al mismo tiempo">
+
+Los ajustes de la mira no existen por separado. La sensibilidad, la resolución y la comodidad general del menú afectan a lo legible que se siente la retícula en combate. Si algo se siente mal, ajusta todo el conjunto en pequeños pasos en lugar de hacer un cambio drástico.
+
+<Steps>
+  <Step num="1" title="Empieza con la forma más pequeña que siga siendo legible">
+    Empieza con un preajuste compacto. El objetivo es mantener al enemigo visible sin renunciar a un punto central limpio.
+  </Step>
+  <Step num="2" title="Prueba sobre superficies oscuras y brillantes">
+    Revisa la mira en paredes oscuras, explosiones brillantes y ángulos cargados del sitio. Una buena configuración resiste las tres situaciones sin fundirse con el fondo.
+  </Step>
+  <Step num="3" title="Ajusta la sensibilidad a la mira">
+    Si la mira se siente estable pero tu puntería se siente temblorosa, baja un poco la sensibilidad. Si corriges demasiado los objetivos, probablemente la sensibilidad sea demasiado alta.
+  </Step>
+  <Step num="4" title="Juega varias rondas antes de fijarla">
+    Juega al menos unas cuantas partidas antes de decidirte. Tus ojos necesitan tiempo para confirmar si la configuración realmente ayuda bajo presión.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Enfoque de los ajustes">
+Los resultados más limpios llegan cuando cambias una sola variable cada vez. Ajusta el tamaño, la opacidad y la sensibilidad por separado para saber qué mejoró de verdad.
+</Callout>
+
+| Ajuste | Dirección | Efecto |
+|---|---|---|
+| Sensibilidad | Moderada, luego afinada | Te ayuda a seguir objetivos sin pasarte |
+| Tamaño de la mira | Pequeño pero visible | Mantiene legible el modelo del objetivo |
+| Grosor del contorno | Fino y claro | Protege la retícula en efectos brillantes |
+| Comportamiento del movimiento | Estático o mínimo | Hace que el centro sea más fácil de confiar |
+| Claridad de la pantalla | Resolución y escala estables | Evita que la mira se sienta inconsistente |
+
+</Section>
+
+<Section icon={Map} title="Opciones de color, contraste y errores comunes">
+
+El lenguaje visual más seguro para Defuse Division es azul marino oscuro, ámbar de advertencia y acentos cian. Esa paleta encaja con la estética táctica del juego y suele seguir siendo legible en mapas con explosiones, sombras y elementos de interfaz intensos.
+
+<Callout type="success" title="Mejor combinación visual">
+En fondos oscuros, el ámbar y el cian suelen ser las opciones prácticas más sólidas. Encajan con el tema táctico y destacan mejor que el gris de bajo contraste.
+</Callout>
+
+| Color | Contra qué funciona mejor | Notas |
+|---|---|---|
+| Ámbar | Azul marino oscuro, interiores grises | Encaja con la estética táctica de peligro y sigue siendo visible |
+| Cian | Explosiones cálidas, efectos naranjas | Contrasta muy bien cuando la pantalla se llena de acción |
+| Blanco | Iluminación mixta | Opción segura, pero puede perderse en escenas muy brillantes |
+| Rojo | Espacios oscuros con pocas partículas | Puede confundirse con indicadores de daño y explosiones |
+
+| Error común | Por qué perjudica | Solución |
+|---|---|---|
+| Demasiado grande | Cubre la cabeza y el pecho del objetivo | Reduce las líneas o el punto hasta que el centro quede despejado |
+| Demasiado transparente | Se pierde durante los combates | Aumenta la opacidad |
+| Demasiado decorativa | Distrae del duelo | Usa geometría simple |
+| Cambiar de preajuste constantemente | Ralentiza la memoria muscular | Mantén una sola configuración durante varias sesiones |
+
+<Callout type="warning" title="Evita estas trampas">
+No persigas una retícula vistosa solo porque se ve bien en una captura. En una ronda de desactivación de bombas, la legibilidad gana más duelos que el estilo.
+</Callout>
+
+</Section>
+
+<Section icon={CheckCircle2} title="Lista final de comprobación y FAQ">
+
+Fija tu configuración después de una sesión completa, no tras una sola ronda afortunada. Una buena mira debería resultar aburrida en el mejor sentido posible: consistente, legible y fácil de confiar.
+
+<Callout type="info" title="Revisión final">
+Si puedes localizar el centro al instante mientras te mueves, durante los combates en el sitio y entre el caos posterior a una explosión, la configuración probablemente ya esté lista.
+</Callout>
+
+<Checklist
+  id="defuse-division-crosshair-checklist"
+  title="Lista de comprobación final de la mira:"
+  items={[
+    "El punto central es fácil de localizar de un vistazo",
+    "La retícula sigue siendo visible en superficies oscuras y brillantes",
+    "El tamaño no bloquea las cabezas enemigas a media distancia",
+    "El color sigue siendo legible durante explosiones y caos visual",
+    "El preajuste se siente consistente en varias partidas"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el mejor estilo de mira de Defuse Division para la mayoría de los jugadores?",
+    answer: "Una mira pequeña y estática es la opción más segura para todo. Te da un centro claro sin cubrir demasiado el modelo enemigo."
+  },
+  {
+    question: "¿Debería usar un punto o una cruz?",
+    answer: "Usa un punto si quieres el centro más limpio. Usa una cruz delgada si quieres un poco más de guía visual sin recargar la pantalla."
+  },
+  {
+    question: "¿Necesito cambiar la mira después de las actualizaciones?",
+    answer: "Sí, conviene volver a probarla después de actualizaciones importantes o cambios de rendimiento. Defuse Division sigue en alfa temprana, así que la sensación puede cambiar."
+  },
+  {
+    question: "¿Por qué a veces una mira brillante se siente peor?",
+    answer: "Una retícula brillante puede mezclarse con explosiones, elementos de la interfaz o efectos de partículas. Si ocurre, prueba un color con más contraste o un contorno más fino."
+  }
+]} />
+
+</Section>

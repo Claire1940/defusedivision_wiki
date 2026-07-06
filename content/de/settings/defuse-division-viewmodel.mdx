@@ -1,0 +1,189 @@
+import { Sparkles, Shield, Target, Swords, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Defuse Division Viewmodel: Setup-Leitfaden & beste Blickwinkel",
+  description: "Erfahre, wie du die Viewmodel-Einstellungen in Defuse Division für ein klareres Zielen, bessere Sichtlinien und stabilere Peeks in jeder Runde auf Roblox anpasst.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/0f172a/ffffff?text=Viewmodel+Setup+Guide",
+  date: "2026-07-06",
+  author: "Defuse Division Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Defuse Division Viewmodel**-Einstellungen sollten dein peripheres Sichtfeld schützen und gleichzeitig das Gewehrmodell lesbar halten.
+- **Ausgewogene Presets** funktionieren meist am besten, bis du weißt, welche Sites und Winkel du bevorzugst.
+- **N für das Hauptmenü** und **M für die Teamauswahl** machen schnelle Tests zwischen den Runden einfach.
+- **Alpha-UI-Änderungen** können Bezeichnungen verschieben, also behalte eine Basisversion, die du schnell wiederherstellen kannst.
+</Callout>
+
+<Section icon={Sparkles} title="Defuse Division Viewmodel-Grundlagen">
+
+Ein starkes **Defuse Division Viewmodel**-Setup hält deine Waffe lesbar, ohne Sichtlinien zu stehlen. In einem Bombenentschärfungs-Match ist das genauso wichtig wie rohe Sensitivität. Das beste Setup bietet dir ein klares Fadenkreuzbild, schnelle Bestätigung des Waffenstatus und genug Bildschirmfläche, um Ecken im Blick zu behalten.
+
+<CardGrid cols={3}>
+  <Card title="Niedriges Profil">
+    Mehr Bildschirmfläche, klarere Peeks und bessere Erkennung auf weite Winkel. Es kann sich etwas weniger greifbar anfühlen.
+  </Card>
+  <Card title="Ausgewogen">
+    Der sicherste Standard. Er hält das Modell sichtbar, ohne die Bildschirmmitte zu überladen.
+  </Card>
+  <Card title="Breites Viewmodel">
+    Starke Rückmeldung über die Hände und ein schwereres Gefühl, kann aber mehr vom Sichtbild verdecken.
+  </Card>
+</CardGrid>
+
+| Stil | Sichtbarkeit | Gefühl | Am besten für |
+| --- | --- | --- | --- |
+| Niedriges Profil | Hoch | Leicht | Entry-Plays, enge Winkel |
+| Ausgewogen | Mittel-Hoch | Stabil | Die meisten Spieler |
+| Breites Viewmodel | Mittel | Schwer | Komfort beim Casual Play, Kämpfe auf kurze Distanz |
+| Ultra-Niedrig | Sehr hoch | Minimal | Spieler, die maximale Bildschirmfläche wollen |
+
+<Callout type="tip" title="Hauptregel">
+Halte das Modell niedrig genug, damit der Bereich um das Fadenkreuz frei bleibt, aber nicht so niedrig, dass sich das Timing der Waffe abgekoppelt anfühlt.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Beste Viewmodel-Presets nach Spielstil">
+
+Das richtige Preset hängt von deiner Rolle, dem Druck auf der Map und davon ab, wie viel vom Bildschirm du freihaben willst. Starte mit einem ausgewogenen Profil und wechsle nur dann in eine Richtung, wenn du erklären kannst, warum die Änderung dein Zielen oder deine Wahrnehmung verbessert.
+
+<Callout type="warning" title="Vorsicht bei Alpha-Builds">
+Defuse Division ist noch ein frühes Alpha-Erlebnis, daher können sich Menübezeichnungen und Anzeigeoptionen nach Updates ändern. Speichere deine Basisversion, bevor du experimentierst.
+</Callout>
+
+| Spielstil | Empfohlenes Preset | Warum es funktioniert |
+| --- | --- | --- |
+| Entry-Fragger | Niedrig oder Ausgewogen | Weniger visuelles Chaos bei schnellen Peeks |
+| Site-Anker | Ausgewogen | Gute Balance aus Rückmeldung und Übersicht |
+| Lurker | Niedrig | Klareres Sichtbild auf Distanz |
+| Casual-Übung | Ausgewogen | Einfachster Ausgangspunkt |
+| Aggressiver Spieler auf kurze Distanz | Etwas breiter | Hilft beim Waffengefühl im Chaos |
+
+| Änderung | Wann verwenden | Risiko |
+| --- | --- | --- |
+| Modellhöhe senken | Wenn sich das Fadenkreuz überladen anfühlt | Kann die Waffe zu klein wirken lassen |
+| Modell-Offset erhöhen | Wenn die Waffe die Bildschirmmitte blockiert | Mehr visuelles Chaos |
+| Wackeln auf dem Bildschirm reduzieren | Wenn sich das Rückstoß-Tracking unruhig anfühlt | Kann zu flach wirken |
+| Standardabstand beibehalten | Wenn du Konsistenz willst | Passt möglicherweise nicht für jede Waffe gleich gut |
+
+<Callout type="info" title="Empfohlene Basis">
+Wenn du unsicher bist, bleib eine ganze Session lang bei einem ausgewogenen Setup und passe erst an, nachdem du ein wiederkehrendes Problem festgestellt hast.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="So richtest du das Defuse Division Viewmodel ein">
+
+Der schnellste Ablauf ist einfach: Wähle eine Basisversion, teste sie in echten Runden und verfeinere dann nur die Teile, die dein Zielen oder deine Übersicht stören. Nutze die Roblox-Spielseite als Orientierungspunkt, damit du schnell wieder einsteigen kannst: [Defuse Division auf Roblox](https://www.roblox.com/search?keyword=defusedivision).
+
+<Callout type="success" title="Schnelle Einrichtung">
+Verwende ein Preset mindestens 10 bis 15 Runden lang, bevor du die nächste Änderung vornimmst. Kleine Stichproben führen meist zu schlechten Tuning-Entscheidungen.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Menü öffnen">
+    Drücke **N**, um das Hauptmenü zu öffnen. Wenn du deine Seite zurücksetzen musst, drücke **M** für die Teamauswahl und trete mit klarem Kopf erneut bei.
+  </Step>
+  <Step num="2" title="Anzeige- oder Kameraoptionen finden">
+    Suche nach Einstellungen, die mit Waffen, Kamera oder HUD zu tun haben. Wenn sich die Bezeichnungen nach einem Update unterscheiden, behalte dasselbe Ziel im Blick: mehr Platz fürs Fadenkreuz und gut lesbare Waffenrückmeldung.
+  </Step>
+  <Step num="3" title="Eine neutrale Basis setzen">
+    Starte aus der Mitte statt aus den Extremen. So lässt sich leichter erkennen, ob die nächste Änderung die Sichtbarkeit wirklich verbessert.
+  </Step>
+  <Step num="4" title="In echten Runden testen">
+    Spiele ein paar komplette Matches und prüfe dann, wie sich das Viewmodel beim Peeken, Nachladen und Waffenwechsel verhält.
+  </Step>
+  <Step num="5" title="Das Ergebnis festschreiben">
+    Speichere die Version, die dir die klarste Sichtlinie bietet, ohne die Waffe aus deiner Wahrnehmung verschwinden zu lassen.
+  </Step>
+</Steps>
+
+| Menüpfad | Was ändern | Warum es hilft |
+| --- | --- | --- |
+| Hauptmenü | Viewmodel-bezogene Option | Zentraler Ausgangspunkt für das Tuning |
+| Anzeige/HUD | Bildschirmüberladung | Schafft Platz um das Fadenkreuz |
+| Kameraeinstellungen | Gefühl von Position und Abstand | Verhindert, dass die Waffe die Sicht überfrachtet |
+| Team-Reset | Zwischen Tests erneut beitreten | Ermöglicht schnellere Vergleiche |
+
+<Callout type="tip" title="Test-Abkürzung">
+Wenn sich eine Änderung in einer Lane gut anfühlt, aber sonst überall schlecht, ist sie wahrscheinlich zu extrem für normales Spielen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Feintuning für Waffen, Maps und Rollen">
+
+Ein gutes Viewmodel ist nie von den restlichen Einstellungen getrennt. Waffenhandling, Map-Geometrie und deine Rolle im Team beeinflussen alle, wie viel Bildschirmfläche du entbehren kannst. Das Ziel ist Konsistenz, nicht ein auffälliges Preset.
+
+<Callout type="info" title="Tuning-Prinzip">
+Ändere immer nur eine Sache gleichzeitig. Wenn du im selben Durchlauf Modell, Sensitivität und Fadenkreuz veränderst, weißt du nicht, was tatsächlich geholfen hat.
+</Callout>
+
+| Rolle oder Waffe | Viewmodel-Ziel | Worauf achten |
+| --- | --- | --- |
+| Gewehre | Kleineres Profil | Klarheit beim ersten Schuss und Zugriff aufs Fadenkreuz |
+| SMGs | Ausgewogener Abstand | Komfort beim Tracking und Tempo auf kurze Distanz |
+| Schrotflinten | Etwas stärkeres Gefühl | Schnelle Lesbarkeit in Nahkämpfen |
+| Defensive Holds | Niedriger und ruhiger | Sicht auf Ecken und weniger Ablenkung |
+| Maps mit vielen Rotationen | Minimaler Overhead | Bessere Übersicht bei schnellen Positionswechseln |
+
+| Problem | Wahrscheinliche Ursache | Lösung |
+| --- | --- | --- |
+| Fadenkreuz wirkt verdeckt | Modell sitzt zu hoch | Viewmodel senken oder Abstand erhöhen |
+| Schüsse fühlen sich abgekoppelt an | Modell ist zu minimal | Etwas mehr Handpräsenz hinzufügen |
+| Flicks fühlen sich inkonsistent an | Sensitivität stimmt nicht | Sens erneut prüfen, bevor du wieder das Modell anfasst |
+| Waffenwechsel fühlt sich unangenehm an | Viewmodel ist zu extrem | Zurück zu einer ausgewogenen Basis |
+| Sichtlinien wirken beengt | HUD und Modell überlappen | Zuerst die Bildschirmüberladung reduzieren |
+
+<Checklist
+  id="viewmodel-test-loop"
+  title="Verifizierungs-Checkliste:"
+  items={[
+    "Das Fadenkreuz bleibt bei schnellen Peeks sichtbar",
+    "Nachladeanimationen verdecken keine wichtigen Eckbereiche",
+    "Waffenwechsel fühlen sich über mehrere Runden hinweg konsistent an",
+    "Ein ausgewogenes Preset ist als Fallback gespeichert",
+    "Beim Testen wird immer nur eine Einstellung auf einmal geändert"
+  ]}
+/>
+
+<Callout type="warning" title="Jag nicht der Perfektion hinterher">
+Ein Setup, das im Menü ideal aussieht, kann sich im Gefecht trotzdem schlecht anfühlen. Tests in echten Matches sind wichtiger als Screenshots.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="tip" title="Schnelle Antworten">
+Nutze die Fragen unten, um dein Setup noch einmal mit gesundem Menschenverstand zu prüfen, bevor du es langfristig festlegst.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Was ist das beste Defuse Division Viewmodel für neue Spieler?",
+    answer: "Starte mit einem ausgewogenen Preset. Es bietet normalerweise genug Bildschirmfläche, um Ecken im Blick zu behalten, und hält die Waffe trotzdem lesbar."
+  },
+  {
+    question: "Sollte ich das möglichst niedrigste Viewmodel verwenden?",
+    answer: "Nicht standardmäßig. Die niedrigste Option kann den Bildschirm öffnen, aber für manche Spieler fühlt sich die Waffenrückmeldung dadurch zu klein an."
+  },
+  {
+    question: "Ersetzt das Viewmodel Sensitivitäts- oder Fadenkreuzeinstellungen?",
+    answer: "Nein. Das Viewmodel ist nur ein Teil des Setups. Sensitivität und Fadenkreuz-Anpassung bleiben weiterhin wichtig für konstantes Zielen."
+  },
+  {
+    question: "Was soll ich nach einem Update tun, wenn sich das Menü geändert hat?",
+    answer: "Kehre zu deiner gespeicherten Basisversion zurück, bestätige dasselbe Sichtbarkeitsziel und teste es in ein paar Matches erneut, bevor du größere Änderungen vornimmst."
+  }
+]} />
+
+</Section>

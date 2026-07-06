@@ -1,0 +1,200 @@
+import { Target, Settings, Shield, Gamepad2, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Asignaciones de teclas de Defuse Division: la mejor configuración para reacciones más rápidas",
+  description: "Optimiza las asignaciones de teclas de Defuse Division con una configuración limpia para cambiar de arma más rápido, desactivar bombas antes y moverte con mayor fluidez en partidas de desactivación de bombas en Roblox.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Keybind+Setup+Guide",
+  date: "2026-07-06",
+  author: "Equipo de Wiki de Defuse Division"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Las asignaciones de teclas de Defuse Division** deben reducir el tiempo entre movimiento, puntería e interacción.
+- **Una tecla por función** mantiene predecibles las desactivaciones, la utilidad y los cambios de arma bajo presión.
+- **El acceso rápido al menú** importa, pero no sacrifiques tus controles principales de combate por ello.
+- **Una rutina de prueba limpia** importa más que copiar exactamente la distribución de otra persona.
+</Callout>
+
+<Section icon={Target} title="Asignaciones de teclas de Defuse Division: principios básicos">
+
+Las asignaciones de teclas de Defuse Division funcionan mejor cuando cada acción importante tiene un propósito claro. En una partida de desactivación de bombas, dudar cuesta más que la pura habilidad mecánica, así que el objetivo es mantener tus manos en las pocas teclas que más usas. Construye primero alrededor del movimiento, la interacción y el control del arma, y después ajusta el resto. Una buena distribución debería sentirse aburrida en el buen sentido: sin dudas, sin estirarte y sin pulsaciones accidentales.
+
+| Prioridad | Acción | Cómo se ve una buena opción | Nota sugerida para el slug |
+|---|---|---|---|
+| 1 | Movimiento | Alcance fácil, sin tensión en la mano | `/defuse-division-keybinds` |
+| 2 | Interactuar / Desactivar | Una tecla dedicada y consistente | Déjala cerca de WASD |
+| 3 | Disparar / Apuntar | Nunca reconfigurada lejos de la memoria muscular | Déjalo en los botones del mouse |
+| 4 | Cambiar / Utilidad | Acceso rápido sin superponer dedos | Separado del movimiento |
+| 5 | Menú / Selección de equipo | Disponible, pero sin estorbar | Evita pulsaciones accidentales |
+
+<Callout type="tip" title="Regla de distribución">
+Si una asignación ralentiza tu movimiento o te hace apartar la vista del combate, probablemente está demasiado lejos.
+</Callout>
+
+El mayor error es intentar hacer que todas las teclas sean “alcanzables” en lugar de hacer que las importantes sean fiables. Para la mayoría de los jugadores, eso significa dejar el disparo principal y la puntería en el mouse, mantener la interacción cerca de la mano izquierda y reservar las acciones raras para teclas menos urgentes. Si tu configuración actual ya maneja bien el menú principal o la selección de equipo, mantén esas asignaciones estables en lugar de perseguir pequeñas ventajas.
+
+| Objetivo | Por qué importa | Estándar práctico |
+|---|---|---|
+| Entradas más rápidas | Puedes responder antes en combates cercanos | Un toque, sin mover los dedos de sitio |
+| Desactivaciones más limpias | Menos probabilidad de fallar el aviso | La misma tecla en cada ronda |
+| Mejor control del retroceso | Puntería más consistente bajo presión | Sin posiciones incómodas de la mano |
+| Menos clics erróneos | Menos pánico durante la presión en el sitio | Separar los controles de combate y utilidad |
+
+</Section>
+
+<Section icon={Settings} title="Asignaciones recomendadas para desactivar más rápido">
+
+Una buena configuración de teclas debería hacer que la ronda se sienta más corta porque tus entradas son más cortas. Eso no significa que todos los jugadores necesiten las mismas teclas. Significa que las mismas categorías deben quedarse en el mismo lugar: movimiento en la mano izquierda, combate en el mouse y acciones de objetivo en una tecla cercana.
+
+<Callout type="warning" title="No copies a ciegas">
+Una distribución estilo profesional puede fallar si tu teclado, el tamaño de tu mano o los botones de tu mouse son distintos. Usa la misma estructura, no exactamente las mismas teclas.
+</Callout>
+
+| Acción | Hábito de entrada recomendado | Por qué funciona |
+|---|---|---|
+| Moverse | WASD | Movimiento estándar y sin fricción |
+| Apuntar / Disparar | Botones del mouse | Mantiene libre la mano de movimiento |
+| Interactuar | E u otra tecla cercana | Acceso rápido para recoger objetos y objetivos |
+| Desactivar / Colocar | Misma familia que Interactuar | Reduce la confusión en momentos de presión |
+| Agacharse | Ctrl u otra tecla de bajo riesgo | Fácil de mantener durante asomos |
+| Utilidad | Q, F o botón lateral del mouse | Separada del apuntado y del movimiento |
+| Equipo / Menú | Déjalo en una tecla no relacionada con el combate | Evita interrupciones accidentales |
+
+Muchos jugadores optimizan demasiado la utilidad y demasiado poco la interacción. En un juego de desactivación de bombas, la tecla de interactuar suele ser más importante que el gran bind más vistoso para granadas. Si tienes que elegir entre una distribución elegante para la utilidad y un aviso de desactivación más rápido, elige siempre la opción más favorable para desactivar.
+
+| Tipo de bind | Amigable para principiantes | Amigable para competitivo | Notas |
+|---|---|---|---|
+| Interactuar | Tecla cercana a WASD | La misma tecla en cada partida | La consistencia gana |
+| Utilidad | Tecla del teclado | Botón lateral del mouse o teclado | Usa lo que puedas pulsar al instante |
+| Cambiar | Teclas numéricas | Teclas numéricas o rueda del mouse | Mantén la consistencia |
+| Menú | Tecla predeterminada del menú | Tecla predeterminada del menú | Cámbiala solo si causa problemas |
+
+</Section>
+
+<Section icon={Shield} title="Cómo reasignar y probar tu configuración">
+
+Cambiar las asignaciones de teclas solo sirve si las pruebas en movimiento real. Una configuración pensada solo para menús puede parecer fantástica en papel y fallar en cuanto te deslizas, asomas o intentas colocar bajo presión. Usa un proceso corto y repetible, y evalúa tu distribución por velocidad, comodidad y errores.
+
+<Callout type="info" title="Mentalidad de prueba">
+Tu primer objetivo no es la perfección. Tu primer objetivo es eliminar acciones incómodas y volver automáticas las importantes.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Fija primero el movimiento">
+    Mantén intactos movimiento, puntería y disparo hasta que se sientan naturales. Cambia los binds de combate solo si interfieren claramente con la posición de tu mano.
+  </Step>
+  <Step num="2" title="Acerca la interacción">
+    Pon interactuar y desactivar en una tecla que puedas pulsar sin mirar hacia abajo. La mejor tecla es la que puedes presionar sin dejar de concentrarte en el sitio.
+  </Step>
+  <Step num="3" title="Separa la utilidad de los objetivos">
+    No juntes granadas, acciones de desactivación y comandos de menú en teclas vecinas si eso provoca errores. Cada acción necesita una función distinta.
+  </Step>
+  <Step num="4" title="Haz ejercicios en partidas reales">
+    Entra en una partida o área de práctica y repite interacciones de movimiento, recogida y objetivo hasta que tus manos dejen de dudar.
+  </Step>
+</Steps>
+
+| Ejercicio de prueba | Qué comprobar | Criterio de aprobación |
+|---|---|---|
+| Moverse lateralmente e interactuar | ¿Puedes seguir moviéndote mientras pulsas la tecla? | Sin estirar la mano |
+| Desactivar bajo presión | ¿Fallas la tecla con prisas? | Primer pulsado fiable |
+| Cambio de arma | ¿Puedes cambiar de herramienta sin perder la puntería? | Transición fluida |
+| Acceso al menú | ¿Puedes abrir menús sin arruinar el flujo de combate? | Sin activación accidental |
+
+Si tu distribución pasa estas pruebas, déjala quieta durante un tiempo. Trastear con frecuencia crea más inconsistencia de la que resuelve. Unos binds estables generan reacciones más rápidas que unos “perfectos” que cambian cada día.
+
+</Section>
+
+<Section icon={Gamepad2} title="Mejores distribuciones según el estilo de juego">
+
+Distintos jugadores necesitan distinto apoyo de sus asignaciones de teclas. Un jugador de entrada, muy agresivo, quiere cambios rápidos y acceso instantáneo a la utilidad. Un ancla defensiva quiere sostener posiciones de forma limpia y con menos pulsaciones accidentales. Los jugadores de cola en solitario suelen necesitar la distribución más permisiva, porque no pueden depender de una coordinación perfecta en cada ronda.
+
+<Callout type="success" title="Elige una distribución según tu rol">
+La mejor configuración es la que encaja con cómo juegas de verdad, no con cómo imaginas jugar en tu mejor día.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Entrada agresiva">
+    - **Teclas de cambio rápidas**
+    - Utilidad cerca de la mano del mouse
+    - Movimiento mínimo del menú
+    - Ideal para duelos de primer contacto
+  </Card>
+  <Card title="Defensa de ancla">
+    - **Tecla de objetivo estable**
+    - Bindings de agacharse o sostener más seguros
+    - Menos uso accidental de la utilidad
+    - Ideal para control del sitio y paciencia
+  </Card>
+  <Card title="Cola en solitario equilibrada">
+    - **Distribución con pocos errores**
+    - Teclas fáciles para interactuar y cambiar
+    - Valores predeterminados familiares siempre que sea posible
+    - Ideal para roles flexibles
+  </Card>
+</CardGrid>
+
+| Estilo de juego | Fortaleza principal | Riesgo principal | Prioridad de las teclas |
+|---|---|---|---|
+| Entry Fragger | Velocidad | Pulsaciones erróneas | Velocidad de utilidad y cambio |
+| Defensor | Control | Reacciones lentas | Comodidad al desactivar y sostener |
+| Flex | Adaptabilidad | Bindings superpuestos | Consistencia y simplicidad |
+
+Una distribución equilibrada suele ganar a una llamativa porque sobrevive mejor a las malas rondas. Si todavía estás aprendiendo mapas y tiempos, elige binds predecibles en lugar de una acumulación agresiva de atajos. Siempre podrás añadir atajos avanzados más adelante, cuando la memoria muscular básica ya esté fijada.
+
+</Section>
+
+<Section icon={Trophy} title="Lista de comprobación, errores y FAQ">
+
+Usa esta sección como la revisión final antes de quedarte con una nueva configuración. Las asignaciones de teclas de Defuse Division deberían sentirse más rápidas después de unas pocas partidas, no más complicadas. Si la nueva distribución añade confusión, simplifícala de inmediato.
+
+<Callout type="tip" title="Puesta a punto final">
+Quédate con el bind que te ayude a ganar rondas y elimina el que solo se ve eficiente en una captura.
+</Callout>
+
+<Checklist
+  id="defuse-division-keybinds-checklist"
+  title="Lista de comprobación de binds antes de la partida:"
+  items={[
+    "El movimiento sigue siendo cómodo durante rondas largas",
+    "Interactuar y desactivar usan una tecla cercana y consistente",
+    "Cambiar de arma no interrumpe el control de la puntería",
+    "Las teclas de utilidad no se superponen con las acciones de objetivo",
+    "Las entradas de menú y selección de equipo no causan errores"
+  ]}
+/>
+
+| Error común | Problema | Mejor solución |
+|---|---|---|
+| Demasiadas teclas cercanas | Superposición de dedos | Separar combate y utilidad |
+| Cambios aleatorios de teclas | Memoria muscular rota | Mantén una misma distribución durante varias sesiones |
+| Menú en una tecla de combate | Aperturas accidentales | Aleja los menús de las teclas de acción |
+| Desactivar en una tecla demasiado lejana | Juego de objetivo más lento | Colócala dentro de un alcance natural |
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son las mejores asignaciones de teclas de Defuse Division para principiantes?",
+    answer: "Empieza con el movimiento estándar, mantén disparar y apuntar en el mouse, y coloca interactuar o desactivar en una tecla cercana que puedas pulsar sin mirar hacia abajo."
+  },
+  {
+    question: "¿Debería copiar exactamente las asignaciones de un jugador profesional?",
+    answer: "Normalmente no. Copia la estructura, no las teclas exactas. El tamaño de la mano, los botones del mouse y la distribución del teclado importan más que la imitación."
+  },
+  {
+    question: "¿Qué tecla importa más en una partida de desactivación de bombas?",
+    answer: "La tecla de interactuar o desactivar importa más después del movimiento, porque afecta directamente a la velocidad del objetivo y a la presión de la ronda."
+  },
+  {
+    question: "¿Con qué frecuencia debería cambiar mi configuración?",
+    answer: "Cámbiala solo cuando la distribución actual cause errores reales. Las teclas estables suelen mejorar la consistencia más rápido que los ajustes constantes."
+  }
+]} />
+
+</Section>

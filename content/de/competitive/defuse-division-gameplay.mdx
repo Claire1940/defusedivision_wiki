@@ -1,0 +1,218 @@
+import { Map, Shield, Target, Swords, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Defuse Division Gameplay: Rundenverlauf, Rollen & Tipps",
+  description: "Lerne die Grundlagen des Defuse-Division-Gameplays, Prioritäten der Rollen, Kartenkontrolle und Setup-Tipps, damit Roblox-Spieler mit sauberem Zielen mehr Runden gewinnen können.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Defuse+Division+Gameplay+Guide",
+  date: "2026-07-06",
+  author: "defuse division Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Defuse Division Gameplay** belohnt schnelle Trades, klare Kommunikation und diszipliniertes Bomben-Timing.
+- **Angreifer** gewinnen, indem sie die Bombe platzieren, Raum halten oder Verteidiger vor dem Retake ausschalten.
+- **Verteidiger** gewinnen, indem sie Vorstöße verzögern, Winkel absichern und unter Druck entschärfen.
+- **Einstellungen** sind wichtig: stabile Sensitivität, ein gut lesbares Fadenkreuz und sauberer Ton verbessern die Konstanz.
+</Callout>
+
+<Section icon={Map} title="Kernschleife und Rundenverlauf">
+
+Defuse Division Gameplay basiert auf einer einfachen, aber angespannten Schleife: Ein Team drückt auf den Punkt, während das andere Team verzögert, verteidigt und nach der Entschärfung sucht. Das Spiel befindet sich noch in einer frühen Alpha-Phase und ist eine Fan-Kreation, kein offizielles Valve-Projekt. Erwarte also, dass sich die Meta mit jedem Update verschiebt.
+
+<Callout type="tip" title="Match-Logik">
+Behandle jede Runde wie ein Timing-Rätsel. Wenn dein Team früh Raum gewinnt, wird die Runde viel einfacher; wenn du die Kontrolle spät verlierst, wird der Retake schnell chaotisch.
+</Callout>
+
+**Überblick über den Rundenverlauf**
+
+| Phase | Ziel | Fokus | Häufiger Fehler |
+|---|---|---|---|
+| Eröffnung | Raum gewinnen | Ein frühes Duell gewinnen, Infos sammeln | Allein hineinrennen |
+| Mittelphase | Den Plant vorbereiten oder verhindern | Teammates traden, wichtige Wege halten | Zu aggressiv peeken ohne Absicherung |
+| Nach dem Plant | Die Bombe schützen | Zeit spielen, Winkel absichern, Retakes erzwingen | Kills jagen statt Zeit spielen |
+| Entschärfungsfenster | Den Punkt zurückerobern | Winkel säubern, die Bombe antippen, den Entschärfer absichern | Mit dem Entschärfen ohne Sicherheit beginnen |
+
+<Steps>
+  <Step num="1" title="Den Rundenstart lesen">
+    Prüfe deine Spawn-Seite, kaufe oder rüste dich schnell aus und bewege dich mit Absicht. Die ersten zehn Sekunden entscheiden meist, welches Team die Karte kontrolliert.
+  </Step>
+  <Step num="2" title="Einen nützlichen Winkel nehmen">
+    Wähle eine Lane, die Informationen oder einen ersten Kampf ermöglicht. Gute Spieler schätzen Überleben und Trades mehr als einen auffälligen Eröffnungsvorstoß.
+  </Step>
+  <Step num="3" title="Das Ziel spielen">
+    Wenn du angreifst, bereite den Plant vor. Wenn du verteidigst, verzögere den Plant oder zwinge den Gegner in ein schlechtes Timing.
+  </Step>
+  <Step num="4" title="Diszipliniert abschließen">
+    Nach dem Plant Zeit schinden und die Bombe absichern. In der Verteidigung erst Ecken säubern, bevor du dich auf die Entschärfung festlegst.
+  </Step>
+</Steps>
+
+Eine starke Runde ist meist das Ergebnis kleiner Entscheidungen im richtigen Moment. Wenn du weißt, wo der Kampf stattfinden soll, verschwendest du keine Bewegung mehr und beginnst, sauberere Exchanges zu gewinnen.
+
+</Section>
+
+<Section icon={Shield} title="Angriffs- vs. Verteidigungsrollen">
+
+Die beiden Seiten in Defuse Division Gameplay verlangen unterschiedliche Gewohnheiten, belohnen aber beide Struktur. Angreifer wollen Geschwindigkeit mit Kontrolle. Verteidiger wollen Geduld mit einer schnellen Reaktion. Solo-Queue-Spieler sollten ihre Rolle vereinfachen und vermeiden, in jeder Runde Heldenaktionen zu erzwingen.
+
+<Callout type="warning" title="Rollendisziplin">
+Wenn deinem Team ein Plan fehlt, improvisiere nicht, indem du jeden Winkel im Sprint anspielst. Eine ruhige Runde mit guten Trades schlägt oft eine chaotische Runde mit gutem Aim.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Angreifer">
+    Druck auf den Plant, Entry-Frags traden und Raum nach dem Plant halten. Am besten, wenn das Team gemeinsam vorgeht.
+  </Card>
+  <Card title="Verteidiger">
+    Vorstöße verzögern, wichtige Routen absichern und mit Zahlen zurückerobern. Am besten, wenn das Team sauber Abstand hält.
+  </Card>
+  <Card title="Solo Queue">
+    Flexibel positionieren, Informationen teilen und isolierte Kämpfe vermeiden. Am besten, wenn du dir Optionen offenhältst.
+  </Card>
+</CardGrid>
+
+**Rollenvergleich**
+
+| Rolle | Hauptaufgabe | Beste Gewohnheit | Zu vermeidendes Risiko |
+|---|---|---|---|
+| Angreifer-Entry | Den Punkt öffnen | Einen Winkel säubern, dann traden | Peeken, bevor das Team bereit ist |
+| Angreifer-Support | Den Plant absichern | Dem Entry folgen und Flanken abdecken | Zu weit vom Ziel entfernt lauern |
+| Verteidiger-Anchor | Den Vorstoß bremsen | Eine Lane halten und länger leben | Jeden Peek herausfordern |
+| Verteidiger-Rotator | Schwache Stellen verstärken | Nach echten Infos rotieren | Einen Punkt zu früh verlassen |
+
+Wenn du neu bist, wähle pro Seite eine Rolle und lerne sie gut. Konstanz ist wichtiger, als versuchen, gleichzeitig jede Aufgabe zu erfüllen.
+
+</Section>
+
+<Section icon={Sparkles} title="Einstellungen, Aim und Loadout-Setup">
+
+Gute Einstellungen machen Defuse Division Gameplay leichter lesbar. Das Ausgangsmaterial deutet auf eine taktische UI-Richtung hin, daher passt ein dunkles Setup mit einem gut lesbaren Fadenkreuz besser zum Spieltempo als ein helles, überladenes Bild. Im Menü öffnet **N** das Hauptmenü und **M** die Teamauswahl, was man sich für schnelle Neustarts merken sollte.
+
+<Callout type="success" title="Setup-Regel">
+Beginne mit einer stabilen Sensitivität und teste dein Aim dann in echten Runden. Kleine Anpassungen sind besser als ständige Wechsel.
+</Callout>
+
+**Tabelle der Grundeinstellungen**
+
+| Einstellung | Empfehlung | Warum es hilft |
+|---|---|---|
+| Sensitivität | Mittel-niedriger Ausgangspunkt | Leichtere Mikro-Korrekturen |
+| Fadenkreuz | Einfach, hoher Kontrast | Schnellere Zielerfassung |
+| Audio | Klare Effekte, leise Musik | Bessere Timing-Wahrnehmung über Sound |
+| Grafik | Erst einmal gute Sichtbarkeit | Weniger visuelle Unruhe im Kampf |
+| Menütasten | N und M lernen | Schnellere Vorbereitung zwischen den Runden |
+
+**Tabelle der Loadout-Priorität**
+
+| Priorität | Was bevorzugen | Warum |
+|---|---|---|
+| 1 | Zuverlässiges Gewehr oder Primärwaffe | Die meisten Runden werden durch Trades entschieden |
+| 2 | Leicht nachvollziehbare Nebenwaffe | Hilft, wenn dein Nachlade-Timing schlecht ist |
+| 3 | Utility oder Team-Tools | Öffnet Punkte und verzögert Vorstöße |
+| 4 | Kosmetische Optionen | Stil ist wichtig, aber nicht vor Konstanz |
+
+<Callout type="info" title="Aim-Tipp">
+Halte dein Fadenkreuz beim Bewegen durch Engpässe auf Kopfhöhe. Diese eine Gewohnheit reduziert panische Flicks.
+</Callout>
+
+Du brauchst kein perfektes Setup, um gut zu spielen. Du brauchst ein Setup, das dir erlaubt, Gegner schnell zu sehen, dich bequem zu bewegen und in jeder Runde das gleiche Aim-Muster zu wiederholen.
+
+</Section>
+
+<Section icon={Target} title="Grundlagen zu Kartenkontrolle und Rotation">
+
+Auf den Karten wird aus Defuse Division Gameplay ein Timing-Spiel. Die besten Teams kontrollieren Raum, statt Kills zu jagen. Mid-Kontrolle, Engpässe und Rotationswege sind wichtig, weil sie entscheiden, wer zuerst den Punkt erreicht und wer in einen schlechten Kampf gerät.
+
+<Callout type="tip" title="Positionierungstipp">
+Halte nützlichen Raum, nicht zufälligen Raum. Wenn dein Winkel den Weg des Gegners nie verändert, lohnt es sich wahrscheinlich nicht, ihn zu lange zu halten.
+</Callout>
+
+**Tabelle zur Kartenkontrolle**
+
+| Bereich | Warum er wichtig ist | Gute Gewohnheit | Schlechte Gewohnheit |
+|---|---|---|---|
+| Spawn-Lane | Setzt frühen Druck | Mit einem Teammate bewegen | Jede Runde trocken peeken |
+| Mid-Kontrolle | Öffnet Rotationsoptionen | Vor dem Vorstoß Infos sammeln | Ohne Absicherung übercommitten |
+| Engpass | Erzwingt direkte Kämpfe | Einen engen Winkel halten | Im offenen Bereich stehen |
+| Rotationsroute | Rettet verlorene Runden | Nach Kontakt neu positionieren | Rotieren, bevor Gefahr bestätigt ist |
+
+**Häufige Routen pro Runde**
+
+| Situation | Beste Reaktion | Ergebnis |
+|---|---|---|
+| Früher Druck auf den Punkt | Den ersten Kontakt traden | Bessere Chance zu planten |
+| Verzögerter Angreifer-Vorstoß | Den Winkel halten und warten | Erzwingt einen überstürzten Entry |
+| Punkt auf der Verteidigung verloren | Mit Zahlen zurückerobern | Verbessert die Entschärfungs-Chance |
+| Bombe platziert | Säubern, antippen und absichern | Verhindert eine kostenlose Entschärfung |
+
+Die saubersten Rotationen sind die, die nach echten Informationen erfolgen. Wenn du nur nach Vermutung rotierst, gibst du oft genau den Raum auf, den dein Team halten musste.
+
+</Section>
+
+<Section icon={Trophy} title="Mehr Runden mit klügeren Gewohnheiten gewinnen">
+
+Sobald du die Grundlagen verstehst, besteht der nächste Schritt darin, gute Gewohnheiten in wiederholbare Siege zu verwandeln. Die meisten Niederlagen kommen von denselben Problemen: Solo-Vorstöße, schlechte Abstände und panische Entscheidungen rund um die Bombe. Behebst du diese, verbessert sich deine Winrate meist schon, bevor dein Aim es tut.
+
+<Callout type="success" title="Mindset für gewonnene Runden">
+Erst traden, länger überleben und das Ziel den Kampf entscheiden lassen. Ein ruhiger Spieler ist meist ein nützlicher Spieler.
+</Callout>
+
+<Checklist
+  id="defuse-division-habits"
+  title="Wiederholbare Rundenziele:"
+  items={[
+    "Beim Raumgewinn mindestens mit einem Teammate spielen",
+    "Ecken prüfen, bevor du einem Kill nachjagst",
+    "Den Bombenpunkt halten, statt zu weit zu jagen",
+    "Sound-Hinweise nutzen, bevor du eine Lane peeken",
+    "Mit Deckung retaken oder entschärfen, nicht im offenen Raum"
+  ]}
+/>
+
+**Tabelle: Fehler vs. Lösung**
+
+| Häufiger Fehler | Bessere Lösung | Ergebnis |
+|---|---|---|
+| Allein rushen | Mit Support vorgehen | Mehr Trades, weniger Throw-Runden |
+| Zu aggressiv peeken | Den Winkel länger halten | Besseres Überleben |
+| Sound ignorieren | Vor dem Vorstoß zuhören | Sicherere Rotationen |
+| Zu früh entschärfen | Erst säubern und absichern | Weniger fehlgeschlagene Defuses |
+| Frags jagen | Die Uhr respektieren | Bessere Zielkontrolle |
+
+Wenn du einen einfachen Verbesserungsplan willst, schau dir nach jeder Session eine schlechte Runde an und frage dich, was zuerst gescheitert ist: Abstand, Timing oder Information. So bleibt dein Training fokussiert und nützlich.
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<Callout type="warning" title="FAQ-Hinweis">
+Diese Antworten konzentrieren sich auf die praktischen Aspekte von Defuse Division Gameplay: Timing, Rollen, Einstellungen und Teamspiel.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Worauf basiert Defuse Division Gameplay?",
+    answer: "Es basiert auf Druck beim Bombenlegen, Verteidigungs-Timing und Rundenkontrolle. Ein Team greift das Ziel an, während das andere Team verzögert, zurückerobert oder entschärft."
+  },
+  {
+    question: "Sollte ich zuerst Aim oder Positionierung lernen?",
+    answer: "Starte mit Positionierung. Guter Abstand, bessere Winkel und stärkeres Timing verbessern deine Ergebnisse meist schneller als reines Aim allein."
+  },
+  {
+    question: "Was ist die beste Gewohnheit für Solo Queue?",
+    answer: "Bleib bei einem Teammate, nimm nützliche Kämpfe an und vermeide isolierte Vorstöße. Solo-Spieler gewinnen mehr Runden, wenn sie tradebar bleiben."
+  },
+  {
+    question: "Welche Einstellungen helfen am Anfang am meisten?",
+    answer: "Nutze ein gut lesbares Fadenkreuz, eine mittel-niedrige Sensitivität und sauberen Ton. Diese drei Änderungen machen Gegner leichter sichtbar und erleichtern die Reaktion."
+  }
+]} />
+
+</Section>

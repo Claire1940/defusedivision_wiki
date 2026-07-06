@@ -1,0 +1,200 @@
+import { Target, Settings, Shield, Gamepad2, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Binds de Defuse Division: Melhor Configuração para Reações Mais Rápidas",
+  description: "Otimize os binds de Defuse Division com uma configuração limpa para trocas mais rápidas, desarmes mais ágeis e movimento mais fluido em partidas de desativação de bomba no Roblox.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Keybind+Setup+Guide",
+  date: "2026-07-06",
+  author: "Equipe da Wiki de Defuse Division"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Os binds de Defuse Division** devem reduzir o tempo de deslocamento entre movimento, mira e interação.
+- **Um keybind por função** mantém desarmes, utilitários e trocas de arma previsíveis sob pressão.
+- **Acesso rápido ao menu** importa, mas não sacrifique seus binds principais de combate por isso.
+- **Uma rotina de teste limpa** importa mais do que copiar exatamente o layout de outra pessoa.
+</Callout>
+
+<Section icon={Target} title="Binds de Defuse Division: Princípios Básicos">
+
+Os binds de Defuse Division funcionam melhor quando cada ação importante tem um propósito claro. Em uma partida de desativação de bomba, hesitar custa mais do que pura habilidade mecânica, então o objetivo é manter as mãos nas poucas teclas que você mais usa. Monte a configuração primeiro em torno de movimento, interação e controle de armas, e só depois ajuste o restante. Um bom layout deve parecer positivamente sem graça: sem adivinhação, sem esticar os dedos e sem entradas acidentais.
+
+| Prioridade | Ação | Como é um bom resultado | Observação de slug sugerida |
+|---|---|---|---|
+| 1 | Movimento | Fácil alcance, sem esforço na mão | `/defuse-division-keybinds` |
+| 2 | Interagir / Desarmar | Uma tecla dedicada e consistente | Mantenha perto de WASD |
+| 3 | Atirar / Mirar | Nunca remapeado longe da memória muscular | Fique nos botões do mouse |
+| 4 | Trocar / Utilitário | Acesso rápido sem sobreposição de dedos | Separado do movimento |
+| 5 | Menu / Seleção de time | Disponível, mas sem atrapalhar | Evite pressionamentos acidentais |
+
+<Callout type="tip" title="Regra de Layout">
+Se um bind atrasa seu movimento ou faz você desviar o olhar da luta, ele provavelmente está longe demais.
+</Callout>
+
+O maior erro é tentar tornar toda tecla “alcançável” em vez de tornar as teclas importantes confiáveis. Para a maioria dos jogadores, isso significa deixar o disparo principal e a mira no mouse, manter a interação perto da mão esquerda e reservar ações raras para teclas menos urgentes. Se sua configuração atual já lida bem com o menu principal ou a seleção de time, mantenha esses binds estáveis em vez de correr atrás de pequenos ganhos.
+
+| Objetivo | Por que Importa | Padrão Prático |
+|---|---|---|
+| Entradas mais rápidas | Você responde antes em lutas curtas | Um toque, sem reposicionar os dedos |
+| Desarmes mais limpos | Menor chance de errar o prompt | A mesma tecla em toda rodada |
+| Melhor controle de recuo | Mira mais consistente sob estresse | Sem posições estranhas da mão |
+| Menos cliques errados | Menos pânico sob pressão no bombsite | Binds separados para combate e utilitário |
+
+</Section>
+
+<Section icon={Settings} title="Binds Recomendados para Desarmes Mais Rápidos">
+
+Uma configuração forte de binds deve fazer a rodada parecer mais curta porque seus inputs ficam mais curtos. Isso não significa que todo jogador precise das mesmas teclas. Significa que as mesmas categorias devem ficar nos mesmos lugares: movimento na mão esquerda, combate no mouse e ações de objetivo em uma tecla próxima.
+
+<Callout type="warning" title="Não Copie às Cegas">
+Um layout no estilo de pro pode falhar se o tamanho do seu teclado, o alcance da sua mão ou os botões do mouse forem diferentes. Use a mesma estrutura, não exatamente as mesmas teclas.
+</Callout>
+
+| Ação | Hábito de Entrada Recomendado | Por que Funciona |
+|---|---|---|
+| Mover | WASD | Movimento padrão e sem atrito |
+| Mirar / Atirar | Botões do mouse | Mantém a mão do movimento livre |
+| Interagir | E ou outra tecla próxima | Acesso rápido para itens e objetivos |
+| Desarmar / Plantar | Mesma família de Interagir | Reduz confusão em momentos de pressão |
+| Agachar | Ctrl ou outra tecla de baixo risco | Fácil de segurar durante peek |
+| Utilitário | Q, F ou botão lateral do mouse | Separado de mira e movimento |
+| Time / Menu | Deixe em uma tecla não relacionada ao combate | Evita interrupções acidentais |
+
+Muitos jogadores otimizam demais o utilitário e pouco a interação. Em um jogo de desativação, a tecla de interagir costuma ser mais importante do que o bind da granada mais chamativo. Se você tiver que escolher entre um layout de utilitário sofisticado e um prompt de desarme mais rápido, escolha sempre a opção que favorece o desarme.
+
+| Tipo de Bind | Amigável para Iniciantes | Amigável para Competitivo | Observações |
+|---|---|---|---|
+| Interagir | Tecla próxima ao WASD | A mesma tecla em toda partida | Consistência vence |
+| Utilitário | Tecla do teclado | Botão lateral do mouse ou teclado | Use o que você consegue apertar instantaneamente |
+| Troca | Teclas numéricas | Teclas numéricas ou roda do mouse | Mantenha consistente |
+| Menu | Tecla padrão do menu | Tecla padrão do menu | Só mude se causar problemas |
+
+</Section>
+
+<Section icon={Shield} title="Como Remapear e Testar Seu Layout">
+
+Mudar binds só vale a pena se você testar em movimento real. Uma configuração pensada só no menu pode parecer ótima no papel e falhar no momento em que você strafar, fizer peek ou tentar plantar sob pressão. Use um processo curto e repetível e avalie seu layout por velocidade, conforto e erros.
+
+<Callout type="info" title="Mentalidade de Teste">
+Seu primeiro objetivo não é perfeição. Seu primeiro objetivo é remover ações estranhas e tornar as importantes automáticas.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Trave o movimento primeiro">
+    Mantenha movimento, mira e disparo intocados até que pareçam naturais. Mude binds de combate apenas se eles claramente atrapalharem a posição da mão.
+  </Step>
+  <Step num="2" title="Aproxime a interação">
+    Coloque interagir e desarmar em uma tecla que você consiga apertar sem olhar para baixo. A melhor tecla é aquela que você consegue pressionar sem perder o foco no bombsite.
+  </Step>
+  <Step num="3" title="Separe utilitário dos objetivos">
+    Não empilhe granadas, ações de desarme e comandos de menu em teclas vizinhas se isso gerar erros. Cada ação precisa de uma função distinta.
+  </Step>
+  <Step num="4" title="Faça drills ao vivo">
+    Entre em uma partida ou área de treino e repita movimentação, coleta e interações de objetivo até suas mãos pararem de hesitar.
+  </Step>
+</Steps>
+
+| Drill de Teste | O que Verificar | Critério de Aprovação |
+|---|---|---|
+| Strafar e interagir | Você consegue continuar se movendo enquanto aperta a tecla? | Sem esticar a mão |
+| Desarmar sob pressão | Você erra a tecla com pressa? | Primeiro toque confiável |
+| Troca de arma | Você consegue trocar ferramentas sem perder a mira? | Transição suave |
+| Acesso ao menu | Você consegue abrir menus sem estragar o fluxo de combate? | Sem ativação acidental |
+
+Se seu layout passar nesses testes, deixe-o em paz por um tempo. Ajustes frequentes criam mais inconsistência do que resolvem. Binds estáveis constroem reações mais rápidas do que binds “perfeitos” que mudam todo dia.
+
+</Section>
+
+<Section icon={Gamepad2} title="Melhores Layouts por Estilo de Jogo">
+
+Jogadores diferentes precisam de tipos diferentes de suporte nos binds. Um jogador de entrada agressivo quer trocas rápidas e acesso instantâneo ao utilitário. Um anchor defensivo quer segurar posições com limpeza e menos pressionamentos acidentais. Jogadores de solo queue normalmente precisam do layout mais tolerante, porque não podem depender de coordenação perfeita em toda rodada.
+
+<Callout type="success" title="Escolha um Layout pelo Papel">
+A melhor configuração é a que combina com a forma como você realmente joga, não com a forma como imagina jogar no seu melhor dia.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Entrada Agressiva">
+    - **Teclas de troca rápidas**
+    - Utilitário perto da mão do mouse
+    - Movimento mínimo no menu
+    - Melhor para lutas de primeiro contato
+  </Card>
+  <Card title="Defesa Anchor">
+    - **Tecla de objetivo estável**
+    - Binds mais seguros para agachar ou segurar posição
+    - Menos uso acidental de utilitário
+    - Melhor para controle de área e paciência
+  </Card>
+  <Card title="Solo Queue Balanceado">
+    - **Layout com baixa taxa de erro**
+    - Interagir e trocar armas com facilidade
+    - Padrões familiares sempre que possível
+    - Melhor para funções flexíveis
+  </Card>
+</CardGrid>
+
+| Estilo de Jogo | Principal Força | Principal Risco | Prioridade dos Binds |
+|---|---|---|---|
+| Entry Fragger | Velocidade | Inputs errados | Velocidade do utilitário e da troca |
+| Defensor | Controle | Reações lentas | Conforto para desarmar e segurar |
+| Jogador Flex | Adaptabilidade | Binds sobrepostos | Consistência e simplicidade |
+
+Um layout equilibrado muitas vezes vence um chamativo porque sobrevive melhor às rodadas ruins. Se você ainda está aprendendo mapas e timing, escolha binds previsíveis em vez de empilhar hotkeys agressivas. Você sempre pode adicionar atalhos avançados depois que a memória muscular básica estiver consolidada.
+
+</Section>
+
+<Section icon={Trophy} title="Checklist, Erros e FAQ">
+
+Use esta seção como sua revisão final antes de adotar uma nova configuração. Os binds de Defuse Division devem parecer mais rápidos depois de algumas partidas, não mais complicados. Se o novo layout adicionar confusão, simplifique imediatamente.
+
+<Callout type="tip" title="Ajuste Final">
+Mantenha o bind que ajuda você a vencer rodadas e remova o bind que só parece eficiente em uma captura de tela.
+</Callout>
+
+<Checklist
+  id="defuse-division-keybinds-checklist"
+  title="Checklist de Binds Antes da Partida:"
+  items={[
+    "O movimento continua confortável durante rodadas longas",
+    "Interagir e desarmar usam uma tecla próxima e consistente",
+    "A troca de arma não interrompe o controle de mira",
+    "As teclas de utilitário não se sobrepõem às ações de objetivo",
+    "Os inputs de menu e seleção de time não causam erros"
+  ]}
+/>
+
+| Erro Comum | Problema | Solução Melhor |
+|---|---|---|
+| Teclas próximas demais | Sobreposição de dedos | Separe combate e utilitário |
+| Mudanças aleatórias de tecla | Memória muscular quebrada | Mantenha um layout por várias sessões |
+| Menu em uma tecla de combate | Aberturas acidentais | Afaste os menus das teclas de ação |
+| Desarmar em uma tecla distante | Jogo de objetivo mais lento | Coloque dentro do alcance natural |
+
+<FAQ items={[
+  {
+    question: "Quais são os melhores binds de Defuse Division para iniciantes?",
+    answer: "Comece com o movimento padrão, mantenha disparo e mira no mouse e coloque interagir ou desarmar em uma tecla próxima que você consiga pressionar sem olhar para baixo."
+  },
+  {
+    question: "Devo copiar exatamente os binds de um jogador profissional?",
+    answer: "Normalmente, não. Copie a estrutura, não as teclas exatas. Tamanho da mão, botões do mouse e layout do teclado importam mais do que a imitação."
+  },
+  {
+    question: "Qual tecla é a mais importante em uma partida de desativação de bomba?",
+    answer: "A tecla de interagir ou desarmar é a mais importante depois do movimento, porque afeta diretamente a velocidade do objetivo e a pressão da rodada."
+  },
+  {
+    question: "Com que frequência devo mudar minha configuração?",
+    answer: "Mude apenas quando o layout atual causar erros reais. Binds estáveis geralmente melhoram a consistência mais rápido do que ajustes constantes."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,230 @@
+import { Map, Target, Shield, Sparkles, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Defuse Division Lineups-Leitfaden: Die besten Set-Plays & Tipps",
+  description: "Nutze diese Defuse Division-Lineups, um A, B und Mid mit saubereren Holds, sichereren Retakes und wiederholbaren Set-Plays zu kontrollieren.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Defuse+Division+Lineups+Guide",
+  date: "2026-07-06",
+  author: "Defuse Division Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Defuse Division Lineups-Leitfaden**: Baue wiederholbare Setups für A, B und Mid auf, statt in jeder Runde zu raten.
+- **Beste Vorgehensweise**: Nutze dieselben Entry-, Hold- und Retake-Muster, bis dein Team sie sauber ausführen kann.
+- **Hauptfokus**: Kartenkontrolle, Crossfires und Timing sind wichtiger als spektakuläre Solo-Pushes.
+- **Trainingsziel**: Übe für jede Kartenroute ein Angriffs- und ein Verteidigungs-Setup ein.
+</Callout>
+
+<Section icon={Map} title="Defuse Division Lineups-Leitfaden: Kernprinzipien">
+
+Defuse Division ist ein taktischer Bombenentschärfungs-Shooter auf Roblox, der auf Runden-Timing, Site-Kontrolle und Teamkoordination basiert. Ein starkes Lineup ist kein Gimmick; es ist ein wiederholbares Setup, das deinem Team jede Runde denselben Look, dasselbe Timing und dieselbe Antwort gibt. Das ist in einem Spiel wichtig, in dem Engpässe, Bomb-Sites und Rotationsrouten darüber entscheiden, ob sich eine Runde kontrolliert oder chaotisch anfühlt.
+
+Wenn du die sauberste Grundlage willst, schau dir zuerst die offizielle Spielseite auf [Roblox](https://www.roblox.com/search?keyword=defusedivision) an und behandle jedes Lineup als ein Problem aus Route und Timing. Je konstanter deine Startpositionen sind, desto leichter wird es zu traden, zurückzuerobern und Raum zu sichern.
+
+**Video-Highlights:**
+- Baue Lineups um **Site-Kontrolle** herum auf, nicht um zufällige Duelle.
+- Nutze **wiederholbares Timing**, damit Teamkollegen deinen Peek traden können.
+- Halte **Mid** nur dann, wenn es einen Site-Push oder ein Retake unterstützt.
+- Behalte für jedes aggressive Setup eine sichere Ausweichoption.
+
+<CardGrid cols={3}>
+  <Card title="Angriffs-Defaults">
+    Starte die Runde mit einer stabilen Lane, einem sicheren Entry-Winkel und einem Teamkollegen, der sofort traden kann.
+  </Card>
+  <Card title="Verteidigungs-Anker">
+    Halte denselben Engpass, verzögere den Push und lass Platz für ein späteres Retake.
+  </Card>
+  <Card title="Retake-Muster">
+    Bewegt euch zusammen, cleart Winkel der Reihe nach und vermeidet isolierte Fights nach dem Plant.
+  </Card>
+</CardGrid>
+
+| Lineup-Typ | Bester Einsatz | Typisches Risiko | Wann einsetzen |
+|---|---|---|---|
+| Standard-Einstieg | Frühen Kartenraum gewinnen | Zu starke Exposition | Wenn dein Team den ersten Kontakt braucht |
+| Mid-Split | Druck auf die Site aufbauen | Fehler beim Split-Timing | Wenn Mid beide Sites verbindet |
+| Anchor-Hold | Verzögern und Infos sammeln | Isoliert werden | Wenn du einen Rush aufhalten musst |
+| Retake-Stack | Geplante Site zurückerobern | Verschwendung von Utility | Wenn die Bombe bereits liegt |
+
+<Callout type="tip" title="Profi-Prinzip">
+Ein gutes Lineup ist einfach genug, um es unter Druck zu wiederholen. Wenn du es nicht in einem Satz erklären kannst, ist es wahrscheinlich zu kompliziert für Live-Runden.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Angriffs-Lineups für A Site, B Site und Mid">
+
+Angriffs-Lineups funktionieren am besten, wenn du die Map als drei miteinander verbundene Probleme behandelst: wie man rein kommt, wie man Aufmerksamkeit aufteilt und wie man den Plant sicher abschließt. Da Defuse Division eine Standard-Struktur aus Bomb-Sites nutzt, sind die sichersten Offensiv-Setups meist diejenigen, die zuerst einen Engpass kontrollieren und diesen Druck dann in einen Site-Hit umwandeln.
+
+Wenn du einen Angriffsplan erstellst, konzentriere dich auf Sichtlinien und Timing-Fenster. Übercommitte dich nicht auf einen tiefen Push, wenn dein Team über Mid oder eine zweite Lane noch die bessere Option hat. Wiederholbarer Druck schlägt erzwungene Hero-Plays meist deutlich häufiger.
+
+<Callout type="warning" title="Diesen Fehler vermeiden">
+Merke dir kein Lineup, ohne die tatsächliche Geometrie zu prüfen. Ein Set-Play funktioniert nur, wenn Fadenkreuz, Bewegung und Entry-Timing zur Route passen.
+</Callout>
+
+| Angriffsphase | Ziel | Beste Lineup-Gewohnheit | Häufiger Fehler |
+|---|---|---|---|
+| Frühe Runde | Sicher Raum gewinnen | Vor dem Bewegen einen stabilen Winkel halten | In den ersten Kontakt sprinten |
+| Mittlere Runde | Verteidiger splitten | Zwei Lanes gleichzeitig synchronisieren | Einer nach dem anderen ankommen |
+| Site-Hit | Anchor-Setup brechen | Zuerst enge Winkel clearn | Den Plant setzen, bevor Kontrolle gesichert ist |
+| Nach dem Plant | Die Bombe schützen | In einen sicheren Crossfire umpositionieren | Dieselbe Lane zweimal watchen |
+
+<Steps>
+  <Step num="1" title="Wähle die Entry-Lane">
+    Entscheide dich für A, B oder Mid, je nachdem, wo dein Team das beste Timing und die wenigsten exponierten Winkel hat.
+  </Step>
+  <Step num="2" title="Teile dir einen Trade-Partner zu">
+    Jeder Frontline-Spieler sollte jemanden in der Nähe haben, der den Verteidiger bestrafen kann, der das erste Duell gewinnt.
+  </Step>
+  <Step num="3" title="Dränge den Anchor zurück">
+    Übe so lange Druck auf den Haupt-Engpass aus, dass der Verteidiger nicht mit voller Sicherheit auf der Site stehen kann.
+  </Step>
+  <Step num="4" title="Plante aus der Deckung">
+    Nutze eine Position, die den Placer schützt und deinem Team einen sauberen Post-Plant-Winkel gibt.
+  </Step>
+</Steps>
+
+Eine nützliche Regel ist, in Begriffen von „Lane, Trade und Finish“ zu denken. Wenn dein Team die Lane kontrolliert, der Trade bereit ist und die Plant-Position sicher ist, erfüllen die Angriffs-Lineups bereits ihren Zweck. Dieselbe Struktur verhindert auch, dass dein Team Zeit an leerem Raum verschwendet.
+
+Für eine strukturiertere Routenplanung sind die offizielle Roblox-Seite und Update-Posts zum Spiel bessere Referenzen als zufällige Community-Gerüchte. Stand 2026 deuten die öffentlichen Statistiken des Spiels auch auf eine aktive Spielerschaft hin, was ein Grund ist, warum konsistente Set-Plays in Live-Matches wertvoll bleiben.
+
+<Callout type="info" title="Angriffs-Priorität">
+Wenn die Runde mit schlechtem Abstand beginnt, verlangsame den Push und baue die Trade-Kette neu auf. Ein verzögerter, aber organisierter Hit ist meist stärker als ein überhasteter Zusammenbruch.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Verteidigungs-Lineups, Crossfires und Retake-Routen">
+
+Auf der Verteidigung wird aus einem Lineup Disziplin. Deine Aufgabe ist es, den Push zu verlangsamen, Informationen zu sammeln und lange genug zu überleben, bis ein Teamkollege eintrifft. Die besten Setups sind meist die, die ein Crossfire erzeugen oder Angreifer dazu zwingen, mehrere Winkel gleichzeitig zu clearn.
+
+Hier ist das Bewusstsein für die Bomb-Site am wichtigsten. Du willst einen Anchor, der den Entry verlangsamen kann, eine Support-Position, die den Follow-up bestrafen kann, und eine Rotations-Lane, die nicht durch zu aggressives Peeken blockiert wird. Wenn du die Kartenkontrolle zu früh verlierst, wird dein Retake schon schwieriger, bevor die Bombe überhaupt gelegt ist.
+
+| Defensivrolle | Positionsziel | Bester Einsatz | Vermeiden, wenn |
+|---|---|---|---|
+| Anchor | Den ersten Kontaktpunkt halten | Frühes Runden-Stalling | Du allein bist und keine Unterstützung hast |
+| Support | Einen zweiten Winkel abdecken | Weite Swings bestrafen | Die Site bereits zusammengebrochen ist |
+| Rotator | Spät ankommen und aufräumen | Retake oder Verstärkung | Du die Site zu früh verlässt |
+| Flank Watch | Freie Rotationen verhindern | Gegnersplit-Play stoppen | Dein Team bereits volle Map-Info hat |
+
+<Callout type="success" title="Bedingung für einen gewonnenen Defense-Start">
+Ein erfolgreiches Verteidigungs-Lineup muss nicht sofort gewinnen. Es muss nur Zeit kaufen, Fehler erzwingen und das Retake realistisch halten.
+</Callout>
+
+Wenn du einen defensiven Hold spielst, ist die wichtigste Gewohnheit, dem Drang zu widerstehen, jeden Winkel allein zu fighten. Ein Crossfire ist stärker als ein Solo-Peek, weil es den Angreifer zwischen zwei Bedrohungen wählen lässt. Genau diese Wahl erzeugt einfache Trades.
+
+Der andere Teil der Verteidigung ist das Retake. Sobald der Plant liegt, sollte dein Lineup vom Halten von Raum zum geordneten Zurückerobern wechseln. Cleare zuerst die nächste Gefahr, dann den Site-Kern und danach den wahrscheinlichen Post-Plant-Winkel. Ohne Unterstützung direkt auf die Bombe zu rennen, verschenkt die Runde meist wieder.
+
+Eine praktische Defensiv-Mentalität sieht so aus:
+- Halte eine stabile Linie, statt herumzuwandern.
+- Hebe Gesundheit für das Retake auf, wenn die Site bereits verloren ist.
+- Rotiere mit Absicht, nicht in Panik.
+- Kommuniziere, wenn du Raum aufgibst, damit Teamkollegen das Timing kennen.
+
+Auch das offizielle Spielkonzept unterstützt diesen Stil: Defuse Division basiert auf Bomben, Timern und Teamkoordination, daher sind defensive Lineups am stärksten, wenn sie geduldig und strukturiert sind.
+
+<Callout type="warning" title="Defensive Falle">
+Stacke früh nicht zu viele Spieler auf einen Winkel. Wenn die Angreifer die andere Seite treffen, kommt deine Rotation möglicherweise zu spät, um noch etwas zu bewirken.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Settings und Übungsroutine für sauberere Lineups">
+
+Lineups fühlen sich nur dann gut an, wenn deine Einstellungen nicht gegen dich arbeiten. Das grundlegende Steuerungsmodell in Defuse Division ist einfach: Bewegung, Blickkontrolle, Interaktion und der Umgang mit der Bombe müssen alle konsistent sein, bevor deine taktischen Setups zuverlässig werden. Deshalb sollten Zieldisziplin und Komfort-Einstellungen zusammen trainiert werden.
+
+Beginne mit einer stabilen Sensitivität, einem klar lesbaren Fadenkreuz und Keybinds, die du unter Druck nicht vergisst. Das öffentliche Steuerungs-Layout umfasst Bewegung, Zielen, Interaktion, Primärfeuer, Bombeninteraktion und das Einstellungsmenü selbst. Wenn du ständig noch anpasst, trainierst du Inkonsistenz statt Muskelgedächtnis.
+
+| Einstellung | Empfohlene Richtung | Warum es hilft |
+|---|---|---|
+| Sensitivität | Stabil halten | Hilft, Lineups wiederholbar zu machen |
+| Fadenkreuz | Einfach und sichtbar | Verbessert das Verfolgen von Zielen im Chaos |
+| Audio | Klare Schritte und Aktionssignale | Erleichtert Timing-Reads |
+| Keybinds | Komfortabel und fest | Reduziert Fehlinputs in Panik |
+| FOV / Sichtgefühl | Das verwenden, was Winkel gut lesbar macht | Verbessert Awareness ohne Ablenkung |
+
+<Checklist
+  id="lineup-practice"
+  title="Wöchentliche Trainingsziele:"
+  items={[
+    "Ein Angriffs-Lineup für A, B und Mid spielen",
+    "Einen defensiven Anchor auf jeder Kartenlane üben",
+    "Einen Retake-Pfad mit einem Teamkollegen einüben",
+    "Die Sensitivität vor Ranked-Sessions festlegen",
+    "Überprüfen, welche Lineups wegen Timing statt wegen Aim gescheitert sind"
+  ]}
+/>
+
+<Steps>
+  <Step num="1" title="Warm up die Steuerung">
+    Verbringe ein paar Minuten mit Bewegung und Aim, bis sich deine Eingaben sauber und vorhersehbar anfühlen.
+  </Step>
+  <Step num="2" title="Teste immer nur eine Route">
+    Wähle eine einzelne Lane, wiederhole denselben Entry oder Hold und vergleiche bei jedem Lauf das Ergebnis.
+  </Step>
+  <Step num="3" title="Füge einen Teamkollegen hinzu">
+    Übe Trade-Partner und Crossfire, damit das Lineup in einem echten Match funktioniert und nicht nur allein.
+  </Step>
+  <Step num="4" title="Analysiere die Fehlerstelle">
+    Wenn der Play scheitert, finde heraus, ob das Problem Timing, Abstand oder Positionierung war.
+  </Step>
+</Steps>
+
+Eine einfache Trainingsstruktur ist meist besser als eine lange, chaotische. Zehn fokussierte Wiederholungen derselben Route sind nützlicher als ein Dutzend zufälliger Versuche auf unterschiedlichen Maps. Sobald sich die Bewegung automatisch anfühlt, wird das Lineup selbst leichter zu vertrauen.
+
+<Callout type="tip" title="Konsistenz-Regel">
+Die besten Einstellungen sind nicht die schicksten Einstellungen. Es sind die, die du eine ganze Session lang benutzen kannst, ohne alles infrage zu stellen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Ressourcen, häufige Fehler und FAQ">
+
+Am sichersten bleibst du aktuell, wenn du offizielle, spielbezogene Quellen verfolgst statt recyceltem Community-Lärm hinterherzulaufen. Für Defuse Division heißt das: die Roblox-Spielseite, den offiziellen Community-Bereich und Patch Notes prüfen, wenn neue Routen, Maps oder Balance-Änderungen auftauchen. Wenn sich durch ein Update Sichtlinien oder Timing ändern, braucht dein altes Lineup möglicherweise eine kleine Anpassung.
+
+| Ressource | Link | Am besten für |
+|---|---|---|
+| Roblox-Spielseite | [Open on Roblox](https://www.roblox.com/search?keyword=defusedivision) | Das Spiel starten und den öffentlichen Status prüfen |
+| DevForum-Changelog-Suche | [Search patch notes](https://devforum.roblox.com/search?q=Defuse%20Division%20Changelog) | Updates und Gameplay-Änderungen verfolgen |
+| Discord-Community | Official server | Community-Ankündigungen und Spielerdiskussion |
+
+Häufige Fehler fallen meist in dieselben drei Kategorien:
+- Peeken, bevor der Trade bereit ist.
+- Zu früh rotieren und Raum auf der Site aufgeben.
+- Lineups üben, ohne zu prüfen, ob die Route noch zur Map passt.
+
+<Callout type="info" title="Update-Bewusstsein">
+Wenn ein Patch einen Site-Eingang, einen Engpass oder eine Rotationsroute verändert, schau dir vor der nächsten Session dein Lineup-Sheet noch einmal an.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Was bedeutet ein Lineups-Leitfaden in Defuse Division?",
+    answer: "Gemeint ist eine wiederholbare Reihe von Angriffs-, Verteidigungs- und Retake-Positionen, die deinem Team helfen, A, B und Mid mit besserem Timing zu kontrollieren."
+  },
+  {
+    question: "Gibt es auf jeder Map feste Granaten-Lineups?",
+    answer: "Nicht unbedingt. In Defuse Division basieren die zuverlässigsten Lineups meist auf Winkeln, Abstand und Timing, also solltest du sie an das Layout jeder Map anpassen."
+  },
+  {
+    question: "Was sollten Anfänger zuerst lernen?",
+    answer: "Beginne mit einem Angriffs-Entry, einem defensiven Anchor und einer Retake-Route. Das gibt dir ein brauchbares Grundgerüst, bevor du komplexere Setups ausprobierst."
+  },
+  {
+    question: "Wie mache ich meine Defuse Division-Lineups konsistenter?",
+    answer: "Halte deine Sensitivität stabil, übe dieselbe Route wiederholt und stelle sicher, dass ein Teamkollege bereit ist, deinen ersten Kontakt zu traden."
+  }
+]} />
+
+<Callout type="success" title="Fazit">
+Wenn du sauberere Runden willst, baue auf einfache Routen, stabiles Timing und teamtaugliche Abstände. Das ist die Grundlage eines starken Defuse Division Lineups-Leitfadens.
+</Callout>
+
+</Section>

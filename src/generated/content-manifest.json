@@ -1,1 +1,618 @@
-{}
+{
+  "de": {
+    "codes": [
+      {
+        "slug": "defuse-division-codes",
+        "file": "defuse-division-codes"
+      }
+    ],
+    "competitive": [
+      {
+        "slug": "defuse-division-competitive",
+        "file": "defuse-division-competitive"
+      },
+      {
+        "slug": "defuse-division-gameplay",
+        "file": "defuse-division-gameplay"
+      },
+      {
+        "slug": "defuse-division-vs-blox-strike",
+        "file": "defuse-division-vs-blox-strike"
+      },
+      {
+        "slug": "defuse-division-vs-counter-blox",
+        "file": "defuse-division-vs-counter-blox"
+      }
+    ],
+    "crosshair": [
+      {
+        "slug": "defuse-division-best-crosshair",
+        "file": "defuse-division-best-crosshair"
+      },
+      {
+        "slug": "defuse-division-crosshair-code",
+        "file": "defuse-division-crosshair-code"
+      },
+      {
+        "slug": "defuse-division-crosshair-import",
+        "file": "defuse-division-crosshair-import"
+      },
+      {
+        "slug": "defuse-division-crosshair-settings",
+        "file": "defuse-division-crosshair-settings"
+      },
+      {
+        "slug": "defuse-division-crosshair",
+        "file": "defuse-division-crosshair"
+      }
+    ],
+    "discord": [
+      {
+        "slug": "defuse-division-discord-server",
+        "file": "defuse-division-discord-server"
+      },
+      {
+        "slug": "defuse-division-discord",
+        "file": "defuse-division-discord"
+      },
+      {
+        "slug": "defuse-division-how-to-join-discord-server",
+        "file": "defuse-division-how-to-join-discord-server"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "defuse-division-beginner-guide",
+        "file": "defuse-division-beginner-guide"
+      },
+      {
+        "slug": "defuse-division-bunny-hop-guide",
+        "file": "defuse-division-bunny-hop-guide"
+      },
+      {
+        "slug": "defuse-division-how-to-defuse",
+        "file": "defuse-division-how-to-defuse"
+      },
+      {
+        "slug": "defuse-division-how-to-get-credits",
+        "file": "defuse-division-how-to-get-credits"
+      },
+      {
+        "slug": "defuse-division-how-to-get-knife",
+        "file": "defuse-division-how-to-get-knife"
+      },
+      {
+        "slug": "defuse-division-how-to-get-skins",
+        "file": "defuse-division-how-to-get-skins"
+      },
+      {
+        "slug": "defuse-division-lineups-guide",
+        "file": "defuse-division-lineups-guide"
+      }
+    ],
+    "settings": [
+      {
+        "slug": "defuse-division-best-settings",
+        "file": "defuse-division-best-settings"
+      },
+      {
+        "slug": "defuse-division-default-viewmodel",
+        "file": "defuse-division-default-viewmodel"
+      },
+      {
+        "slug": "defuse-division-fov",
+        "file": "defuse-division-fov"
+      },
+      {
+        "slug": "defuse-division-keybinds",
+        "file": "defuse-division-keybinds"
+      },
+      {
+        "slug": "defuse-division-left-hand",
+        "file": "defuse-division-left-hand"
+      },
+      {
+        "slug": "defuse-division-viewmodel",
+        "file": "defuse-division-viewmodel"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "defuse-division-butterfly-case",
+        "file": "defuse-division-butterfly-case"
+      },
+      {
+        "slug": "defuse-division-case-opening",
+        "file": "defuse-division-case-opening"
+      },
+      {
+        "slug": "defuse-division-gloves",
+        "file": "defuse-division-gloves"
+      },
+      {
+        "slug": "defuse-division-knife",
+        "file": "defuse-division-knife"
+      },
+      {
+        "slug": "defuse-division-skins",
+        "file": "defuse-division-skins"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "defuse-division-knife-drop",
+        "file": "defuse-division-knife-drop"
+      },
+      {
+        "slug": "defuse-division-p250",
+        "file": "defuse-division-p250"
+      },
+      {
+        "slug": "defuse-division-weapons-guide",
+        "file": "defuse-division-weapons-guide"
+      }
+    ]
+  },
+  "en": {
+    "codes": [
+      {
+        "slug": "defuse-division-codes",
+        "file": "defuse-division-codes"
+      }
+    ],
+    "competitive": [
+      {
+        "slug": "defuse-division-competitive",
+        "file": "defuse-division-competitive"
+      },
+      {
+        "slug": "defuse-division-gameplay",
+        "file": "defuse-division-gameplay"
+      },
+      {
+        "slug": "defuse-division-vs-blox-strike",
+        "file": "defuse-division-vs-blox-strike"
+      },
+      {
+        "slug": "defuse-division-vs-counter-blox",
+        "file": "defuse-division-vs-counter-blox"
+      }
+    ],
+    "crosshair": [
+      {
+        "slug": "defuse-division-best-crosshair",
+        "file": "defuse-division-best-crosshair"
+      },
+      {
+        "slug": "defuse-division-crosshair-code",
+        "file": "defuse-division-crosshair-code"
+      },
+      {
+        "slug": "defuse-division-crosshair-import",
+        "file": "defuse-division-crosshair-import"
+      },
+      {
+        "slug": "defuse-division-crosshair-settings",
+        "file": "defuse-division-crosshair-settings"
+      },
+      {
+        "slug": "defuse-division-crosshair",
+        "file": "defuse-division-crosshair"
+      }
+    ],
+    "discord": [
+      {
+        "slug": "defuse-division-discord-server",
+        "file": "defuse-division-discord-server"
+      },
+      {
+        "slug": "defuse-division-discord",
+        "file": "defuse-division-discord"
+      },
+      {
+        "slug": "defuse-division-how-to-join-discord-server",
+        "file": "defuse-division-how-to-join-discord-server"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "defuse-division-beginner-guide",
+        "file": "defuse-division-beginner-guide"
+      },
+      {
+        "slug": "defuse-division-bunny-hop-guide",
+        "file": "defuse-division-bunny-hop-guide"
+      },
+      {
+        "slug": "defuse-division-how-to-defuse",
+        "file": "defuse-division-how-to-defuse"
+      },
+      {
+        "slug": "defuse-division-how-to-get-credits",
+        "file": "defuse-division-how-to-get-credits"
+      },
+      {
+        "slug": "defuse-division-how-to-get-knife",
+        "file": "defuse-division-how-to-get-knife"
+      },
+      {
+        "slug": "defuse-division-how-to-get-skins",
+        "file": "defuse-division-how-to-get-skins"
+      },
+      {
+        "slug": "defuse-division-lineups-guide",
+        "file": "defuse-division-lineups-guide"
+      }
+    ],
+    "settings": [
+      {
+        "slug": "defuse-division-best-settings",
+        "file": "defuse-division-best-settings"
+      },
+      {
+        "slug": "defuse-division-default-viewmodel",
+        "file": "defuse-division-default-viewmodel"
+      },
+      {
+        "slug": "defuse-division-fov",
+        "file": "defuse-division-fov"
+      },
+      {
+        "slug": "defuse-division-keybinds",
+        "file": "defuse-division-keybinds"
+      },
+      {
+        "slug": "defuse-division-left-hand",
+        "file": "defuse-division-left-hand"
+      },
+      {
+        "slug": "defuse-division-viewmodel",
+        "file": "defuse-division-viewmodel"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "defuse-division-butterfly-case",
+        "file": "defuse-division-butterfly-case"
+      },
+      {
+        "slug": "defuse-division-case-opening",
+        "file": "defuse-division-case-opening"
+      },
+      {
+        "slug": "defuse-division-gloves",
+        "file": "defuse-division-gloves"
+      },
+      {
+        "slug": "defuse-division-knife",
+        "file": "defuse-division-knife"
+      },
+      {
+        "slug": "defuse-division-skins",
+        "file": "defuse-division-skins"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "defuse-division-knife-drop",
+        "file": "defuse-division-knife-drop"
+      },
+      {
+        "slug": "defuse-division-p250",
+        "file": "defuse-division-p250"
+      },
+      {
+        "slug": "defuse-division-weapons-guide",
+        "file": "defuse-division-weapons-guide"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "defuse-division-codes",
+        "file": "defuse-division-codes"
+      }
+    ],
+    "competitive": [
+      {
+        "slug": "defuse-division-competitive",
+        "file": "defuse-division-competitive"
+      },
+      {
+        "slug": "defuse-division-gameplay",
+        "file": "defuse-division-gameplay"
+      },
+      {
+        "slug": "defuse-division-vs-blox-strike",
+        "file": "defuse-division-vs-blox-strike"
+      },
+      {
+        "slug": "defuse-division-vs-counter-blox",
+        "file": "defuse-division-vs-counter-blox"
+      }
+    ],
+    "crosshair": [
+      {
+        "slug": "defuse-division-best-crosshair",
+        "file": "defuse-division-best-crosshair"
+      },
+      {
+        "slug": "defuse-division-crosshair-code",
+        "file": "defuse-division-crosshair-code"
+      },
+      {
+        "slug": "defuse-division-crosshair-import",
+        "file": "defuse-division-crosshair-import"
+      },
+      {
+        "slug": "defuse-division-crosshair-settings",
+        "file": "defuse-division-crosshair-settings"
+      },
+      {
+        "slug": "defuse-division-crosshair",
+        "file": "defuse-division-crosshair"
+      }
+    ],
+    "discord": [
+      {
+        "slug": "defuse-division-discord-server",
+        "file": "defuse-division-discord-server"
+      },
+      {
+        "slug": "defuse-division-discord",
+        "file": "defuse-division-discord"
+      },
+      {
+        "slug": "defuse-division-how-to-join-discord-server",
+        "file": "defuse-division-how-to-join-discord-server"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "defuse-division-beginner-guide",
+        "file": "defuse-division-beginner-guide"
+      },
+      {
+        "slug": "defuse-division-bunny-hop-guide",
+        "file": "defuse-division-bunny-hop-guide"
+      },
+      {
+        "slug": "defuse-division-how-to-defuse",
+        "file": "defuse-division-how-to-defuse"
+      },
+      {
+        "slug": "defuse-division-how-to-get-credits",
+        "file": "defuse-division-how-to-get-credits"
+      },
+      {
+        "slug": "defuse-division-how-to-get-knife",
+        "file": "defuse-division-how-to-get-knife"
+      },
+      {
+        "slug": "defuse-division-how-to-get-skins",
+        "file": "defuse-division-how-to-get-skins"
+      },
+      {
+        "slug": "defuse-division-lineups-guide",
+        "file": "defuse-division-lineups-guide"
+      }
+    ],
+    "settings": [
+      {
+        "slug": "defuse-division-best-settings",
+        "file": "defuse-division-best-settings"
+      },
+      {
+        "slug": "defuse-division-default-viewmodel",
+        "file": "defuse-division-default-viewmodel"
+      },
+      {
+        "slug": "defuse-division-fov",
+        "file": "defuse-division-fov"
+      },
+      {
+        "slug": "defuse-division-keybinds",
+        "file": "defuse-division-keybinds"
+      },
+      {
+        "slug": "defuse-division-left-hand",
+        "file": "defuse-division-left-hand"
+      },
+      {
+        "slug": "defuse-division-viewmodel",
+        "file": "defuse-division-viewmodel"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "defuse-division-butterfly-case",
+        "file": "defuse-division-butterfly-case"
+      },
+      {
+        "slug": "defuse-division-case-opening",
+        "file": "defuse-division-case-opening"
+      },
+      {
+        "slug": "defuse-division-gloves",
+        "file": "defuse-division-gloves"
+      },
+      {
+        "slug": "defuse-division-knife",
+        "file": "defuse-division-knife"
+      },
+      {
+        "slug": "defuse-division-skins",
+        "file": "defuse-division-skins"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "defuse-division-knife-drop",
+        "file": "defuse-division-knife-drop"
+      },
+      {
+        "slug": "defuse-division-p250",
+        "file": "defuse-division-p250"
+      },
+      {
+        "slug": "defuse-division-weapons-guide",
+        "file": "defuse-division-weapons-guide"
+      }
+    ]
+  },
+  "pt": {
+    "codes": [
+      {
+        "slug": "defuse-division-codes",
+        "file": "defuse-division-codes"
+      }
+    ],
+    "competitive": [
+      {
+        "slug": "defuse-division-competitive",
+        "file": "defuse-division-competitive"
+      },
+      {
+        "slug": "defuse-division-gameplay",
+        "file": "defuse-division-gameplay"
+      },
+      {
+        "slug": "defuse-division-vs-blox-strike",
+        "file": "defuse-division-vs-blox-strike"
+      },
+      {
+        "slug": "defuse-division-vs-counter-blox",
+        "file": "defuse-division-vs-counter-blox"
+      }
+    ],
+    "crosshair": [
+      {
+        "slug": "defuse-division-best-crosshair",
+        "file": "defuse-division-best-crosshair"
+      },
+      {
+        "slug": "defuse-division-crosshair-code",
+        "file": "defuse-division-crosshair-code"
+      },
+      {
+        "slug": "defuse-division-crosshair-import",
+        "file": "defuse-division-crosshair-import"
+      },
+      {
+        "slug": "defuse-division-crosshair-settings",
+        "file": "defuse-division-crosshair-settings"
+      },
+      {
+        "slug": "defuse-division-crosshair",
+        "file": "defuse-division-crosshair"
+      }
+    ],
+    "discord": [
+      {
+        "slug": "defuse-division-discord-server",
+        "file": "defuse-division-discord-server"
+      },
+      {
+        "slug": "defuse-division-discord",
+        "file": "defuse-division-discord"
+      },
+      {
+        "slug": "defuse-division-how-to-join-discord-server",
+        "file": "defuse-division-how-to-join-discord-server"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "defuse-division-beginner-guide",
+        "file": "defuse-division-beginner-guide"
+      },
+      {
+        "slug": "defuse-division-bunny-hop-guide",
+        "file": "defuse-division-bunny-hop-guide"
+      },
+      {
+        "slug": "defuse-division-how-to-defuse",
+        "file": "defuse-division-how-to-defuse"
+      },
+      {
+        "slug": "defuse-division-how-to-get-credits",
+        "file": "defuse-division-how-to-get-credits"
+      },
+      {
+        "slug": "defuse-division-how-to-get-knife",
+        "file": "defuse-division-how-to-get-knife"
+      },
+      {
+        "slug": "defuse-division-how-to-get-skins",
+        "file": "defuse-division-how-to-get-skins"
+      },
+      {
+        "slug": "defuse-division-lineups-guide",
+        "file": "defuse-division-lineups-guide"
+      }
+    ],
+    "settings": [
+      {
+        "slug": "defuse-division-best-settings",
+        "file": "defuse-division-best-settings"
+      },
+      {
+        "slug": "defuse-division-default-viewmodel",
+        "file": "defuse-division-default-viewmodel"
+      },
+      {
+        "slug": "defuse-division-fov",
+        "file": "defuse-division-fov"
+      },
+      {
+        "slug": "defuse-division-keybinds",
+        "file": "defuse-division-keybinds"
+      },
+      {
+        "slug": "defuse-division-left-hand",
+        "file": "defuse-division-left-hand"
+      },
+      {
+        "slug": "defuse-division-viewmodel",
+        "file": "defuse-division-viewmodel"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "defuse-division-butterfly-case",
+        "file": "defuse-division-butterfly-case"
+      },
+      {
+        "slug": "defuse-division-case-opening",
+        "file": "defuse-division-case-opening"
+      },
+      {
+        "slug": "defuse-division-gloves",
+        "file": "defuse-division-gloves"
+      },
+      {
+        "slug": "defuse-division-knife",
+        "file": "defuse-division-knife"
+      },
+      {
+        "slug": "defuse-division-skins",
+        "file": "defuse-division-skins"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "defuse-division-knife-drop",
+        "file": "defuse-division-knife-drop"
+      },
+      {
+        "slug": "defuse-division-p250",
+        "file": "defuse-division-p250"
+      },
+      {
+        "slug": "defuse-division-weapons-guide",
+        "file": "defuse-division-weapons-guide"
+      }
+    ]
+  }
+}

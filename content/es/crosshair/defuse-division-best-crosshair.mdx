@@ -1,0 +1,232 @@
+import { Map, Target, Shield, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mejor mira de Defuse Division: guía de ajustes 2026",
+  description: "Ajusta una mira más limpia para Defuse Division con preajustes, elección de color y pasos rápidos de calibración para mejorar la visibilidad, el control del retroceso y la lectura de clutches.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Crosshair+Settings+Guide",
+  date: "2026-07-06",
+  author: "Equipo de Wiki de Defuse Division"
+}
+
+<Callout type="info" title="Guía rápida">
+- **La mejor mira de Defuse Division** empieza con un centro compacto y de alto contraste que siga siendo visible bajo presión.
+- Los **diseños estáticos** suelen superar a las miras recargadas porque reducen el ruido visual durante los sprays y los asomos rápidos.
+- La **elección del color** importa más que el estilo en mapas tácticos oscuros, especialmente entre humo, sombras y efectos de flash.
+- **Empieza en pequeño** con un contorno fino, una separación corta y una forma simple, y luego ajusta tras unas cuantas partidas.
+- **Prueba en rondas reales** en lugar de hacerlo solo en el campo de entrenamiento, ya que los combates reales revelan más rápido los problemas de saturación y seguimiento.
+</Callout>
+
+<Section icon={Target} title="Conceptos básicos de la mira en Defuse Division">
+
+Una buena mira debe ayudarte a leer la puntería al instante, no competir con el objetivo. En un shooter táctico de Roblox, eso suele significar un centro pequeño, bordes claros y una forma que no oculte las cabezas a media distancia. La mejor configuración es la que puedes seguir durante el retroceso, no la que se ve llamativa en una captura.
+
+Usa la tabla de abajo para comparar los estilos más prácticos antes de empezar a afinar. Si prefieres un estilo de juego más agresivo, inclínate por una mira más cerrada. Si sujetas ángulos y tomas duelos más lentos, una configuración de precisión algo más limpia suele ser más fácil de confiar.
+
+**Comparación de estilos básicos de mira**
+
+| Estilo | Ideal para | Ventajas | Inconveniente |
+| --- | --- | --- | --- |
+| Punto estático | Disparo a toque, puntería de precisión | Muy limpio, fácil de seguir en el centro | Puede sentirse demasiado minimalista para algunos jugadores |
+| Cruz pequeña | Juego equilibrado con rifles | Familiar, legible, estable | Puede añadir algo de ruido durante los sprays |
+| Forma de T fina | Mantener ángulos, asomos rápidos | Deja más visible al objetivo | Da menos referencia centrada que un punto |
+| Anillo hueco | Seguimiento y visibilidad | Contorno potente en escenas brillantes | Puede tapar cabezas si el anillo es demasiado grande |
+
+<CardGrid cols={4}>
+  <Card title="Centro estático">
+    Mantén el punto central minúsculo y estable. Es la opción más fácil para quienes quieren leer el objetivo con claridad.
+  </Card>
+  <Card title="Separación compacta">
+    Una separación corta te da suficiente referencia sin convertir la mira en una pared de líneas.
+  </Card>
+  <Card title="Líneas finas">
+    Las líneas finas reducen el desorden y facilitan ver enemigos lejanos cuando alineas un disparo.
+  </Card>
+  <Card title="Alto contraste">
+    Elige un color que destaque frente a paredes oscuras, efectos naranjas y superficies grises del mapa.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Mejor regla de inicio">
+Elige la forma más pequeña que todavía puedas ver con claridad a media distancia. Si la mira empieza a cubrir cabezas, redúcela antes de cambiar cualquier otra cosa.
+</Callout>
+
+La opción más segura por defecto es una mira estática pequeña, con grosor moderado y un contorno visible. Eso te da un centro limpio para los toques rápidos sin perder legibilidad al moverte. Si el juego te deja ajustar la opacidad, mantén suficiente presencia para seguir la mira, pero evita un bloque totalmente opaco que tape la puntería fina.
+
+**Tabla de prioridad de color**
+
+| Elección de color | Visibilidad | Mejores entornos | Notas |
+| --- | --- | --- | --- |
+| Cian | Excelente | Habitaciones oscuras, paredes grises | Contraste fuerte sin resultar estridente |
+| Blanco | Muy buena | Iluminación mixta | Fácil de ver, pero puede perderse en superficies brillantes |
+| Amarillo | Muy buena | Zonas en sombra, tonos azules | Funciona bien si el mapa tiene poca luz cálida |
+| Rojo | Situacional | Escenas de tonos fríos | Puede desaparecer cerca de explosiones o efectos de advertencia |
+
+Si solo recuerdas una cosa, que sea esta: el contraste gana. Una mira elegante que desaparece durante un duelo real es peor que una simple que se mantiene legible. El objetivo es una mira que le diga a tus ojos exactamente hacia dónde irá el disparo, incluso cuando la pantalla está cargada.
+
+</Section>
+
+<Section icon={Sparkles} title="Mejores preajustes de mira para distintos roles">
+
+No todos los jugadores necesitan la misma mira. Los jugadores de entrada suelen beneficiarse de una forma más limpia que favorezca los asomos rápidos. Los anclajes suelen preferir un centro más estable para mantener ángulos. Si alternas entre rifles, SMG y pistolas, elige un preajuste que siga siendo útil con las tres en lugar de sobreoptimizar para un solo arma.
+
+Los preajustes de abajo son puntos de partida, no leyes. Trátalos como plantillas de equipamiento. Una buena mira debe sentirse estable después de unas cuantas rondas, y debes poder explicar por qué existe cada parte. Si un ajuste no ayuda a la visibilidad o a la lectura de la puntería, elimínalo.
+
+**Preajustes de mira recomendados**
+
+| Preajuste | Tamaño | Separación | Grosor | Mejor uso |
+| --- | --- | --- | --- | --- |
+| Equilibrado | Pequeño | Media | Fino | Juego general, usuarios de rifle |
+| Entrada | Muy pequeño | Ajustada | Fino | Empujes agresivos, asomos rápidos |
+| Precisión | Minúsculo | Muy ajustada | Muy fino | Disparo a toque, duelos a larga distancia |
+| Amigable con pocos FPS | Pequeño | Media | Ligeramente más grueso | Escenas difíciles de leer, hardware modesto |
+
+<Callout type="warning" title="Evita este error">
+No persigas una captura al estilo profesional si no puedes leerla en movimiento. Una mira que se ve bien en los menús puede fallar durante sprays, flashes y comprobaciones rápidas de esquinas.
+</Callout>
+
+También puedes construirla según tu rol. Un jugador de apoyo puede querer un centro más evidente, mientras que un punterío seguro puede preferir una forma más cerrada y con menos peso visual. La tabla de abajo ayuda a traducir esa idea a algo práctico.
+
+**Tabla de configuración según el rol**
+
+| Rol | Sensación recomendada | Por qué funciona |
+| --- | --- | --- |
+| Entry fragger | Cerrada y minimalista | Favorece la adquisición rápida del objetivo |
+| Anchor | Estable y centrada | Ayuda a mantener ángulos y disciplina |
+| Jugador flexible | Equilibrada y legible | Funciona con rifles, SMG y pistolas |
+| Jugador casual | Clara y permisiva | Es la más fácil de mantener visible bajo estrés |
+
+Si no estás seguro de por dónde empezar, comienza con el preajuste Equilibrado. Es el punto medio más sencillo y te da una referencia limpia antes de especializarte. Cuando se sienta natural, cierra o abre la separación según si tus disparos llegan tarde o si la mira se siente demasiado cargada.
+
+</Section>
+
+<Section icon={Shield} title="Pasos para ajustar la mira de Defuse Division">
+
+La forma más rápida de mejorar tu mira es cambiar una sola variable cada vez. Si cambias color, tamaño, grosor y separación al mismo tiempo, nunca sabrás qué ajuste ayudó realmente. Una sesión corta de ajuste suele bastar para encontrar una base mucho mejor.
+
+Usa estos pasos después de unas cuantas partidas de calentamiento. No ajustes solo desde el menú. Los combates reales, especialmente en esquinas y zonas poco iluminadas, revelan si la mira es demasiado grande, demasiado tenue o demasiado distractora.
+
+<Steps>
+  <Step num="1" title="Bloquea primero el centro">
+    Configura un punto central diminuto o líneas interiores muy cortas. Tu primera tarea es mantener el punto de puntería fácil de leer en cada combate.
+  </Step>
+  <Step num="2" title="Elige un color de alto contraste">
+    Escoge el color que más destaque en los mapas que juegas. Pruébalo contra paredes oscuras, superficies brillantes y efectos de explosión.
+  </Step>
+  <Step num="3" title="Ajusta la separación y el grosor">
+    Reduce la separación si la mira se siente suelta. Aumenta el grosor solo si la mira se vuelve difícil de ver en movimiento.
+  </Step>
+  <Step num="4" title="Juega diez rondas y vuelve a revisar">
+    Después de unas cuantas rondas reales, pregúntate si la mira oculta objetivos, se siente lenta o desaparece durante el movimiento.
+  </Step>
+</Steps>
+
+**Tabla de prioridad de ajuste**
+
+| Ajuste | Valor inicial | Qué observar |
+| --- | --- | --- |
+| Tamaño | Pequeño | ¿Cubre las cabezas enemigas a media distancia? |
+| Separación | De ajustada a media | ¿Sigue sintiéndose centrada al moverte? |
+| Grosor | Fino | ¿Se ve sin adueñarse de la pantalla? |
+| Contorno | Ligero a medio | ¿Mantiene el contraste en superficies claras y oscuras? |
+| Opacidad | Media a alta | ¿Puedes seguirla sin perder visibilidad del objetivo? |
+
+<Callout type="success" title="Regla para mejorar rápido">
+Si un ajuste hace que apuntes peor después de tres rondas, revísalo de inmediato. Los cambios pequeños ganan a las reformas drásticas cuando estás construyendo memoria muscular.
+</Callout>
+
+Una rutina práctica de ajuste suele tomar menos de cinco minutos. Eso basta para identificar si tu configuración actual es demasiado recargada, demasiado tenue o demasiado abierta. Una vez encuentres el equilibrio correcto, mantenlo estable durante varias sesiones para que tus manos aprendan la sensación.
+
+</Section>
+
+<Section icon={Trophy} title="Visibilidad, retroceso y correcciones comunes">
+
+La calidad de la mira no depende solo de la forma. También importa cómo se comporta la mira bajo presión. Si tu puntería se siente inconsistente, quizá el problema sea que tu mira es demasiado grande para tu estilo de seguimiento, o demasiado sutil para el brillo y la resolución de tu pantalla.
+
+La lista de verificación de abajo es una forma sencilla de confirmar que tu configuración realmente funciona en combate. Se centra en las situaciones que suelen sacar a la luz un mal diseño de mira: asomos rápidos, control de spray, efectos brillantes y desorden sobre fondos oscuros. Trátala como una revisión final de calidad antes de quedarte con el preajuste.
+
+<Checklist
+  id="crosshair-quality-check"
+  title="Lista de verificación de calidad de la mira:"
+  items={[
+    "El centro sigue siendo fácil de ver contra paredes oscuras y zonas con humo",
+    "Las líneas exteriores no cubren las cabezas enemigas en combates a media distancia",
+    "La mira sigue siendo legible mientras te mueves lateralmente y contramueves",
+    "El color contrasta tanto con interiores grises como con efectos brillantes",
+    "El diseño sigue viéndose limpio durante fuego sostenido o al reiniciar el retroceso"
+  ]}
+/>
+
+**Problemas comunes y soluciones**
+
+| Problema | Causa probable | Solución |
+| --- | --- | --- |
+| La mira se siente demasiado recargada | Demasiadas líneas o demasiado grosor | Elimina elementos extra y reduce la forma |
+| El centro desaparece en combate | Poco contraste o baja opacidad | Cambia a un color más brillante y añade soporte de contorno |
+| Los disparos son más difíciles de seguir | La separación es demasiado grande | Reduce la separación y acorta las líneas |
+| La mira tapa a los objetivos | El tamaño es demasiado grande | Reduce de inmediato la huella total |
+| La puntería se siente distinta en cada partida | Cambios frecuentes | Mantén un mismo preajuste durante varias sesiones antes de juzgarlo |
+
+<Callout type="info" title="Lo que más importa">
+El contraste suele importar más que la tendencia. Una mira simple que siga visible en todos los mapas es mejor que una llamativa que solo se ve bien en una captura.
+</Callout>
+
+Si aún no te decides, compara tu configuración actual con una alternativa más limpia: tamaño más pequeño, líneas más finas y un solo color de alto contraste. Esa alternativa suele ser la mejor corrección cuando una mira personalizada empieza a sentirse pesada. Una buena configuración debe desaparecer lo suficiente como para dejarte concentrar, pero seguir visible en el instante en que tus ojos necesiten un punto de referencia.
+
+</Section>
+
+<Section icon={Map} title="Lista de optimización y hábitos prácticos">
+
+Cuando la mira ya se sienta bastante bien, déjala fija y deja de sobreeditarla. La razón más común por la que los jugadores siguen fallando no es que su preajuste esté mal. Es que cambian los ajustes demasiado a menudo, lo que reinicia la memoria muscular que estaban construyendo.
+
+Una rutina estable importa más que el ajuste infinito. Mantén tu mira consistente entre sesiones y revísala solo cuando notes un problema real, como que tapa objetivos, tenga poco contraste o cause fatiga visual tras partidas largas. Ese hábito te dará mejores referencias y menos conclusiones falsas.
+
+**Tabla rápida de optimización**
+
+| Hábito | Beneficio | Frecuencia |
+| --- | --- | --- |
+| Probar en partidas reales | Revela problemas reales de visibilidad | Cada nuevo preajuste |
+| Cambiar una sola variable cada vez | Hace que los resultados sean fáciles de evaluar | Solo durante el ajuste |
+| Tener un preajuste de respaldo | Ahorra tiempo si una configuración falla | Siempre |
+| Revisar después de varias rondas | Reduce las reacciones exageradas | Después de las sesiones de práctica |
+
+<Callout type="tip" title="Mejor práctica">
+Anota los ajustes que mejor te hayan funcionado antes de salir del menú. Si luego quieres comparar dos preajustes, tendrás una referencia clara en lugar de adivinar.
+</Callout>
+
+Si tu puntería sigue siendo inconsistente después de una configuración razonable, revisa primero los hábitos antes de culpar a la mira. El brillo de la pantalla, la postura, el control del ratón y la paciencia al asomarte pueden importar tanto como la propia mira. La mejor configuración es la que apoya decisiones claras, no la que intenta apuntar por ti.
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<Callout type="info" title="Respuestas rápidas">
+Usa estas respuestas como referencia rápida cuando estés decidiendo entre una configuración estática y compacta o una opción más visible.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor mira de Defuse Division para la mayoría de los jugadores?",
+    answer: "Una mira estática pequeña, con un centro claro, líneas finas y alto contraste es la opción más segura en general. Se mantiene legible durante los sprays y no oculta a los objetivos a media distancia."
+  },
+  {
+    question: "¿Debería usar un punto o una cruz?",
+    answer: "Usa un punto si quieres el centro más limpio y prefieres precisión. Usa una cruz pequeña si quieres un poco más de referencia sin recargar la pantalla."
+  },
+  {
+    question: "¿Qué color se ve mejor?",
+    answer: "El cian y el blanco suelen ser los puntos de partida más fiables. Elige el que mejor destaque frente a paredes oscuras, efectos brillantes y los mapas que juegas con más frecuencia."
+  },
+  {
+    question: "¿Con qué frecuencia debería cambiar mi mira?",
+    answer: "Cámbiala solo cuando notes un problema real. Si el preajuste se ve bien y tus disparos mejoran, mantenlo estable el tiempo suficiente para que la memoria muscular se asiente."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,201 @@
+import { Map, Target, Shield, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Defuse Division FOV: Best Camera Settings and Sensitivity",
+  description: "Learn the best Defuse Division FOV settings, camera test methods, and sensitivity pairings to improve awareness, control, and cleaner aim in Roblox.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Defuse+Division+FOV+Guide",
+  date: "2026-07-06",
+  author: "defuse division Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Defuse Division FOV** works best around **80-90** for most players who need balance between awareness and target size.
+- **Start narrow** if you win close-angle duels; **raise FOV** if you miss flanks, rotations, or fast peeks.
+- **Pair FOV with sensitivity** instead of tuning one setting alone, or your aim will feel inconsistent.
+- **Test in real rounds** for at least **three matches** before you lock a final preset.
+</Callout>
+
+<Section icon={Map} title="Defuse Division FOV Presets That Make Sense">
+
+Defuse Division is an early-alpha Roblox tactical shooter, so FOV tuning should feel practical, not flashy. The best setting is the one that keeps enemy movement readable while still letting you track close fights and bomb-site pressure.
+
+For most players, a middle-ground FOV is the safest starting point. Wide settings help with awareness, but they can also make targets feel smaller. Narrow settings improve focus, but they can hide side angles and punish slow camera movement.
+
+<CardGrid cols={3}>
+  <Card title="Close Quarters">
+    - **70-80 FOV**
+    - Stronger target focus
+    - Best for tight corridors
+  </Card>
+  <Card title="Balanced Default">
+    - **80-90 FOV**
+    - Clear awareness
+    - Good for mixed fights
+  </Card>
+  <Card title="Wide Awareness">
+    - **90-100 FOV**
+    - Better flank checks
+    - Harder micro-tracking
+  </Card>
+</CardGrid>
+
+| Preset | FOV Range | Best Use | Trade-Off |
+|---|---:|---|---|
+| Close Quarters | 70-80 | Entry control, narrow lanes | Less peripheral vision |
+| Balanced Default | 80-90 | Most maps and roles | Needs clean tracking |
+| Wide Awareness | 90-100 | Rotations, open sites | Targets feel smaller |
+
+<Callout type="tip" title="Starter Rule">
+Move in **5-point steps**, not giant jumps. Small edits make it easier to tell whether the change truly helped.
+</Callout>
+
+If you want a simple rule, choose **80-85** first, then move up only if you feel boxed in by the camera. That starting point usually preserves clarity without making recoil control feel slippery.
+
+</Section>
+
+<Section icon={Target} title="How to Tune FOV in Five Quick Tests">
+
+A good FOV is not something you guess once and forget. Treat it like a short calibration process. In a game like Defuse Division, you want a value that supports map control, peek timing, and quick reads on planted-bomb pressure.
+
+The official Roblox experience is listed as early alpha, and the control layout includes menu access through **N** for the main menu and **M** for team selection. That makes it easier to reset your flow, rejoin a round, and test settings without overthinking the interface.
+
+<Steps>
+  <Step num="1" title="Pick a middle value">
+    Start at **85 FOV** if the slider exists. It gives you a neutral baseline for both close duels and mid-range checks.
+  </Step>
+  <Step num="2" title="Play a familiar route">
+    Use one map route you already know. Familiar ground makes it easier to feel the difference between camera changes and map confusion.
+  </Step>
+  <Step num="3" title="Test three fight types">
+    Check one close peek, one mid-range angle, and one rotation scan. Each situation reveals a different FOV problem.
+  </Step>
+  <Step num="4" title="Adjust by small steps">
+    Raise or lower FOV by **5 points**. If you jump too far, you may mistake discomfort for improvement.
+  </Step>
+  <Step num="5" title="Lock the winner">
+    Keep the setting that feels clean after multiple rounds, not the one that only looked good in a single fight.
+  </Step>
+</Steps>
+
+| Situation | Suggested FOV | Why It Helps |
+|---|---:|---|
+| Entry fragging | 85-95 | Better side awareness during pushes |
+| Site anchoring | 75-85 | Cleaner hold on tight angles |
+| Mid control | 80-90 | Balanced scan and precision |
+| Learning the map | 80-85 | Easier adjustment and consistency |
+
+<Callout type="warning" title="Avoid This Mistake">
+Do not chase the widest possible view just because it feels fast. If enemy models shrink too much, your first-shot confidence usually drops.
+</Callout>
+
+Once your base FOV feels stable, you can compare it against your usual aim pattern. If you start over-flicking, the camera is probably too wide for your current sensitivity.
+
+</Section>
+
+<Section icon={Shield} title="FOV, Sensitivity, and Crosshair Pairings">
+
+FOV and sensitivity should be tuned as a pair. When one setting changes, the other often needs a small adjustment. If you raise FOV, your view covers more space, but your mouse movement may feel less controlled unless your sensitivity is slightly more disciplined.
+
+The goal is not to make the camera feel dramatic. The goal is to make your crosshair land where you expect it to land when a defender swings or a bomb-site lane opens.
+
+| FOV Range | Sensitivity Approach | Best Result |
+|---|---|---|
+| 70-80 | Slightly lower sens | Stable micro-adjustments |
+| 80-90 | Medium sens | Balanced tracking and turning |
+| 90-100 | Slightly lower than usual | Reduces overflicking |
+| Any range | Keep ADS feel consistent | Cleaner muscle memory |
+
+| Symptom | Likely Cause | Fast Fix |
+|---|---|---|
+| Overflicking | FOV too wide for current sens | Lower sens a bit or reduce FOV |
+| Slow turning | FOV too narrow | Raise FOV slightly |
+| Losing heads at distance | Sens too high | Drop sensitivity one notch |
+| Feeling cramped | FOV too low | Increase FOV gradually |
+
+<Callout type="info" title="Practical Rule">
+If aim feels shaky, lower sensitivity first. If awareness feels cramped, then raise FOV. Do not fix both at once unless you want to lose the trail.
+</Callout>
+
+A clean crosshair also matters. A simple, visible reticle works better at medium to wide FOV because it stays readable when enemies appear near the edge of the screen. If your crosshair blends into the map, the camera setting will feel worse than it really is.
+
+</Section>
+
+<Section icon={Sparkles} title="Settings Checklist for Cleaner Aim">
+
+Once you settle on a camera value, use the rest of the settings page to remove noise. The official control layout covers movement, aim, interact, and bomb actions, so you should treat FOV as part of a wider comfort setup rather than a standalone tweak.
+
+This is also the section where smart players keep a note of the live Roblox listing and any patch notes they check through the community. In an early-alpha experience, settings and feel can shift with updates, so the best preset is the one you can re-test quickly.
+
+<Checklist
+  id="fov-settings-checklist"
+  title="Before You Lock Your Preset:"
+  items={[
+    "Confirm your FOV value and keep it in 5-point steps",
+    "Match mouse sensitivity to the new camera feel",
+    "Test one close fight and one long-angle peek",
+    "Keep your crosshair easy to see at your chosen zoom",
+    "Recheck the setting after major gameplay updates"
+  ]}
+/>
+
+| Platform or Situation | What to Verify | Why It Matters |
+|---|---|---|
+| PC with low DPI | Keep sens controlled | Prevents shaky micro-aim |
+| Laptop screen | Avoid extreme FOV | Small displays already compress detail |
+| High refresh monitor | Medium-high FOV works well | Motion feels smoother |
+| Early-alpha update | Re-test your preset | Behavior can shift after patches |
+
+<Callout type="success" title="Best Practice">
+Keep one backup preset written down. If a patch makes your current setup feel off, you can return to a known-good value fast.
+</Callout>
+
+If you want a live reference point, bookmark the Roblox listing for Defuse Division and compare your settings after any major balance change. That is the fastest way to avoid building muscle memory around a stale setup.
+
+</Section>
+
+<Section icon={Trophy} title="Defuse Division FOV FAQ">
+
+The questions below cover the most common camera-setting decisions players make when they try to improve aim, awareness, or both. The short answer is simple: use a setting that supports your real match behavior, not your highlight-reel instincts.
+
+<Callout type="tip" title="FAQ Reminder">
+A good FOV should help you win rounds more consistently. If the view looks cool but your duels get worse, the setting is probably too extreme.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "What is a good starting FOV in Defuse Division?",
+    answer: "Start around 80-85 if the game exposes a slider. That range usually balances awareness, target size, and close-range control."
+  },
+  {
+    question: "Should I use the widest FOV possible?",
+    answer: "Usually not. Very wide FOV can make enemies look smaller and can increase overflicking if your sensitivity is already high."
+  },
+  {
+    question: "Does FOV replace sensitivity settings?",
+    answer: "No. FOV changes what you see, while sensitivity changes how fast the camera moves. They work best when tuned together."
+  },
+  {
+    question: "Why does the game feel different after an update?",
+    answer: "Defuse Division is listed as early alpha, so camera feel and settings behavior can shift. Re-test your FOV after major changes."
+  }
+]} />
+
+| Question Type | Short Answer | Best Next Step |
+|---|---|---|
+| New player setup | Start mid-range | Use 80-85 FOV |
+| Feels too cramped | Raise FOV a little | Move up by 5 points |
+| Feels too loose | Lower FOV a little | Move down by 5 points |
+| Aim feels shaky | Lower sensitivity first | Re-test before changing FOV |
+
+<Callout type="info" title="Final Takeaway">
+If you remember one thing, remember this: the best Defuse Division FOV is the one that makes your shots and rotations feel predictable, not flashy.
+</Callout>
+
+</Section>

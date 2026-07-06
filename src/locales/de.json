@@ -1,1 +1,571 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Entschärfungs-Division Wiki - Codes, Skins & Maps",
+      "description": "Entdecke Entschärfungs-Division-Codes, Waffen, Skins, Maps, Einstellungen und Anleitungen zur Bombenentschärfung für Roblox-Spieler, die schneller gewinnen und präziser zielen wollen.",
+      "keywords": "Entschärfungs-Division, Roblox, Codes, Skins, Waffen, Maps, Fadenkreuz, Einstellungen",
+      "ogTitle": "Entschärfungs-Division Wiki - Codes, Skins & Maps",
+      "ogDescription": "Entdecke Entschärfungs-Division-Codes, Waffen, Skins, Maps, Einstellungen und Anleitungen zur Bombenentschärfung für Roblox-Spieler, die schneller gewinnen und präziser zielen wollen.",
+      "twitterTitle": "Entschärfungs-Division Wiki - Codes, Skins & Maps",
+      "twitterDescription": "Das Entschärfungs-Division Wiki behandelt Codes, Waffen, Skins, Maps, Fadenkreuz und Taktiken zur Bombenentschärfung für den taktischen Shooter auf Roblox."
+    }
+  },
+  "nav": {
+    "codes": "Codes",
+    "competitive": "Wettkampf",
+    "crosshair": "Fadenkreuz",
+    "discord": "Discord",
+    "guide": "Leitfäden",
+    "settings": "Einstellungen",
+    "skins": "Skins",
+    "weapons": "Waffen"
+  },
+  "common": {
+    "home": "Startseite",
+    "more": "Mehr",
+    "playNow": "Auf Roblox spielen",
+    "switchLanguage": "Sprache wechseln",
+    "switchTheme": "Design wechseln",
+    "lightMode": "Heller Modus",
+    "darkMode": "Dunkler Modus",
+    "notFound": "Seite nicht gefunden",
+    "notFoundDescription": "Die gesuchte Seite existiert nicht.",
+    "backToHome": "Zurück zur Startseite",
+    "relatedArticles": "Verwandte Artikel",
+    "readMore": "Mehr lesen",
+    "articlesComingSoon": "Artikel folgen in Kürze"
+  },
+  "hero": {
+    "badge": "Roblox-Taktik-Shooter mit Bombenentschärfung",
+    "title": "Entschärfungs-Division Wiki",
+    "description": "Entschärfungs-Division ist ein teambasierter taktischer Shooter auf Roblox, in dem Angreifer die Bombe platzieren und Verteidiger die Platzierung verhindern, sie entschärfen oder das gegnerische Team ausschalten. Durchstöbere Codes, Waffen, Skins, Maps, Einstellungen, Fadenkreuz-Tipps und Anleitungen zum Gewinnen von Runden.",
+    "getFreeCodesCTA": "Kostenlose Codes erhalten",
+    "playOnRobloxCTA": "Auf Roblox spielen",
+    "stats": {
+      "stat1": {
+        "value": "36.7M+",
+        "label": "Gesamtaufrufe"
+      },
+      "stat2": {
+        "value": "212K+",
+        "label": "Favoriten"
+      },
+      "stat3": {
+        "value": "119",
+        "label": "Spieler online"
+      },
+      "stat4": {
+        "value": "27.1K+",
+        "label": "Discord-Mitglieder"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay von Entschärfungs-Division",
+    "description": "Entschärfungs-Division ist ein teambasierter taktischer Bombenentschärfungs-Shooter auf Roblox, in dem Angreifer die Bombe an einem Bombsite platzieren, während Verteidiger die Platzierung verhindern, das Gerät entschärfen oder das gegnerische Team ausschalten, um die Runde zu gewinnen."
+  },
+  "tools": {
+    "title": "Entschärfungs-Division",
+    "titleHighlight": "Ressourcen",
+    "subtitle": "Codes, Anleitungen, Tier-Listen und Mechaniken, um jede Runde in Entschärfungs-Division zu gewinnen.",
+    "cards": [
+      {
+        "icon": "Gift",
+        "title": "Entschärfungs-Division-Codes",
+        "description": "Aktive Einlösecodes für kostenlose Credits und Belohnungen für Alpha-Tester"
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Entschärfungs-Division-Anfängerleitfaden",
+        "description": "Die ersten Runden erklärt — Ziele, Seiten und Rundenablauf"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Entschärfungs-Division-Tier-Liste",
+        "description": "Bewertete Rollen und Spielstile nach ihrem Gesamteinfluss auf die Runde"
+      },
+      {
+        "icon": "Crosshair",
+        "title": "Entschärfungs-Division-Mechaniken",
+        "description": "Rundenstruktur, Bombentimer, Siegbedingungen und Wirtschaftssystem"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Entschärfungs-Division-Steuerung",
+        "description": "Komplette Tastenbelegung sowie Einstellungen für Empfindlichkeit, Fadenkreuz und Audio"
+      },
+      {
+        "icon": "Map",
+        "title": "Entschärfungs-Division-Maps",
+        "description": "Bombsites, Rotationen, Engpässe und typische Winkel pro Map"
+      },
+      {
+        "icon": "Newspaper",
+        "title": "Entschärfungs-Division-Updates",
+        "description": "Patch Notes, Balance-Änderungen, neue Inhalte und Fehlerbehebungen"
+      },
+      {
+        "icon": "Lightbulb",
+        "title": "Entschärfungs-Division-Tipps",
+        "description": "Positionierung, Trades, Utility und Post-Plant-Strategien, um mehr zu gewinnen"
+      }
+    ]
+  },
+  "modules": {
+    "defuseDivisionCodes": {
+      "title": "Entschärfungs-Division-Codes",
+      "displayType": "code-cards",
+      "intro": "Löse die neuesten Entschärfungs-Division-Codes für kostenlose Credits, Waffenskins und Belohnungen für Alpha-Tester ein. Neue Codes erscheinen bei Meilensteinen und Community-Events, also setze ein Lesezeichen für diese Seite und schau regelmäßig vorbei.",
+      "codes": [
+        {
+          "code": "DEFUSE",
+          "reward": "500 Credits",
+          "status": "Aktiv"
+        },
+        {
+          "code": "FOURTEAM",
+          "reward": "1.000 Credits + Messer-Skin",
+          "status": "Aktiv"
+        },
+        {
+          "code": "ALPHA",
+          "reward": "Alpha-Tester-Paket: 2.000 Credits + Exklusives Spray",
+          "status": "Neu"
+        },
+        {
+          "code": "BOMBSITE",
+          "reward": "750 Credits",
+          "status": "Aktiv"
+        },
+        {
+          "code": "DEFENDERS",
+          "reward": "600 Credits + Verteidiger-Abzeichen",
+          "status": "Aktiv"
+        }
+      ],
+      "redeemSteps": [
+        "Starte Entschärfungs-Division auf Roblox und lade in eine Match-Lobby.",
+        "Drücke N, um das Hauptmenü zu öffnen, und suche das Eingabefeld für Codes.",
+        "Gib einen Code genau wie angezeigt ein oder füge ihn ein — Entschärfungs-Division-Codes unterscheiden zwischen Groß- und Kleinschreibung.",
+        "Drücke Einlösen, um deine Credits, Skins und Belohnungen sofort zu erhalten."
+      ]
+    },
+    "defuseDivisionBeginnerGuide": {
+      "title": "Entschärfungs-Division-Anfängerleitfaden",
+      "displayType": "steps",
+      "intro": "Neu bei Entschärfungs-Division? Dieser Einstiegsleitfaden führt dich durch deine ersten Runden — vom Beitritt zu einem Match und der Wahl einer Seite bis zum Platzieren, Entschärfen und gemeinsamen Sichern von Siegen.",
+      "steps": [
+        {
+          "title": "Tritt einem Match bei",
+          "description": "Lade in einen öffentlichen oder privaten Server. Entschärfungs-Division teilt die Spieler in Angreifer und Verteidiger auf kompakten taktischen Bombsite-Maps auf, die für schnelle, klare Runden gebaut sind."
+        },
+        {
+          "title": "Verstehe das Ziel deiner Seite",
+          "description": "Angreifer tragen die Bombe, platzieren sie an einem Bombsite und verteidigen ihn bis zur Explosion. Verteidiger verhindern die Platzierung, nehmen den Site zurück oder entschärfen die Bombe, bevor der Timer abläuft."
+        },
+        {
+          "title": "Kommuniziere und tausche Eliminierungen aus",
+          "description": "Bleib bei deinen Teamkollegen, gib Gegnerpositionen durch und tausche Eliminierungen aus. Entschärfungs-Division belohnt koordinierte Vorstöße und Kreuzfeuer mehr als Solo-Heldenaktionen."
+        },
+        {
+          "title": "Gewinne die Runde",
+          "description": "Eine Runde endet, wenn die Bombe explodiert, entschärft wird oder ein Team vollständig eliminiert ist. Erreiche die erforderliche Rundenzahl, um das Match zu gewinnen und deine Credits zu sichern."
+        }
+      ],
+      "quickTips": [
+        "Drücke N, um das Hauptmenü zu öffnen, und M, um das Team-Auswahlmenü zu öffnen.",
+        "Gib zu Beginn jeder Runde Credits für Waffen, Rüstung und Utility aus.",
+        "Behalte den Bombentimer im Auge, sobald die Bombe platziert ist — jede Sekunde zählt für den Entschärfer.",
+        "Spare Credits in verlorenen Runden, damit sich dein Team in der nächsten Runde einen Vollkauf leisten kann."
+      ]
+    },
+    "defuseDivisionTierList": {
+      "title": "Entschärfungs-Division-Tier-Liste",
+      "displayType": "tier-grid",
+      "intro": "Unsere Entschärfungs-Division-Tier-Liste bewertet die stärksten Rollen und Spielstile, um Runden zu gewinnen. Die Tiers spiegeln den Gesamteinfluss auf Bombsites, das Wirtschaftssystem und Clutch-Potenzial wider.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Eröffnungs-Fragger & AWP-Spieler",
+          "description": "Aggressive Rollen im Erstkontakt, die Bombsites öffnen und lange Winkel mit schadensstarken Waffen absichern."
+        },
+        {
+          "tier": "A",
+          "label": "Support & Lurker",
+          "description": "Zuverlässige Rollen, die Eliminierungen austauschen, gegnerische Sichtlinien mit Rauch blockieren und ahnungslose Teams für Multi-Kills von der Flanke nehmen."
+        },
+        {
+          "tier": "B",
+          "label": "Rifle-Spieler & Anchor",
+          "description": "Konstante Kämpfer auf mittlere Distanz, die Kreuzfeuer halten, zwischen Bombsites wechseln und die Verteidigung stabilisieren."
+        },
+        {
+          "tier": "C",
+          "label": "Eco- & Pistolenrunde",
+          "description": "Spezialisierte Ausrüstungen, die bei Low-Credit-Force-Buys und Pistolenrunden glänzen, aber nach einem Vollkauf beider Teams an Wirkung verlieren."
+        }
+      ]
+    },
+    "defuseDivisionMechanics": {
+      "title": "Entschärfungs-Division-Mechaniken",
+      "displayType": "accordion",
+      "intro": "Verstehe die Kernsysteme, die jede Runde in Entschärfungs-Division entscheiden — Rundenablauf, Bombentimer, Siegbedingungen, Teamkoordination und die Wirtschaft, die deine Ausrüstung antreibt.",
+      "items": [
+        {
+          "topic": "Rundenstruktur",
+          "content": "Entschärfungs-Division-Matches laufen in zeitlich begrenzten Runden ab. Angreifer und Verteidiger spawnen auf gegenüberliegenden Seiten der Map, und jede Runde setzt Waffen, Utility und Startpositionen beider Teams zurück."
+        },
+        {
+          "topic": "Bombentimer-System",
+          "content": "Sobald die Bombe an einem Bombsite platziert ist, beginnt ein Countdown. Verteidiger müssen sie finden und vor der Explosion entschärfen, während Angreifer den Site halten und die Zeit herunterlaufen lassen, um zu gewinnen."
+        },
+        {
+          "topic": "Siegbedingungen",
+          "content": "Eine Runde wird gewonnen, indem die Bombe platziert und zur Explosion gebracht wird, die platzierte Bombe entschärft wird oder das gesamte gegnerische Team ausgeschaltet wird. Die erste Seite, die die Ziel-Rundenzahl erreicht, gewinnt das Match."
+        },
+        {
+          "topic": "Teamkoordination",
+          "content": "Kommunikation und Positionierung entscheiden über Runden. Eliminierungen auszutauschen, Kreuzfeuer zu halten und den Einsatz von Utility richtig zu timen, erlaubt koordinierten Teams, rohe Zielgenauigkeit zu übertreffen und konstant zu gewinnen."
+        },
+        {
+          "topic": "Wirtschaft & Credits",
+          "content": "Jede Runde vergibt Credits für Eliminierungen, Ziele und Rundenergebnisse. Wenn du deine Wirtschaft über mehrere Runden gut verwaltest, ist dein Team im entscheidenden Moment mit Gewehren, Rüstung und Utility ausgestattet."
+        }
+      ]
+    },
+    "defuseDivisionControlsSettings": {
+      "title": "Entschärfungs-Division-Steuerung & Einstellungen",
+      "displayType": "table",
+      "intro": "Meistere das Steuerungsschema von Entschärfungs-Division auf PC, Mobilgeräten und Konsole. Jede Eingabe — von Bewegung und Zielen bis hin zu Bombenplatzierung, Entschärfung und dem Menü, in dem du Empfindlichkeit, Fadenkreuz und Audio einstellst — ist hier aufgeführt, damit du dir schneller Muskelgedächtnis aufbaust und nie einen Clutch vermasselst.",
+      "controls": [
+        {
+          "action": "Bewegen",
+          "input": "W A S D / Linker Stick",
+          "function": "Bewege deinen Operator durch Bombsites, Rotationswege und hinter Deckung."
+        },
+        {
+          "action": "Umsehen / Zielen",
+          "input": "Maus / Rechter Stick",
+          "function": "Verfolge Gegner, halte Winkel und snappe sauber auf die Fadenkreuz-Position."
+        },
+        {
+          "action": "Interagieren",
+          "input": "E / X-Taste",
+          "function": "Heb die Bombe auf, öffne Türen und aktiviere Zielobjekte."
+        },
+        {
+          "action": "Waffe abfeuern",
+          "input": "Linksklick / RT",
+          "function": "Schieße, pre-fire Winkel und tausche Eliminierungen mit deinem Team aus."
+        },
+        {
+          "action": "Bombe platzieren / entschärfen",
+          "input": "E halten / Kontexttaste",
+          "function": "Platziere als Angreifer an einem Bombsite oder entschärfe das Gerät als Verteidiger."
+        },
+        {
+          "action": "Menü öffnen",
+          "input": "N / Menütaste",
+          "function": "Codes einlösen und Empfindlichkeit, Tastenbelegung, Audio und Fadenkreuz anpassen."
+        }
+      ]
+    },
+    "defuseDivisionMapsGuide": {
+      "title": "Entschärfungs-Division-Maps-Leitfaden",
+      "displayType": "card-list",
+      "intro": "Lies jede Entschärfungs-Division-Map wie ein Veteran. Dieser Leitfaden erklärt Bombsites, Spawn-Bereiche, Mid-Kontrolle, Engpässe, Rotationswege und die typischen Winkel, die entscheiden, ob dein Team den Site hält oder offen ausgeschaltet wird.",
+      "areas": [
+        {
+          "title": "Bombsites A & B",
+          "description": "Die beiden Zielbereiche, an denen Angreifer eine Platzierung ansetzen und Verteidiger zurückerobern, um zu entschärfen. Die Wahl des Sites bestimmt den Utility-Plan und die Positionierung der Runde."
+        },
+        {
+          "title": "Spawn-Bereiche",
+          "description": "Spawn-Zonen für Angreifer und Verteidiger, die die frühe Positionierung, Standardkäufe und die ersten Rotationen Richtung Mitte oder Bombsites festlegen."
+        },
+        {
+          "title": "Mitte kontrollieren",
+          "description": "Der zentrale Bereich der Map, der schnelle Rotationen zu beiden Bombsites ermöglicht, Angreifern Split-Pushes erlaubt und die gegnerische Kartenkontrolle unter Druck setzt."
+        },
+        {
+          "title": "Engpässe",
+          "description": "Schmale Durchgänge und Türen, die Kämpfe bündeln — sie zu halten oder mit Rauch zu blockieren entscheidet, wo Gefechte stattfinden und wer den Vorteil hat."
+        },
+        {
+          "title": "Rotationswege",
+          "description": "Die schnellsten Wege zwischen Bombsites und Spawn, mit denen Verteidiger zu einem platzierten Site rotieren oder Angreifer täuschen und ihre Position wechseln."
+        },
+        {
+          "title": "Typische Winkel",
+          "description": "Vorvisierte Ecken, Headglitches und Off-Angles, an denen Verteidiger halten oder Angreifer säubern — die Grundlage für eine konstante Fadenkreuz-Positionierung."
+        }
+      ]
+    },
+    "defuseDivisionUpdatesPatchNotes": {
+      "title": "Entschärfungs-Division-Updates & Patch Notes",
+      "displayType": "accordion",
+      "intro": "Verfolge jedes Entschärfungs-Division-Update, während sich das Meta weiterentwickelt. Dieser Abschnitt fasst die Balance-Anpassungen, neue Inhalte, Fehlerbehebungen und Änderungen an den Gameplay-Systemen zusammen, die die Wettbewerbslandschaft von Patch zu Patch verändern.",
+      "updates": [
+        {
+          "title": "Balance-Anpassungen",
+          "content": "Waffenschaden, Rückstoßmuster, Bewegungsbeschleunigung und Wirtschaftserträge werden mit jedem Patch angepasst, damit das Competitive-Meta fair bleibt und nicht eine einzelne Waffe oder Strategie die Entschärfungs-Division-Runden dominiert."
+        },
+        {
+          "title": "Neue Inhalte",
+          "content": "Patches bringen neue Maps, Waffen, Skins und zeitlich begrenzte Events, die die strategischen Möglichkeiten erweitern und Angreifern wie Verteidigern frische Werkzeuge geben, um Pattsituationen aufzubrechen."
+        },
+        {
+          "title": "Fehlerbehebungen",
+          "content": "Stabilitäts- und Performance-Fixes richten sich gegen Abstürze, Grenzfälle bei der Trefferregistrierung und Map-Exploits, damit jede Runde genau so abläuft, wie es die Regeln vorsehen."
+        },
+        {
+          "title": "Änderungen an den Gameplay-Systemen",
+          "content": "Kernsysteme — Platzierungszeit, Entschärfungszeit, Rundendauer und die Credits-Wirtschaft — werden angepasst, damit Runden in jeder Skill-Stufe spannend, lesbar und wettbewerbsfähig bleiben."
+        }
+      ]
+    },
+    "defuseDivisionTipsTricks": {
+      "title": "Entschärfungs-Division-Tipps & Tricks",
+      "displayType": "step-by-step",
+      "intro": "Steige in den Entschärfungs-Division-Rängen mit Gewohnheiten auf, die Runden gewinnen. Diese fortgeschrittenen Tipps behandeln frühe Positionierung, Trades, Utility-Timing, Zielkontrolle und Teamplay — die Entscheidungen, die Fragger von Rundensiegern unterscheiden.",
+      "tips": [
+        {
+          "title": "Früh Kartenkontrolle übernehmen",
+          "description": "Dränge zu Beginn der Runde auf Mitte oder wichtige Engpässe, damit dein Team die Rotationen kontrolliert und den Gegner in vorhersehbare, zurückeroberbare Positionen zwingt."
+        },
+        {
+          "title": "Jede Eliminierung ausgleichen",
+          "description": "Bleib nah genug bei deinen Teamkollegen, damit du in dem Moment, in dem einer fällt, sofort herausgehst und den Kill ausgleichst — so bleiben die Zahlen deines Teams ausgeglichen und der Druck konstant."
+        },
+        {
+          "title": "Dein Utility-Timing richtig setzen",
+          "description": "Heb Rauchgranaten, Blitze und Granaten genau für den Moment auf, in dem du platzierst, zurückeroberst oder einen Engpass pushst, damit die Utility Bewegung erzwingt, statt verschwendet zu werden."
+        },
+        {
+          "title": "Den Bombentimer ausspielen",
+          "description": "Nach der Platzierung lassen Angreifer die Zeit herunterlaufen und Verteidiger setzen zum Entschärfen an — lies den Timer, täusche Entschärfungen an und koordiniere die Rückeroberung, um Post-Plant-Situationen zu gewinnen."
+        },
+        {
+          "title": "Isolierte Kämpfe vermeiden",
+          "description": "Allein umherzuwandern liefert dem Gegner isolierte Picks und Kartenkontrolle. Bleib in der Trade-Reichweite eines Teamkollegen, damit jedes Gefecht zu einem 2-gegen-1 zu deinen Gunsten wird."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Häufig gestellte",
+    "titleHighlight": "Fragen",
+    "subtitle": "Alles, was du über Entschärfungs-Division auf Roblox wissen musst.",
+    "questions": [
+      {
+        "question": "Was ist Entschärfungs-Division?",
+        "answer": "Entschärfungs-Division ist ein teambasierter taktischer Bombenentschärfungs-Shooter auf Roblox, entwickelt von Fourteam. Angreifer platzieren die Bombe, während Verteidiger die Platzierung verhindern, das Gerät entschärfen oder das gegnerische Team ausschalten, um jede Runde zu gewinnen."
+      },
+      {
+        "question": "Ist Entschärfungs-Division kostenlos spielbar?",
+        "answer": "Ja. Entschärfungs-Division ist auf Roblox kostenlos spielbar — auf PC, Mac, Mobilgeräten und jedem Gerät, das die Roblox-App unterstützt, mit optionalen In-Game-Cosmetics und Cases."
+      },
+      {
+        "question": "Wo löse ich Entschärfungs-Division-Codes ein?",
+        "answer": "Starte Entschärfungs-Division, drücke N, um das Hauptmenü zu öffnen, finde das Codes-Eingabefeld, gib einen Code exakt wie angezeigt ein (Codes unterscheiden zwischen Groß- und Kleinschreibung) und löse ihn gegen kostenlose Credits, Skins und Belohnungen ein."
+      },
+      {
+        "question": "Wie viele Spieler können Entschärfungs-Division spielen?",
+        "answer": "Entschärfungs-Division unterstützt teambasierte Matches mit bis zu 14 Spielern, die auf taktischen Bombsite-Maps zwischen Angreifern und Verteidigern aufgeteilt werden und für kompetitives Rundenspiel ausgelegt sind."
+      },
+      {
+        "question": "Ist Entschärfungs-Division mit VALVe oder Counter-Strike verbunden?",
+        "answer": "Nein. Entschärfungs-Division ist ein von Fans erstelltes Roblox-Spiel von Fourteam und steht in keiner Verbindung zu VALVe, Counter-Strike oder Steam, wird von ihnen weder unterstützt noch mit ihnen verknüpft. Es ist vom taktischen Bombenentschärfungs-Genre inspiriert."
+      },
+      {
+        "question": "Auf welchen Plattformen läuft Entschärfungs-Division?",
+        "answer": "Entschärfungs-Division läuft auf Roblox, also kannst du auf PC, Mac, iOS, Android und Xbox spielen, überall dort, wo die Roblox-App verfügbar ist, mit plattformübergreifendem Matchmaking."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, Entschärfungs-Division zu dominieren?",
+    "description": "Tritt der Entschärfungs-Division-Community auf Discord bei, um Codes, Updates, Events und taktische Diskussionen zu erhalten!",
+    "joinCommunity": "Discord beitreten",
+    "joinGame": "Auf Roblox spielen"
+  },
+  "footer": {
+    "title": "Entschärfungs-Division Wiki",
+    "description": "Dein Community-Hub für Entschärfungs-Division-Codes, Waffen, Skins, Maps, Fadenkreuz, Einstellungen und Taktiken zur Bombenentschärfung auf Roblox.",
+    "resources": "Ressourcen",
+    "community": "Community",
+    "legal": "Rechtliches",
+    "discord": "Discord",
+    "reddit": "Reddit",
+    "robloxGame": "Auf Roblox spielen",
+    "robloxGroup": "Roblox-Gruppe",
+    "about": "Über uns",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Entschärfungs-Division Wiki. Nicht mit Fourteam oder Roblox Corporation verbunden.",
+    "disclaimer": "Inoffizielle, von Fans erstellte Ressourcenseite."
+  },
+  "pages": {
+    "codes": {
+      "title": "Entschärfungs-Division Codes — Alle einlösbaren Belohnungen",
+      "description": "Verfolge die neuesten Entschärfungs-Division-Codes für zeitkritische Belohnungen und prüfe jeden einzelnen vor dem Einlösen sicher in Roblox auf Skins, Boosts oder andere In-Game-Extras.",
+      "metaTitle": "Entschärfungs-Division Codes - Kostenlose Belohnungen, Boosts & mehr",
+      "metaDescription": "Prüfe die neuesten Entschärfungs-Division-Codes für zeitkritische Belohnungen wie Skins, Boosts und In-Game-Extras – prüfe jeden einzelnen vor dem Einlösen in Roblox.",
+      "categoryLabel": "EINLÖSECODES",
+      "whatIs": "Was sind Entschärfungs-Division-Codes?",
+      "whatIsDescription": "Entschärfungs-Division-Codes sind zeitlich begrenzte Promo-Belohnungen, die während Updates, Meilensteinen oder Community-Events veröffentlicht werden können. Sie können Kosmetika oder Boni freischalten, die deine Bombenentschärfungs-Ausrüstung in Roblox unterstützen.",
+      "why": "Warum Codes einlösen?",
+      "whySteps": {
+        "step1Title": "Schnell vor Ablauf handeln",
+        "step1Description": "Entschärfungs-Division-Codes können schnell verschwinden, daher hilft es, sie früh zu prüfen, damit du keine zeitlich begrenzten Belohnungen verpasst.",
+        "step2Title": "Kostenlose Extras freischalten",
+        "step2Description": "Eingelöste Codes können Skins, Boosts oder andere Boni gewähren, die deine Ausrüstung in schnellen Runden an Bombenstandorten persönlicher machen.",
+        "step3Title": "Immer updatebereit bleiben",
+        "step3Description": "Neue Codes erscheinen oft rund um Patches oder Events, daher hält dich ein regelmäßiger Besuch bereit für frische Belohnungen, bevor der Ranglistenmodus voll wird."
+      },
+      "featured": "Empfohlen & Wichtig",
+      "all": "Alle Codes"
+    },
+    "competitive": {
+      "title": "Entschärfungs-Division Wettkampf — Leitfäden für Ranglistenspiel",
+      "description": "Durchstöbere Wettkampf-Leitfäden für Entschärfungs-Division mit Ranglistentaktiken, Bombenstandort-Kontrolle, Fadenkreuzeinstellungen, Ausrüstungen und Clutch-Momenten, die deinem Team helfen, Runden zu gewinnen.",
+      "metaTitle": "Entschärfungs-Division Wettkampf - Im Ranglistenspiel aufsteigen",
+      "metaDescription": "Meistere das Ranglistenspiel in Entschärfungs-Division mit Bombenstandort-Kontrolle, Fadenkreuzeinstellungen, Ausrüstungen und Clutch-Taktiken für kompetitive Teamrunden.",
+      "categoryLabel": "WETTKAMPF-LEITFÄDEN",
+      "whatIs": "Was ist der Wettkampf in Entschärfungs-Division?",
+      "whatIsDescription": "Der Wettkampf in Entschärfungs-Division ist der kompetitive Teil des Spiels, in dem Teams in CS-artigen Runden um Bombenpflanzungen, Entschärfungen und Eliminierungen kämpfen. Er belohnt Kartenkontrolle, klugen Einsatz von Hilfsmitteln und konstantes Zielen mehr als reines Rushen.",
+      "why": "Warum Wettkampf-Leitfäden nutzen?",
+      "whySteps": {
+        "step1Title": "Mehr Runden gewinnen",
+        "step1Description": "Wettkampf-Leitfäden zeigen, wann ihr angreifen, Winkel halten oder rotieren solltet, damit dein Team länger überlebt und Kämpfe um den Bombenstandort in Entschärfungs-Division besser abschließt.",
+        "step2Title": "Dein Setup verfeinern",
+        "step2Description": "Nutze Fadenkreuzeinstellungen, Sensitivität und Ausrüstungs-Empfehlungen, um dein Zielen stabiler und deine Käufe in Ranglistenspielen effektiver zu machen.",
+        "step3Title": "Späte Runden besser gewinnen",
+        "step3Description": "Lerne Tipps zu Post-Plant, Retake und Entschärfungs-Timing, die wichtig sind, wenn jede Sekunde die Runde entscheidet und jeder Fehler Rangfortschritt kostet."
+      },
+      "featured": "Empfohlen & Wichtig",
+      "all": "Alle Wettkampf-Leitfäden"
+    },
+    "crosshair": {
+      "title": "Entschärfungs-Division Fadenkreuzeinstellungen",
+      "description": "Finde die besten Fadenkreuzeinstellungen für Entschärfungs-Division, um dein Zielen zu schärfen, Köpfe in Kämpfen um Bombenstandorte zu verfolgen und in Clutch-Entschärfungsrunden und Ranglistenspielen präzise zu bleiben.",
+      "metaTitle": "Entschärfungs-Division Fadenkreuz - Leitfaden für beste Zieleinstellungen",
+      "metaDescription": "Nutze die besten Fadenkreuzeinstellungen für Entschärfungs-Division, um die Rückstoßkontrolle zu verbessern, Ziele schneller zu erkennen und mehr Pflanz- und Entschärfungsrunden im Ranglistenspiel zu gewinnen.",
+      "categoryLabel": "FADENKREUZ-EINSTELLUNGEN",
+      "whatIs": "Was sind Entschärfungs-Division-Fadenkreuze?",
+      "whatIsDescription": "Ein Fadenkreuz in Entschärfungs-Division ist das Zielvisier auf dem Bildschirm, das du für leichteres Tracking, Tap-Schüsse und Spray-Kontrolle anpasst. Das richtige Setup kann dir helfen, Bombenstandorte zu halten, Entry-Duelle zu gewinnen und schnellere Kämpfe auf der Entschärfungsseite in Roblox-Matches zu bestreiten.",
+      "why": "Warum Fadenkreuzeinstellungen anpassen?",
+      "whySteps": {
+        "step1Title": "Schnellere Zielerfassung",
+        "step1Description": "Ein klareres Fadenkreuz hilft dir, schneller auf Köpfe zu zielen, wenn du lange Winkel, enge Engpässe und schnelle Site-Einstiege in Entschärfungs-Division anpeilst.",
+        "step2Title": "Sauberere Feuergefechte",
+        "step2Description": "Guter Abstand und gute Sichtbarkeit machen Burst-Taps und Sprays leichter kontrollierbar, besonders während Rauch, Blenden und Retake-Druck.",
+        "step3Title": "Konstantere Clutches",
+        "step3Description": "In Ranglistenrunden sorgt ein stabiles Fadenkreuz dafür, dass dein Zielen bei Post-Plant-Holds, Entschärfungen und Plays als letzter Überlebender zuverlässig bleibt."
+      },
+      "featured": "Empfohlen & Wichtig",
+      "all": "Alle Fadenkreuze"
+    },
+    "discord": {
+      "title": "Entschärfungs-Division Discord — Im Team spielen, lernen und auf dem Laufenden bleiben",
+      "description": "Tritt der Entschärfungs-Division-Discord-Community bei, um dich für Ranglistenspiele zusammenzutun, Bombenentschärfungs-Taktiken zu teilen, Fadenkreuzeinstellungen zu vergleichen und Skin- sowie Patch-Themen zu verfolgen.",
+      "metaTitle": "Entschärfungs-Division Discord - Im Team spielen und auf dem Laufenden bleiben",
+      "metaDescription": "Finde Community-Links für Entschärfungs-Division Discord, Chats zum Zusammenfinden, Ranglistentipps, Fadenkreuz-Ratschläge und Patch-Diskussionen für jede Bombenentschärfungsrunde.",
+      "categoryLabel": "DISCORD",
+      "whatIs": "Was ist der Discord von Entschärfungs-Division?",
+      "whatIsDescription": "Im Discord von Entschärfungs-Division treffen sich Spieler, um Taktiken zu besprechen, Ranglistenteams aufzubauen und Updates zu Bombenpflanzungen, Entschärfungen und Clutch-Runden zu teilen. Es ist auch ein praktischer Ort, um Fadenkreuzeinstellungen, Waffen-Skins und Gameplay-Tipps zu vergleichen.",
+      "why": "Warum Discord beitreten?",
+      "whySteps": {
+        "step1Title": "Schnell Teamkollegen finden",
+        "step1Description": "Nutze Discord, um dich mit Spielern zu verbinden, die das gleiche Rundentempo, die gleiche Rolle und dieselben Rangziele haben. Es ist einfacher, ein Team für Angriff oder Verteidigung aufzubauen, als allein in die Warteschlange zu gehen.",
+        "step2Title": "Stärkere Plays lernen",
+        "step2Description": "Community-Chats analysieren oft Site-Takes, Rauch-Timing und Entschärfungs-Positionen, die zu den CS-artigen Runden von Entschärfungs-Division passen. Du kannst Zielen, Fadenkreuzeinstellungen und Positionierung verfeinern.",
+        "step3Title": "Spiel-Updates verfolgen",
+        "step3Description": "Discord ist eine schnelle Möglichkeit, Balanceänderungen, Skin-Drops und Ranglistendiskussionen mitzubekommen, ohne etwas zu verpassen. So kannst du dich anpassen, bevor das nächste Match beginnt."
+      },
+      "featured": "Empfohlen & Wichtig",
+      "all": "Alle Discord-Server"
+    },
+    "guide": {
+      "title": "Entschärfungs-Division-Leitfäden",
+      "description": "Lerne, wie du in Entschärfungs-Division mit klaren Leitfäden zu Pflanz- und Entschärfungstaktiken, Ausrüstungen, Fadenkreuzeinstellungen, Skins und Ranglistenspiel mehr Runden gewinnst.",
+      "metaTitle": "Entschärfungs-Division-Leitfäden - Bomben-, Ziel- und Ranglistensiege",
+      "metaDescription": "Durchstöbere Entschärfungs-Division-Leitfäden für Tipps zum Pflanzen und Entschärfen, Fadenkreuzeinstellungen, Waffenauswahl, Skins und Ranglistenstrategien für Roblox-Matches.",
+      "categoryLabel": "LEITFÄDEN",
+      "whatIs": "Was sind Entschärfungs-Division-Leitfäden?",
+      "whatIsDescription": "Entschärfungs-Division-Leitfäden sind Schritt-für-Schritt-Ressourcen, die dir helfen, in den Bombenentschärfungs-Matches von Roblox klüger zu spielen. Sie decken alles ab, von Angriffswegen und Standort-Holds bis hin zu Entschärfungs-Timing, Fadenkreuz-Setup, Waffenauswahl und Tipps für den Ranglistenaufstieg.",
+      "why": "Warum Leitfäden lesen?",
+      "whySteps": {
+        "step1Title": "Rundenanfänge gewinnen",
+        "step1Description": "Lerne, wie du früh Kartenkontrolle übernimmst, sichere Pflanzwege erkennst und wichtige Winkel verteidigst, bevor die Runde entgleitet. Bessere erste Züge entscheiden in Entschärfungs-Division oft das gesamte Match.",
+        "step2Title": "Zieleinstellungen verbessern",
+        "step2Description": "Nutze Leitfäden, um deine Fadenkreuzeinstellungen und den Umgang mit Waffen zu verfeinern, damit sich deine Schüsse konstanter anfühlen. Kleine Anpassungen können Duelle, Trades und Retakes viel einfacher machen.",
+        "step3Title": "Schneller im Rang aufsteigen",
+        "step3Description": "Folge wettkampforientierten Ratschlägen zu Teamplay, Bombenverteidigung und Clutch-Entscheidungen, um mehr Siege im Ranglistenspiel zu holen. Starke Grundlagen helfen dir, auf jeder Karte und in jeder Runde konstant zu bleiben."
+      },
+      "featured": "Empfohlen & Wichtig",
+      "all": "Alle Leitfäden"
+    },
+    "settings": {
+      "title": "Entschärfungs-Division-Einstellungen",
+      "description": "Stimme Fadenkreuz-, Sensitivitäts-, Audio- und Leistungseinstellungen in Entschärfungs-Division ab, um dein Zielen zu schärfen, Schritte zu verfolgen und für Ranglisten-Bombenstandorte bereit zu sein.",
+      "metaTitle": "Entschärfungs-Division-Einstellungen - Beste Ziele und Sichtbarkeit",
+      "metaDescription": "Finde die besten Entschärfungs-Division-Einstellungen für Fadenkreuz, Sensitivität und Grafik, damit du Duelle gewinnst, Vorstöße hörst und Entschärfungen im Ranglistenspiel schaffst.",
+      "categoryLabel": "SPIELEINSTELLUNGEN",
+      "whatIs": "Was sind Entschärfungs-Division-Einstellungen?",
+      "whatIsDescription": "Die Einstellungen in Entschärfungs-Division umfassen die Optionen, die dein Zielen, die Darstellung und den Sound während jeder CS-artigen Runde in Roblox bestimmen. Mit Anpassungen fällt es Angreifern leichter zu pflanzen und Verteidigern, Gegner schneller zu sehen, zu hören und zu entschärfen.",
+      "why": "Warum Einstellungen optimieren?",
+      "whySteps": {
+        "step1Title": "Präzisere Fadenkreuzkontrolle",
+        "step1Description": "Stimme Stil, Farbe und Größe des Fadenkreuzes so ab, dass Ziele in schnellen Kämpfen um Bombenstandorte besser hervorstechen. Ein klares Fadenkreuz macht Tracking und Burst-Feuer in Entschärfungs-Division viel einfacher.",
+        "step2Title": "Bessere Rundenerkennung",
+        "step2Description": "Durch das Anpassen von Audio und Grafik hörst du Schritte, Hinweise durch Hilfsmittel und gegnerische Bewegungen, bevor ein Vorstoß durchkommt. Dieser Vorteil zählt, wenn du Winkel hältst oder zu einer Pflanzung rotierst.",
+        "step3Title": "Flüssigeres Ranglistenspiel",
+        "step3Description": "Leistungsfreundliche Einstellungen reduzieren Ablenkungen und halten dein Zielen in kompetitiven Matches stabil. Im Ranglistenspiel hilft Konsistenz dabei, mehr Duelle zu gewinnen und sauberere Entschärfungen zu sichern."
+      },
+      "featured": "Empfohlen & Wichtig",
+      "all": "Alle Einstellungen"
+    },
+    "skins": {
+      "title": "Entschärfungs-Division Skins — Waffen-Kosmetika",
+      "description": "Durchstöbere Entschärfungs-Division-Skins für Gewehre, Pistolen und Messer. Finde Kosmetika, die deine Ausrüstung bei Bombenstandort-Angriffen, Retakes und Clutch-Runden im Ranglistenspiel hervorstechen lassen.",
+      "metaTitle": "Entschärfungs-Division Skins - Der beste Leitfaden für Waffen-Kosmetika",
+      "metaDescription": "Entdecke Entschärfungs-Division-Skins für Gewehre, Pistolen und Messer mit kosmetischen Auswahlmöglichkeiten, die zu Ranglistenspiel, Clutch-Momenten und deinem Ausrüstungsstil passen.",
+      "categoryLabel": "WAFFEN-SKINS",
+      "whatIs": "Was sind Entschärfungs-Division-Skins?",
+      "whatIsDescription": "Skins sind kosmetische Waffenoberflächen in Entschärfungs-Division, die das Aussehen deiner Ausrüstung verändern, ohne Schaden oder Rückstoß zu beeinflussen. Nutze sie, um Gewehre, Seitenwaffen und Messer zu personalisieren, während du in Ranglistenrunden Standorte angreifst, Winkel hältst oder Retakes schaffst.",
+      "why": "Warum Skins ausrüsten?",
+      "whySteps": {
+        "step1Title": "Deine Ausrüstung individualisieren",
+        "step1Description": "Skins lassen dich deine Gewehre, Pistolen und dein Messer unverwechselbar wirken lassen, während du zwischen Bombenstandorten rotierst. Das gibt jeder Eco-, Kauf- und Clutch-Runde mehr Identität.",
+        "step2Title": "Rang-Identität zeigen",
+        "step2Description": "In kompetitiven Matches sorgt ein sauberes Skin-Set dafür, dass deine Ausrüstung bewusst gewählt wirkt, wenn du Winkel hältst oder Frags tradest. So kannst du dich einfach abheben, ohne die Balance zu beeinflussen.",
+        "step3Title": "Clutches unvergesslich machen",
+        "step3Description": "Wenn eine Runde von einer Entschärfung oder einem Retake in letzter Sekunde abhängt, macht ein markantes kosmetisches Set den Moment persönlicher. Skins halten deine Lieblingswaffen in jedem Match wiedererkennbar."
+      },
+      "featured": "Empfohlen & Wichtig",
+      "all": "Alle Skins"
+    },
+    "weapons": {
+      "title": "Entschärfungs-Division Waffen",
+      "description": "Durchstöbere Waffen in Entschärfungs-Division, von zuverlässigen Gewehren und Pistolen bis hin zu starken Picks für Angriff und Verteidigung. Vergleiche Ausrüstungen für Ranglistenrunden, Skins und rundenentscheidende Plays.",
+      "metaTitle": "Entschärfungs-Division Waffen - Beste Ausrüstungen, Statistiken & Picks",
+      "metaDescription": "Finde die besten Waffen für Entschärfungs-Division für jede Runde, mit Ausrüstungs-Empfehlungen für Angriff, Verteidigung, Skins und Kontrolle von Bombenstandorten im Ranglistenspiel.",
+      "categoryLabel": "WAFFEN",
+      "whatIs": "Was sind Entschärfungs-Division-Waffen?",
+      "whatIsDescription": "Die Waffen in Entschärfungs-Division sind die Schusswaffen und Ausrüstungsgegenstände, die du in den CS-artigen Bombenentschärfungs-Matches nutzt. Deine Wahl beeinflusst Rückstoßkontrolle, Wirtschaft und wie gut du Standorte halten, Winkel zurückerobern oder durch Verteidigungen brechen kannst.",
+      "why": "Warum Waffen-Leitfäden nutzen?",
+      "whySteps": {
+        "step1Title": "Bessere Ausrüstungen wählen",
+        "step1Description": "Passe die Waffenwahl an deine Rolle an, egal ob du als Angreifer Druck machst oder als Verteidiger einen Standort sicherst. Die richtige Waffe kann dir helfen, mehr Duelle zu gewinnen und Credits für spätere Runden zu sparen.",
+        "step2Title": "Wichtige Feuergefechte gewinnen",
+        "step2Description": "Verstehe, welche Waffen in Nahkampfvorstößen, auf langen Sichtlinien und bei späten Retakes glänzen. So lassen sich Rückstoß kontrollieren, saubere Kämpfe führen und Clutch-Momente überstehen.",
+        "step3Title": "Ranglistenspiel optimieren",
+        "step3Description": "In Ranglistenmatches zählt jeder Kauf, weil eine Runde die ganze Halbzeit kippen kann. Ein fokussiertes Waffensetup hilft dir, mit der Wirtschaft Schritt zu halten, Bombenstandorte unter Druck zu setzen und mehr Runden zu verwandeln."
+      },
+      "featured": "Empfohlen & Wichtig",
+      "all": "Alle Waffen"
+    }
+  }
+}

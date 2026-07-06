@@ -1,0 +1,205 @@
+import { Map, Target, Shield, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Defuse Division Crosshair Import: Setup Guide & Tips",
+  description: "Rebuild a Defuse Division crosshair import preset, tune visibility, and match Roblox settings for cleaner aim, faster target reads, and better control.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Crosshair+Import+Guide",
+  date: "2026-07-06",
+  author: "defuse division Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Defuse Division crosshair import** is fastest when you rebuild one clean preset and save the numbers.
+- **Small, high-contrast shapes** stay readable against the game’s dark tactical UI and bright explosion effects.
+- **N opens the main menu** and **M handles team selection**, so settings access stays quick.
+- **Cyan, amber, or white** usually outperforms low-contrast colors in busy round fights.
+- **Test in a live lobby** before locking your final setup, because movement changes visibility.
+</Callout>
+
+<Section icon={Map} title="Defuse Division Crosshair Import Basics">
+
+The cleanest way to handle a **Defuse Division crosshair import** is to think in presets, not perfection. Defuse Division is a Roblox tactical shooter with dark surfaces, bright effects, and fast team fights, so your crosshair needs to stay readable without covering the target. The official Roblox page also describes the game as an early-alpha fan creation, so settings can shift over time. On 2026-07-06, you can still start from the official Roblox entry here: [Play Defuse Division on Roblox](https://www.roblox.com/search?keyword=defusedivision).
+
+<Callout type="tip" title="Preset Philosophy">
+Build one reliable baseline first, then copy it across every mode you play. A simple preset is easier to trust than a crowded one.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Minimal Dot">
+    - Best for taps
+    - Very low clutter
+    - Strong head-level focus
+  </Card>
+  <Card title="Small Cross">
+    - Best all-around choice
+    - Easy center reference
+    - Works for rifles and pistols
+  </Card>
+  <Card title="Ring + Dot">
+    - Strong close-range tracking
+    - Clear center point
+    - Slightly busier on screen
+  </Card>
+</CardGrid>
+
+| Preset | Best Use | Visibility | Tradeoff |
+| --- | --- | --- | --- |
+| Minimal Dot | Precision taps | Excellent | Less feedback during spray control |
+| Small Cross | General play | Very good | Can feel plain if too thin |
+| Ring + Dot | Close fights | Good | Can clutter the center |
+| Large Cross | Learning phase | Good | Blocks more target detail |
+
+A good import-style preset for this game usually starts small, then gets adjusted for contrast. If you already play other tactical shooters, keep the same basic shape and only change color, size, and thickness. That makes the preset easier to remember when you swap accounts or reset settings.
+
+<Callout type="info" title="Main Goal">
+Your crosshair should help you place shots faster, not become the thing you stare at during every duel.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Rebuild Your Preset In-Game">
+
+If you want the fastest import workflow, treat it like a 4-step rebuild process. The goal is to copy a known-good setup into Defuse Division settings, then verify it in a real match. The official controls reference notes that **N** opens the main menu and **M** opens the team selection menu, which helps you move through menus faster.
+
+<Steps>
+  <Step num="1" title="Open the right menu">
+    Use the main menu path first so you are editing the correct profile and not guessing from memory.
+  </Step>
+  <Step num="2" title="Record your fallback">
+    Write down your current crosshair values before changing anything, so you can revert quickly if the new preset feels wrong.
+  </Step>
+  <Step num="3" title="Set the core shape">
+    Adjust size, thickness, and outline before you touch color. Shape changes have the biggest effect on aim comfort.
+  </Step>
+  <Step num="4" title="Test in live movement">
+    Join a real lobby, strafe, peek, and hold angles. A preset that looks good in menus may feel different during recoil.
+  </Step>
+</Steps>
+
+| Step | Action | Why It Matters |
+| --- | --- | --- |
+| 1 | Open settings from the main menu | Keeps the workflow fast |
+| 2 | Save your current values | Prevents bad changes from sticking |
+| 3 | Tune size and thickness first | Shapes how readable the center feels |
+| 4 | Test in a live round | Confirms real visibility under pressure |
+
+<Callout type="warning" title="Avoid This Mistake">
+Do not copy a flashy crosshair from another game and expect it to work unchanged. Defuse Division’s pace and lighting are different enough to matter.
+</Callout>
+
+A reliable rebuild order is: shape, color, opacity, then fine tuning. That sequence keeps you from wasting time on tiny adjustments before the crosshair is even readable. If your setup has any outline or border option, turn it on only if the center still feels clean.
+
+</Section>
+
+<Section icon={Shield} title="Best Visibility Settings for Dark Tactical Maps">
+
+Defuse Division leans into dark surfaces, hazard-colored effects, and compact combat spaces, so visibility matters as much as shape. The source material points toward a tactical navy, amber, and cyan style direction, which fits the game’s mood and makes a strong case for high-contrast crosshair colors. If the reticle blends into the map, it will fail you during quick peeks.
+
+<Callout type="info" title="Visibility Rule">
+Choose a color that stands out on both dark walls and bright explosion effects, not just on the menu screen.
+</Callout>
+
+| Setting | Recommended Range | Best Reason |
+| --- | --- | --- |
+| Color | Cyan, amber, or white | Strong contrast on dark backgrounds |
+| Size | Small | Less screen obstruction |
+| Thickness | Thin | Easier target tracking |
+| Outline | On, if available | Improves readability |
+| Opacity | Medium | Keeps the center visible without overexposure |
+| Brightness | Moderate | Avoids a washed-out look |
+
+| Problem | Likely Cause | Quick Fix |
+| --- | --- | --- |
+| Crosshair disappears on dark walls | Low contrast color | Switch to cyan or amber |
+| Crosshair feels too busy | Too many lines or layers | Remove extras and simplify |
+| Aim feels unstable | Sensitivity mismatch | Lower sensitivity in small steps |
+| Crosshair blocks target heads | Size too large | Shrink the center and outer lines |
+
+For most players, the safest starting point is a small, bright, simple shape with one clear center marker. That gives you enough feedback for recoil and tap shots without turning the middle of the screen into visual noise. If you play aggressively, prioritize fast target reads over decorative style. If you anchor angles, prioritize precision over brightness.
+
+<Callout type="success" title="Best Starting Pick">
+A small cyan or amber cross with a thin outline is usually the easiest first preset to trust.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Weapon-Based Crosshair Tuning">
+
+Your crosshair should shift slightly depending on how you take fights. Defuse Division is built around bomb-site pressure, defense, and quick eliminations, so different weapons benefit from different center shapes. You do not need a separate preset for every gun, but you should have one version for precision and one for close-range tracking.
+
+| Weapon Type | Crosshair Style | Why It Fits |
+| --- | --- | --- |
+| Pistols | Thin dot | Clean taps and quick corrections |
+| Rifles | Small cross | Balanced for mid-range fights |
+| SMGs | Small ring or cross | Helps with tracking at close range |
+| Heavy spray weapons | Slightly larger cross | Gives more recoil feedback |
+| Long-range picks | Minimal dot | Keeps the sight picture clear |
+
+<Callout type="tip" title="Practical Rule">
+If you miss because of clutter, shrink the crosshair. If you miss because you lose the center, simplify the shape instead.
+</Callout>
+
+You can also match your preset to your role. Entry players usually prefer a slightly more visible center because they swing into action quickly. Anchors and defenders often want a smaller, cleaner shape because they hold tighter angles. If you change roles between matches, keep the same color and only adjust the shape a little. That preserves muscle memory.
+
+One useful approach is to keep a primary preset for rifles and a secondary preset for pistols or close-range rounds. That gives you flexibility without forcing a full reconfiguration every time you swap loadouts.
+
+<Callout type="warning" title="Role Swaps">
+Do not over-tune every weapon separately unless you truly need it. Too many presets can slow your reaction time and weaken consistency.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Troubleshooting, Checklist, and FAQ">
+
+When a preset feels wrong, the fix is usually small. Most bad crosshair setups fail for one of three reasons: weak contrast, too much visual clutter, or a sensitivity mismatch. Before you rebuild everything, check the basics first and only change one variable at a time.
+
+| Symptom | What to Check First | Fast Fix |
+| --- | --- | --- |
+| Crosshair blends into the map | Color and outline | Use cyan, amber, or white |
+| Crosshair feels too large | Size and thickness | Reduce both by one step |
+| Center is hard to find | Shape clarity | Add a small dot or reduce extra lines |
+| Aiming feels inconsistent | Sensitivity | Lower it slightly and retest |
+
+<Checklist
+  id="crosshair-checklist"
+  title="Before You Queue:"
+  items={[
+    "Open the main menu with N and confirm your settings path",
+    "Save your old values before changing the crosshair",
+    "Choose a high-contrast color first",
+    "Test the preset in one live lobby",
+    "Keep only one primary shape per preset"
+  ]}
+/>
+
+<Callout type="info" title="Final Polish">
+A good preset should feel invisible during movement and instantly clear during a hold. If you notice it too much, simplify again.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "What is the best Defuse Division crosshair import style for beginners?",
+    answer: "Start with a small cross or dot-and-cross hybrid. It stays readable, gives a clear center point, and does not block targets."
+  },
+  {
+    question: "Does Defuse Division need a special import code system?",
+    answer: "Use a manual preset workflow unless your setup specifically supports sharing values. Rebuilding a clean preset is the safest approach."
+  },
+  {
+    question: "Which color works best in dark tactical maps?",
+    answer: "Cyan, amber, or white are the safest choices because they contrast well with dark walls and bright effects."
+  },
+  {
+    question: "Should I use the same crosshair for every weapon?",
+    answer: "You can keep one main preset, but a small alternative for close-range weapons can improve comfort and tracking."
+  }
+]} />
+
+</Section>

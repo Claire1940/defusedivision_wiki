@@ -1,0 +1,224 @@
+import { Map, Target, Shield, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "crosshair em ponto da Defuse Division: guia de configuração e ajustes",
+  description: "Aprenda a melhor configuração de crosshair em ponto da Defuse Division, com ajustes de vídeo limpos, mudanças de sensibilidade e um fluxo simples de aplicação passo a passo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Dot+Crosshair+Guide",
+  date: "2026-07-06",
+  author: "Equipe da Wiki da Defuse Division"
+}
+
+<Callout type="info" title="Guia rápido">
+- **o crosshair em ponto da defuse division** funciona melhor quando você quer uma referência de mira centralizada e com pouca poluição visual para tiros únicos.
+- **A predefinição de ponto** é mais forte para tiros únicos e microajustes, não para trocas caóticas de curta distância com muito spray.
+- **Use configurações de vídeo com pouca poluição visual** para manter balas, partículas e gotas de chuva fora da sua tela durante as lutas.
+- **A sensibilidade fica em 1** a menos que você queira que armas com mira fiquem mais lentas do que o tiro sem mira no geral.
+</Callout>
+
+<Section icon={Map} title="Visão geral do crosshair em ponto da Defuse Division">
+
+Esta configuração foi feita para jogadores que querem um ponto de mira limpo em vez de um crosshair largo. O perfil de ponto mantém o centro da tela legível, o que facilita alinhar tiros únicos e rajadas curtas. Ele também combina bem com configurações de vídeo com pouco ruído visual, fazendo com que sua mira se destaque nas lutas.
+
+**Destaques em vídeo:**
+- O crosshair em ponto usa **ponto ligado**, **comprimento 0** e **espessura 2** para criar um ponto central simples.
+- Abra o menu de configurações com **N** e, em seguida, use o ícone de engrenagem para acessar as opções de crosshair.
+- As configurações de visibilidade removem elementos como **partículas**, **marcas de bala** e **gotas de chuva**.
+- Mantenha os **multiplicadores de sensibilidade em 1** se quiser uma base neutra.
+- Uma cor de alto contraste, como **amarelo**, ajuda o ponto a continuar legível.
+
+<YouTubeEmbed videoId="BbRb5kXeN_8" title="AS MELHORES CONFIGURAÇÕES DA DEFUSE DIVISION" />
+
+<Callout type="tip" title="Primeira regra">
+A pré-visualização no menu pode parecer diferente da mira em jogo, então confirme seu ponto em uma partida real antes de ajustar finamente a cor ou a espessura.
+</Callout>
+
+| Base do ponto | Valor recomendado | Por que importa |
+|---|---|---|
+| Dinâmico | Desativado | Mantém a mira estável |
+| Seguir recuo | Desativado | Impede que o crosshair se mova |
+| Ponto | Ativado | Cria o ponto central de mira |
+| Comprimento | 0 | Remove as linhas laterais |
+| Espessura | 2 | Deixa o ponto visível sem ficar volumoso |
+| Espaçamento | N/A | O espaçamento não importa para um perfil de ponto |
+| Contorno | Ativado ou desativado por preferência | Ajuda em mapas movimentados se você precisar de contraste extra |
+| Cor | Amarelo ou outra cor de alto contraste | Melhora a visibilidade contra fundos escuros |
+
+</Section>
+
+<Section icon={Target} title="Predefinições de crosshair e melhores casos de uso">
+
+Use o perfil de ponto como sua configuração principal se você prefere precisão, mas leve as outras predefinições em consideração. Um crosshair um pouco mais longo pode parecer mais fácil para controlar spray, enquanto o ponto é melhor para posicionamento limpo no alvo. A melhor escolha depende de você jogar em ângulos pacientes ou avançar agressivamente em lutas curtas.
+
+<CardGrid cols={3}>
+  <Card title="Spy Crosshair">
+    - **Dinâmico desativado**
+    - **Seguir recuo desativado**
+    - Ponto desativado
+    - Comprimento curto com contorno ativado
+    - Bom para um centro equilibrado e legível
+  </Card>
+  <Card title="Rocks Crosshair">
+    - **Dinâmico desativado**
+    - **Ponto desativado**
+    - Perfil com linhas mais longas
+    - Contorno desativado
+    - Ótima visibilidade geral
+  </Card>
+  <Card title="Dot Crosshair">
+    - **Ponto ativado**
+    - **Comprimento 0**
+    - **Espessura 2**
+    - Contorno opcional
+    - Melhor para tiros únicos e microcorreções
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Combine a predefinição com a luta">
+Se o seu estilo de jogo pende mais para o spray, um crosshair baseado em linhas pode parecer mais natural. Se você valoriza uma única referência de mira, o ponto é a escolha mais limpa.
+</Callout>
+
+| Predefinição | Perfil de forma | Melhor para | Principal desvantagem |
+|---|---|---|---|
+| Spy | Linhas compactas, contorno ativado | Precisão geral, lutas estáveis | Menos minimalista que um ponto |
+| Rocks | Linhas mais longas, contorno desativado | Moldura visual clara, fácil rastreamento | Ocupa mais espaço na tela |
+| Dot | Um único ponto, sem linhas | Tiros únicos, microajustes, disciplina no centro | Menos útil para o ritmo de spray |
+
+A principal vantagem da configuração em ponto é a clareza. O principal risco é usá-la demais em situações em que você realmente precisa de uma referência visual mais ampla. Mantenha o ponto se quiser um ponto central disciplinado, mas não tenha medo de testar um perfil baseado em linhas por sessões mais longas.
+
+</Section>
+
+<Section icon={Shield} title="Configurações de vídeo e itens que reduzem a poluição visual">
+
+O crosshair é só metade da configuração. Uma tela limpa importa tanto quanto, especialmente quando fumaça, efeitos de estilhaços e visuais soltos começam a se acumular. As configurações recomendadas cortam o ruído desnecessário enquanto mantêm as informações importantes visíveis. Isso faz com que o ponto fique mais fácil de ler tanto em corredores abertos quanto em cantos apertados.
+
+<Callout type="info" title="Prioridade de visibilidade">
+Mantenha a tela legível primeiro e só depois ajuste brilho e gráficos. Uma visão limpa ajuda o crosshair a fazer o trabalho dele.
+</Callout>
+
+| Configuração de vídeo | Valor recomendado | Efeito |
+|---|---|---|
+| Quebra muscular? | Não | Remove um efeito distrativo |
+| Partículas | Não | Reduz ruído visual extra |
+| Traços em primeira pessoa | Não | Mantém o centro mais limpo |
+| Balas de outros jogadores | Sim | Ajuda a mostrar de onde vieram os tiros |
+| Marcas de bala | Não | Evita poluição visual nas paredes |
+| Gotas de chuva | Não | Evita obstruções aleatórias na tela |
+| Estojos de bala | Não | Reduz detritos no HUD |
+| Brilho | 0.1 | Mantém a imagem consistente com o estilo de pouca poluição visual |
+| Sombras | Sim | Combina com a configuração recomendada |
+| Gráficos do Roblox | 4 | Equilibra clareza e desempenho |
+
+| Configuração de item | Valor recomendado | Observações |
+|---|---|---|
+| Posição do modelo de visão | Clássico | Posicionamento familiar da arma |
+| Predição de registro | Nenhuma | Sem benefício óbvio aqui |
+| Modelos de visão animados | Desativado | Impede que animações chamem atenção demais |
+| Multiplicador de sensibilidade | 1 | Use as configurações do Roblox para a mudança principal de sensibilidade |
+| Multiplicador de sensibilidade da mira | 1 ou preferência pessoal | Reduza apenas se a mira com luneta parecer rápida demais |
+
+<Callout type="tip" title="Base de sensibilidade">
+Comece com 1 para ambos os controles de sensibilidade. Se armas com mira parecerem estranhas, ajuste primeiro apenas o multiplicador da mira para não distorcer sua mira normal.
+</Callout>
+
+Esses valores são um ponto de partida limpo, não uma regra fixa. Se o seu monitor escurece demais as cenas, aumente um pouco o brilho. Se o seu computador rodar o jogo com folga, você pode testar gráficos mais altos depois, mas mantenha os mesmos filtros de poluição visual para que a mira continue legível.
+
+</Section>
+
+<Section icon={Sparkles} title="Configuração passo a passo do crosshair em ponto">
+
+Use este fluxo se quiser aplicar a configuração rapidamente e evitar tentativa e erro aleatórios. A ordem importa porque ela mantém as mudanças de mira, vídeo e sensibilidade agrupadas em um ciclo simples de teste.
+
+<Callout type="success" title="Melhor prática">
+Mude uma categoria por vez e depois teste em uma partida ao vivo ou em um lobby privado antes de fazer o próximo ajuste.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Abra o menu de configurações">
+    Pressione **N** no jogo e, em seguida, clique no ícone de engrenagem no canto superior direito para acessar os painéis de configuração.
+  </Step>
+  <Step num="2" title="Aplique o crosshair em ponto">
+    Defina **dinâmico desativado**, **seguir recuo desativado**, **ponto ativado**, **comprimento 0** e **espessura 2**. Mantenha uma cor de alto contraste.
+  </Step>
+  <Step num="3" title="Limpe as opções de vídeo">
+    Desative partículas, estojos, marcas de bala, gotas de chuva e outras poluições visuais. Mantenha **balas de outros jogadores** ativado.
+  </Step>
+  <Step num="4" title="Trave a base de sensibilidade">
+    Defina os multiplicadores de sensibilidade em **1** e depois teste se armas com mira precisam de um ajuste separado mais tarde.
+  </Step>
+</Steps>
+
+| Caminho do menu | O que você altera | Por que vem primeiro |
+|---|---|---|
+| N > Engrenagem > Crosshair | Configurações do ponto e cor | A mira define sua referência de mira |
+| N > Engrenagem > Vídeo | Opções de poluição visual | Telas mais limpas melhoram a visibilidade do crosshair |
+| N > Engrenagem > Itens | Modelo de visão e sensibilidade | Mantém o movimento e a sensação da mira consistentes |
+
+Uma forma prática de testar a configuração é atirar primeiro em alvos parados e depois passar para duelos curtos. Se o ponto parecer pequeno demais, aumente a espessura em um nível. Se ele começar a cobrir demais o alvo, reduza. Esse processo pequeno e controlado de ajuste geralmente é melhor do que alternar entre várias predefinições.
+
+</Section>
+
+<Section icon={Trophy} title="Checklist, solução de problemas e ajustes finais">
+
+Depois de aplicar a configuração, use uma checklist curta para confirmar que nada importante foi esquecido. Esta é a forma mais rápida de detectar um valor ruim de sensibilidade, uma cor clara demais ou um efeito visual que ainda esteja ativado.
+
+<Callout type="warning" title="Erro comum">
+A maioria dos problemas de configuração vem de mudar valores demais ao mesmo tempo. Se algo parecer estranho, reverta uma configuração por vez e teste novamente.
+</Callout>
+
+<Checklist
+  id="dot-crosshair-checklist"
+  title="Verificações essenciais da configuração:"
+  items={[
+    "Confirme que o ponto está ativado e que o comprimento da linha está definido como 0",
+    "Mantenha os filtros de poluição visual desativados para partículas, marcas, estojos e gotas de chuva",
+    "Teste uma cor de crosshair de alto contraste no seu monitor",
+    "Deixe os multiplicadores de sensibilidade em 1 antes de refinar o comportamento da mira"
+  ]}
+/>
+
+| Problema | Causa provável | Solução |
+|---|---|---|
+| O ponto parece pequeno demais | A espessura está muito baixa | Aumente a espessura em um nível |
+| O ponto bloqueia o alvo | A espessura está muito alta | Reduza a espessura levemente |
+| O controle do spray parece estranho | O ponto é um perfil focado em tiros únicos | Teste uma predefinição baseada em linhas mais longas |
+| A mira com luneta parece inconsistente | O multiplicador da mira foi alterado | Volte para 1 e depois ajuste aos poucos |
+| A tela ainda parece carregada | As configurações de poluição visual ainda estão ativas | Verifique novamente a aba de vídeo |
+
+Para um acabamento limpo, teste a configuração em dois cenários diferentes: um duelo em ângulo aberto e uma luta de curta distância. Isso dá uma leitura mais clara sobre se o ponto está ajudando na precisão ou apenas deixando a tela minimalista demais para o seu gosto.
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<Callout type="info" title="Observações do FAQ">
+Estas respostas seguem a mesma base usada ao longo do guia: um ponto limpo, pouca poluição visual e sensibilidade neutra.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "O crosshair em ponto da Defuse Division é melhor para todo jogador?",
+    answer: "Não. Ele é mais forte para tiros únicos, mira disciplinada e microajustes. Jogadores que usam spray com mais frequência podem preferir um crosshair baseado em linhas mais longas."
+  },
+  {
+    question: "Por que manter as balas de outros jogadores ativadas?",
+    answer: "Isso ajuda você a ler o fogo inimigo e entender de onde os tiros estão vindo, especialmente quando fumaça ou lutas caóticas deixam a tela mais difícil de ler."
+  },
+  {
+    question: "Os multiplicadores de sensibilidade devem ficar em 1?",
+    answer: "Sim, como base limpa. Isso mantém sua mira consistente e permite ajustar a sensibilidade do Roblox separadamente antes de mexer no comportamento da mira com luneta."
+  },
+  {
+    question: "Qual cor funciona melhor para o crosshair em ponto?",
+    answer: "Use uma cor de alto contraste que se destaque no seu monitor. Amarelo é um ótimo ponto de partida, mas qualquer cor nítida pode funcionar bem."
+  }
+]} />
+
+</Section>

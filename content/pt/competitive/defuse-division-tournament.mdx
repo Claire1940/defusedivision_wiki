@@ -1,0 +1,215 @@
+import { Map, Trophy, Target, Shield, Sparkles, Users, CalendarDays } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Torneio de Defuse Division: Guia de Configuração para Jogo Competitivo",
+  description: "Planeje um torneio de Defuse Division com opções de chaveamento, regras de partida, funções da equipe de administração e listas de verificação para o dia do evento, pensado para Roblox competitivo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Tournament+Setup+Guide",
+  date: "2026-07-06",
+  author: "Equipe da Wiki de Defuse Division"
+}
+
+<Callout type="info" title="Guia Rápido">
+Use este guia de **torneio de Defuse Division** para definir o formato certo, regras claras e um fluxo tranquilo no dia da partida.
+
+- **O formato do torneio** deve combinar com a quantidade de jogadores, a janela de tempo e a capacidade de moderação.
+- **A clareza da chave** importa mais do que prêmios chamativos quando você quer partidas limpas e justas.
+- **As funções da equipe de administração** evitam disputas, atrasos e confusões durante as rodadas ao vivo.
+- **A programação do dia do evento** deve incluir um teste, um período de check-in e um plano de contingência.
+</Callout>
+
+<Section icon={Map} title="Formatos de Torneio de Defuse Division">
+
+Um evento forte começa pela chave. Para um **torneio de Defuse Division**, o formato deve se adequar ao tamanho da lista de participantes e ao nível de supervisão que você consegue oferecer. Eventos menores se beneficiam de árvores de eliminação mais rápidas, enquanto eventos comunitários maiores geralmente precisam de mais rodadas para reduzir surpresas aleatórias.
+
+<Callout type="tip" title="Regra Prática de Formato">
+A eliminação dupla é o padrão mais seguro para eventos comunitários porque dá aos jogadores uma segunda chance sem prolongar demais a programação.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Eliminação Simples">
+    - Estrutura mais rápida  
+    - Melhor para eventos curtos  
+    - Mais dura com erros no início
+  </Card>
+  <Card title="Eliminação Dupla">
+    - Justiça equilibrada  
+    - Forte para chaves médias  
+    - Exige mais controle da administração
+  </Card>
+  <Card title="Todos contra Todos">
+    - Melhor para grupos pequenos  
+    - Classificações mais precisas  
+    - Consome muito tempo para grupos grandes
+  </Card>
+</CardGrid>
+
+| Formato | Melhor para | Ponto forte | Compromisso |
+|---|---|---|---|
+| Eliminação Simples | 8-16 jogadores | Ritmo rápido, chave simples | Uma derrota encerra a campanha |
+| Eliminação Dupla | 8-32 jogadores | Classificação mais justa, bom valor de repetição | Programação mais longa |
+| Todos contra Todos | 4-8 jogadores | Melhor precisão competitiva | Opção mais lenta |
+| Sistema Suíço | 8+ jogadores | Bom para grupos com níveis mistos | Exige controle cuidadoso dos resultados |
+
+Se o seu objetivo é uma vitrine comunitária limpa, mantenha a estrutura simples. Se o seu objetivo é legitimidade competitiva, priorize uma chave que lide bem com revanche, desempates e uma final clara.
+
+</Section>
+
+<Section icon={Target} title="Como Configurar um Torneio de Defuse Division">
+
+A fase de configuração decide se o evento vai parecer polido ou caótico. Comece pelo acesso, confirme a página do jogo, escolha sua ferramenta de chaveamento e publique as regras antes de abrir as inscrições. A página oficial do Roblox é o lugar mais seguro para verificar o status atual da experiência e o acesso ao jogo.
+
+<Callout type="warning" title="Antes de Publicar">
+A página oficial do jogo atualmente mostra **nenhuma experiência em execução**, então confirme o acesso e os planos de teste antes de anunciar as datas.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Confirme o acesso">
+    Verifique a página oficial do Roblox, confirme se os jogadores conseguem entrar com confiabilidade e anote quaisquer restrições antes de criar o formulário de inscrição.
+  </Step>
+  <Step num="2" title="Escolha uma chave">
+    Escolha eliminação simples, eliminação dupla ou todos contra todos com base no público esperado e no tempo que você consegue supervisionar.
+  </Step>
+  <Step num="3" title="Escreva a folha de regras">
+    Publique as regras dos mapas, a política de desconexão, os passos para reportar a pontuação e os padrões de comportamento em um único documento legível.
+  </Step>
+  <Step num="4" title="Abra as inscrições">
+    Colete nomes de usuário, fusos horários e disponibilidade para que o check-in seja rápido e o seeding fique mais fácil.
+  </Step>
+  <Step num="5" title="Faça um ensaio">
+    Teste o lobby, o tempo e o fluxo da tabela de pontuação antes da data do evento para que os problemas ao vivo permaneçam pequenos.
+  </Step>
+</Steps>
+
+| Tarefa de configuração | O que decidir | Melhor prática |
+|---|---|---|
+| Método de entrada | Inscrição aberta ou somente por convite | Use um único formulário para todos os jogadores |
+| Ferramenta de chave | Manual ou automatizada | Use uma ferramenta com chaves exportáveis |
+| Comunicação | Discord, chat do Roblox ou ambos | Mantenha um único canal oficial de anúncios |
+| Verificação | Nome no jogo e horário de check-in | Exija ambos antes de travar a chave |
+
+| Recurso | Uso | Link |
+|---|---|---|
+| Página oficial do jogo no Roblox | Verificar status, acesso e atualizações | [Defuse Division no Roblox](https://www.roblox.com/games/112757576021097/Defuse-Division) |
+
+Um torneio parece profissional quando o caminho de inscrição é curto, as regras estão visíveis e o organizador consegue responder à mesma pergunta da mesma forma todas as vezes.
+
+</Section>
+
+<Section icon={Shield} title="Regras, Funções da Administração e Fluxo das Partidas">
+
+As regras devem eliminar suposições. Os jogadores precisam saber como as vitórias são registradas, o que acontece se alguém cair da partida e quem toma a decisão final em casos especiais. Quanto mais detalhadas forem suas regras, menos interrupções você enfrentará no dia da partida.
+
+<Callout type="info" title="Prioridade da Administração">
+Atribua um administrador principal, um responsável pela chave e um resolvedor de disputas. Se uma pessoa cuidar de tudo, atrasos e erros se tornam muito mais prováveis.
+</Callout>
+
+| Regra | Configuração Recomendada | Por que isso importa |
+|---|---|---|
+| Janela de check-in | 10-15 minutos | Evita travamentos na chave |
+| Política de atraso | Derrota por W.O. após o período de tolerância | Mantém a programação andando |
+| Tratamento de desconexão | Repetir apenas se ambos concordarem ou se a administração aprovar | Protege a justiça |
+| Reporte de pontuação | O vencedor reporta imediatamente | Reduz erros na chave |
+| Padrão de comportamento | Sem assédio, spam ou discussões sobre regras | Mantém o evento organizado |
+| Desempate | Decisão da administração ou rodada de replay | Evita disputas sem fim |
+
+| Função | Responsabilidade | Backup |
+|---|---|---|
+| Administrador Principal | Decisões finais e controle da programação | Administrador Substituto |
+| Responsável pela Chave | Atualiza confrontos e pontuações | Assistente de Placar |
+| Host da Sala | Cria as partidas e gerencia os lobbies | Host Secundário |
+| Resolutador de Disputas | Analisa desconexões e conflitos de regras | Administrador Principal |
+
+Um bom fluxo é simples: fazer o check-in, confirmar o confronto, jogar a partida, reportar o resultado e seguir em frente. Se o mesmo fluxo for repetido em todas as rodadas, os jogadores se adaptam rapidamente.
+
+</Section>
+
+<Section icon={CalendarDays} title="Lista de Verificação e Cronograma do Dia da Partida">
+
+O dia da partida deve parecer calmo, não improvisado. Monte uma linha do tempo que dê aos jogadores aviso suficiente e dê à sua equipe de administração tempo para corrigir problemas antes do início da primeira rodada. Um período curto de teste geralmente economiza mais tempo do que custa.
+
+<Callout type="success" title="Condição de Vitória do Dia do Evento">
+Se o seu check-in, a criação do lobby e o reporte de pontuação funcionarem no ensaio, o evento ao vivo vai parecer muito mais estável.
+</Callout>
+
+<Checklist
+  id="match-day-checklist"
+  title="Itens Essenciais do Dia do Evento:"
+  items={[
+    "Confirme a chave final antes da abertura",
+    "Publique o horário oficial de início em um único canal",
+    "Verifique os nomes de usuário dos jogadores e os check-ins",
+    "Teste o primeiro lobby antes da Rodada 1",
+    "Registre cada resultado imediatamente após cada partida"
+  ]}
+/>
+
+| Tempo Antes do Início | Tarefa | Responsável |
+|---|---|---|
+| 60 minutos | Abrir o canal da administração e fazer a revisão final | Administrador Principal |
+| 30 minutos | Iniciar o check-in dos jogadores | Responsável pela Chave |
+| 15 minutos | Verificar seeds e confrontos | Administrador Principal |
+| 10 minutos | Testar a criação de lobby | Host da Sala |
+| 0 minutos | Iniciar a Rodada 1 | Toda a equipe |
+| Após cada partida | Reportar e confirmar o resultado | Jogadores + Responsável pela Chave |
+
+| Risco | Prevenção | Recuperação |
+|---|---|---|
+| Jogadores ausentes | Lembretes antecipados de check-in | Substituir ou aplicar W.O. |
+| Confronto incorreto | Travar a chave após a revisão | Pausar e corrigir |
+| Reporte lento | Um formato oficial de reporte | Usar capturas de tela, se necessário |
+| Falha no lobby | Host secundário de prontidão | Trocar de host imediatamente |
+
+Sua melhor proteção é a repetição. Execute o mesmo processo de abertura em todas as rodadas e os jogadores entenderão o que fazer sem instruções extras.
+
+</Section>
+
+<Section icon={Trophy} title="Prêmios, Divulgação e FAQ">
+
+Os prêmios não precisam ser caros para serem eficazes. Para a maioria dos eventos comunitários, reconhecimento, pequenas recompensas e um destaque claro para o vencedor já são suficientes para criar impulso para o próximo torneio. A divulgação deve ser curta, clara e repetida em uma programação previsível.
+
+<Callout type="tip" title="Dica de Planejamento de Prêmios">
+Use recompensas que acompanhem o tamanho do público. Chaves pequenas funcionam bem com prêmios de reconhecimento, enquanto eventos maiores podem justificar pagamentos em níveis ou recompensas cosméticas.
+</Callout>
+
+| Colocação | Tipo de Recompensa | Observações |
+|---|---|---|
+| 1º lugar | Maior prêmio, título ou destaque | Melhor para prova social |
+| 2º lugar | Recompensa menor ou marca de vice-campeão | Mantém a final significativa |
+| 3º lugar | Menção ou prêmio menor | Bom para chaves menores |
+| Participação | Distintivo de entrada ou menção honrosa | Ajuda na retenção da comunidade |
+
+| Canal de Divulgação | O que postar | Frequência |
+|---|---|---|
+| Discord | Link de inscrição, folha de regras, lembretes | No mínimo 3 publicações |
+| Grupo do Roblox | Resumo do evento e link de acesso | 1-2 publicações |
+| Central da comunidade | Atualizações da chave e resumo do vencedor | Após cada rodada |
+
+Se você quer público recorrente, publique o vencedor, agradeça à equipe e anuncie o próximo evento enquanto o atual ainda está fresco.
+
+<FAQ items={[
+  {
+    question: "Qual é o melhor formato para o primeiro torneio de Defuse Division?",
+    answer: "A eliminação dupla geralmente é o melhor ponto de partida porque equilibra melhor a justiça e o controle da programação do que a eliminação simples."
+  },
+  {
+    question: "Quantos jogadores devo अनुमति no primeiro evento?",
+    answer: "Comece com um tamanho de chave que sua equipe consiga administrar com confiança e aumente depois que você conseguir lidar com check-ins, confrontos e relatórios sem atrasos."
+  },
+  {
+    question: "O que devo incluir na folha de regras?",
+    answer: "Inclua horário de check-in, política de atraso, regras de desconexão, reporte de pontuação e a autoridade final para disputas."
+  },
+  {
+    question: "Onde os jogadores devem verificar acesso ao jogo e atualizações?",
+    answer: "Use a página oficial de Defuse Division no Roblox como seu ponto de referência para status atual, acesso e anúncios."
+  }
+]} />
+
+</Section>

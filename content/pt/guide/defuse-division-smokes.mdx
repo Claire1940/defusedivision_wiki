@@ -1,0 +1,176 @@
+import { Map, Shield, Target, Swords, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Smokes da Divisão de Desarmamento: segurar, executar e desarmar",
+  description: "Aprenda a usar smokes da Divisão de Desarmamento para bloquear rotas, atrasar plantas e garantir desarmes mais seguros com melhor timing.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Defuse+Division+Smokes",
+  date: "2026-07-06",
+  author: "Equipe da Wiki da Divisão de Desarmamento"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **smokes da Divisão de Desarmamento** são mais fortes quando mudam um avanço, não quando apenas escondem a visão.
+- **O timing do ataque** importa mais do que a colocação perfeita se sua equipe não estiver pronta para trocar eliminações.
+- **Smokes de defesa** devem ganhar segundos, isolar ângulos e atrasar a plantação.
+- **Uma smoke limpa**, com acompanhamento, normalmente vence dois dumps aleatórios de utilidade.
+- **O valor de retake** vem de reabrir uma rota e depois tomar o duelo juntos.
+</Callout>
+
+<Section icon={Map} title="Smokes da Divisão de Desarmamento: timing central e controle de linhas de visão">
+
+No jogo com smokes da Divisão de Desarmamento, o objetivo não é cegar o mapa. O valor real está em controlar o timing, negar linhas de visão limpas e fazer cada troca parecer desconfortável para a equipe inimiga. Como o modo é construído em torno de plantar, defender e desarmar, uma smoke deve sempre apoiar um objetivo da rodada. Se ela não ganha espaço, protege uma passagem ou cria um retake mais seguro, provavelmente chegou tarde ou foi colocada no lugar errado.
+
+<Callout type="info" title="Regra Central">
+Uma boa smoke muda o que o inimigo quer fazer em seguida. Se ele puder ignorá-la, você não gastou utilidade bem.
+</Callout>
+
+| Objetivo da Smoke | Melhor Momento | Principal Benefício |
+|---|---|---|
+| Fazer o primeiro contato | Antes de uma entrada agressiva | Quebra a visão dos defensores |
+| Proteger uma plantação | Na entrada | Reduz a pressão de cruzamento |
+| Cobrir uma rotação | No meio da rodada | Economiza vida e tempo |
+| Esconder um desarme | Nos segundos finais | Força reposicionamento |
+
+A Defuse Division Wiki ainda é a referência pública mais clara sobre a estrutura de objetivos do modo: [Defuse Division Wiki](https://defuse-division.fandom.com/wiki/Defuse_Division_Wiki) (2026-07-06).
+
+</Section>
+
+<Section icon={Shield} title="Melhores papéis de smoke e funções da equipe">
+
+Toda smoke tem uma função, e as melhores equipes definem essa função antes do início da rodada. Um jogador deve pensar em espaço para entrada, outro em atraso defensivo e outro no caminho do retake. Essa divisão evita sobreposição de utilidade. Ela também ajuda a evitar o erro clássico de soltar uma smoke onde ela parece útil, mas não ajuda no próximo duelo.
+
+<CardGrid cols={3}>
+  <Card title="Smokes de Ataque">
+    - **Negação da primeira rota**
+    - Suporte à pressão de entrada
+    - Acompanhar a troca
+  </Card>
+  <Card title="Smokes de Defesa">
+    - **Atraso da plantação**
+    - Proteção de rotação
+    - Guardar uma ferramenta para o fim da rodada
+  </Card>
+  <Card title="Smokes de Retake">
+    - **Isolamento de ângulo**
+    - Pressão dividida no site
+    - Janelas de desarme mais seguras
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Regra de Função">
+Se a sua smoke não criar uma nova decisão para o inimigo, trate-a como um arremesso de baixo valor e ajuste o timing.
+</Callout>
+
+| Função | Prioridade da Smoke | Melhor Hábito | Erro Comum |
+|---|---|---|---|
+| Entry | Primeira rota contestada | Arremessar e avançar | Esperar demais |
+| Suporte | Controle de cruzamento | Sincronizar com os aliados | Fumar fundo demais |
+| Anchor | Atrasar a plantação | Guardar uma utilidade | Gastar tudo cedo |
+| Retaker | Negar ângulo amplo | Reclear com um aliado | Fumar depois do contato |
+
+</Section>
+
+<Section icon={Target} title="Montagem de smoke passo a passo">
+
+Boas smokes normalmente são simples. Comece pela rota que mais prejudica sua equipe, não pela rota mais fácil de cobrir. Depois, combine a smoke com movimento. Uma smoke sem follow-up só dá tempo ao inimigo para esperar, adivinhar e reposicionar. Quando sua equipe avança no mesmo ritmo da utilidade, a rodada começa a parecer muito mais fácil.
+
+<Callout type="warning" title="Aviso de Timing">
+Não jogue smoke só porque você a tem. Jogue quando a equipe puder usar imediatamente o espaço que ela cria.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Leia a primeira ameaça">
+    Identifique a linha de visão que cria o pior duelo de abertura. Normalmente essa é a rota que vale fumar primeiro.
+  </Step>
+  <Step num="2" title="Fume para movimentação">
+    Coloque a smoke de forma que sua equipe possa atravessar, plantar ou se reposicionar com menos exposição.
+  </Step>
+  <Step num="3" title="Troque a utilidade">
+    Mova-se ao mesmo tempo em que a smoke cai. A smoke deve apoiar um avanço, não travar a rodada.
+  </Step>
+  <Step num="4" title="Guarde uma ferramenta para o fim">
+    Mantenha uma smoke para o objetivo final se a rodada ainda estiver viva. Utilidade tardia vence mais rodadas do que pânico cedo.
+  </Step>
+</Steps>
+
+| Etapa de Montagem | O que Verificar | Sinal Bom | Sinal Ruim |
+|---|---|---|---|
+| Etapa 1 | Primeira rota de ameaça | O inimigo desacelera | O inimigo continua avançando |
+| Etapa 2 | Espaçamento da equipe | Os aliados estão prontos | Smoke solo, sem troca |
+| Etapa 3 | Caminho da plantação ou rotação | O objetivo fica mais fácil | A smoke bloqueia sua própria equipe |
+| Etapa 4 | Utilidade do fim da rodada | Uma smoke ainda sobra | O kit inteiro acabou |
+
+</Section>
+
+<Section icon={Swords} title="Erros comuns e respostas contra smokes">
+
+A maioria dos erros com smoke vem de maus hábitos, não de mira ruim. Os jogadores fumam cedo demais, fumam o ângulo errado ou gastam utilidade sem um plano de follow-up. O conserto mais limpo é revisar uma rodada por vez e fazer uma pergunta simples: a smoke forçou uma mudança significativa no movimento do inimigo? Se a resposta for não, o problema geralmente é posicionamento, timing ou sincronia da equipe.
+
+<Callout type="success" title="Hábito de Revisão">
+Trate cada smoke como um miniobjetivo. Se ela não ajuda você a ganhar espaço, negar espaço ou salvar um aliado, ela precisa de um propósito melhor.
+</Callout>
+
+<Checklist
+  id="smoke-review"
+  title="Checklist de revisão de smokes:"
+  items={[
+    "A smoke caiu antes do contato",
+    "Um aliado estava pronto para avançar com ela",
+    "O inimigo precisou mudar o caminho ou o timing",
+    "Uma smoke ficou disponível para o fim",
+    "Nenhum aliado duplicou o mesmo ângulo"
+  ]}
+/>
+
+| Erro | Por que falha | Correção melhor |
+|---|---|---|
+| Smoke cedo demais, sem follow-up | O inimigo espera passar | Combine com um avanço |
+| Cobertura de rota errada | A ameaça real continua aberta | Fume o primeiro ângulo contestado |
+| Dupla utilidade no mesmo ponto | Desperdício de recursos da equipe | Atribua uma fuma por rota |
+| Smoke tardia para desarme | O inimigo vê o toque na bomba | Guarde utilidade para o fim |
+| Peek solo após a smoke | Duelo gratuito para o inimigo | Avance com troca |
+
+</Section>
+
+<Section icon={Trophy} title="FAQ de smokes e referência rápida">
+
+Quando você entende o objetivo da rodada, as smokes deixam de ser um botão de pânico e viram uma ferramenta de planejamento. Elas ajudam os atacantes a entrar de forma mais limpa, os defensores a atrasar por mais tempo e os jogadores de retake a dividir o site em lutas mais fáceis. A maneira mais rápida de evoluir é parar de perguntar “Onde eu posso fumar?” e começar a perguntar “Que decisão eu quero forçar?”
+
+<Callout type="info" title="Referência Rápida">
+Se a smoke não mudar o posicionamento, geralmente é melhor guardá-la, combiná-la com um aliado ou usá-la mais tarde na rodada.
+</Callout>
+
+| Situação | Melhor Jogada com Smoke |
+|---|---|
+| Execução no ataque | Bloqueie a rota que controla o timing de entrada |
+| Segurar na defesa | Atrase a plantação e proteja sua rotação |
+| Retake | Divida o site e isole um ângulo |
+| Tentativa de desarme | Cubra quem está tocando a bomba de linhas de visão longas |
+
+<FAQ items={[
+  {
+    question: "O que torna as smokes da Divisão de Desarmamento fortes?",
+    answer: "As smokes da Divisão de Desarmamento são mais fortes quando forçam um erro de timing, quebram um duelo ao meio ou protegem um objetivo importante."
+  },
+  {
+    question: "Devo fumar cedo ou tarde?",
+    answer: "Fume cedo quando sua equipe precisar de espaço imediatamente. Fume tarde quando o objetivo for negar a plantação, parar uma rotação ou cobrir um desarme."
+  },
+  {
+    question: "Quantas smokes uma equipe precisa?",
+    answer: "Uma smoke bem cronometrada pode ser suficiente se a equipe a acompanhar corretamente. Mais utilidade só ajuda quando cada arremesso tem um propósito claro."
+  },
+  {
+    question: "Smokes substituem a mira?",
+    answer: "Não. Smokes reduzem a quantidade de ângulos que você precisa limpar, o que facilita a mira e torna seus duelos mais previsíveis."
+  }
+]} />
+
+</Section>

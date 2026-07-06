@@ -1,0 +1,209 @@
+import { Map, Target, Shield, Trophy, Sparkles, Compass } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "defuse division maps: Site control tips, routes, and angles",
+  description: "Learn defuse division maps with site-control routes, plant and retake timing, and early-alpha map-reading habits that improve round wins.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Defuse+Division+Maps+Guide",
+  date: "2026-07-06",
+  author: "defuse division Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **defuse division maps** reward fast reads: sites, rotations, and choke points matter more than raw chasing.
+- **Short rounds** mean every first contact can decide the plant, defuse, or retake timing.
+- **Learn one safe route and one fallback** on every map before experimenting with aggressive pushes.
+- **Keep callouts simple** so your team can rotate without losing seconds to confusion.
+- **Expect patch changes** because the game is still in early alpha and layout habits can shift.
+</Callout>
+
+<Section icon={Map} title="Learning Defuse Division Maps Fast">
+
+Defuse Division is a team-based bomb mode where one side plants and the other side stops the plant or defuses it. That makes map knowledge the real advantage. In a game that is still in early alpha, clean route selection matters more than memorizing a huge playbook. Start with the paths that decide who reaches the site first, who controls the angles, and who gets trapped during the retake.
+
+<CardGrid cols={3}>
+  <Card title="Attackers">
+    - **Take space early**
+    - Split lanes to stretch defenders
+    - Plant only after you own the entry
+  </Card>
+  <Card title="Defenders">
+    - **Delay the push**
+    - Hold the first contact angle
+    - Save a rotate path for the retake
+  </Card>
+  <Card title="Map Learners">
+    - **Learn choke points first**
+    - Track site access and fallback routes
+    - Build one callout system per map
+  </Card>
+</CardGrid>
+
+| Metric | Current value | Map takeaway |
+|---|---:|---|
+| Game mode | Team bomb plant/defuse | Sites and rotations decide rounds |
+| Max players | **14** | Smaller teams punish slow movement |
+| Average playtime | **11.37 minutes** | Every rotation window is short |
+| Game updated | **4 hours ago** | Routes can shift after patches |
+| Gamepasses | None known | Positioning matters more than unlocks |
+| Rating | **84.928%** | Solid reception while still tuning |
+
+For a live snapshot of the game, keep the [Rolimons listing](https://www.rolimons.com/game/112757576021097) open when you want to confirm update timing or player activity.
+
+<Callout type="tip" title="Map Learning Priority">
+Focus on the first 30 seconds of each round. If you can predict where the first duel happens, you can predict the rest of the round.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Map Reading: Chokes, Sightlines, and Timing">
+
+The fastest way to learn a new map is to treat it like traffic flow, not a maze. Every lane has one purpose: reach a site, cut off a rotate, or create a crossfire. Once you know which lane does what, the rest becomes easier to read. That is especially useful in a game with short average sessions, because you need practical map habits that work immediately.
+
+<Steps>
+  <Step num="1" title="Identify the anchor points">
+    Find spawn, the main site, and the connector between them. Those three points tell you where the first fight usually happens.
+  </Step>
+  <Step num="2" title="Mark the main choke">
+    Look for the narrowest entry. That is usually the place where a defender can slow the push or where an attacker can force a trade.
+  </Step>
+  <Step num="3" title="Measure one rotate path">
+    Run the fastest safe route from one side of the map to the other. If the rotate is too slow, the site may already be lost.
+  </Step>
+  <Step num="4" title="Add a fallback route">
+    Choose a second path that avoids the most dangerous sightline. A fallback keeps you alive after the first duel breaks down.
+  </Step>
+</Steps>
+
+| Clue | What it usually means | Best response |
+|---|---|---|
+| Wide open lane | Longer sightline, more duel pressure | Hold distance or swing with a teammate |
+| Tight hallway | Strong choke, easy to stall | Pre-aim and trade carefully |
+| Side route sound | Possible flank or late rotate | Pause, clear corners, then continue |
+| Bombsite access | Plant pressure is increasing | Reposition before the entry closes |
+
+<Callout type="info" title="Callout Rule">
+Keep map language short: left, right, mid, connector, site, flank. Short callouts travel faster than detailed explanations.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Attack Routes, Planting, and Post-Plant Spacing">
+
+On attack, the goal is not just reaching the site. You need control of the entry, control of the defenders’ rotate, and enough space to survive after the plant. That is why route choice matters so much. A fast rush can work when defenders are split, but a default spread is safer when you do not know where the anchors are standing.
+
+| Route type | Best use | Main risk | Ideal result |
+|---|---|---|---|
+| Fast hit | Defender overcommit or weak mid control | Losing info if the push stalls | Quick plant and immediate cover |
+| Split push | Two lanes can pressure the same site | Requires clean timing | Pinch the anchor and deny escape |
+| Default spread | Unknown setup or early-round scouting | Slower round pace | Gather info before committing |
+| Fake pressure | Rotate timing is predictable | Wasteful if read early | Pull one defender away from site |
+
+After the plant, spacing matters more than aim duels. One player should watch the strongest retake lane, one should watch the plant angle, and one should stay available for a trade. If everyone stacks the same corner, a single grenade, swing, or timing change can erase the advantage.
+
+| Plant rule | Good timing | Bad timing |
+|---|---|---|
+| Plant after entry control | You have cleared the main choke | The site is still contested |
+| Plant with one teammate covering | You can trade the first swing | You are alone with no backup |
+| Plant where post-plant angles are strong | You can play time after the plant | You must expose yourself instantly |
+| Reposition after the plant | The enemy has to clear multiple angles | You stay visible on the same line |
+
+<Callout type="warning" title="Attack Mistake to Avoid">
+Do not force a plant when the defenders still own the entry line. A rushed plant can turn a winning push into a lost retake.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Defense Rotations and Retake Discipline">
+
+Defense wins by delaying the plant, not by chasing highlight fights. The best defenders use map knowledge to keep the attackers uncomfortable and to preserve a clean retake path. If you know where the attacking team wants to enter, you can place one player to stall, one to anchor, and one to rotate with purpose.
+
+<Checklist
+  id="defense-basics"
+  title="Defense Checklist:"
+  items={[
+    "Hold one stable anchor position on each site",
+    "Keep one rotate route open for late pressure",
+    "Retake only after you know where the bomb is planted",
+    "Watch for flank timing before leaving your lane",
+    "Trade a teammate instead of swinging alone",
+  ]}
+/>
+
+| Defender job | Primary task | Good habit |
+|---|---|---|
+| Anchor | Delay the first push | Stay alive and force extra time |
+| Rotator | Support the threatened site | Move only after confirming the hit |
+| Lurk stopper | Prevent flanks and late routes | Clear the back line before rotating |
+| Retake player | Recover the site after plant | Wait for a trade and enter together |
+
+| Retake timing | What to check first | Why it helps |
+|---|---|---|
+| Early retake | Bomb position, teammate count | Prevents a blind swing into crossfire |
+| Mid retake | Remaining lane control | Shows whether the enemy can hold time |
+| Late retake | Plant angle and exit path | Makes it easier to isolate the last defender |
+
+A clean defense is usually about patience. If you survive the first contact, you force the attackers to spend more time and reveal more of their setup.
+
+<Callout type="success" title="Defense Win Condition">
+You do not need to win every duel. You need to keep enough players alive to make the retake favorable.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Common Map Mistakes and Fast Fixes">
+
+Most map losses come from habits, not mechanics. Players rush into a lane without backup, rotate too early, or forget the safest fallback after the first duel. In a short-round game, those mistakes become expensive quickly. Tightening a few habits will usually improve your results faster than trying to memorize every corner at once.
+
+| Mistake | Why it hurts | Better habit |
+|---|---|---|
+| Solo entry into site | No trade support, easy to punish | Wait for a teammate or split the lane |
+| Early rotation without info | Opens a free plant on the other side | Confirm sound, timing, or pressure first |
+| Stacking one lane | Leaves the other route uncovered | Keep one flexible player available |
+| No fallback route | You die after the first contact | Plan a retreat angle before peeking |
+| Overexplaining callouts | Burns precious seconds | Use short, agreed labels only |
+
+| Solo queue routine | Before the round | During the round | After the round |
+|---|---|---|---|
+| Minimum map plan | Pick one route and one fallback | Watch the first choke and trade safely | Note which lane lost control |
+| Info priority | Confirm where your team is spread | Call enemy pressure early | Adjust the next rotate |
+| Utility mindset | Save something for the retake | Use it to delay entry | Rebuild for the next round |
+
+<Callout type="tip" title="Fast Fix">
+If your rounds feel chaotic, simplify your plan to one attack lane, one defensive anchor, and one rotate path. That alone removes a lot of noise.
+</Callout>
+
+</Section>
+
+<Section icon={Compass} title="FAQ">
+
+<Callout type="info" title="FAQ Focus">
+These answers center on map learning, route choice, and team timing so you can apply them immediately in Defuse Division.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "What is the best way to learn defuse division maps?",
+    answer: "Start with the main site, the choke points, and one fallback route. Repeat the same paths until your rotations and peeks feel automatic."
+  },
+  {
+    question: "Should I rush or play slow on new maps?",
+    answer: "Play a default first. Slower rounds give you information, and information makes it easier to choose the right route or retake plan."
+  },
+  {
+    question: "How many routes should I know on each map?",
+    answer: "Three is enough to begin: one main lane, one alternate entry, and one safe retreat path. Add more after those feel natural."
+  },
+  {
+    question: "Why do my map callouts keep failing?",
+    answer: "They are probably too long or too specific. Use short labels, confirm who is holding each lane, and keep the terms consistent."
+  }
+]} />
+
+</Section>

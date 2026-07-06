@@ -1,0 +1,209 @@
+import { Map, Target, Shield, Trophy, Sparkles, Compass } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "mapas de defuse division: consejos de control de sitio, rutas y ángulos",
+  description: "Aprende los mapas de defuse division con rutas para controlar el sitio, tiempos de plantado y retoma, y hábitos tempranos de lectura del mapa que mejoran las victorias por ronda.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Defuse+Division+Maps+Guide",
+  date: "2026-07-06",
+  author: "Equipo de la Wiki de Defuse Division"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Los mapas de defuse division** recompensan las lecturas rápidas: los sitios, las rotaciones y los puntos de estrangulamiento importan más que perseguir sin pensar.
+- **Las rondas cortas** hacen que cada primer contacto pueda decidir el plantado, la desactivación o el momento de la retoma.
+- **Aprende una ruta segura y una de respaldo** en cada mapa antes de probar empujes agresivos.
+- **Mantén los callouts simples** para que tu equipo pueda rotar sin perder segundos por la confusión.
+- **Espera cambios en los parches** porque el juego todavía está en alfa temprana y los hábitos de diseño pueden cambiar.
+</Callout>
+
+<Section icon={Map} title="Aprender rápido los mapas de Defuse Division">
+
+Defuse Division es un modo de bomba por equipos en el que un lado planta y el otro lado impide el plantado o desactiva la bomba. Eso convierte el conocimiento del mapa en la verdadera ventaja. En un juego que todavía está en alfa temprana, elegir rutas limpias importa más que memorizar un gran manual de jugadas. Empieza por los caminos que deciden quién llega primero al sitio, quién controla los ángulos y quién queda atrapado durante la retoma.
+
+<CardGrid cols={3}>
+  <Card title="Atacantes">
+    - **Toma espacio desde el principio**
+    - Divide las líneas para estirar a los defensores
+    - Planta solo después de dominar la entrada
+  </Card>
+  <Card title="Defensores">
+    - **Retrasa el empuje**
+    - Mantén el ángulo del primer contacto
+    - Guarda una ruta de rotación para la retoma
+  </Card>
+  <Card title="Quienes aprenden el mapa">
+    - **Aprende primero los puntos de estrangulamiento**
+    - Sigue el acceso al sitio y las rutas de retirada
+    - Crea un sistema de callouts por mapa
+  </Card>
+</CardGrid>
+
+| Métrica | Valor actual | Lo que indica para el mapa |
+|---|---:|---|
+| Modo de juego | Plantado/desactivación de bomba por equipos | Los sitios y las rotaciones deciden las rondas |
+| Máximo de jugadores | **14** | Los equipos pequeños castigan el movimiento lento |
+| Tiempo medio de partida | **11.37 minutos** | Cada ventana de rotación es corta |
+| Juego actualizado | **hace 4 horas** | Las rutas pueden cambiar tras los parches |
+| Gamepasses | No se conocen | El posicionamiento importa más que los desbloqueos |
+| Valoración | **84.928%** | Buena recepción mientras sigue en ajustes |
+
+Para ver una instantánea en vivo del juego, mantén abierta la [lista de Rolimons](https://www.rolimons.com/game/112757576021097) cuando quieras confirmar la hora de actualización o la actividad de jugadores.
+
+<Callout type="tip" title="Prioridad para aprender el mapa">
+Céntrate en los primeros 30 segundos de cada ronda. Si puedes predecir dónde ocurre el primer duelo, puedes predecir el resto de la ronda.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Lectura del mapa: estrechos, líneas de visión y tiempos">
+
+La forma más rápida de aprender un mapa nuevo es tratarlo como un flujo de tráfico, no como un laberinto. Cada carril tiene un propósito: llegar a un sitio, cortar una rotación o crear un cruce de fuego. Una vez que sabes qué hace cada carril, el resto es más fácil de leer. Eso es especialmente útil en un juego con sesiones medias cortas, porque necesitas hábitos prácticos de mapa que funcionen de inmediato.
+
+<Steps>
+  <Step num="1" title="Identifica los puntos de anclaje">
+    Encuentra el spawn, el sitio principal y el conector entre ambos. Esos tres puntos te dicen dónde suele ocurrir el primer combate.
+  </Step>
+  <Step num="2" title="Marca el estrecho principal">
+    Busca la entrada más estrecha. Suele ser el lugar donde un defensor puede frenar el empuje o donde un atacante puede forzar un intercambio.
+  </Step>
+  <Step num="3" title="Mide una ruta de rotación">
+    Recorre la ruta segura más rápida de un lado del mapa al otro. Si la rotación es demasiado lenta, quizá el sitio ya esté perdido.
+  </Step>
+  <Step num="4" title="Añade una ruta de respaldo">
+    Elige un segundo camino que evite la línea de visión más peligrosa. Un respaldo te mantiene con vida cuando el primer duelo se desmorona.
+  </Step>
+</Steps>
+
+| Pista | Lo que suele significar | Mejor respuesta |
+|---|---|---|
+| Carril amplio y abierto | Línea de visión más larga, más presión de duelos | Mantén la distancia o asómate con un compañero |
+| Pasillo estrecho | Estrecho fuerte, fácil de frenar | Preapunta y haz intercambios con cuidado |
+| Sonido de ruta lateral | Posible flanqueo o rotación tardía | Detente, limpia esquinas y luego continúa |
+| Acceso al sitio de bomba | La presión para plantar está aumentando | Reposiciona antes de que se cierre la entrada |
+
+<Callout type="info" title="Regla de callouts">
+Mantén el lenguaje del mapa corto: izquierda, derecha, medio, conector, sitio, flanco. Los callouts breves viajan más rápido que las explicaciones detalladas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Rutas de ataque, plantado y posicionamiento tras el plantado">
+
+En ataque, el objetivo no es solo llegar al sitio. Necesitas control de la entrada, control de la rotación defensiva y suficiente espacio para sobrevivir después del plantado. Por eso la elección de la ruta importa tanto. Un empuje rápido puede funcionar cuando los defensores están divididos, pero una distribución por defecto es más segura cuando no sabes dónde están los anclajes.
+
+| Tipo de ruta | Mejor uso | Riesgo principal | Resultado ideal |
+|---|---|---|---|
+| Golpe rápido | Exceso de compromiso del defensor o control débil del medio | Perder información si el empuje se estanca | Plantado rápido y cobertura inmediata |
+| Empuje dividido | Dos carriles pueden presionar el mismo sitio | Requiere una sincronización limpia | Aplasta al anclaje y niega la salida |
+| Distribución por defecto | Configuración desconocida o exploración temprana | Ritmo de ronda más lento | Reúne información antes de comprometerte |
+| Presión falsa | El tiempo de rotación es predecible | Ineficaz si lo leen pronto | Saca a un defensor del sitio |
+
+Después del plantado, el espaciado importa más que los duelos de puntería. Un jugador debe vigilar el carril de retoma más fuerte, otro debe vigilar el ángulo del plantado y otro debe estar disponible para hacer un intercambio. Si todos se agrupan en la misma esquina, una sola granada, un asomo o un cambio de timing puede borrar la ventaja.
+
+| Regla de plantado | Buen momento | Mal momento |
+|---|---|---|
+| Planta tras controlar la entrada | Has limpiado el estrecho principal | El sitio sigue disputado |
+| Planta con un compañero cubriendo | Puedes intercambiar el primer asomo | Estás solo y sin apoyo |
+| Planta donde los ángulos post-plantado son fuertes | Puedes ganar tiempo después del plantado | Debes exponerte al instante |
+| Reposiciona después del plantado | El enemigo debe limpiar varios ángulos | Sigues visible en la misma línea |
+
+<Callout type="warning" title="Error de ataque que debes evitar">
+No fuerces el plantado cuando los defensores siguen controlando la línea de entrada. Un plantado apresurado puede convertir un empuje ganador en una retoma perdida.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Rotaciones defensivas y disciplina en la retoma">
+
+La defensa gana retrasando el plantado, no persiguiendo peleas vistosas. Los mejores defensores usan el conocimiento del mapa para incomodar a los atacantes y para conservar una ruta de retoma limpia. Si sabes dónde quiere entrar el equipo atacante, puedes colocar a un jugador para frenar, a otro para anclar y a otro para rotar con intención.
+
+<Checklist
+  id="defense-basics"
+  title="Lista de defensa:"
+  items={[
+    "Mantén una posición de anclaje estable en cada sitio",
+    "Deja una ruta de rotación abierta para la presión tardía",
+    "Retoma solo después de saber dónde se plantó la bomba",
+    "Vigila el momento del flanqueo antes de abandonar tu carril",
+    "Haz intercambio por un compañero en lugar de asomarte solo",
+  ]}
+/>
+
+| Trabajo del defensor | Tarea principal | Buen hábito |
+|---|---|---|
+| Ancla | Retrasar el primer empuje | Sigue con vida y fuerza tiempo extra |
+| Rotador | Apoyar el sitio amenazado | Moverse solo después de confirmar el ataque |
+| Detenedor de lurk | Evitar flanqueos y rutas tardías | Limpia la línea trasera antes de rotar |
+| Jugador de retoma | Recuperar el sitio después del plantado | Espera un intercambio y entra en equipo |
+
+| Momento de la retoma | Qué comprobar primero | Por qué ayuda |
+|---|---|---|
+| Retoma temprana | Posición de la bomba, cantidad de compañeros | Evita asomarte a ciegas contra varios ángulos |
+| Retoma media | Control restante de los carriles | Muestra si el enemigo puede aguantar el tiempo |
+| Retoma tardía | Ángulo del plantado y vía de salida | Facilita aislar al último defensor |
+
+Una defensa limpia suele depender de la paciencia. Si sobrevives al primer contacto, obligas a los atacantes a invertir más tiempo y a revelar más de su configuración.
+
+<Callout type="success" title="Condición de victoria en defensa">
+No necesitas ganar todos los duelos. Necesitas mantener con vida a suficientes jugadores para que la retoma sea favorable.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Errores comunes de mapa y soluciones rápidas">
+
+La mayoría de las derrotas en el mapa vienen de hábitos, no de mecánicas. Los jugadores entran a un carril sin apoyo, rotan demasiado pronto o olvidan la retirada más segura después del primer duelo. En un juego de rondas cortas, esos errores se pagan rápido. Corregir unos pocos hábitos suele mejorar tus resultados más rápido que intentar memorizar cada esquina a la vez.
+
+| Error | Por qué perjudica | Hábito mejor |
+|---|---|---|
+| Entrada en solitario al sitio | Sin apoyo para intercambiar, fácil de castigar | Espera a un compañero o divide el carril |
+| Rotación temprana sin información | Abre un plantado gratis en el otro lado | Confirma antes sonido, tiempo o presión |
+| Amontonar un solo carril | Deja la otra ruta descubierta | Mantén disponible a un jugador flexible |
+| Sin ruta de respaldo | Muere después del primer contacto | Planea un ángulo de retirada antes de asomarte |
+| Explicar demasiado los callouts | Consume segundos valiosos | Usa solo etiquetas cortas y acordadas |
+
+| Rutina de cola en solitario | Antes de la ronda | Durante la ronda | Después de la ronda |
+|---|---|---|---|
+| Plan mínimo de mapa | Elige una ruta y un respaldo | Vigila el primer estrecho e intercambia con seguridad | Anota qué carril perdió el control |
+| Prioridad de información | Confirma cómo está distribuido tu equipo | Llama pronto la presión enemiga | Ajusta la siguiente rotación |
+| Mentalidad con utilidades | Guarda algo para la retoma | Úsalo para retrasar la entrada | Recompón para la siguiente ronda |
+
+<Callout type="tip" title="Arreglo rápido">
+Si tus rondas se sienten caóticas, simplifica tu plan a un carril de ataque, un anclaje defensivo y una ruta de rotación. Solo eso ya elimina mucho ruido.
+</Callout>
+
+</Section>
+
+<Section icon={Compass} title="FAQ">
+
+<Callout type="info" title="Enfoque del FAQ">
+Estas respuestas se centran en aprender mapas, elegir rutas y sincronizar al equipo para que puedas aplicarlo de inmediato en Defuse Division.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor forma de aprender los mapas de defuse division?",
+    answer: "Empieza por el sitio principal, los puntos de estrangulamiento y una ruta de respaldo. Repite los mismos caminos hasta que tus rotaciones y asomos se sientan automáticos."
+  },
+  {
+    question: "¿Debo correr o jugar lento en mapas nuevos?",
+    answer: "Juega primero de forma por defecto. Las rondas más lentas te dan información, y la información facilita elegir la ruta correcta o el plan de retoma."
+  },
+  {
+    question: "¿Cuántas rutas debería conocer por mapa?",
+    answer: "Tres son suficientes para empezar: un carril principal, una entrada alternativa y una ruta segura de retirada. Añade más cuando esas tres se sientan naturales."
+  },
+  {
+    question: "¿Por qué siguen fallando mis callouts del mapa?",
+    answer: "Probablemente son demasiado largos o demasiado específicos. Usa etiquetas cortas, confirma quién cubre cada carril y mantén los términos consistentes."
+  }
+]} />
+
+</Section>

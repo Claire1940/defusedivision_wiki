@@ -1,0 +1,176 @@
+import { Map, Shield, Target, Swords, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Humos de la División de desactivación: consejos para aguantar, ejecutar y desactivar",
+  description: "Aprende a usar los humos de la División de desactivación para bloquear carriles, retrasar las plantaciones y asegurar desactivaciones más seguras con mejor sincronización.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Defuse+Division+Smokes",
+  date: "2026-07-06",
+  author: "Equipo de la Wiki de la División de desactivación"
+}
+
+<Callout type="info" title="Guía rápida">
+- **los humos de defuse division** son más fuertes cuando cambian un avance, no cuando solo ocultan la visión.
+- **La sincronización del ataque** importa más que la colocación perfecta si tu equipo no está listo para tradear.
+- **Los humos de defensa** deben ganar segundos, aislar ángulos y ralentizar la plantación.
+- **Un solo humo limpio** con seguimiento suele vencer a dos descargas aleatorias de utilidades.
+- **El valor en la retoma** viene de reabrir un carril y luego tomar el duelo juntos.
+</Callout>
+
+<Section icon={Map} title="Humos de defuse division: sincronización central y control de líneas de visión">
+
+En el juego con humos de defuse division, el objetivo no es cegar el mapa. El verdadero valor está en controlar el tiempo, negar líneas de visión limpias y hacer que cada duelo resulte incómodo para el equipo enemigo. Como el modo se basa en plantar, defender y desactivar, un humo siempre debería apoyar un objetivo de la ronda. Si no gana espacio, protege un cruce o crea una retoma más segura, probablemente llega tarde o está mal colocado.
+
+<Callout type="info" title="Regla principal">
+Un buen humo cambia lo que el enemigo quiere hacer a continuación. Si puede ignorarlo, no has gastado bien la utilidad.
+</Callout>
+
+| Objetivo del humo | Mejor momento | Beneficio principal |
+|---|---|---|
+| Tomar el primer contacto | Antes de asomar | Rompe la visión del defensor |
+| Proteger una plantación | Al entrar | Reduce la presión de los cruces |
+| Cubrir una rotación | Mitad de ronda | Ahorra salud y tiempo |
+| Ocultar una desactivación | Últimos segundos | Obliga a reposicionarse |
+
+La Wiki de la División de desactivación sigue siendo la referencia pública más clara sobre la estructura de objetivos del modo: [Wiki de la División de desactivación](https://defuse-division.fandom.com/wiki/Defuse_Division_Wiki) (2026-07-06).
+
+</Section>
+
+<Section icon={Shield} title="Mejores roles de humo y tareas del equipo">
+
+Cada humo tiene una función, y los mejores equipos asignan esa función antes de que empiece la ronda. Un jugador debe pensar en el espacio de entrada, otro en el retraso defensivo y otro en la ruta de retoma. Esa división evita que la utilidad se solape. También ayuda a evitar el error clásico de soltar un humo donde parece útil pero no ayuda al siguiente duelo.
+
+<CardGrid cols={3}>
+  <Card title="Humos de ataque">
+    - **Negación del primer carril**
+    - Apoyo para la presión de entrada
+    - Seguir el trade
+  </Card>
+  <Card title="Humos de defensa">
+    - **Retrasar la plantación**
+    - Proteger la rotación
+    - Guardar una herramienta para la última fase de la ronda
+  </Card>
+  <Card title="Humos de retoma">
+    - **Aislamiento de ángulos**
+    - Presión dividida sobre el sitio
+    - Ventanas de desactivación más seguras
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Regla de rol">
+Si tu humo no crea una nueva decisión para el enemigo, trátalo como un lanzamiento de poco valor y corrige la sincronización.
+</Callout>
+
+| Rol | Prioridad del humo | Mejor hábito | Error común |
+|---|---|---|---|
+| Entrada | Primer carril de combate | Lanzar y luego moverse | Esperar demasiado |
+| Apoyo | Control de cruces | Sincronizarse con los compañeros | Ahumar demasiado profundo |
+| Ancla | Retrasar la plantación | Guardar una utilidad | Gastarlo todo demasiado pronto |
+| Retomador | Negación de ángulos amplios | Volver a limpiar con un compañero | Ahumar después del contacto |
+
+</Section>
+
+<Section icon={Target} title="Configuración de humo paso a paso">
+
+Los buenos humos suelen ser simples. Empieza por el carril que más perjudica a tu equipo, no por el carril que es más fácil de cubrir. Después, combina el humo con el movimiento. Un humo sin seguimiento solo le da al enemigo tiempo para esperar, adivinar y reposicionarse. Cuando tu equipo avanza al mismo ritmo que la utilidad, la ronda empieza a sentirse mucho más fácil.
+
+<Callout type="warning" title="Advertencia de sincronización">
+No lances el humo solo porque lo tienes. Lánzalo cuando el equipo pueda aprovechar de inmediato el espacio que crea.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Lee la primera amenaza">
+    Identifica la línea de visión que crea el peor duelo de apertura. Normalmente ese es el carril que vale la pena ahumar primero.
+  </Step>
+  <Step num="2" title="Ahumar para moverse">
+    Coloca el humo para que tu equipo pueda cruzar, plantar o reposicionarse con menos exposición.
+  </Step>
+  <Step num="3" title="Acompaña la utilidad">
+    Muévete al mismo tiempo que cae el humo. El humo debe apoyar el avance, no frenar la ronda.
+  </Step>
+  <Step num="4" title="Guarda una herramienta para el final">
+    Conserva un humo para el objetivo final si la ronda sigue viva. La utilidad tardía gana más rondas que el pánico temprano.
+  </Step>
+</Steps>
+
+| Paso de configuración | Qué comprobar | Señal buena | Señal mala |
+|---|---|---|---|
+| Paso 1 | Carril de la primera amenaza | El enemigo se ralentiza | El enemigo sigue asomando |
+| Paso 2 | Separación del equipo | Los compañeros están listos | Humo en solitario, sin trade |
+| Paso 3 | Ruta de plantación o rotación | El objetivo se vuelve más fácil | El humo bloquea a tu propio equipo |
+| Paso 4 | Utilidad al final de ronda | Queda un humo | Se ha gastado todo el kit |
+
+</Section>
+
+<Section icon={Swords} title="Errores comunes y respuestas contra los humos">
+
+La mayoría de los errores con humos vienen de malos hábitos, no de mala puntería. Los jugadores ahuman demasiado pronto, eligen el ángulo equivocado o gastan utilidad sin un plan de seguimiento. La forma más limpia de corregirlo es revisar una ronda a la vez y hacerse una pregunta simple: ¿el humo forzó un cambio significativo en el movimiento enemigo? Si la respuesta es no, el problema suele ser la colocación, la sincronización o la coordinación del equipo.
+
+<Callout type="success" title="Hábito de revisión">
+Trata cada humo como un pequeño objetivo. Si no te ayuda a ganar espacio, negar espacio o salvar a un compañero, necesita un propósito mejor.
+</Callout>
+
+<Checklist
+  id="smoke-review"
+  title="Lista de verificación de revisión de humos:"
+  items={[
+    "El humo cayó antes del contacto",
+    "Un compañero estaba listo para avanzar con él",
+    "El enemigo tuvo que cambiar de ruta o de tiempo",
+    "Quedó un humo disponible para el cierre",
+    "Ningún compañero duplicó el mismo ángulo"
+  ]}
+/>
+
+| Error | Por qué falla | Mejor solución |
+|---|---|---|
+| Humo temprano sin seguimiento | El enemigo lo espera | Combínalo con un avance |
+| Cobertura del carril equivocado | La amenaza real sigue abierta | Ahuma el primer ángulo de disputa |
+| Doble utilidad en un mismo punto | Desperdicio de recursos del equipo | Asigna un ahumador por carril |
+| Humo tardío para desactivar | El enemigo ve el toque | Guarda la utilidad para el final |
+| Asomarse en solitario después del humo | Duelo gratis para el enemigo | Avanza con un trade |
+
+</Section>
+
+<Section icon={Trophy} title="FAQ sobre humos y referencia rápida">
+
+Una vez que entiendes el objetivo de la ronda, los humos se convierten en una herramienta de planificación en lugar de un botón de pánico. Ayudan a los atacantes a entrar con más limpieza, a los defensores a retrasar más tiempo y a los jugadores de retoma a dividir el sitio en peleas más fáciles. La forma más rápida de mejorar es dejar de preguntar: “¿Dónde puedo ahumar?” y empezar a preguntar: “¿Qué decisión quiero forzar?”.
+
+<Callout type="info" title="Referencia rápida">
+Si el humo no cambia la posición, normalmente es mejor guardarlo, combinarlo con un compañero o usarlo más tarde en la ronda.
+</Callout>
+
+| Situación | Mejor jugada con humo |
+|---|---|---|
+| Ejecución de ataque | Bloquea el carril que controla la sincronización de la entrada |
+| Defensa | Retrasa la plantación y protege tu rotación |
+| Retoma | Divide el sitio y aísla un ángulo |
+| Intento de desactivación | Cubre al jugador que toca desde líneas de visión largas |
+
+<FAQ items={[
+  {
+    question: "¿Qué hace fuertes a los humos de defuse division?",
+    answer: "Los humos de Defuse Division son más fuertes cuando fuerzan un error de sincronización, recortan a la mitad un duelo o protegen un objetivo clave."
+  },
+  {
+    question: "¿Debería ahumar temprano o tarde?",
+    answer: "Ahumar temprano cuando tu equipo necesita espacio de inmediato. Ahumar tarde cuando el objetivo es negar la plantación, frenar una rotación o cubrir una desactivación."
+  },
+  {
+    question: "¿Cuántos humos necesita un equipo?",
+    answer: "Un humo bien sincronizado puede ser suficiente si el equipo lo sigue correctamente. Más utilidad solo ayuda cuando cada lanzamiento tiene un propósito claro."
+  },
+  {
+    question: "¿Los humos reemplazan la puntería?",
+    answer: "No. Los humos reducen la cantidad de ángulos que debes limpiar, lo que facilita apuntar y vuelve tus duelos más predecibles."
+  }
+]} />
+
+</Section>

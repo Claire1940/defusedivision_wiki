@@ -1,0 +1,224 @@
+import { Map, Target, Shield, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "defuse division Punkt-Fadenkreuz: Einrichtungsleitfaden & Einstellungen",
+  description: "Lerne das beste Setup für das defuse division Punkt-Fadenkreuz kennen – mit klaren Videoeinstellungen, Feinanpassungen der Empfindlichkeit und einem einfachen Schritt-für-Schritt-Ablauf.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Dot+Crosshair+Guide",
+  date: "2026-07-06",
+  author: "defuse division Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **defuse division Punkt-Fadenkreuz** funktioniert am besten, wenn du eine zentrierte, übersichtliche Zielhilfe für präzise Schüsse willst.
+- **Das Punkt-Preset** eignet sich am stärksten für Taps und Mikrokorrekturen, nicht für panische Nahkämpfe mit viel Spray.
+- **Nutze Videoeinstellungen mit wenig Unordnung**, damit Kugeln, Partikel und Regentropfen dir während des Kampfes nicht den Bildschirm verstellen.
+- **Die Empfindlichkeit bleibt bei 1**, sofern sich Zielfernrohrwaffen nicht langsamer anfühlen sollen als das Zielen aus der Hüfte insgesamt.
+</Callout>
+
+<Section icon={Map} title="Überblick über das defuse division Punkt-Fadenkreuz">
+
+Dieses Setup ist für Spieler gedacht, die einen klaren Zielpunkt statt eines breiten Fadenkreuzes möchten. Das Punkt-Profil hält die Bildschirmmitte gut lesbar, wodurch sich Taps und kurze Bursts leichter anvisieren lassen. Es passt außerdem gut zu Videoeinstellungen mit wenig visueller Unruhe, damit dein Fadenkreuz im Kampf hervorsticht.
+
+**Video-Highlights:**
+- Das Punkt-Fadenkreuz nutzt **Punkt an**, **Länge 0** und **Dicke 2** für einen einfachen Mittelpunkt.
+- Öffne das Einstellungsmenü mit **N** und nutze dann das Zahnradsymbol, um zu den Fadenkreuzoptionen zu gelangen.
+- Die Sichtbarkeitseinstellungen entfernen Unordnung wie **Partikel**, **Einschusslöcher** und **Regentropfen**.
+- Lass die **Empfindlichkeitsmultiplikatoren auf 1**, wenn du eine neutrale Basislinie möchtest.
+- Eine kontrastreiche Farbe wie **Gelb** hilft dabei, den Punkt gut sichtbar zu halten.
+
+<YouTubeEmbed videoId="BbRb5kXeN_8" title="The BEST Defuse Division SETTINGS" />
+
+<Callout type="tip" title="Erste Regel">
+Die Vorschau im Menü kann anders aussehen als das Fadenkreuz im Spiel, also bestätige deinen Punkt in einem echten Match, bevor du Farbe oder Dicke feinjustierst.
+</Callout>
+
+| Punkt-Basis | Empfohlener Wert | Warum das wichtig ist |
+|---|---|---|
+| Dynamisch | Aus | Hält das Fadenkreuz stabil |
+| Rückstoß folgen | Aus | Verhindert, dass sich das Fadenkreuz verschiebt |
+| Punkt | An | Erzeugt den zentralen Zielpunkt |
+| Länge | 0 | Entfernt die seitlichen Linien |
+| Dicke | 2 | Macht den Punkt sichtbar, ohne ihn klobig wirken zu lassen |
+| Abstand | N/V | Abstand spielt bei einem Punkt-Profil keine Rolle |
+| Umrandung | Je nach Vorliebe an oder aus | Hilft auf unruhigen Karten, wenn du zusätzlichen Kontrast brauchst |
+| Farbe | Gelb oder eine andere kontrastreiche Farbe | Verbessert die Sichtbarkeit vor dunklem Hintergrund |
+
+</Section>
+
+<Section icon={Target} title="Fadenkreuz-Presets und beste Einsatzszenarien">
+
+Nutze das Punkt-Profil als dein Haupt-Loadout, wenn du Präzision bevorzugst, behalte aber die anderen Presets im Hinterkopf. Ein etwas längeres Fadenkreuz kann sich für die Spray-Kontrolle angenehmer anfühlen, während der Punkt besser für saubere Zielplatzierung ist. Die beste Wahl hängt davon ab, ob du geduldig Winkel hältst oder aggressiv in Nahkämpfe gehst.
+
+<CardGrid cols={3}>
+  <Card title="Spy-Fadenkreuz">
+    - **Dynamisch aus**
+    - **Rückstoß folgen aus**
+    - Punkt aus
+    - Kurze Länge mit Umrandung an
+    - Gut für eine ausgewogene, gut lesbare Mitte
+  </Card>
+  <Card title="Rocks-Fadenkreuz">
+    - **Dynamisch aus**
+    - **Punkt aus**
+    - Längeres Linienprofil
+    - Umrandung aus
+    - Starke Rundum-Sichtbarkeit
+  </Card>
+  <Card title="Punkt-Fadenkreuz">
+    - **Punkt an**
+    - **Länge 0**
+    - **Dicke 2**
+    - Umrandung optional
+    - Am besten für Taps und Mikrokorrekturen
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Passe das Preset an den Kampf an">
+Wenn dein Spielstil eher aufs Sprayen ausgelegt ist, kann sich ein linienbasiertes Fadenkreuz natürlicher anfühlen. Wenn du einen einzigen Zielpunkt schätzt, ist der Punkt die klarere Wahl.
+</Callout>
+
+| Preset | Formprofil | Am besten für | Hauptnachteil |
+|---|---|---|---|
+| Spy | Kompakte Linien, Umrandung an | Allgemeine Genauigkeit, ruhige Kämpfe | Weniger minimalistisch als ein Punkt |
+| Rocks | Längere Linien, Umrandung aus | Klarer visueller Rahmen, leichtes Tracking | Nimmt mehr Bildschirmfläche ein |
+| Punkt | Einzelner Punkt, keine Linien | Taps, Mikrokorrekturen, Disziplin in der Bildschirmmitte | Weniger hilfreich für Spray-Rhythmus |
+
+Der größte Vorteil des Punkt-Setups ist die Klarheit. Das größte Risiko besteht darin, es in Situationen zu verwenden, in denen du eigentlich eine breitere visuelle Referenz brauchst. Behalte den Punkt, wenn du einen disziplinierten Mittelpunkt willst, aber scheue dich nicht, für längere Sessions ein linienbasiertes Profil zu testen.
+
+</Section>
+
+<Section icon={Shield} title="Video- und Item-Einstellungen für weniger Unordnung">
+
+Das Fadenkreuz ist nur die halbe Einrichtung. Ein sauberer Bildschirm ist genauso wichtig, besonders wenn Rauch, Hülleneffekte und andere visuelle Elemente sich stapeln. Die empfohlenen Einstellungen reduzieren unnötige Ablenkung und halten gleichzeitig wichtige Informationen sichtbar. Dadurch lässt sich der Punkt sowohl in offenen Gängen als auch in engen Ecken leichter erkennen.
+
+<Callout type="info" title="Priorität bei der Sichtbarkeit">
+Halte den Bildschirm zuerst lesbar und passe dann Helligkeit und Grafik an. Eine klare Sicht hilft dem Fadenkreuz, seine Aufgabe zu erfüllen.
+</Callout>
+
+| Video-Einstellung | Empfohlener Wert | Effekt |
+|---|---|---|
+| Muskelbruch? | Nein | Entfernt einen ablenkenden Effekt |
+| Partikel | Nein | Reduziert zusätzliche visuelle Unruhe |
+| Spuren aus der Egoperspektive | Nein | Hält die Mitte sauberer |
+| Kugeln anderer Spieler | Ja | Hilft zu zeigen, von wo Schüsse kommen |
+| Einschusslöcher | Nein | Verhindert Unordnung an Wänden |
+| Regentropfen | Nein | Vermeidet zufällige Sichtbehinderungen |
+| Patronenhülsen | Nein | Reduziert Schutt auf dem HUD |
+| Helligkeit | 0.1 | Hält das Bild konsistent mit dem reduzierten Stil |
+| Schatten | Ja | Passt zum empfohlenen Setup |
+| Roblox-Grafik | 4 | Balanciert Klarheit und Leistung |
+
+| Item-Einstellung | Empfohlener Wert | Hinweise |
+|---|---|---|
+| View-Model-Position | Klassisch | Vertraute Waffenposition |
+| Registry prediction | Keine | Hier kein offensichtlicher Vorteil |
+| Animierte View Models | Aus | Verhindert, dass Animationen die Aufmerksamkeit ablenken |
+| Empfindlichkeitsmultiplikator | 1 | Nutze die Roblox-Einstellungen für die Hauptanpassung der Empfindlichkeit |
+| Zielfernrohr-Empfindlichkeitsmultiplikator | 1 oder nach persönlicher Vorliebe | Nur niedriger setzen, wenn sich das Zielen mit Zielfernrohr zu schnell anfühlt |
+
+<Callout type="tip" title="Basislinie für die Empfindlichkeit">
+Beginne bei 1 für beide Empfindlichkeitsregler. Wenn sich Waffen mit Zielfernrohr komisch anfühlen, passe zuerst nur den Zielfernrohr-Multiplikator an, damit dein normales Zielen nicht verfälscht wird.
+</Callout>
+
+Diese Werte sind ein sauberer Ausgangspunkt, kein starres Gesetz. Wenn dein Monitor dunkle Szenen zu stark absaufen lässt, erhöhe die Helligkeit leicht. Wenn dein PC das Spiel locker schafft, kannst du später höhere Grafikstufen testen, solltest aber die gleichen Unordnungsfilter beibehalten, damit das Fadenkreuz lesbar bleibt.
+
+</Section>
+
+<Section icon={Sparkles} title="Schritt-für-Schritt-Einrichtung für das Punkt-Fadenkreuz">
+
+Nutze diesen Ablauf, wenn du das Setup schnell anwenden und zufälliges Herumprobieren vermeiden willst. Die Reihenfolge ist wichtig, weil sie Fadenkreuz-, Video- und Empfindlichkeitsänderungen in einem einfachen Testablauf bündelt.
+
+<Callout type="success" title="Best Practice">
+Ändere immer nur eine Kategorie auf einmal und teste sie dann in einem echten Match oder einer privaten Lobby, bevor du die nächste Anpassung vornimmst.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Öffne das Einstellungsmenü">
+    Drücke im Spiel **N** und klicke dann oben rechts auf das Zahnradsymbol, um zu den Einstellungsbereichen zu gelangen.
+  </Step>
+  <Step num="2" title="Wende das Punkt-Fadenkreuz an">
+    Stelle **Dynamisch aus**, **Rückstoß folgen aus**, **Punkt an**, **Länge 0** und **Dicke 2** ein. Halte die Farbe kontrastreich.
+  </Step>
+  <Step num="3" title="Bereinige die Videooptionen">
+    Schalte Partikel, Hülsen, Einschusslöcher, Regentropfen und andere visuelle Unruhe aus. Lass **Kugeln anderer Spieler** an.
+  </Step>
+  <Step num="4" title="Fixiere die Basislinie der Empfindlichkeit">
+    Setze die Empfindlichkeitsmultiplikatoren auf **1** und teste danach, ob Waffen mit Zielfernrohr später eine separate Anpassung brauchen.
+  </Step>
+</Steps>
+
+| Menüpfad | Was du änderst | Warum das zuerst kommt |
+|---|---|---|
+| N > Zahnrad > Fadenkreuz | Punkteinstellungen und Farbe | Das Fadenkreuz definiert deine Zielreferenz |
+| N > Zahnrad > Video | Optionen für visuelle Unordnung | Sauberere Bildschirme verbessern die Sichtbarkeit des Fadenkreuzes |
+| N > Zahnrad > Items | View Model und Empfindlichkeit | Hält Bewegung und Zielfernrohrgefühl konsistent |
+
+Eine praktische Art, das Setup zu testen, ist zuerst auf stationäre Ziele zu schießen und dann zu kurzen Duellen überzugehen. Wenn sich der Punkt zu klein anfühlt, erhöhe die Dicke um eine Stufe. Wenn er zu viel vom Ziel verdeckt, reduziere sie wieder. Dieser kleine, kontrollierte Feinschliff ist meist besser, als zwischen mehreren Presets hin und her zu springen.
+
+</Section>
+
+<Section icon={Trophy} title="Checkliste, Fehlerbehebung und letzte Feinschliffe">
+
+Nachdem du das Setup angewendet hast, nutze eine kurze Checkliste, um sicherzugehen, dass nichts Wichtiges übersehen wurde. Das ist der schnellste Weg, eine falsche Empfindlichkeit, eine zu helle Farbe oder einen noch aktivierten visuellen Effekt zu entdecken.
+
+<Callout type="warning" title="Häufiger Fehler">
+Die meisten Setup-Probleme entstehen dadurch, dass zu viele Werte auf einmal geändert werden. Wenn sich etwas seltsam anfühlt, setze immer nur eine Einstellung zurück und teste erneut.
+</Callout>
+
+<Checklist
+  id="dot-crosshair-checklist"
+  title="Wichtige Setup-Prüfungen:"
+  items={[
+    "Bestätige, dass der Punkt an ist und die Linienlänge auf 0 gesetzt wurde",
+    "Lass die Filter für visuelle Unordnung bei Partikeln, Löchern, Hülsen und Regentropfen ausgeschaltet",
+    "Teste eine kontrastreiche Fadenkreuzfarbe auf deinem Monitor",
+    "Lass die Empfindlichkeitsmultiplikatoren auf 1, bevor du das Verhalten mit Zielfernrohr feinjustierst"
+  ]}
+/>
+
+| Problem | Wahrscheinliche Ursache | Lösung |
+|---|---|---|
+| Der Punkt wirkt zu klein | Die Dicke ist zu niedrig | Erhöhe die Dicke um eine Stufe |
+| Der Punkt verdeckt das Ziel | Die Dicke ist zu hoch | Verringere die Dicke leicht |
+| Tracking beim Sprayen fühlt sich unangenehm an | Der Punkt ist auf Taps ausgelegt | Teste ein längeres, linienbasiertes Preset |
+| Das Zielen mit Zielfernrohr fühlt sich inkonsistent an | Der Zielfernrohr-Multiplikator wurde geändert | Setze ihn wieder auf 1 und passe dann langsam an |
+| Der Bildschirm wirkt immer noch unruhig | Die Einstellungen für visuelle Unordnung sind noch aktiv | Prüfe den Video-Tab erneut |
+
+Für einen sauberen Abschluss solltest du das Setup in zwei unterschiedlichen Situationen testen: ein Duell auf offene Distanz und einen Nahkampf. So erkennst du klarer, ob der Punkt deine Präzision verbessert oder den Bildschirm für deinen Geschmack einfach zu minimalistisch macht.
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<Callout type="info" title="FAQ-Hinweise">
+Diese Antworten entsprechen derselben Basislinie, die im gesamten Leitfaden verwendet wird: ein sauberer Punkt, wenig Unordnung und neutrale Empfindlichkeit.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Ist das defuse division Punkt-Fadenkreuz für jeden Spieler besser?",
+    answer: "Nein. Es ist am stärksten für Taps, diszipliniertes Zielen und Mikrokorrekturen. Spieler, die häufiger sprayen, bevorzugen vielleicht ein längeres, linienbasiertes Fadenkreuz."
+  },
+  {
+    question: "Warum sollte man die Kugeln anderer Spieler eingeschaltet lassen?",
+    answer: "Das hilft dir dabei, eingehendes Feuer besser zu lesen und zu verstehen, woher Schüsse kommen, besonders wenn Rauch oder chaotische Kämpfe den Bildschirm schwerer lesbar machen."
+  },
+  {
+    question: "Sollten die Empfindlichkeitsmultiplikatoren bei 1 bleiben?",
+    answer: "Ja, als saubere Basislinie. So bleibt dein Zielen konsistent und du kannst die Roblox-Empfindlichkeit separat anpassen, bevor du das Verhalten mit Zielfernrohr veränderst."
+  },
+  {
+    question: "Welche Farbe eignet sich am besten für das Punkt-Fadenkreuz?",
+    answer: "Nutze eine kontrastreiche Farbe, die auf deinem Monitor gut hervorsticht. Gelb ist ein starker Ausgangspunkt, aber jede klare Farbe kann gut funktionieren."
+  }
+]} />
+
+</Section>

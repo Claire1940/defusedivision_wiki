@@ -1,0 +1,215 @@
+import { Map, Trophy, Target, Shield, Sparkles, Users, CalendarDays } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Defuse-Division-Turnier: Einrichtungsleitfaden für kompetitives Spielen",
+  description: "Plane ein Defuse-Division-Turnier mit Bracket-Optionen, Match-Regeln, Admin-Rollen und Checklisten für den Spieltag, ausgelegt für kompetitives Roblox-Spiel.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Tournament+Setup+Guide",
+  date: "2026-07-06",
+  author: "Defuse-Division-Wiki-Team"
+}
+
+<Callout type="info" title="Kurzleitfaden">
+Nutze diesen Leitfaden für das **defuse division tournament**, um das richtige Format, klare Regeln und einen reibungslosen Ablauf am Spieltag festzulegen.
+
+- Das **Turnierformat** sollte zu deiner Spielerzahl, deinem Zeitfenster und deiner Moderationskapazität passen.
+- **Klarheit im Turnierbaum** ist wichtiger als auffällige Preise, wenn du saubere, faire Matches willst.
+- **Admin-Rollen** verhindern Streit, Verzögerungen und Verwirrung in den Live-Runden.
+- **Der Zeitplan am Spieltag** sollte einen Probelauf, ein Check-in-Fenster und einen Backup-Plan enthalten.
+</Callout>
+
+<Section icon={Map} title="Turnierformate für Defuse Division">
+
+Ein starkes Event beginnt mit dem Turnierbaum. Für ein **defuse division tournament** sollte das Format zu deiner Kadergröße und dem Maß an Aufsicht passen, das du leisten kannst. Kleinere Events profitieren von schnelleren Ausscheidungsbäumen, während größere Community-Events meist mehr Runden brauchen, um zufällige Überraschungen zu reduzieren.
+
+<Callout type="tip" title="Faustregel für das Format">
+Doppel-Elimination ist für Community-Events die sicherste Standardwahl, weil sie den Spielern eine zweite Chance gibt, ohne den Zeitplan zu sehr zu verlängern.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Single Elimination">
+    - Schnellste Struktur  
+    - Am besten für kurze Events  
+    - Hart bei frühen Fehlern
+  </Card>
+  <Card title="Double Elimination">
+    - Ausgewogene Fairness  
+    - Stark für mittlere Turnierbäume  
+    - Erfordert mehr Admin-Tracking
+  </Card>
+  <Card title="Round Robin">
+    - Am besten für kleine Gruppen  
+    - Genaueste Ranglisten  
+    - Zeitaufwendig bei größeren Feldern
+  </Card>
+</CardGrid>
+
+| Format | Am besten geeignet für | Stärke | Nachteil |
+|---|---|---|---|
+| Single Elimination | 8-16 Spieler | Schnelles Tempo, einfacher Turnierbaum | Eine Niederlage beendet den Lauf |
+| Double Elimination | 8-32 Spieler | Fairere Platzierung, hoher Wiederspielwert | Längerer Zeitplan |
+| Round Robin | 4-8 Spieler | Beste Wettbewerbsgenauigkeit | Langsamste Option |
+| Swiss Style | 8+ Spieler | Gut für gemischte Skill-Pools | Erfordert sorgfältige Ergebnisführung |
+
+Wenn dein Ziel ein sauberer Community-Showcase ist, halte die Struktur einfach. Wenn dein Ziel kompetitive Legitimität ist, priorisiere einen Turnierbaum, der Rückspiele, Tie-Breaker und ein klares Finale abbilden kann.
+
+</Section>
+
+<Section icon={Target} title="So richtest du ein Defuse-Division-Turnier ein">
+
+Die Einrichtungsphase entscheidet darüber, ob das Event poliert oder chaotisch wirkt. Beginne mit dem Zugriff, bestätige die Spielseite, wähle deine Turnierbaum-Software und veröffentliche die Regeln, bevor die Anmeldungen starten. Der offizielle Roblox-Eintrag ist der sicherste Ort, um den aktuellen Status des Erlebnisses und den Spielzugang zu prüfen.
+
+<Callout type="warning" title="Bevor du veröffentlichst">
+Die offizielle Spielseite zeigt derzeit **keine laufenden Erlebnisse** an. Bestätige daher den Zugriff und deine Testpläne, bevor du Termine ankündigst.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Zugriff bestätigen">
+    Prüfe die offizielle Roblox-Seite, verifiziere, ob Spieler zuverlässig beitreten können, und notiere mögliche Einschränkungen, bevor du dein Anmeldeformular einrichtest.
+  </Step>
+  <Step num="2" title="Einen Turnierbaum wählen">
+    Wähle Single Elimination, Double Elimination oder Round Robin auf Grundlage der erwarteten Teilnehmerzahl und der Zeit, die du beaufsichtigen kannst.
+  </Step>
+  <Step num="3" title="Das Regelblatt schreiben">
+    Veröffentliche Kartenregeln, Richtlinien bei Verbindungsabbrüchen, Schritte zur Ergebnismeldung und Verhaltensstandards in einem gut lesbaren Dokument.
+  </Step>
+  <Step num="4" title="Anmeldungen öffnen">
+    Erfasse Nutzernamen, Zeitzonen und Verfügbarkeiten, damit der Check-in schnell geht und das Seeding leichter fällt.
+  </Step>
+  <Step num="5" title="Eine Probe durchführen">
+    Teste Lobby, Timing und Scoreboard-Workflow vor dem Eventdatum, damit Probleme im Live-Betrieb klein bleiben.
+  </Step>
+</Steps>
+
+| Einrichtungsaufgabe | Was entschieden werden muss | Beste Praxis |
+|---|---|---|
+| Eintrittsmethode | Offene Anmeldung oder nur auf Einladung | Nutze ein einziges Formular für alle Spieler |
+| Turnierbaum-Tool | Manuell oder automatisiert | Verwende ein Tool mit exportierbaren Turnierbäumen |
+| Kommunikation | Discord, Roblox-Chat oder beides | Halte einen offiziellen Ankündigungskanal fest |
+| Verifizierung | In-Game-Name und Check-in-Zeit | Beides vor dem Lock des Turnierbaums verlangen |
+
+| Ressource | Verwendung | Link |
+|---|---|---|
+| Offizielle Roblox-Spielseite | Status, Zugriff und Updates prüfen | [Defuse Division on Roblox](https://www.roblox.com/games/112757576021097/Defuse-Division) |
+
+Ein Turnier wirkt professionell, wenn der Anmeldeweg kurz ist, die Regeln sichtbar sind und der Organisator dieselbe Frage jedes Mal auf dieselbe Weise beantworten kann.
+
+</Section>
+
+<Section icon={Shield} title="Regeln, Admin-Rollen und Match-Ablauf">
+
+Regeln sollten Rätselraten beseitigen. Spieler müssen wissen, wie Siege gemeldet werden, was bei einem Disconnect passiert und wer im Zweifel die endgültige Entscheidung trifft. Je detaillierter deine Regeln sind, desto weniger Unterbrechungen hast du am Spieltag.
+
+<Callout type="info" title="Admin-Priorität">
+Bestimme einen Lead-Admin, einen Turnierbaum-Verwalter und einen Streitbeileger. Wenn eine Person alles erledigt, werden Verzögerungen und Fehler deutlich wahrscheinlicher.
+</Callout>
+
+| Regel | Empfohlene Einstellung | Warum das wichtig ist |
+|---|---|---|
+| Check-in-Fenster | 10-15 Minuten | Verhindert Blockaden im Turnierbaum |
+| Regel für verspätetes Erscheinen | Aufgabe nach Schonfrist | Hält den Zeitplan in Bewegung |
+| Umgang mit Disconnects | Wiederholung nur bei Einigung beider Seiten oder Admin-Freigabe | Schützt die Fairness |
+| Ergebnismeldung | Sieger meldet sofort | Reduziert Fehler im Turnierbaum |
+| Verhaltensstandard | Kein Belästigen, Spammen oder Diskutieren von Regeln | Hält das Event organisiert |
+| Tie-Breaker | Admin-Entscheidung oder Wiederholungsrunde | Verhindert endlose Streitigkeiten |
+
+| Rolle | Verantwortung | Vertretung |
+|---|---|---|
+| Lead-Admin | Endgültige Entscheidungen und Zeitplansteuerung | Stellvertretender Admin |
+| Turnierbaum-Verwalter | Aktualisiert Paarungen und Ergebnisse | Scoreboard-Assistent |
+| Raum-Host | Erstellt Matches und verwaltet Lobbys | Zweiter Host |
+| Streitbeileger | Prüft Disconnects und Regelkonflikte | Lead-Admin |
+
+Ein guter Ablauf ist einfach: einchecken, Paarung bestätigen, Match spielen, Ergebnis melden und weitermachen. Wenn derselbe Ablauf in jeder Runde wiederholt wird, finden sich die Spieler schnell darin zurecht.
+
+</Section>
+
+<Section icon={CalendarDays} title="Checkliste und Timing für den Spieltag">
+
+Der Spieltag sollte ruhig wirken, nicht improvisiert. Erstelle einen Zeitplan, der den Spielern genügend Vorlauf gibt und deinem Admin-Team Zeit lässt, Probleme zu beheben, bevor die erste Runde beginnt. Ein kurzes Testfenster spart meist mehr Zeit, als es kostet.
+
+<Callout type="success" title="Erfolgsbedingung für den Spieltag">
+Wenn Check-in, Lobby-Erstellung und Ergebnismeldung in der Probe funktionieren, wird sich das Live-Event deutlich stabiler anfühlen.
+</Callout>
+
+<Checklist
+  id="match-day-checklist"
+  title="Wichtige Punkte für den Spieltag:"
+  items={[
+    "Den finalen Turnierbaum vor Türöffnung bestätigen",
+    "Die offizielle Startzeit in einem Kanal posten",
+    "Spielernamen und Check-ins verifizieren",
+    "Die erste Lobby vor Runde 1 testen",
+    "Jedes Ergebnis direkt nach jedem Match erfassen"
+  ]}
+/>
+
+| Zeit vor Start | Aufgabe | Verantwortlich |
+|---|---|---|
+| 60 Minuten | Admin-Kanal öffnen und finale Durchsicht | Lead-Admin |
+| 30 Minuten | Spieler-Check-in beginnen | Turnierbaum-Verwalter |
+| 15 Minuten | Setzliste und Paarungen prüfen | Lead-Admin |
+| 10 Minuten | Lobby-Erstellung testen | Raum-Host |
+| 0 Minuten | Runde 1 starten | Gesamtes Staff-Team |
+| Nach jedem Match | Ergebnis melden und bestätigen | Spieler + Turnierbaum-Verwalter |
+
+| Risiko | Vorbeugung | Wiederherstellung |
+|---|---|---|
+| Fehlende Spieler | Frühzeitige Check-in-Erinnerungen | Ersetzen oder Forfeit |
+| Falsche Paarung | Turnierbaum nach Prüfung sperren | Pausieren und korrigieren |
+| Langsame Meldung | Ein offizielles Meldeformat | Bei Bedarf Screenshots verwenden |
+| Lobby-Fehler | Zweiter Host in Bereitschaft | Sofort den Host wechseln |
+
+Dein bester Schutz ist Wiederholung. Führe in jeder Runde denselben Eröffnungsprozess durch, und die Spieler wissen ohne zusätzliche Anweisungen, was zu tun ist.
+
+</Section>
+
+<Section icon={Trophy} title="Preise, Promotion und FAQ">
+
+Preise müssen nicht teuer sein, um wirksam zu sein. Für die meisten Community-Events reichen Anerkennung, kleine Belohnungen und ein klarer Fokus auf den Sieger aus, um Schwung für das nächste Turnier aufzubauen. Die Promotion sollte kurz, klar und in einem vorhersehbaren Rhythmus wiederholt werden.
+
+<Callout type="tip" title="Tipp zur Preisplanung">
+Verwende Belohnungen, die mit der Teilnehmerzahl skalieren. Kleine Turniere funktionieren gut mit Anerkennungspreisen, während größere Events gestaffelte Auszahlungen oder kosmetische Belohnungen rechtfertigen können.
+</Callout>
+
+| Platzierung | Belohnungstyp | Hinweise |
+|---|---|---|
+| 1. Platz | Hauptpreis, Titel oder Spotlight | Am besten für sozialen Beweis |
+| 2. Platz | Kleinere Belohnung oder Zweitplatzierungs-Tag | Hält das Finale bedeutungsvoll |
+| 3. Platz | Erwähnung oder kleiner Preis | Gut für kleinere Turnierbäume |
+| Teilnahme | Eintritts-Badge oder Shoutout | Hilft bei der Bindung der Community |
+
+| Promotionskanal | Was gepostet werden soll | Taktung |
+|---|---|---|
+| Discord | Anmeldelink, Regelblatt, Erinnerungen | Mindestens 3 Beiträge |
+| Roblox-Gruppe | Event-Zusammenfassung und Zugriffslink | 1-2 Beiträge |
+| Community-Hub | Turnierbaum-Updates und Sieger-Rückblick | Nach jeder Runde |
+
+Wenn du wiederkehrende Teilnehmerzahlen willst, veröffentliche den Sieger, bedanke dich beim Staff und kündige das nächste Event an, solange das aktuelle noch frisch ist.
+
+<FAQ items={[
+  {
+    question: "Welches Format ist für ein erstes Defuse-Division-Turnier am besten?",
+    answer: "Double Elimination ist meist der beste Einstieg, weil es Fairness und Zeitplansteuerung besser ausbalanciert als Single Elimination."
+  },
+  {
+    question: "Wie viele Spieler sollte ich beim ersten Event zulassen?",
+    answer: "Starte mit einer Turniergröße, die dein Team sicher bewältigen kann, und skaliere erst hoch, wenn du Check-ins, Paarungen und Ergebnismeldungen ohne Verzögerungen im Griff hast."
+  },
+  {
+    question: "Was sollte ich ins Regelblatt aufnehmen?",
+    answer: "Füge Check-in-Zeit, Regelung bei Verspätung, Disconnect-Regeln, Ergebnismeldung und die endgültige Zuständigkeit bei Streitfällen hinzu."
+  },
+  {
+    question: "Wo sollten Spieler nach Spielzugang und Updates schauen?",
+    answer: "Nutze die offizielle Roblox-Seite von Defuse Division als Referenz für aktuellen Status, Zugriff und Ankündigungen."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,215 @@
+import { Map, Trophy, Target, Shield, Sparkles, Users, CalendarDays } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "defuse division tournament: Setup Guide for Competitive Play",
+  description: "Plan a Defuse Division tournament with bracket options, match rules, admin roles, and match-day checklists built for competitive Roblox play.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Tournament+Setup+Guide",
+  date: "2026-07-06",
+  author: "defuse division Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+Use this **defuse division tournament** guide to lock in the right format, clear rules, and a smooth match-day workflow.
+
+- **Tournament format** should match your player count, time window, and moderation capacity.
+- **Bracket clarity** matters more than flashy prizes when you want clean, fair matches.
+- **Admin roles** prevent disputes, delays, and confusion during live rounds.
+- **Match-day timing** should include a test run, check-in window, and backup plan.
+</Callout>
+
+<Section icon={Map} title="Defuse Division Tournament Formats">
+
+A strong event starts with the bracket. For a **defuse division tournament**, the format should fit your roster size and the amount of supervision you can provide. Smaller events benefit from faster elimination trees, while larger community events usually need more rounds to reduce random upsets.
+
+<Callout type="tip" title="Format Rule of Thumb">
+Double elimination is the safest default for community events because it gives players a second chance without dragging the schedule too long.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Single Elimination">
+    - Fastest structure  
+    - Best for short events  
+    - Harsh on early mistakes
+  </Card>
+  <Card title="Double Elimination">
+    - Balanced fairness  
+    - Strong for medium brackets  
+    - Requires more admin tracking
+  </Card>
+  <Card title="Round Robin">
+    - Best for small groups  
+    - Most accurate rankings  
+    - Time-heavy for larger fields
+  </Card>
+</CardGrid>
+
+| Format | Best For | Strength | Trade-Off |
+|---|---|---|---|
+| Single Elimination | 8-16 players | Fast pace, simple bracket | One loss ends the run |
+| Double Elimination | 8-32 players | Fairer placement, strong replay value | Longer schedule |
+| Round Robin | 4-8 players | Best competitive accuracy | Slowest option |
+| Swiss Style | 8+ players | Good for mixed skill pools | Needs careful scorekeeping |
+
+If your goal is a clean community showcase, keep the structure simple. If your goal is competitive legitimacy, prioritize a bracket that can handle rematches, tie-breakers, and a clear final.
+
+</Section>
+
+<Section icon={Target} title="How to Set Up a Defuse Division Tournament">
+
+The setup phase decides whether the event feels polished or chaotic. Start with access, confirm the game page, choose your bracket software, and publish the rules before signups open. The official Roblox listing is the safest place to verify current experience status and game access.
+
+<Callout type="warning" title="Before You Publish">
+The official game page currently shows **no running experiences**, so confirm access and testing plans before you announce dates.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Confirm access">
+    Check the official Roblox page, verify whether players can join reliably, and note any restrictions before you set your registration form.
+  </Step>
+  <Step num="2" title="Pick a bracket">
+    Choose single elimination, double elimination, or round robin based on the expected turnout and the time you can supervise.
+  </Step>
+  <Step num="3" title="Write the rule sheet">
+    Publish map rules, disconnection policy, score reporting steps, and behavior standards in one readable document.
+  </Step>
+  <Step num="4" title="Open signups">
+    Collect usernames, time zones, and availability so check-in is fast and seeding is easier.
+  </Step>
+  <Step num="5" title="Run a rehearsal">
+    Test the lobby, timing, and scoreboard workflow before the event date so live problems stay small.
+  </Step>
+</Steps>
+
+| Setup Task | What to Decide | Best Practice |
+|---|---|---|
+| Entry method | Open signup or invite-only | Use one form for all players |
+| Bracket tool | Manual or automated | Use a tool with exportable brackets |
+| Communication | Discord, Roblox chat, or both | Keep one official announcement channel |
+| Verification | In-game name and check-in time | Require both before bracket lock |
+
+| Resource | Use | Link |
+|---|---|---|
+| Official Roblox game page | Check status, access, and updates | [Defuse Division on Roblox](https://www.roblox.com/games/112757576021097/Defuse-Division) |
+
+A tournament feels professional when the registration path is short, the rules are visible, and the organizer can answer the same question the same way every time.
+
+</Section>
+
+<Section icon={Shield} title="Rules, Admin Roles, and Match Flow">
+
+Rules should remove guesswork. Players need to know how wins are reported, what happens if someone disconnects, and who makes the final call on edge cases. The more detailed your rules are, the fewer interruptions you will face on match day.
+
+<Callout type="info" title="Admin Priority">
+Assign one lead admin, one bracket keeper, and one dispute resolver. If one person handles everything, delays and mistakes become much more likely.
+</Callout>
+
+| Rule | Recommended Setting | Why It Matters |
+|---|---|---|
+| Check-in window | 10-15 minutes | Prevents bracket stalls |
+| Late arrival policy | Forfeit after grace period | Keeps the schedule moving |
+| Disconnect handling | Replay only if both sides agree or admin approves | Protects fairness |
+| Score reporting | Winner reports immediately | Reduces bracket errors |
+| Behavior standard | No harassment, spam, or rule arguing | Keeps the event organized |
+| Tie-breaker | Admin decision or replay round | Avoids endless disputes |
+
+| Role | Responsibility | Backup |
+|---|---|---|
+| Lead Admin | Final rulings and schedule control | Deputy Admin |
+| Bracket Keeper | Updates pairings and scores | Scoreboard Assistant |
+| Room Host | Creates matches and manages lobbies | Secondary Host |
+| Dispute Resolver | Reviews disconnects and rule conflicts | Lead Admin |
+
+A good flow is simple: check in, confirm the pairing, play the match, report the result, and move on. If the same flow is repeated every round, players settle into it quickly.
+
+</Section>
+
+<Section icon={CalendarDays} title="Match-Day Checklist and Timing">
+
+Match day should feel calm, not improvised. Build a timeline that gives players enough warning and gives your admin team time to correct problems before the first round begins. A short test window usually saves more time than it costs.
+
+<Callout type="success" title="Match-Day Win Condition">
+If your check-in, lobby creation, and score reporting all work in the rehearsal, the live event will feel much more stable.
+</Callout>
+
+<Checklist
+  id="match-day-checklist"
+  title="Match-Day Essentials:"
+  items={[
+    "Confirm the final bracket before doors open",
+    "Post the official start time in one channel",
+    "Verify player usernames and check-ins",
+    "Test the first lobby before Round 1",
+    "Record every result immediately after each match"
+  ]}
+/>
+
+| Time Before Start | Task | Owner |
+|---|---|---|
+| 60 minutes | Open admin channel and final review | Lead Admin |
+| 30 minutes | Begin player check-in | Bracket Keeper |
+| 15 minutes | Verify seeds and pairings | Lead Admin |
+| 10 minutes | Test lobby creation | Room Host |
+| 0 minutes | Start Round 1 | All staff |
+| After each match | Report and confirm result | Players + Bracket Keeper |
+
+| Risk | Prevention | Recovery |
+|---|---|---|
+| Missing players | Early check-in reminders | Replace or forfeit |
+| Wrong pairing | Lock bracket after review | Pause and correct |
+| Slow reporting | One official reporting format | Use screenshots if needed |
+| Lobby failure | Secondary host on standby | Switch hosts immediately |
+
+Your best safeguard is repetition. Run the same opening process every round, and players will understand what to do without extra instructions.
+
+</Section>
+
+<Section icon={Trophy} title="Prizes, Promotion, and FAQ">
+
+Prizes do not need to be expensive to be effective. For most community events, recognition, small rewards, and a clean spotlight on the winner are enough to build momentum for the next tournament. Promotion should be short, clear, and repeated on a predictable schedule.
+
+<Callout type="tip" title="Prize Planning Tip">
+Use rewards that scale with turnout. Small brackets work well with recognition prizes, while larger events can justify tiered payouts or cosmetic rewards.
+</Callout>
+
+| Placement | Reward Type | Notes |
+|---|---|---|
+| 1st Place | Top reward, title, or spotlight | Best for social proof |
+| 2nd Place | Smaller reward or runner-up tag | Keeps the final meaningful |
+| 3rd Place | Mention or minor prize | Good for smaller brackets |
+| Participation | Entry badge or shoutout | Helps community retention |
+
+| Promotion Channel | What to Post | Cadence |
+|---|---|---|
+| Discord | Signup link, rule sheet, reminders | 3 posts minimum |
+| Roblox group | Event summary and access link | 1-2 posts |
+| Community hub | Bracket updates and winner recap | After each round |
+
+If you want repeat turnout, publish the winner, thank the staff, and announce the next event while the current one is still fresh.
+
+<FAQ items={[
+  {
+    question: "What is the best format for a first Defuse Division tournament?",
+    answer: "Double elimination is usually the best starting point because it balances fairness and schedule control better than single elimination."
+  },
+  {
+    question: "How many players should I allow in the first event?",
+    answer: "Start with a bracket size your staff can manage confidently, then scale up after you can handle check-ins, pairings, and reporting without delays."
+  },
+  {
+    question: "What should I include in the rule sheet?",
+    answer: "Include check-in time, late policy, disconnect rules, score reporting, and the final authority for disputes."
+  },
+  {
+    question: "Where should players check for game access and updates?",
+    answer: "Use the official Defuse Division Roblox page as your reference point for current status, access, and announcements."
+  }
+]} />
+
+</Section>

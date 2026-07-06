@@ -1,0 +1,176 @@
+import { Map, Shield, Target, Swords, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "defuse division smokes: Hold, Execute, and Defuse Tips",
+  description: "Learn how to use defuse division smokes to block lanes, delay plants, and secure safer defuses with better timing.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Defuse+Division+Smokes",
+  date: "2026-07-06",
+  author: "defuse division Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **defuse division smokes** are strongest when they change a push, not when they only hide vision.
+- **Attack timing** matters more than perfect placement if your team is not ready to trade.
+- **Defense smokes** should buy seconds, isolate angles, and slow the plant.
+- **One clean smoke** with follow-up usually beats two random utility dumps.
+- **Retake value** comes from reopening one lane, then taking the duel together.
+</Callout>
+
+<Section icon={Map} title="defuse division smokes: Core Timing and Sightline Control">
+
+In defuse division smokes play, the goal is not to blind the map. The real value is to control timing, deny clean sightlines, and make every fight feel awkward for the enemy team. Since the mode is built around planting, defending, and defusing, a smoke should always support a round objective. If it does not buy space, protect a cross, or create a safer retake, it is probably late or misplaced.
+
+<Callout type="info" title="Core Rule">
+A good smoke changes what the enemy wants to do next. If they can ignore it, you have not spent utility well.
+</Callout>
+
+| Smoke Goal | Best Moment | Main Benefit |
+|---|---|---|
+| Take first contact | Before a swing | Breaks defender vision |
+| Protect a plant | On entry | Cuts crossfire pressure |
+| Cover a rotate | Mid-round | Saves health and time |
+| Hide a defuse | Final seconds | Forces a reposition |
+
+The Defuse Division Wiki is still the clearest public reference for the mode’s objective structure: [Defuse Division Wiki](https://defuse-division.fandom.com/wiki/Defuse_Division_Wiki) (2026-07-06).
+
+</Section>
+
+<Section icon={Shield} title="Best Smoke Roles and Team Jobs">
+
+Every smoke has a job, and the best teams assign that job before the round starts. One player should think about entry space, one should think about defensive delay, and one should think about the retake path. That division keeps utility from overlapping. It also helps you avoid the classic mistake of dropping a smoke where it looks useful but does not help the next duel.
+
+<CardGrid cols={3}>
+  <Card title="Attack Smokes">
+    - **First lane denial**
+    - Entry pressure support
+    - Follow the trade
+  </Card>
+  <Card title="Defense Smokes">
+    - **Plant delay**
+    - Rotate protection
+    - Preserve one late-round tool
+  </Card>
+  <Card title="Retake Smokes">
+    - **Angle isolation**
+    - Split-site pressure
+    - Safer defuse windows
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Role Rule">
+If your smoke does not create a new decision for the enemy, treat it as a low-value throw and fix the timing.
+</Callout>
+
+| Role | Smoke Priority | Best Habit | Common Error |
+|---|---|---|---|
+| Entry | First contest lane | Throw, then move | Waiting too long |
+| Support | Crossfire control | Sync with teammates | Smoking too deep |
+| Anchor | Delay the plant | Save one utility | Using everything early |
+| Retaker | Wide angle denial | Reclear with a teammate | Smoking after contact |
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Smoke Setup">
+
+Good smokes are usually simple. Start with the lane that hurts your team most, not the lane that is easiest to cover. Then pair the smoke with movement. A smoke without follow-up only gives the enemy time to wait, guess, and reposition. When your team commits at the same pace as the utility, the round starts to feel much easier.
+
+<Callout type="warning" title="Timing Warning">
+Do not throw smoke just because you have it. Throw it when the team can immediately use the space it creates.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Read the first threat">
+    Identify the sightline that creates the worst opening duel. That is usually the lane worth smoking first.
+  </Step>
+  <Step num="2" title="Smoke for movement">
+    Place the smoke so your team can cross, plant, or reposition with less exposure.
+  </Step>
+  <Step num="3" title="Trade the utility">
+    Move at the same time as the smoke lands. The smoke should support a push, not stall the round.
+  </Step>
+  <Step num="4" title="Save one late tool">
+    Keep one smoke for the final objective if the round is still live. Late utility wins more rounds than early panic.
+  </Step>
+</Steps>
+
+| Setup Step | What to Check | Good Sign | Bad Sign |
+|---|---|---|---|
+| Step 1 | First threat lane | Enemy slows down | Enemy keeps swinging |
+| Step 2 | Team spacing | Teammates are ready | Solo smoke, no trade |
+| Step 3 | Plant or rotate path | Objective gets easier | Smoke blocks your own team |
+| Step 4 | End-round utility | One smoke remains | Entire kit is gone |
+
+</Section>
+
+<Section icon={Swords} title="Common Mistakes and Counter-Smoke Answers">
+
+Most smoke mistakes come from bad habits, not bad aim. Players either smoke too early, smoke the wrong angle, or spend utility without a follow-up plan. The cleanest fix is to review one round at a time and ask a simple question: did the smoke force a meaningful change in enemy movement? If the answer is no, the issue is usually placement, timing, or team sync.
+
+<Callout type="success" title="Review Habit">
+Treat every smoke like a mini objective. If it does not help you win space, deny space, or save a teammate, it needs a better purpose.
+</Callout>
+
+<Checklist
+  id="smoke-review"
+  title="Smoke Review Checklist:"
+  items={[
+    "The smoke landed before contact",
+    "A teammate was ready to move with it",
+    "The enemy had to change path or timing",
+    "One smoke stayed available for the finish",
+    "No teammate duplicated the same angle"
+  ]}
+/>
+
+| Mistake | Why It Fails | Better Fix |
+|---|---|---|
+| Early smoke with no follow-up | Enemy waits it out | Pair it with a push |
+| Wrong lane coverage | The real threat stays open | Smoke the first contest angle |
+| Double utility on one spot | Waste of team resources | Assign one smoker per lane |
+| Late defuse smoke | Enemy sees the tap | Save utility for the end |
+| Solo peek after smoke | Free duel for the enemy | Move with a trade |
+
+</Section>
+
+<Section icon={Trophy} title="Smoke FAQ and Fast Reference">
+
+Once you understand the round objective, smokes become a planning tool instead of a panic button. They help attackers enter cleaner, defenders delay longer, and retaking players split the site into easier fights. The fastest way to improve is to stop asking, “Where can I smoke?” and start asking, “What decision do I want to force?”
+
+<Callout type="info" title="Fast Reference">
+If the smoke does not change positioning, it is usually better to save it, pair it with a teammate, or use it later in the round.
+</Callout>
+
+| Situation | Better Smoke Play |
+|---|---|
+| Attack execute | Block the lane that controls entry timing |
+| Defense hold | Delay the plant and protect your rotate |
+| Retake | Split the site and isolate one angle |
+| Defuse attempt | Cover the tapping player from long sightlines |
+
+<FAQ items={[
+  {
+    question: "What makes defuse division smokes strong?",
+    answer: "Defuse Division smokes are strongest when they force a timing mistake, cut a duel in half, or protect a key objective."
+  },
+  {
+    question: "Should I smoke early or late?",
+    answer: "Smoke early when your team needs space right away. Smoke late when the goal is to deny the plant, stop a rotate, or cover a defuse."
+  },
+  {
+    question: "How many smokes does a team need?",
+    answer: "One well-timed smoke can be enough if the team follows it properly. More utility only helps when every throw has a clear purpose."
+  },
+  {
+    question: "Do smokes replace aim?",
+    answer: "No. Smokes reduce the number of angles you must clear, which makes aim easier and your fights more predictable."
+  }
+]} />
+
+</Section>

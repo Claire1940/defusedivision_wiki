@@ -1,0 +1,224 @@
+import { Map, Target, Shield, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mira de punto de Defuse Division: guía de configuración y ajustes",
+  description: "Aprende la mejor configuración de la mira de punto de Defuse Division, con ajustes de vídeo limpios, retoques de sensibilidad y un flujo de aplicación sencillo paso a paso.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Dot+Crosshair+Guide",
+  date: "2026-07-06",
+  author: "Equipo de Wiki de Defuse Division"
+}
+
+<Callout type="info" title="Guía rápida">
+- **la mira de punto de Defuse Division** funciona mejor cuando quieres una referencia de apuntado centrada y con poco desorden para los taps.
+- **El preajuste de punto** es más fuerte para disparos puntuales y microajustes, no para peleas caóticas de spray a corta distancia.
+- **Usa ajustes de vídeo con poco desorden** para evitar que balas, partículas y gotas de lluvia invadan la pantalla durante los combates.
+- **La sensibilidad se mantiene en 1** a menos que quieras que las armas con mira se sientan más lentas que el disparo sin apuntar en general.
+</Callout>
+
+<Section icon={Map} title="Resumen de la mira de punto de Defuse Division">
+
+Esta configuración está pensada para jugadores que quieren un punto de apuntado limpio en lugar de una mira ancha. El perfil de punto mantiene legible el centro de la pantalla, lo que facilita alinear taps y ráfagas cortas. También combina bien con ajustes de vídeo con poco ruido visual, para que tu retícula destaque en los combates.
+
+**Aspectos destacados del video:**
+- La mira de punto usa **punto activado**, **longitud 0** y **grosor 2** para crear un centro simple.
+- Abre el menú de ajustes con **N** y luego usa el icono de engranaje para llegar a las opciones de la mira.
+- Los ajustes de visibilidad eliminan elementos como **partículas**, **agujeros de bala** y **gotas de lluvia**.
+- Mantén los **multiplicadores de sensibilidad en 1** si quieres una base neutral.
+- Un color de alto contraste como **amarillo** ayuda a que el punto siga siendo legible.
+
+<YouTubeEmbed videoId="BbRb5kXeN_8" title="The BEST Defuse Division SETTINGS" />
+
+<Callout type="tip" title="Primera regla">
+La vista previa del menú puede verse distinta a la retícula en partida, así que confirma tu punto en una partida real antes de ajustar con precisión el color o el grosor.
+</Callout>
+
+| Base del punto | Valor recomendado | Por qué importa |
+|---|---|---|
+| Dinámico | Desactivado | Mantiene la retícula estable |
+| Seguir retroceso | Desactivado | Evita que la mira se mueva |
+| Punto | Activado | Crea el punto central de apuntado |
+| Longitud | 0 | Elimina las líneas laterales |
+| Grosor | 2 | Hace visible el punto sin volverlo voluminoso |
+| Separación | N/D | La separación no importa en un perfil de punto |
+| Contorno | Activado o desactivado según prefieras | Ayuda en mapas cargados si necesitas más contraste |
+| Color | Amarillo u otro color de alto contraste | Mejora la visibilidad sobre fondos oscuros |
+
+</Section>
+
+<Section icon={Target} title="Preajustes de mira y mejores casos de uso">
+
+Usa el perfil de punto como tu configuración principal si prefieres precisión, pero ten presentes los otros preajustes. Una mira un poco más larga puede sentirse más cómoda para controlar el spray, mientras que el punto funciona mejor para colocar el objetivo con limpieza. La mejor elección depende de si juegas a ángulos pacientes o si entras con agresividad en peleas cercanas.
+
+<CardGrid cols={3}>
+  <Card title="Mira Spy">
+    - **Dinámico desactivado**
+    - **Seguir retroceso desactivado**
+    - Punto desactivado
+    - Longitud corta con contorno activado
+    - Buena para un centro equilibrado y legible
+  </Card>
+  <Card title="Mira Rocks">
+    - **Dinámico desactivado**
+    - **Punto desactivado**
+    - Perfil de líneas más largo
+    - Contorno desactivado
+    - Gran visibilidad general
+  </Card>
+  <Card title="Mira de punto">
+    - **Punto activado**
+    - **Longitud 0**
+    - **Grosor 2**
+    - Contorno opcional
+    - Mejor para taps y microcorrecciones
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Ajusta el preajuste al combate">
+Si tu estilo de juego se inclina hacia el spray, una mira basada en líneas puede sentirse más natural. Si valoras una sola referencia de apuntado, el punto es la opción más limpia.
+</Callout>
+
+| Preajuste | Perfil de forma | Mejor para | Principal desventaja |
+|---|---|---|---|
+| Spy | Líneas compactas, contorno activado | Precisión general, combates estables | Menos minimalista que un punto |
+| Rocks | Líneas más largas, contorno desactivado | Marco visual claro, seguimiento fácil | Ocupa más espacio en pantalla |
+| Punto | Punto único, sin líneas | Taps, microajustes, disciplina del centro | Menos útil para el ritmo del spray |
+
+La principal ventaja de la configuración de punto es la claridad. El principal riesgo es usarla en exceso en situaciones en las que en realidad necesitas una referencia visual más amplia. Quédate con el punto si quieres una referencia central disciplinada, pero no temas probar un perfil basado en líneas durante sesiones más largas.
+
+</Section>
+
+<Section icon={Shield} title="Ajustes de vídeo y de objetos que reducen el desorden">
+
+La mira es solo la mitad de la configuración. Una pantalla limpia importa tanto como eso, especialmente cuando el humo, los efectos de casquillos y los elementos visuales sueltos empiezan a acumularse. Los ajustes recomendados reducen el ruido innecesario mientras mantienen visible la información importante. Eso hace que el punto sea más fácil de leer tanto en pasillos abiertos como en esquinas cerradas.
+
+<Callout type="info" title="Prioridad de visibilidad">
+Primero haz que la pantalla sea legible y luego ajusta el brillo y los gráficos. Una vista limpia ayuda a que la mira haga su trabajo.
+</Callout>
+
+| Ajuste de vídeo | Valor recomendado | Efecto |
+|---|---|---|
+| ¿Rotura muscular? | No | Elimina un efecto que distrae |
+| Partículas | No | Reduce ruido visual extra |
+| Trazas en primera persona | No | Mantiene el centro más limpio |
+| Balas de otros jugadores | Sí | Ayuda a ver de dónde vienen los disparos |
+| Agujeros de bala | No | Evita desorden en las paredes |
+| Gotas de lluvia | No | Evita obstrucciones aleatorias en la pantalla |
+| Casquillos de bala | No | Reduce los restos en el HUD |
+| Brillo | 0.1 | Mantiene la imagen coherente con el estilo de poco desorden |
+| Sombras | Sí | Se ajusta a la configuración recomendada |
+| Gráficos de Roblox | 4 | Equilibra claridad y rendimiento |
+
+| Ajuste de objeto | Valor recomendado | Notas |
+|---|---|---|
+| Posición del modelo de vista | Clásico | Colocación familiar del arma |
+| Predicción del registro | Ninguna | No aporta un beneficio evidente aquí |
+| Modelos de vista animados | Desactivado | Evita que las animaciones distraigan |
+| Multiplicador de sensibilidad | 1 | Usa los ajustes de Roblox para el cambio principal de sensibilidad |
+| Multiplicador de sensibilidad de mira | 1 o según preferencia | Bájalo solo si apuntar con mira se siente demasiado rápido |
+
+<Callout type="tip" title="Base de sensibilidad">
+Empieza en 1 para ambos deslizadores de sensibilidad. Si las armas con mira se sienten raras, ajusta primero solo el multiplicador de la mira para no alterar tu puntería normal.
+</Callout>
+
+Estos valores son un punto de partida limpio, no una regla fija. Si tu monitor aplasta las escenas oscuras, sube un poco el brillo. Si tu equipo maneja el juego cómodamente, más adelante puedes probar gráficos más altos, pero mantén los mismos filtros de desorden para que la retícula siga siendo legible.
+
+</Section>
+
+<Section icon={Sparkles} title="Configuración paso a paso para la mira de punto">
+
+Usa este flujo si quieres aplicar la configuración rápidamente y evitar pruebas aleatorias. El orden importa porque mantiene los cambios de retícula, vídeo y sensibilidad agrupados en un ciclo de prueba sencillo.
+
+<Callout type="success" title="Mejor práctica">
+Cambia una categoría cada vez y luego pruébala en una partida real o en una sala privada antes de hacer el siguiente ajuste.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Abre el menú de ajustes">
+    Pulsa **N** en partida y luego haz clic en el icono de engranaje en la esquina superior derecha para acceder a los paneles de ajustes.
+  </Step>
+  <Step num="2" title="Aplica la mira de punto">
+    Configura **dinámico desactivado**, **seguir retroceso desactivado**, **punto activado**, **longitud 0** y **grosor 2**. Mantén un color de alto contraste.
+  </Step>
+  <Step num="3" title="Limpia las opciones de vídeo">
+    Desactiva partículas, casquillos, agujeros de bala, gotas de lluvia y otros elementos visuales innecesarios. Mantén **balas de otros jugadores** activado.
+  </Step>
+  <Step num="4" title="Bloquea la base de sensibilidad">
+    Establece los multiplicadores de sensibilidad en **1** y luego comprueba si las armas con mira necesitan un ajuste aparte más adelante.
+  </Step>
+</Steps>
+
+| Ruta del menú | Qué cambias | Por qué va primero |
+|---|---|---|
+| N > Gear > Crosshair | Ajustes del punto y color | La retícula define tu referencia de apuntado |
+| N > Gear > Video | Opciones de desorden visual | Una pantalla más limpia mejora la visibilidad de la mira |
+| N > Gear > Items | Modelo de vista y sensibilidad | Mantiene consistentes el movimiento y la sensación de la mira |
+
+Una forma práctica de probar la configuración es disparar primero a objetivos estáticos y luego pasar a duelos cortos. Si el punto se siente demasiado pequeño, sube el grosor un paso. Si empieza a cubrir demasiado el objetivo, bájalo. Ese proceso de ajuste pequeño y controlado suele ser mejor que ir saltando entre varios preajustes.
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación, solución de problemas y ajustes finales">
+
+Después de aplicar la configuración, usa una breve lista de verificación para confirmar que no se haya pasado nada importante por alto. Esta es la forma más rápida de detectar un valor de sensibilidad malo, un color demasiado brillante o un efecto visual que aún siga activado.
+
+<Callout type="warning" title="Error común">
+La mayoría de los problemas de configuración vienen de cambiar demasiados valores a la vez. Si algo se siente raro, revierte un ajuste cada vez y vuelve a probar.
+</Callout>
+
+<Checklist
+  id="dot-crosshair-checklist"
+  title="Comprobaciones esenciales de la configuración:"
+  items={[
+    "Confirma que el punto está activado y que la longitud de las líneas está en 0",
+    "Mantén desactivados los filtros de desorden visual para partículas, agujeros, casquillos y gotas de lluvia",
+    "Prueba un color de mira de alto contraste en tu monitor",
+    "Deja los multiplicadores de sensibilidad en 1 antes de ajustar con precisión el comportamiento de la mira"
+  ]}
+/>
+
+| Problema | Causa probable | Solución |
+|---|---|---|
+| El punto parece demasiado pequeño | El grosor es demasiado bajo | Sube el grosor un paso |
+| El punto tapa el objetivo | El grosor es demasiado alto | Baja ligeramente el grosor |
+| El seguimiento del spray se siente incómodo | El punto es un perfil centrado en taps | Prueba un preajuste de líneas más largo |
+| El apuntado con mira se siente inconsistente | Se cambió el multiplicador de la mira | Vuelve a 1 y luego ajusta despacio |
+| La pantalla sigue viéndose cargada | Los ajustes de desorden visual siguen activados | Revisa de nuevo la pestaña de vídeo |
+
+Para terminar con limpieza, prueba la configuración en dos escenarios distintos: un duelo a campo abierto y una pelea a corta distancia. Eso te da una lectura más clara de si el punto está ayudando con la precisión o si simplemente está dejando la pantalla demasiado minimalista para tus preferencias.
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<Callout type="info" title="Notas de la FAQ">
+Estas respuestas coinciden con la misma base utilizada en toda la guía: un punto limpio, poco desorden y sensibilidad neutral.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿La mira de punto de Defuse Division es mejor para todos los jugadores?",
+    answer: "No. Es más fuerte para taps, puntería disciplinada y microajustes. Los jugadores que usan más el spray pueden preferir una mira más larga basada en líneas."
+  },
+  {
+    question: "¿Por qué mantener activadas las balas de otros jugadores?",
+    answer: "Te ayuda a leer el fuego entrante y entender de dónde vienen los disparos, especialmente cuando el humo o los combates caóticos dificultan leer la pantalla."
+  },
+  {
+    question: "¿Los multiplicadores de sensibilidad deberían quedarse en 1?",
+    answer: "Sí, como base limpia. Eso mantiene tu puntería consistente y te permite ajustar la sensibilidad de Roblox por separado antes de tocar el comportamiento de la mira."
+  },
+  {
+    question: "¿Qué color funciona mejor para la mira de punto?",
+    answer: "Usa un color de alto contraste que destaque en tu monitor. El amarillo es un gran punto de partida, pero cualquier color claro puede funcionar bien."
+  }
+]} />
+
+</Section>

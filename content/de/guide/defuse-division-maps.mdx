@@ -1,0 +1,209 @@
+import { Map, Target, Shield, Trophy, Sparkles, Compass } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "defuse division maps: Tipps zur Site-Kontrolle, Routen und Winkeln",
+  description: "Lerne Defuse-Division-Maps mit Routen zur Site-Kontrolle, Plant- und Retake-Timing sowie frühen Alpha-Gewohnheiten beim Kartenlesen, die Rundengewinne verbessern.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Defuse+Division+Maps+Guide",
+  date: "2026-07-06",
+  author: "defuse division Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **defuse division maps** belohnen schnelle Reads: Sites, Rotationen und Engpässe sind wichtiger als bloßes Hinterherjagen.
+- **Kurze Runden** bedeuten, dass jeder erste Kontakt das Timing für Plant, Defuse oder Retake entscheiden kann.
+- **Lerne auf jeder Map einen sicheren Weg und einen Fallback**, bevor du aggressive Pushes ausprobierst.
+- **Halte Callouts einfach**, damit dein Team rotieren kann, ohne Sekunden durch Verwirrung zu verlieren.
+- **Erwarte Patch-Änderungen**, weil sich das Spiel noch in der frühen Alpha-Phase befindet und sich Layout-Gewohnheiten verschieben können.
+</Callout>
+
+<Section icon={Map} title="Defuse-Division-Maps schnell lernen">
+
+Defuse Division ist ein teambasierter Bombenmodus, in dem eine Seite die Bombe legt und die andere Seite das Legen verhindert oder die Bombe entschärft. Deshalb ist Kartenkenntnis der eigentliche Vorteil. In einem Spiel, das sich noch in der frühen Alpha-Phase befindet, zählt eine saubere Routenwahl mehr als ein riesiges Regelwerk auswendig zu lernen. Beginne mit den Wegen, die entscheiden, wer zuerst die Site erreicht, wer die Winkel kontrolliert und wer beim Retake festgesetzt wird.
+
+<CardGrid cols={3}>
+  <Card title="Angreifer">
+    - **Früh Raum nehmen**
+    - Lanes aufteilen, um die Verteidiger zu strecken
+    - Erst legen, wenn du den Entry kontrollierst
+  </Card>
+  <Card title="Verteidiger">
+    - **Den Push verzögern**
+    - Den ersten Kontaktwinkel halten
+    - Einen Rotationsweg für den Retake aufheben
+  </Card>
+  <Card title="Map-Lernende">
+    - **Zuerst Engpässe lernen**
+    - Zugänge zur Site und Fallback-Routen verfolgen
+    - Für jede Map ein Callout-System aufbauen
+  </Card>
+</CardGrid>
+
+| Kennzahl | Aktueller Wert | Aussage für die Map |
+|---|---:|---|
+| Spielmodus | Team-Bombenlegen/-entschärfen | Sites und Rotationen entscheiden Runden |
+| Maximale Spielerzahl | **14** | Kleinere Teams bestrafen langsame Bewegung |
+| Durchschnittliche Spielzeit | **11.37 Minuten** | Jedes Rotationsfenster ist kurz |
+| Spiel aktualisiert | **vor 4 Stunden** | Routen können sich nach Patches verschieben |
+| Gamepasses | Keine bekannt | Positionierung ist wichtiger als Freischaltungen |
+| Bewertung | **84.928%** | Solide Resonanz, während noch weiter getunt wird |
+
+Für einen Live-Snapshot des Spiels halte den [Rolimons-Eintrag](https://www.rolimons.com/game/112757576021097) offen, wenn du Update-Zeitpunkt oder Spieleraktivität bestätigen willst.
+
+<Callout type="tip" title="Priorität beim Kartenlernen">
+Konzentriere dich auf die ersten 30 Sekunden jeder Runde. Wenn du vorhersagen kannst, wo das erste Duell stattfindet, kannst du auch den Rest der Runde vorhersagen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Kartenlesen: Engpässe, Sichtlinien und Timing">
+
+Der schnellste Weg, eine neue Map zu lernen, besteht darin, sie als Verkehrsfluss zu sehen, nicht als Labyrinth. Jede Lane hat einen Zweck: zu einer Site führen, eine Rotation abschneiden oder ein Kreuzfeuer erzeugen. Sobald du weißt, welche Lane was macht, lässt sich der Rest leichter lesen. Das ist besonders nützlich in einem Spiel mit kurzen durchschnittlichen Sessions, weil du praktische Map-Gewohnheiten brauchst, die sofort funktionieren.
+
+<Steps>
+  <Step num="1" title="Die Ankerpunkte identifizieren">
+    Finde Spawn, die Haupt-Site und den Connector dazwischen. Diese drei Punkte zeigen dir, wo der erste Kampf normalerweise stattfindet.
+  </Step>
+  <Step num="2" title="Den Haupt-Engpass markieren">
+    Suche nach dem schmalsten Eingang. Dort kann ein Verteidiger meist den Push verlangsamen oder ein Angreifer einen Trade erzwingen.
+  </Step>
+  <Step num="3" title="Einen Rotationsweg messen">
+    Laufe den schnellsten sicheren Weg von einer Seite der Map zur anderen. Wenn die Rotation zu langsam ist, könnte die Site bereits verloren sein.
+  </Step>
+  <Step num="4" title="Einen Fallback-Weg hinzufügen">
+    Wähle einen zweiten Weg, der die gefährlichste Sichtlinie vermeidet. Ein Fallback hält dich am Leben, nachdem das erste Duell schiefgeht.
+  </Step>
+</Steps>
+
+| Hinweis | Was es normalerweise bedeutet | Beste Reaktion |
+|---|---|---|
+| Breiter offener Gang | Längere Sichtlinie, mehr Duell-Druck | Distanz halten oder mit einem Teamkollegen swingen |
+| Enge Passage | Starker Engpass, leicht zu verzögern | Vorhalten und Trades vorsichtig spielen |
+| Geräusch einer Seitenroute | Möglicher Flank oder späte Rotation | Anhalten, Ecken checken, dann weitermachen |
+| Zugang zur Bombsite | Der Druck zum Legen steigt | Neu positionieren, bevor der Entry geschlossen wird |
+
+<Callout type="info" title="Callout-Regel">
+Halte die Map-Sprache kurz: links, rechts, Mitte, Connector, Site, Flank. Kurze Callouts sind schneller als ausführliche Erklärungen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Angriffswege, Platzierung und Post-Plant-Abstände">
+
+Im Angriff geht es nicht nur darum, die Site zu erreichen. Du brauchst Kontrolle über den Entry, Kontrolle über die Rotation der Verteidiger und genug Raum, um nach dem Plant zu überleben. Deshalb ist die Routenwahl so wichtig. Ein schneller Rush kann funktionieren, wenn die Verteidiger verteilt sind, aber ein Standard-Spread ist sicherer, wenn du nicht weißt, wo die Anchors stehen.
+
+| Routentyp | Beste Nutzung | Hauptrisiko | Ideales Ergebnis |
+|---|---|---|---|
+| Schneller Hit | Verteidiger übercommitten oder schwache Mid-Kontrolle | Informationsverlust, wenn der Push stockt | Schneller Plant und sofortige Absicherung |
+| Split-Push | Zwei Lanes können dieselbe Site unter Druck setzen | Benötigt sauberes Timing | Den Anchor einkesseln und Flucht verhindern |
+| Standard-Spread | Unbekanntes Setup oder frühes Scouting | Langsameres Runden-Tempo | Vor dem Commit Informationen sammeln |
+| Fake-Druck | Rotations-Timing ist vorhersehbar | Verschwendung, wenn der Fake früh erkannt wird | Einen Verteidiger von der Site wegziehen |
+
+Nach dem Plant ist Abstand wichtiger als Aim-Duelle. Ein Spieler sollte die stärkste Retake-Lane überwachen, einer den Plant-Winkel, und einer sollte für einen Trade bereit bleiben. Wenn alle in derselben Ecke stehen, kann eine einzige Granate, ein Swing oder eine Timing-Änderung den Vorteil auslöschen.
+
+| Plant-Regel | Gutes Timing | Schlechtes Timing |
+|---|---|---|
+| Nach Kontrolle des Entries legen | Du hast den Haupt-Engpass gesäubert | Die Site ist noch umkämpft |
+| Mit einem Teamkollegen zur Absicherung legen | Ihr könnt den ersten Swing traden | Du bist allein und ohne Backup |
+| Dort legen, wo die Post-Plant-Winkel stark sind | Du kannst nach dem Plant Zeit spielen | Du musst dich sofort offen zeigen |
+| Nach dem Plant neu positionieren | Der Gegner muss mehrere Winkel checken | Du bleibst auf derselben Linie sichtbar |
+
+<Callout type="warning" title="Angriffsfehler, den du vermeiden solltest">
+Erzwinge keinen Plant, wenn die Verteidiger den Entry-Weg noch kontrollieren. Ein übereilter Plant kann einen gewinnbaren Push in einen verlorenen Retake verwandeln.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Verteidigungs-Rotationen und Retake-Disziplin">
+
+Verteidigung gewinnt, indem sie den Plant verzögert, nicht indem sie Highlight-Fights jagt. Die besten Verteidiger nutzen Kartenkenntnis, um die Angreifer unter Druck zu halten und einen sauberen Retake-Weg zu bewahren. Wenn du weißt, wo das angreifende Team hineinwill, kannst du einen Spieler zum Verzögern, einen zum Halten und einen mit Zweck rotieren lassen.
+
+<Checklist
+  id="defense-basics"
+  title="Verteidigungs-Checkliste:"
+  items={[
+    "Auf jeder Site eine stabile Anchor-Position halten",
+    "Einen Rotationsweg für späten Druck offen lassen",
+    "Erst retaken, wenn du weißt, wo die Bombe gelegt wurde",
+    "Vor dem Verlassen deiner Lane auf Flank-Timing achten",
+    "Einen Teamkollegen traden statt allein zu swingen",
+  ]}
+/>
+
+| Aufgabe des Verteidigers | Hauptaufgabe | Gute Gewohnheit |
+|---|---|---|
+| Anchor | Den ersten Push verzögern | Am Leben bleiben und zusätzliche Zeit erzwingen |
+| Rotator | Die bedrohte Site unterstützen | Erst bewegen, nachdem der Hit bestätigt ist |
+| Flank-Stopper | Flanks und späte Wege verhindern | Die Backline säubern, bevor rotiert wird |
+| Retake-Spieler | Die Site nach dem Plant zurückholen | Auf einen Trade warten und gemeinsam eintreten |
+
+| Retake-Timing | Was zuerst geprüft werden sollte | Warum es hilft |
+|---|---|---|
+| Früher Retake | Bombenposition, Anzahl der Teamkollegen | Verhindert einen Blind-Swing in ein Kreuzfeuer |
+| Mittlerer Retake | Verbleibende Lane-Kontrolle | Zeigt, ob der Gegner die Zeit halten kann |
+| Später Retake | Plant-Winkel und Fluchtweg | Macht es leichter, den letzten Verteidiger zu isolieren |
+
+Eine saubere Verteidigung ist meist eine Frage der Geduld. Wenn du den ersten Kontakt überlebst, zwingst du die Angreifer dazu, mehr Zeit zu verlieren und mehr von ihrem Setup preiszugeben.
+
+<Callout type="success" title="Bedingung für den Verteidigungssieg">
+Du musst nicht jedes Duell gewinnen. Du musst genug Spieler am Leben halten, damit der Retake vorteilhaft wird.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufige Map-Fehler und schnelle Korrekturen">
+
+Die meisten Map-Niederlagen entstehen durch Gewohnheiten, nicht durch Mechanik. Spieler rennen ohne Backup in eine Lane, rotieren zu früh oder vergessen den sichersten Fallback nach dem ersten Duell. In einem Spiel mit kurzen Runden werden solche Fehler schnell teuer. Wenige Gewohnheiten zu verbessern bringt meist schneller Ergebnisse, als zu versuchen, jede Ecke auf einmal auswendig zu lernen.
+
+| Fehler | Warum es schadet | Bessere Gewohnheit |
+|---|---|---|
+| Solo-Entry in die Site | Kein Trade-Support, leicht zu bestrafen | Auf einen Teamkollegen warten oder die Lane splitten |
+| Frühe Rotation ohne Info | Ermöglicht der anderen Seite einen freien Plant | Erst Sound, Timing oder Druck bestätigen |
+| Eine Lane komplett stapeln | Die andere Route bleibt unbewacht | Einen flexiblen Spieler verfügbar halten |
+| Kein Fallback-Weg | Du stirbst nach dem ersten Kontakt | Vor dem Peek einen Rückzugswinkel planen |
+| Callouts zu stark ausformulieren | Verbraucht wertvolle Sekunden | Nur kurze, vereinbarte Bezeichnungen verwenden |
+
+| Solo-Queue-Routine | Vor der Runde | Während der Runde | Nach der Runde |
+|---|---|---|---|
+| Minimaler Map-Plan | Einen Weg und einen Fallback wählen | Den ersten Engpass beobachten und sicher traden | Notieren, welche Lane die Kontrolle verloren hat |
+| Priorität für Infos | Bestätigen, wie das Team verteilt ist | Gegnerdruck früh ansagen | Die nächste Rotation anpassen |
+| Utility-Denken | Etwas für den Retake aufheben | Nutzen, um den Entry zu verzögern | Für die nächste Runde neu aufbauen |
+
+<Callout type="tip" title="Schnelle Korrektur">
+Wenn sich deine Runden chaotisch anfühlen, vereinfache deinen Plan auf eine Angriffs-Lane, einen defensiven Anchor und einen Rotationsweg. Allein das entfernt schon viel Lärm.
+</Callout>
+
+</Section>
+
+<Section icon={Compass} title="FAQ">
+
+<Callout type="info" title="FAQ-Fokus">
+Diese Antworten konzentrieren sich auf das Lernen der Maps, die Routenwahl und das Timing im Team, damit du sie sofort in Defuse Division anwenden kannst.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Was ist der beste Weg, defuse division maps zu lernen?",
+    answer: "Beginne mit der Haupt-Site, den Engpässen und einem Fallback-Weg. Wiederhole dieselben Wege, bis sich deine Rotationen und Peeks automatisch anfühlen."
+  },
+  {
+    question: "Soll ich auf neuen Maps rushen oder langsam spielen?",
+    answer: "Spiel zuerst einen Standard. Langsamere Runden geben dir Informationen, und Informationen machen es leichter, die richtige Route oder den richtigen Retake-Plan zu wählen."
+  },
+  {
+    question: "Wie viele Routen sollte ich auf jeder Map kennen?",
+    answer: "Drei reichen zum Start: eine Haupt-Lane, ein alternativer Entry und ein sicherer Rückzugsweg. Füge weitere hinzu, sobald diese natürlich wirken."
+  },
+  {
+    question: "Warum funktionieren meine Map-Callouts ständig nicht?",
+    answer: "Sie sind wahrscheinlich zu lang oder zu spezifisch. Verwende kurze Labels, bestätige, wer welche Lane hält, und halte die Begriffe konsistent."
+  }
+]} />
+
+</Section>

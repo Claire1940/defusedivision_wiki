@@ -1,0 +1,176 @@
+import { Map, Shield, Target, Swords, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Smokes in Entschärfungs-Division: Halten, Ausführen und Entschärfen-Tipps",
+  description: "Lerne, wie du Smokes in Entschärfungs-Division einsetzt, um Wege zu blockieren, Plants zu verzögern und mit besserem Timing sicherer zu entschärfen.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Defuse+Division+Smokes",
+  date: "2026-07-06",
+  author: "Entschärfungs-Division Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **defuse division smokes** sind am stärksten, wenn sie einen Push verändern und nicht nur die Sicht verdecken.
+- **Angriffs-Timing** ist wichtiger als perfekte Platzierung, wenn dein Team nicht bereit ist, zu traden.
+- **Defensiv-Smokes** sollten Sekunden gewinnen, Winkel isolieren und das Planten verlangsamen.
+- **Ein sauberer Smoke** mit Follow-up ist meist besser als zwei zufällige Utility-Exzesse.
+- **Retake-Wert** entsteht dadurch, dass du einen Weg wieder öffnest und dann gemeinsam den Duel gehst.
+</Callout>
+
+<Section icon={Map} title="defuse division smokes: Kern-Timing und Sichtlinienkontrolle">
+
+Beim Spielen mit defuse division smokes geht es nicht darum, die Karte zu blenden. Der eigentliche Wert liegt darin, das Timing zu kontrollieren, klare Sichtlinien zu verweigern und jedes Gefecht für das gegnerische Team awkward zu machen. Da der Modus auf Planten, Verteidigen und Entschärfen aufgebaut ist, sollte ein Smoke immer ein Rundenziel unterstützen. Wenn er keinen Raum schafft, einen Cross absichert oder einen sichereren Retake ermöglicht, ist er wahrscheinlich zu spät oder falsch gesetzt.
+
+<Callout type="info" title="Kernregel">
+Ein guter Smoke verändert, was der Gegner als Nächstes tun will. Wenn er ihn ignorieren kann, hast du deine Utility nicht gut eingesetzt.
+</Callout>
+
+| Smoke-Ziel | Bester Moment | Hauptvorteil |
+|---|---|---|
+| Ersten Kontakt nehmen | Vor einem Peek | Nimmt den Verteidigern die Sicht |
+| Ein Plant absichern | Beim Entry | Reduziert Kreuzfeuer-Druck |
+| Einen Rotate abdecken | Mid-Round | Spart Gesundheit und Zeit |
+| Einen Defuse verbergen | In den letzten Sekunden | Erzwingt eine Neu-Positionierung |
+
+Das Defuse Division Wiki ist weiterhin die klarste öffentliche Referenz zur Zielstruktur des Modus: [Defuse Division Wiki](https://defuse-division.fandom.com/wiki/Defuse_Division_Wiki) (2026-07-06).
+
+</Section>
+
+<Section icon={Shield} title="Beste Smoke-Rollen und Teamaufgaben">
+
+Jeder Smoke hat eine Aufgabe, und die besten Teams teilen diese Aufgabe schon vor Rundenbeginn zu. Ein Spieler sollte an Entry-Raum denken, einer an defensives Verzögern und einer an den Retake-Pfad. Diese Aufteilung verhindert, dass sich Utility überschneidet. Außerdem hilft sie dir, den klassischen Fehler zu vermeiden, einen Smoke dort zu werfen, wo er nützlich aussieht, aber den nächsten Duel nicht verbessert.
+
+<CardGrid cols={3}>
+  <Card title="Angriffs-Smokes">
+    - **Erste Lane verweigern**
+    - Entry-Druck unterstützen
+    - Dem Trade folgen
+  </Card>
+  <Card title="Defensiv-Smokes">
+    - **Plant verzögern**
+    - Rotate absichern
+    - Einen späten Utility-Tool aufheben
+  </Card>
+  <Card title="Retake-Smokes">
+    - **Winkel isolieren**
+    - Druck auf den Site splitten
+    - Sicherere Entschärfungsfenster
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Rollenregel">
+Wenn dein Smoke dem Gegner keine neue Entscheidung aufzwingt, behandle ihn als wenig wertvollen Wurf und korrigiere das Timing.
+</Callout>
+
+| Rolle | Smoke-Priorität | Beste Gewohnheit | Häufiger Fehler |
+|---|---|---|---|
+| Entry | Erste Contest-Lane | Werfen, dann bewegen | Zu lange warten |
+| Support | Kreuzfeuer kontrollieren | Mit Teamkollegen synchronisieren | Zu tief smoken |
+| Anchor | Den Plant verzögern | Eine Utility aufheben | Alles früh verbrauchen |
+| Retaker | Breite Winkel verweigern | Mit einem Teamkollegen erneut clearen | Nach dem Kontakt smoken |
+
+</Section>
+
+<Section icon={Target} title="Smoke-Setup Schritt für Schritt">
+
+Gute Smokes sind meist einfach. Beginne mit der Lane, die deinem Team am meisten schadet, nicht mit der, die am leichtesten abzudecken ist. Dann kombiniere den Smoke mit Bewegung. Ein Smoke ohne Follow-up gibt dem Gegner nur Zeit, zu warten, zu raten und sich neu zu positionieren. Wenn dein Team im selben Tempo wie die Utility commitet, fühlt sich die Runde sofort viel leichter an.
+
+<Callout type="warning" title="Timing-Warnung">
+Wirf einen Smoke nicht einfach nur, weil du ihn hast. Wirf ihn dann, wenn das Team den entstehenden Raum sofort nutzen kann.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Erkenne die erste Bedrohung">
+    Identifiziere die Sichtlinie, die das schlechteste Eröffnungsduell erzeugt. Das ist normalerweise die Lane, die man zuerst smoken sollte.
+  </Step>
+  <Step num="2" title="Smoke für Bewegung">
+    Platziere den Smoke so, dass dein Team mit weniger Risiko kreuzen, planten oder sich neu positionieren kann.
+  </Step>
+  <Step num="3" title="Trade die Utility">
+    Bewege dich genau dann, wenn der Smoke landet. Der Smoke soll einen Push unterstützen, nicht die Runde ausbremsen.
+  </Step>
+  <Step num="4" title="Heb dir ein spätes Tool auf">
+    Behältst du eine Smoke für das finale Ziel, solange die Runde noch offen ist. Späte Utility gewinnt mehr Runden als frühe Panik.
+  </Step>
+</Steps>
+
+| Setup-Schritt | Worauf prüfen | Gutes Zeichen | Schlechtes Zeichen |
+|---|---|---|---|
+| Schritt 1 | Erste Bedrohungs-Lane | Der Gegner verlangsamt sich | Der Gegner swingt weiter |
+| Schritt 2 | Team-Abstände | Teamkollegen sind bereit | Solo-Smoke, kein Trade |
+| Schritt 3 | Plant- oder Rotate-Pfad | Das Ziel wird einfacher | Smoke blockiert das eigene Team |
+| Schritt 4 | Endrunde-Utility | Eine Smoke bleibt übrig | Der gesamte Kit ist weg |
+
+</Section>
+
+<Section icon={Swords} title="Häufige Fehler und Antworten auf Counter-Smokes">
+
+Die meisten Smoke-Fehler entstehen durch schlechte Gewohnheiten, nicht durch schlechtes Aim. Spieler smoken entweder zu früh, den falschen Winkel oder verbrauchen Utility ohne Follow-up-Plan. Die sauberste Lösung ist, Runde für Runde zu reviewen und eine einfache Frage zu stellen: Hat der Smoke die Bewegung des Gegners spürbar verändert? Wenn die Antwort nein ist, liegt das Problem meist an Platzierung, Timing oder Team-Sync.
+
+<Callout type="success" title="Review-Gewohnheit">
+Behandle jeden Smoke wie ein Mini-Ziel. Wenn er dir nicht hilft, Raum zu gewinnen, Raum zu verweigern oder einen Teamkollegen zu retten, braucht er einen besseren Zweck.
+</Callout>
+
+<Checklist
+  id="smoke-review"
+  title="Smoke-Review-Checkliste:"
+  items={[
+    "Der Smoke landete vor dem Kontakt",
+    "Ein Teamkollege war bereit, mit ihm mitzuziehen",
+    "Der Gegner musste seinen Weg oder sein Timing ändern",
+    "Ein Smoke blieb für das Finale verfügbar",
+    "Kein Teamkollege hat denselben Winkel doppelt abgedeckt"
+  ]}
+/>
+
+| Fehler | Warum es scheitert | Bessere Lösung |
+|---|---|---|---|
+| Früher Smoke ohne Follow-up | Der Gegner wartet ihn aus | Mit einem Push kombinieren |
+| Falsche Lane abgedeckt | Die echte Bedrohung bleibt offen | Den ersten Contest-Winkel smoken |
+| Doppelte Utility auf einem Spot | Verschwendung von Teamressourcen | Pro Lane einen Smoker zuweisen |
+| Später Defuse-Smoke | Der Gegner sieht den Tap | Utility für das Ende aufheben |
+| Allein-Peek nach dem Smoke | Freies Duel für den Gegner | Mit einem Trade bewegen |
+
+</Section>
+
+<Section icon={Trophy} title="Smoke-FAQ und Schnellreferenz">
+
+Sobald du das Rundenziel verstanden hast, werden Smokes zu einem Planungswerkzeug statt zu einem Panikknopf. Sie helfen Angreifern beim saubereren Entry, Verteidigern beim längeren Verzögern und Retake-Spielern dabei, den Site in leichtere Fights aufzuteilen. Der schnellste Weg, besser zu werden, ist, nicht mehr zu fragen: „Wo kann ich smoken?“, sondern: „Welche Entscheidung will ich erzwingen?“
+
+<Callout type="info" title="Schnellreferenz">
+Wenn der Smoke keine Positionierung verändert, ist es meist besser, ihn aufzuheben, mit einem Teamkollegen zu kombinieren oder später in der Runde zu nutzen.
+</Callout>
+
+| Situation | Besserer Smoke-Play |
+|---|---|---|
+| Attack-Execute | Die Lane blockieren, die das Entry-Timing kontrolliert |
+| Defense-Hold | Den Plant verzögern und den Rotate absichern |
+| Retake | Den Site splitten und einen Winkel isolieren |
+| Defuse-Versuch | Den tapenden Spieler vor langen Sichtlinien abdecken |
+
+<FAQ items={[
+  {
+    question: "Was macht defuse division smokes stark?",
+    answer: "Defuse Division Smokes sind am stärksten, wenn sie einen Timing-Fehler erzwingen, ein Duel halbieren oder ein wichtiges Ziel schützen."
+  },
+  {
+    question: "Sollte ich früh oder spät smoken?",
+    answer: "Smoke früh, wenn dein Team sofort Raum braucht. Smoke spät, wenn es darum geht, den Plant zu verhindern, einen Rotate zu stoppen oder einen Defuse abzudecken."
+  },
+  {
+    question: "Wie viele Smokes braucht ein Team?",
+    answer: "Ein gut getimter Smoke kann ausreichen, wenn das Team ihn richtig nutzt. Mehr Utility hilft nur, wenn jeder Wurf einen klaren Zweck hat."
+  },
+  {
+    question: "Ersetzen Smokes das Aim?",
+    answer: "Nein. Smokes verringern die Anzahl der Winkel, die du clearen musst, was das Aim einfacher und deine Fights vorhersehbarer macht."
+  }
+]} />
+
+</Section>

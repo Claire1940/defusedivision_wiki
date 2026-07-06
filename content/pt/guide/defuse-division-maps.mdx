@@ -1,0 +1,209 @@
+import { Map, Target, Shield, Trophy, Sparkles, Compass } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "mapas de Defuse Division: dicas de controle de site, rotas e ângulos",
+  description: "Aprenda os mapas de Defuse Division com rotas de controle de site, timing de plant e retake, e hábitos de leitura de mapa em early alpha que aumentam as vitórias nas rodadas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Defuse+Division+Maps+Guide",
+  date: "2026-07-06",
+  author: "Equipe da Wiki de Defuse Division"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Os mapas de defuse division** recompensam leituras rápidas: sites, rotações e pontos de estrangulamento importam mais do que sair correndo atrás de eliminações.
+- **Rodadas curtas** significam que todo primeiro contato pode decidir o timing do plant, do defuse ou do retake.
+- **Aprenda uma rota segura e uma alternativa** em cada mapa antes de experimentar avanços agressivos.
+- **Mantenha os callouts simples** para que sua equipe possa rotacionar sem perder segundos com confusão.
+- **Espere mudanças nas atualizações** porque o jogo ainda está em early alpha e os hábitos de layout podem mudar.
+</Callout>
+
+<Section icon={Map} title="Aprendendo os Mapas de Defuse Division Rápido">
+
+Defuse Division é um modo de bomba em equipe em que um lado planta e o outro impede o plant ou faz o defuse. Isso faz do conhecimento do mapa a verdadeira vantagem. Em um jogo que ainda está em early alpha, escolher rotas limpas importa mais do que memorizar um livro de jogadas enorme. Comece pelos caminhos que definem quem chega ao site primeiro, quem controla os ângulos e quem fica preso durante o retake.
+
+<CardGrid cols={3}>
+  <Card title="Atacantes">
+    - **Ganhe espaço cedo**
+    - Divida as rotas para esticar a defesa
+    - Plante só depois de dominar a entrada
+  </Card>
+  <Card title="Defensores">
+    - **Atrase o avanço**
+    - Segure o ângulo do primeiro contato
+    - Reserve uma rota de rotação para o retake
+  </Card>
+  <Card title="Quem está aprendendo mapas">
+    - **Aprenda os pontos de choke primeiro**
+    - Acompanhe o acesso ao site e as rotas de recuo
+    - Monte um sistema de callouts para cada mapa
+  </Card>
+</CardGrid>
+
+| Métrica | Valor atual | O que isso significa para o mapa |
+|---|---:|---|
+| Modo de jogo | Plantar/defusar bomba em equipe | Sites e rotações decidem as rodadas |
+| Máximo de jogadores | **14** | Equipes menores punem movimentos lentos |
+| Tempo médio de jogo | **11.37 minutos** | Cada janela de rotação é curta |
+| Jogo atualizado | **há 4 horas** | As rotas podem mudar após patches |
+| Gamepasses | Nenhum conhecido | Posicionamento importa mais do que desbloqueios |
+| Avaliação | **84.928%** | Boa recepção enquanto ainda está sendo ajustado |
+
+Para ver uma visão ao vivo do jogo, mantenha a [listagem da Rolimons](https://www.rolimons.com/game/112757576021097) aberta quando quiser confirmar o horário da atualização ou a atividade de jogadores.
+
+<Callout type="tip" title="Prioridade de Aprendizado do Mapa">
+Concentre-se nos primeiros 30 segundos de cada rodada. Se você consegue prever onde acontece o primeiro duelo, consegue prever o restante da rodada.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Leitura do Mapa: Chokes, Linhas de Visão e Timing">
+
+A forma mais rápida de aprender um mapa novo é tratá-lo como fluxo de trânsito, não como um labirinto. Cada rota tem uma função: chegar a um site, cortar uma rotação ou criar uma cruzada de fogo. Quando você entende o que cada rota faz, o restante fica mais fácil de ler. Isso é especialmente útil em um jogo com sessões médias curtas, porque você precisa de hábitos práticos de mapa que funcionem imediatamente.
+
+<Steps>
+  <Step num="1" title="Identifique os pontos âncora">
+    Encontre o spawn, o site principal e o conector entre eles. Esses três pontos mostram onde normalmente acontece a primeira luta.
+  </Step>
+  <Step num="2" title="Marque o choke principal">
+    Procure a entrada mais estreita. Normalmente é ali que um defensor consegue desacelerar o avanço ou que um atacante consegue forçar uma troca.
+  </Step>
+  <Step num="3" title="Meça uma rota de rotação">
+    Percorra a rota segura mais rápida de um lado do mapa ao outro. Se a rotação for lenta demais, o site talvez já tenha sido perdido.
+  </Step>
+  <Step num="4" title="Adicione uma rota de recuo">
+    Escolha um segundo caminho que evite a linha de visão mais perigosa. Um recuo mantém você vivo quando o primeiro duelo desanda.
+  </Step>
+</Steps>
+
+| Pista | O que normalmente significa | Melhor resposta |
+|---|---|---|
+| Corredor aberto e amplo | Linha de visão maior, mais pressão em duelos | Mantenha distância ou avance com um colega |
+| Corredor estreito | Choke forte, fácil de segurar | Pre-aim e troque com cuidado |
+| Som de rota lateral | Possível flank ou rotação atrasada | Pare, limpe os cantos e continue |
+| Acesso ao bombsite | A pressão para plantar está aumentando | Reposicione antes que a entrada se feche |
+
+<Callout type="info" title="Regra de Callout">
+Mantenha a linguagem do mapa curta: esquerda, direita, meio, conector, site, flank. Callouts curtos chegam mais rápido do que explicações detalhadas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Rotas de Ataque, Plant e Espaçamento no Pós-Plant">
+
+No ataque, o objetivo não é apenas chegar ao site. Você precisa controlar a entrada, controlar a rotação dos defensores e ter espaço suficiente para sobreviver depois do plant. É por isso que a escolha da rota importa tanto. Um rush rápido pode funcionar quando os defensores estão espalhados, mas um spread padrão é mais seguro quando você não sabe onde estão os anchors.
+
+| Tipo de rota | Melhor uso | Risco principal | Resultado ideal |
+|---|---|---|---|
+| Investida rápida | Excesso de aposta da defesa ou controle fraco do meio | Perder informação se o avanço travar | Plant rápido e cobertura imediata |
+| Ataque dividido | Duas rotas podem pressionar o mesmo site | Exige timing limpo | Apertar o anchor e negar a fuga |
+| Spread padrão | Setup desconhecido ou scouting no início da rodada | Ritmo de rodada mais lento | Juntar informação antes de comprometer |
+| Pressão fake | Timing de rotação é previsível | Desperdício se for lido cedo | Puxar um defensor para longe do site |
+
+Depois do plant, o espaçamento importa mais do que duelos de mira. Um jogador deve vigiar a rota de retake mais forte, outro deve olhar o ângulo do plant, e outro deve ficar disponível para trocar. Se todo mundo se amontoa no mesmo canto, uma única granada, swing ou mudança de timing pode apagar a vantagem.
+
+| Regra de plant | Bom timing | Mau timing |
+|---|---|---|
+| Plante após controlar a entrada | Você limpou o choke principal | O site ainda está contestado |
+| Plante com um colega cobrindo | Você consegue trocar o primeiro swing | Você está sozinho, sem apoio |
+| Plante onde os ângulos de pós-plant são fortes | Você pode jogar o tempo depois do plant | Você precisa se expor imediatamente |
+| Reposicione depois do plant | O inimigo precisa limpar vários ângulos | Você continua visível na mesma linha |
+
+<Callout type="warning" title="Erro de Ataque a Evitar">
+Não force um plant quando os defensores ainda controlam a linha de entrada. Um plant apressado pode transformar um avanço vencedor em um retake perdido.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Rotações na Defesa e Disciplina no Retake">
+
+A defesa vence ao atrasar o plant, não ao correr atrás de lutas de destaque. Os melhores defensores usam o conhecimento do mapa para deixar os atacantes desconfortáveis e para preservar uma rota de retake limpa. Se você sabe por onde a equipe atacante quer entrar, pode colocar um jogador para segurar, um para ancorar e outro para rotacionar com propósito.
+
+<Checklist
+  id="defense-basics"
+  title="Checklist de Defesa:"
+  items={[
+    "Mantenha uma posição de anchor estável em cada site",
+    "Deixe uma rota de rotação aberta para pressão tardia",
+    "Faça o retake só depois de saber onde a bomba foi plantada",
+    "Fique atento ao timing de flank antes de sair da sua lane",
+    "Troque com um colega em vez de avançar sozinho",
+  ]}
+/>
+
+| Função do defensor | Tarefa principal | Bom hábito |
+|---|---|---|
+| Anchor | Atrasar o primeiro avanço | Ficar vivo e forçar tempo extra |
+| Rotacionador | Dar suporte ao site ameaçado | Mover-se só após confirmar o ataque |
+| Anti-lurk | Impedir flanks e rotas tardias | Limpar a retaguarda antes de rotacionar |
+| Jogador de retake | Recuperar o site após o plant | Esperar uma troca e entrar junto |
+
+| Timing do retake | O que verificar primeiro | Por que ajuda |
+|---|---|---|
+| Retake cedo | Posição da bomba, número de colegas | Evita um swing cego em uma cruzada de fogo |
+| Retake no meio | Controle restante das lanes | Mostra se o inimigo consegue segurar o tempo |
+| Retake tarde | Ângulo do plant e rota de saída | Facilita isolar o último defensor |
+
+Uma defesa limpa normalmente é sobre paciência. Se você sobreviver ao primeiro contato, força os atacantes a gastar mais tempo e revelar mais da configuração deles.
+
+<Callout type="success" title="Condição de Vitória na Defesa">
+Você não precisa vencer todos os duelos. Você precisa manter jogadores suficientes vivos para tornar o retake favorável.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Erros Comuns de Mapa e Correções Rápidas">
+
+A maioria das derrotas em mapa vem de hábitos, não de mecânica. Os jogadores avançam por uma lane sem cobertura, rotacionam cedo demais ou esquecem o recuo mais seguro depois do primeiro duelo. Em um jogo de rodadas curtas, esses erros ficam caros rápido. Ajustar alguns hábitos geralmente melhora seus resultados mais rápido do que tentar memorizar cada canto de uma vez.
+
+| Erro | Por que prejudica | Hábito melhor |
+|---|---|---|
+| Entrada solo no site | Sem troca de suporte, fácil de punir | Espere um colega ou divida a lane |
+| Rotação cedo sem informação | Abre um plant grátis do outro lado | Confirme som, timing ou pressão primeiro |
+| Empilhar uma lane | Deixa a outra rota sem cobertura | Mantenha um jogador flexível disponível |
+| Sem rota de recuo | Você morre após o primeiro contato | Planeje um ângulo de retirada antes de peekar |
+| Explicar demais os callouts | Consome segundos preciosos | Use apenas labels curtos e combinados |
+
+| Rotina de solo queue | Antes da rodada | Durante a rodada | Depois da rodada |
+|---|---|---|---|
+| Plano mínimo de mapa | Escolha uma rota e um recuo | Observe o primeiro choke e troque com segurança | Anote qual lane perdeu o controle |
+| Prioridade de informação | Confirme como sua equipe está distribuída | Avise a pressão inimiga cedo | Ajuste a próxima rotação |
+| Mentalidade de utilitários | Guarde algo para o retake | Use para atrasar a entrada | Recarregue para a próxima rodada |
+
+<Callout type="tip" title="Correção Rápida">
+Se suas rodadas parecem caóticas, simplifique seu plano para uma lane de ataque, um anchor de defesa e uma rota de rotação. Isso sozinho já remove muito ruído.
+</Callout>
+
+</Section>
+
+<Section icon={Compass} title="FAQ">
+
+<Callout type="info" title="Foco do FAQ">
+Estas respostas se concentram em aprendizado de mapa, escolha de rotas e timing de equipe para que você possa aplicar tudo imediatamente em Defuse Division.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor forma de aprender os mapas de defuse division?",
+    answer: "Comece pelo site principal, pelos pontos de choke e por uma rota de recuo. Repita os mesmos caminhos até suas rotações e peeks ficarem automáticos."
+  },
+  {
+    question: "Devo rushar ou jogar mais devagar em mapas novos?",
+    answer: "Jogue um default primeiro. Rodadas mais lentas dão informação, e informação facilita escolher a rota certa ou o plano de retake."
+  },
+  {
+    question: "Quantas rotas eu devo conhecer em cada mapa?",
+    answer: "Três é suficiente para começar: uma lane principal, uma entrada alternativa e uma rota segura de retirada. Adicione mais depois que essas ficarem naturais."
+  },
+  {
+    question: "Por que meus callouts de mapa continuam falhando?",
+    answer: "Provavelmente eles são longos demais ou específicos demais. Use rótulos curtos, confirme quem está segurando cada lane e mantenha os termos consistentes."
+  }
+]} />
+
+</Section>

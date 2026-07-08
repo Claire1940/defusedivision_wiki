@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Divisão de Desarmamento Como Expulsar: Guia Passo a Passo de Votação para Expulsar",
+  description: "Aprenda como iniciar uma votação para expulsar no Divisão de Desarmamento, gerenciar jogadores disruptivos e manter a integridade competitiva em seus servidores.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Vote+Kick+Guide",
+  date: "2026-07-08",
+  author: "Equipe da Wiki do Divisão de Desarmamento"
+}
+
+<Callout type="info" title="Guia Rápido">
+- Aprenda os passos exatos de **como expulsar no Divisão de Desarmamento** para remover jogadores tóxicos ou ausentes (AFK).
+- Inicie uma votação para expulsar usando o **comando de chat no jogo** ou a interface do menu durante partidas ativas.
+- Garanta que um **consenso de maioria** seja alcançado pelos membros da sua equipe para aprovar a votação com sucesso.
+- Evite expulsar jogadores por **tentativas de clutch ou desempenho ruim** para manter os padrões de fair play.
+</Callout>
+
+<Section icon={Shield} title="Introdução ao Sistema de Votação para Expulsar">
+
+O Divisão de Desarmamento traz uma jogabilidade de tiro tático de alto risco para a plataforma Roblox. Em partidas onde a estratégia, comunicação e tempo são cruciais, um único jogador disruptivo pode arruinar a experiência de toda a equipe. Seja lidando com um jogador inativo, um companheiro de equipe que sabota rodadas intencionalmente ou alguém usando trapaças não autorizadas, saber como limpar seu servidor é essencial. 
+
+Para resolver essas preocupações da comunidade, a equipe de desenvolvimento introduziu o sistema oficial de votação para expulsar em 15 de outubro de 2025. Esse recurso dá aos jogadores as ferramentas para moderar suas próprias partidas, garantindo que a integridade competitiva seja mantida sem a necessidade de esperar pela intervenção manual de um administrador.
+
+**Destaques do Vídeo:**
+- Demonstra o cenário frustrante de ser expulso por tentar um clutch no Divisão de Desarmamento.
+- Destaca como os jogadores abusam do recurso de votação para expulsar durante momentos tensos da partida.
+- Mostra imagens reais de gameplay de uma rodada padrão no jogo de tiro tático do Roblox.
+
+<YouTubeEmbed videoId="0k8ijF6qWIw" title="fui expulso por tentar um clutch no cs2 do roblox (divisão de desarmamento)" />
+
+Embora o sistema tenha sido projetado para proteger os jogadores, às vezes ele é abusado por equipes competitivas. Ocasionalmente, os jogadores tentam expulsar companheiros de equipe que não conseguem vencer cenários difíceis de clutch. Entender como o sistema funciona ajuda os jogadores a se defenderem contra expulsões injustas e a usarem a ferramenta com responsabilidade.
+
+<Callout type="warning" title="Aviso Contra Abuso">
+Abusar do sistema de votação para expulsar visando jogadores que falham em clutches pode resultar em ações de moderação contra a sua conta.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Divisão de Desarmamento Como Expulsar: Tutorial Passo a Passo">
+
+Iniciar uma expulsão requer o uso da sintaxe correta no chat do jogo. Como o jogo depende do filtro de chat padrão do Roblox e das configurações do usuário, inserir o comando com precisão é necessário para que o sistema registre a votação.
+
+Siga estes passos para iniciar uma votação para expulsar contra um jogador disruptivo em sua partida:
+
+<Steps>
+  <Step num="1" title="Abra o Chat do Jogo">
+    Pressione a tecla "/" no seu teclado para abrir a janela de chat de texto ativa durante uma rodada ou durante a fase de compra.
+  </Step>
+  <Step num="2" title="Insira o Comando de Expulsão">
+    Digite o comando seguido pelo nome do jogador alvo. Use o formato: `/votekick [NomeDoJogador]`. Certifique-se de usar o nome de usuário real dele em vez do nome de exibição, caso sejam diferentes.
+  </Step>
+  <Step num="3" title="Envie a Solicitação de Votação">
+    Pressione Enter para transmitir a votação para a sua equipe. Um aviso aparecerá nas telas dos seus companheiros de equipe, permitindo que eles votem.
+  </Step>
+  <Step num="4" title="Aguarde o Veredicto Final">
+    Monitore o progresso da votação. O jogador alvo será removido do servidor assim que o limite de maioria necessário for alcançado.
+  </Step>
+</Steps>
+
+A janela de votação permanece aberta por um tempo limitado. Se o limite não for atingido antes do cronômetro expirar, a votação falha e um tempo de recarga (cooldown) é aplicado para evitar spam.
+
+| Recurso | Detalhes | Status |
+| :--- | :--- | :--- |
+| **Formato do Comando** | /votekick [nome_de_usuario] | Ativo |
+| **Votos Necessários** | Maioria da equipe ativa | Obrigatório |
+| **Período de Cooldown** | 120 segundos entre votações | Ativo |
+| **Mínimo de Jogadores** | Pelo menos 4 jogadores no servidor | Obrigatório |
+
+Usar o sistema requer coordenação com o resto do seu esquadrão. Se você não explicar por que está iniciando a votação, seus companheiros de equipe podem ignorar o aviso ou votar contra.
+
+<Callout type="tip" title="Precisão no Nome de Usuário">
+Certifique-se de digitar o nome de exibição ou nome de usuário exato do jogador para evitar que o comando falhe.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Regras e Etiqueta da Votação para Expulsar">
+
+Em jogos de tiro tático competitivos, as emoções ficam à flor da pele. No entanto, a ferramenta de votação para expulsar deve ser usada apenas para perturbações legítimas. Sabotar partidas, ficar ausente (AFK) por várias rodadas ou usar softwares de terceiros são motivos válidos para remover um jogador. 
+
+Por outro lado, expulsar um jogador simplesmente por ter um nível de habilidade menor ou por falhar em vencer uma rodada é considerado falta de espírito esportivo. Esse comportamento reduz a base de jogadores e cria um ambiente tóxico.
+
+| Cenário | Justificativa | Ação Recomendada |
+| :--- | :--- | :--- |
+| **AFK por várias rodadas** | Justificado | Iniciar votação para expulsar |
+| **Uso ativo de exploits ou trapaça** | Justificado | Expulsar e denunciar ao Roblox |
+| **Falhar em uma tentativa de clutch 1v5** | Injustificado | Não expulsar / Apoiar o companheiro |
+| **Cegar a própria equipe intencionalmente** | Justificado | Iniciar votação para expulsar |
+| **Habilidade baixa ou aprendendo o jogo** | Injustificado | Oferecer dicas construtivas |
+
+Se você se encontrar em um lobby onde os jogadores estão tentando expulsar companheiros de equipe por pequenos erros, geralmente é melhor votar contra a expulsão e incentivar a comunicação. Uma equipe que trabalha junta para ajudar os jogadores com dificuldades a terem um desempenho melhor tem mais chances de vencer do que uma que constantemente reduz suas próprias fileiras.
+
+<Callout type="success" title="Reforço Positivo">
+Ajudar novos jogadores a aprender os layouts dos mapas e as mecânicas de movimento melhora a saúde geral da comunidade.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Gerenciando Perturbações no Jogo e Anti-Trapaça">
+
+Os desenvolvedores do Divisão de Desarmamento lançam atualizações regularmente para melhorar a estabilidade do servidor e combater trapaceiros. Junto com o sistema de votação para expulsar, várias atualizações de segurança no backend foram implantadas para minimizar o impacto de jogadores mal-intencionados. Correções de vazamento de memória, atualizações de replicação de personagens e patches anti-trapaça trabalham juntos para manter os servidores funcionando sem problemas.
+
+| Data da Atualização | Recurso Aprimorado | Impacto na Jogabilidade |
+| :--- | :--- | :--- |
+| **12 de out de 2025** | Atualizações Anti-Trapaça | Redução da exploração de scripts |
+| **15 de out de 2025** | Integração do Vote Kick | Moderação de jogadores liderada pela comunidade |
+| **18 de out de 2025** | Patches de Vazamento de Memória | Estabilidade do servidor aprimorada |
+| **24 de out de 2025** | Runboost & Boosting | Mecânicas competitivas legítimas |
+
+Se você encontrar um jogador que está contornando o anti-trapaça padrão, confiar apenas na votação para expulsar pode não ser suficiente. Ele pode simplesmente entrar em outro lobby e continuar atrapalhando as partidas. Nesses casos, combinar a ferramenta de expulsão do jogo com os métodos padrão de denúncia é a abordagem mais eficaz.
+
+<CardGrid cols={3}>
+  <Card title="Lidando com Jogadores Tóxicos">
+    - **Silencie o chat** de texto e voz instantaneamente.
+    - Evite se envolver em discussões.
+    - Use o sistema de votação para expulsar, se necessário.
+  </Card>
+  <Card title="Denunciando Trapaceiros">
+    - Grave evidências em vídeo, se possível.
+    - Envie denúncias através do menu do Roblox.
+    - Use os canais do Discord da comunidade.
+  </Card>
+  <Card title="Troca de Servidor (Server Hopping)">
+    - Saia de lobbies altamente tóxicos.
+    - Junte-se a grupos de amigos para partidas.
+    - Procure por lobbies personalizados competitivos.
+  </Card>
+</CardGrid>
+
+Ao adotar uma abordagem sistemática para as perturbações no servidor, você pode manter suas partidas competitivas e agradáveis.
+
+<Checklist
+  id="server-health"
+  title="Lista de Verificação para um Servidor Saudável:"
+  items={[
+    "Verifique se o jogador disruptivo está violando as regras do jogo",
+    "Comunique-se com os membros da equipe antes de iniciar uma votação",
+    "Denuncie exploits graves diretamente ao sistema de moderação do Roblox",
+    "Mantenha o espírito competitivo amigável e construtivo"
+  ]}
+/>
+
+<Callout type="info" title="Desempenho do Servidor">
+Se você tiver travamentos após uma expulsão por votação, pode ser devido às correções de replicação de personagens implementadas no final de 2025.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como iniciar uma votação para expulsar no Divisão de Desarmamento?",
+    answer: "Abra a janela de chat pressionando a tecla '/' e digite '/votekick' seguido pelo nome de usuário exato do jogador. A equipe deve então votar para confirmar a expulsão."
+  },
+  {
+    question: "Você pode expulsar alguém por falhar em um clutch?",
+    answer: "Embora o sistema tecnicamente permita se a equipe votar sim, fazer isso é considerado comportamento tóxico e abuso do sistema de expulsão."
+  },
+  {
+    question: "O que acontece se uma votação para expulsar falhar?",
+    answer: "Se a votação não receber votos de apoio suficientes antes que o cronômetro se esgote, um tempo de recarga (cooldown) é ativado, impedindo que outra votação seja iniciada imediatamente."
+  },
+  {
+    question: "O sistema de votação para expulsar funciona no celular?",
+    answer: "Sim, os jogadores de dispositivos móveis podem abrir a interface de chat e digitar o comando manualmente para iniciar uma votação ou participar de uma votação ativa."
+  }
+]} />
+
+<Callout type="tip" title="Precisa de Mais Ajuda?">
+Consulte o registro de alterações oficial do Fórum de Desenvolvedores do Divisão de Desarmamento para obter as atualizações mais recentes sobre comandos e controles do servidor.
+</Callout>
+
+</Section>

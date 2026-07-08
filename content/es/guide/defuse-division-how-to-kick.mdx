@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cómo expulsar en Defuse Division: Guía de votación paso a paso",
+  description: "Aprende cómo iniciar una votación de expulsión en Defuse Division, gestionar jugadores molestos y mantener la integridad competitiva en tus servidores.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Vote+Kick+Guide",
+  date: "2026-07-08",
+  author: "Equipo de la Wiki de Defuse Division"
+}
+
+<Callout type="info" title="Guía rápida">
+- Aprende los pasos exactos sobre **cómo expulsar en Defuse Division** para eliminar a jugadores tóxicos o inactivos (AFK).
+- Inicia una votación de expulsión usando el **comando de chat del juego** o la interfaz del menú durante las partidas activas.
+- Asegúrate de que los miembros de tu equipo alcancen un **consenso de mayoría** para aprobar la votación con éxito.
+- Evita expulsar a jugadores por **intentar ganar en solitario (clutch) o por bajo rendimiento** para mantener los estándares de juego limpio.
+</Callout>
+
+<Section icon={Shield} title="Introducción al sistema de votación de expulsión">
+
+Defuse Division lleva el juego de disparos táctico de alto riesgo a la plataforma Roblox. En partidas donde la estrategia, la comunicación y la coordinación son fundamentales, un solo jugador molesto puede arruinar la experiencia de todo un equipo. Ya sea que te enfrentes a un jugador inactivo, a un compañero que sabotea intencionadamente las rondas o a alguien que utiliza ventajas no autorizadas, saber cómo limpiar tu servidor es esencial. 
+
+Para abordar estas preocupaciones de la comunidad, el equipo de desarrollo introdujo el sistema oficial de votación de expulsión el 15 de octubre de 2025. Esta función proporciona a los jugadores las herramientas para automoderar sus partidas, garantizando que se mantenga la integridad competitiva sin tener que esperar a la intervención manual de un administrador.
+
+**Puntos destacados del video:**
+- Muestra el frustrante escenario de ser expulsado por intentar ganar en solitario (clutch) en Defuse Division.
+- Destaca cómo los jugadores abusan de la función de votación de expulsión durante momentos tensos de la partida.
+- Muestra imágenes reales de juego de una ronda estándar en el shooter táctico de Roblox.
+
+<YouTubeEmbed videoId="0k8ijF6qWIw" title="fui expulsado por intentar un clutch en roblox cs2 (defuse division)" />
+
+Aunque el sistema está diseñado para proteger a los jugadores, a veces los equipos competitivos abusan de él. En ocasiones, los jugadores intentan expulsar a compañeros que no logran ganar situaciones difíciles de clutch. Comprender cómo funciona el sistema ayuda a los jugadores a defenderse contra expulsiones injustas y a usar la herramienta de manera responsable.
+
+<Callout type="warning" title="Advertencia contra el abuso">
+Abusar del sistema de votación de expulsión para dirigirse a jugadores que no logran ganar un clutch puede resultar en medidas de moderación contra tu cuenta.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo expulsar en Defuse Division: Tutorial paso a paso">
+
+Iniciar una expulsión requiere usar la sintaxis correcta en el chat del juego. Debido a que el juego depende del filtro de chat estándar de Roblox y de la configuración del usuario, es necesario ingresar el comando con precisión para que el sistema registre el voto.
+
+Sigue estos pasos para iniciar una votación de expulsión contra un jugador molesto en tu partida:
+
+<Steps>
+  <Step num="1" title="Abre the chat del juego">
+    Presiona la tecla "/" en tu teclado para abrir la ventana de chat de texto activa durante una ronda o durante la fase de compra.
+  </Step>
+  <Step num="2" title="Introduce el comando de expulsión">
+    Escribe el comando seguido del nombre del jugador objetivo. Usa el formato: `/votekick [NombreJugador]`. Asegúrate de usar su nombre de usuario real en lugar de su nombre de pantalla si son diferentes.
+  </Step>
+  <Step num="3" title="Envía la solicitud de votación">
+    Presiona Enter para transmitir la votación a tu equipo. Aparecerá un aviso en las pantallas de tus compañeros de equipo, permitiéndoles emitir su voto.
+  </Step>
+  <Step num="4" title="Espera el veredicto final">
+    Monitorea el progreso de la votación. El jugador objetivo será eliminado del servidor una vez que se alcance el umbral de mayoría requerido.
+  </Step>
+</Steps>
+
+La ventana de votación permanece abierta por un tiempo limitado. Si no se alcanza el umbral antes de que expire el temporizador, la votación falla y se aplica un tiempo de recarga para evitar el spam.
+
+| Característica | Detalles | Estado |
+| :--- | :--- | :--- |
+| **Formato del comando** | /votekick [nombre_usuario] | Activo |
+| **Votos requeridos** | Mayoría del equipo activo | Requerido |
+| **Período de recarga** | 120 segundos entre votaciones | Activo |
+| **Mínimo de jugadores** | Al menos 4 jugadores en el servidor | Requerido |
+
+Usar el sistema requiere coordinación con el resto de tu escuadrón. Si no explicas por qué estás iniciando la votación, es posible que tus compañeros de equipo ignoren el aviso o voten en contra.
+
+<Callout type="tip" title="Precisión del nombre de usuario">
+Asegúrate de escribir el nombre de pantalla o el nombre de usuario exacto del jugador para evitar que el comando falle.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Reglas y etiqueta de la votación de expulsión">
+
+En los juegos de disparos tácticos competitivos, las emociones están a flor de piel. Sin embargo, la herramienta de votación de expulsión solo debe usarse para interrupciones legítimas. Sabotear partidas, quedarse ausente (AFK) durante varias rondas o usar software de terceros son razones válidas para eliminar a un jugador. 
+
+Por el contrario, expulsar a un jugador simplemente porque tiene un nivel de habilidad más bajo o porque no logró ganar una ronda se considera una conducta antideportiva. Este comportamiento reduce la base de jugadores y crea un ambiente tóxico.
+
+| Escenario | Justificación | Acción recomendada |
+| :--- | :--- | :--- |
+| **Ausente (AFK) durante varias rondas** | Justificado | Iniciar votación de expulsión |
+| **Uso activo de exploits o trampas** | Justificado | Expulsar y reportar a Roblox |
+| **Fallar un intento de clutch 1v5** | Injustificado | No expulsar / Apoyar al compañero |
+| **Cegar intencionadamente al equipo** | Justificado | Iniciar votación de expulsión |
+| **Baja habilidad o aprendiendo el juego** | Injustificado | Ofrecer consejos constructivos |
+
+Si te encuentras en una sala donde los jugadores intentan expulsar a sus compañeros por errores menores, a menudo es mejor votar en contra de la expulsión y fomentar la comunicación. Un equipo que trabaja en conjunto para ayudar a los jugadores con dificultades a mejorar tiene más probabilidades de ganar que uno que reduce constantemente sus propias filas.
+
+<Callout type="success" title="Refuerzo positivo">
+Ayudar a los nuevos jugadores a aprender los diseños de los mapas y las mecánicas de movimiento mejora la salud general de la comunidad.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Gestión de interrupciones en el juego y sistema antitrampas">
+
+Los desarrolladores de Defuse Division lanzan actualizaciones periódicamente para mejorar la estabilidad del servidor y combatir a los usuarios de exploits. Junto con el sistema de votación de expulsión, se han implementado varias actualizaciones de seguridad en el backend para minimizar el impacto de los jugadores maliciosos. Las correcciones de fugas de memoria, las actualizaciones de replicación de personajes y los parches antitrampas funcionan en conjunto para mantener los servidores en perfecto funcionamiento.
+
+| Fecha de actualización | Función mejorada | Impacto en el juego |
+| :--- | :--- | :--- |
+| **12 de oct. de 2025** | Actualizaciones antitrampas | Reducción de la explotación de scripts |
+| **15 de oct. de 2025** | Integración de votación de expulsión | Moderación de jugadores liderada por la comunidad |
+| **18 de oct. de 2025** | Parches para fugas de memoria | Estabilidad del servidor mejorada |
+| **24 de oct. de 2025** | Runboost y boosting | Mecánicas competitivas legítimas |
+
+Si te encuentras con un jugador que está eludiendo el sistema antitrampas estándar, confiar únicamente en una votación de expulsión podría no ser suficiente. Simplemente pueden unirse a otra sala y continuar interrumpiendo las partidas. En estos casos, combinar la herramienta de expulsión del juego con los métodos de reporte estándar es el enfoque más efectivo.
+
+<CardGrid cols={3}>
+  <Card title="Tratar con jugadores tóxicos">
+    - **Silencia el chat** de texto y voz al instante.
+    - Evita entrar en discusiones.
+    - Usa el sistema de votación de expulsión si es necesario.
+  </Card>
+  <Card title="Reportar usuarios de exploits">
+    - Graba pruebas en video si es posible.
+    - Envía reportes a través del menú de Roblox.
+    - Usa los canales de Discord de la comunidad.
+  </Card>
+  <Card title="Cambiar de servidor">
+    - Abandona las salas muy tóxicas.
+    - Únete a grupos de amigos para las partidas.
+    - Busca salas personalizadas competitivas.
+  </Card>
+</CardGrid>
+
+Al adoptar un enfoque sistemático ante las interrupciones del servidor, puedes mantener tus partidas competitivas y agradables.
+
+<Checklist
+  id="server-health"
+  title="Lista de verificación para un servidor saludable:"
+  items={[
+    "Verificar si el jugador molesto está violando las reglas del juego",
+    "Comunicarse con los miembros del equipo antes de convocar una votación",
+    "Reportar exploits graves directamente al sistema de moderación de Roblox",
+    "Mantener el espíritu competitivo de manera amistosa y constructiva"
+  ]}
+/>
+
+<Callout type="info" title="Rendimiento del servidor">
+Si experimentas tirones (stuttering) después de una votación de expulsión, puede debido a las correcciones de replicación de personajes implementadas a finales de 2025.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo se inicia una votación de expulsión en Defuse Division?",
+    answer: "Abre la ventana de chat presionando la tecla '/' y escribe '/votekick' seguido del nombre de usuario exacto del jugador. Luego, el equipo debe votar para confirmar la expulsión."
+  },
+  {
+    question: "¿Se puede expulsar a alguien por fallar un clutch?",
+    answer: "Aunque técnicamente el sistema lo permite si el equipo vota que sí, hacer esto se considera un comportamiento tóxico y un abuso del sistema de expulsión."
+  },
+  {
+    question: "¿Qué pasa si una votación de expulsión falla?",
+    answer: "Si la votación no recibe suficientes votos a favor antes de que se agote el tiempo, se activa un tiempo de recarga, lo que impide convocar otra votación de inmediato."
+  },
+  {
+    question: "¿Funciona el sistema de votación de expulsión en dispositivos móviles?",
+    answer: "Sí, los jugadores de dispositivos móviles pueden abrir la interfaz de chat y escribir el comando manualmente para iniciar una votación o participar en una votación activa."
+  }
+]} />
+
+<Callout type="tip" title="¿Necesitas más ayuda?">
+Consulta el registro de cambios oficial del Foro de Desarrolladores de Defuse Division para ver las últimas actualizaciones sobre comandos y controles del servidor.
+</Callout>
+
+</Section>

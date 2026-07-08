@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Defuse Division: So kickst du Spieler – Schritt-für-Schritt-Anleitung zum Vote-Kick",
+  description: "Erfahre, wie du in Defuse Division einen Vote-Kick startest, störende Spieler entfernst und die kompetitive Integrität auf deinen Servern wahrst.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Vote+Kick+Guide",
+  date: "2026-07-08",
+  author: "Defuse Division Wiki-Team",
+  keywords: "kick, vote kick, Defuse Division, Roblox, Anleitung, Spieler entfernen"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- Lerne die genauen Schritte für **Defuse Division: So kickst du Spieler**, um toxische oder AFK-Spieler zu entfernen.
+- Starte einen Vote-Kick über den **Chat-Befehl im Spiel** oder das Menü während laufender Matches.
+- Stelle sicher, dass eine **Mehrheit** deiner Teammitglieder zustimmt, damit die Abstimmung erfolgreich ist.
+- Vermeide es, Spieler für **Clutch-Versuche oder schlechte Leistung** zu kicken, um Fairplay-Standards einzuhalten.
+</Callout>
+
+<Section icon={Shield} title="Einführung in das Vote-Kick-System">
+
+Defuse Division bringt hochspannendes taktisches Shooter-Gameplay auf die Roblox-Plattform. In Matches, in denen Strategie, Kommunikation und Timing entscheidend sind, kann ein einziger störender Spieler das Erlebnis für das gesamte Team ruinieren. Egal, ob es sich um einen inaktiven Spieler handelt, einen Teamkollegen, der Runden absichtlich sabotiert, oder jemanden, der unerlaubte Exploits nutzt – zu wissen, wie man seinen Server sauber hält, ist unerlässlich.
+
+Um auf diese Community-Anliegen einzugehen, hat das Entwicklerteam am 15. Oktober 2025 das offizielle Vote-Kick-System eingeführt. Diese Funktion gibt Spielern die Werkzeuge zur Selbstmoderation ihrer Matches an die Hand und stellt sicher, dass die kompetitive Integrität gewahrt bleibt, ohne auf das manuelle Eingreifen eines Administrators warten zu müssen.
+
+**Video-Highlights:**
+- Demonstriert das frustrierende Szenario, in Defuse Division für einen Clutch-Versuch gekickt zu werden.
+- Zeigt auf, wie Spieler die Vote-Kick-Funktion in spannungsgeladenen Match-Momenten missbrauchen.
+- Zeigt echtes Gameplay-Material einer Standardrunde im taktischen Roblox-Shooter.
+
+<YouTubeEmbed videoId="0k8ijF6qWIw" title="Gekickt für Clutching in Roblox CS2 (Defuse Division)" />
+
+Obwohl das System zum Schutz der Spieler entwickelt wurde, wird es manchmal von kompetitiven Teams missbraucht. Spieler versuchen gelegentlich, Teamkollegen zu kicken, die schwierige Clutch-Szenarien nicht gewinnen. Zu verstehen, wie das System funktioniert, hilft Spielern, sich gegen unfaire Kicks zu wehren und das Werkzeug verantwortungsbewusst einzusetzen.
+
+<Callout type="warning" title="Warnung vor Missbrauch">
+Der Missbrauch des Vote-Kick-Systems, um gezielt Spieler zu kicken, die einen Clutch nicht schaffen, kann Moderationsmaßnahmen gegen dein Konto zur Folge haben.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Defuse Division: So kickst du Spieler – Schritt-für-Schritt-Anleitung">
+
+Das Einleiten eines Kicks erfordert die korrekte Syntax im Spiel-Chat. Da das Spiel auf den Standard-Chatfilter und die Benutzerkonfiguration von Roblox angewiesen ist, ist die präzise Eingabe des Befehls erforderlich, damit das System die Abstimmung registriert.
+
+Befolge diese Schritte, um einen Vote-Kick gegen einen störenden Spieler in deinem Match zu starten:
+
+<Steps>
+  <Step num="1" title="Öffne den In-Game-Chat">
+    Drücke die Taste „/“ auf deiner Tastatur, um das aktive Text-Chat-Fenster während einer Runde oder während der Kaufphase zu öffnen.
+  </Step>
+  <Step num="2" title="Gib den Kick-Befehl ein">
+    Gib den Befehl gefolgt vom Namen des Zielspielers ein. Verwende das Format: `/votekick [Spielername]`. Stelle sicher, dass du den tatsächlichen Benutzernamen und nicht den Anzeigenamen verwendest, falls diese sich unterscheiden.
+  </Step>
+  <Step num="3" title="Sende die Abstimmungsanfrage ab">
+    Drücke die Eingabetaste, um die Abstimmung an dein Team zu senden. Auf den Bildschirmen deiner Teamkollegen erscheint eine Aufforderung, die es ihnen ermöglicht, ihre Stimme abzugeben.
+  </Step>
+  <Step num="4" title="Warte auf das endgültige Urteil">
+    Überwache den Fortschritt der Abstimmung. Der Zielspieler wird vom Server entfernt, sobald die erforderliche Mehrheit erreicht ist.
+  </Step>
+</Steps>
+
+Das Abstimmungsfenster bleibt nur für begrenzte Zeit offen. Wenn die Mehrheit nicht erreicht wird, bevor der Timer abläuft, schlägt die Abstimmung fehl und eine Abklingzeit wird angewendet, um Spamming zu verhindern.
+
+| Feature | Details | Status |
+| :--- | :--- | :--- |
+| **Befehlsformat** | /votekick [Benutzername] | Aktiv |
+| **Erforderliche Stimmen** | Mehrheit des aktiven Teams | Erforderlich |
+| **Abklingzeit** | 120 Sekunden zwischen Abstimmungen | Aktiv |
+| **Mindestspielerzahl** | Mindestens 4 Spieler auf dem Server | Erforderlich |
+
+Die Nutzung des Systems erfordert Koordination mit dem Rest deines Teams. Wenn du nicht erklärst, warum du die Abstimmung startest, ignorieren deine Teamkollegen die Aufforderung möglicherweise oder stimmen dagegen.
+
+<Callout type="tip" title="Präzision beim Benutzernamen">
+Stelle sicher, dass du den exakten Anzeigenamen oder Benutzernamen des Spielers eingibst, um zu verhindern, dass der Befehl fehlschlägt.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Regeln und Etikette für den Vote-Kick">
+
+In kompetitiven taktischen Shootern kochen die Emotionen oft hoch. Das Vote-Kick-Tool sollte jedoch nur bei legitimen Störungen eingesetzt werden. Das Sabotieren von Matches, langes Fernbleiben von der Tastatur (AFK) über mehrere Runden oder die Verwendung von Drittanbieter-Software sind allesamt triftige Gründe, einen Spieler zu entfernen.
+
+Umgekehrt gilt das Kicken eines Spielers lediglich aufgrund eines geringeren Skill-Levels oder einer verlorenen Runde als unsportlich. Dieses Verhalten verringert die Spielerbasis und schafft eine toxische Umgebung.
+
+| Szenario | Rechtfertigung | Empfohlene Aktion |
+| :--- | :--- | :--- |
+| **AFK für mehrere Runden** | Gerechtfertigt | Vote-Kick einleiten |
+| **Aktives Exploiting oder Cheating** | Gerechtfertigt | Kicken und bei Roblox melden |
+| **Scheitern bei einem 1v5-Clutch-Versuch** | Ungerechtfertigt | Nicht kicken / Teamkollegen unterstützen |
+| **Absichtliches Blenden von Teamkollegen** | Gerechtfertigt | Vote-Kick einleiten |
+| **Geringer Skill oder Spielanfänger** | Ungerechtfertigt | Konstruktive Tipps geben |
+
+Wenn du dich in einer Lobby befindest, in der Spieler versuchen, Teamkollegen wegen kleiner Fehler zu kicken, ist es oft am besten, gegen den Kick zu stimmen und die Kommunikation zu fördern. Ein Team, das zusammenarbeitet, um schwächeren Spielern zu helfen, gewinnt wahrscheinlicher als eines, das ständig die eigenen Reihen ausdünnt.
+
+<Callout type="success" title="Positive Verstärkung">
+Neuen Spielern beim Erlernen der Kartenlayouts und Bewegungsmechaniken zu helfen, verbessert die allgemeine Gesundheit der Community.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Umgang mit Störungen und Anti-Cheat">
+
+Die Entwickler von Defuse Division veröffentlichen regelmäßig Updates, um die Serverstabilität zu verbessern und Exploiter zu bekämpfen. Neben dem Vote-Kick-System wurden mehrere Backend-Sicherheitsupdates implementiert, um die Auswirkungen bösartiger Spieler zu minimieren. Behebungen von Speicherlecks, Updates der Charakter-Replikation und Anti-Cheat-Patches arbeiten zusammen, um einen reibungslosen Serverbetrieb zu gewährleisten.
+
+| Update-Datum | Verbessertes Feature | Auswirkung auf das Gameplay |
+| :--- | :--- | :--- |
+| **12. Okt. 2025** | Anti-Cheat-Updates | Reduzierte Skript-Exploits |
+| **15. Okt. 2025** | Vote-Kick-Integration | Community-geführte Spielermoderation |
+| **18. Okt. 2025** | Speicherleck-Patches | Verbesserte Serverstabilität |
+| **24. Okt. 2025** | Runboost & Boosting | Legitime kompetitive Mechaniken |
+
+Wenn du auf einen Spieler stößt, der den Standard-Anti-Cheat umgeht, reicht ein Vote-Kick allein möglicherweise nicht aus. Er kann einfach einer anderen Lobby beitreten und dort weiter stören. In diesen Fällen ist die Kombination des In-Game-Kick-Tools mit den Standard-Meldemethoden der effektivste Ansatz.
+
+<CardGrid cols={3}>
+  <Card title="Umgang mit toxischen Spielern">
+    - **Text- und Sprachchat** sofort stummschalten.
+    - Verwickle dich nicht in Diskussionen.
+    - Nutze bei Bedarf das Vote-Kick-System.
+  </Card>
+  <Card title="Melden von Exploitern">
+    - Zeichne nach Möglichkeit Videobeweise auf.
+    - Sende Berichte über das Roblox-Menü.
+    - Nutze die Community-Discord-Kanäle.
+  </Card>
+  <Card title="Server-Hopping">
+    - Verlasse extrem toxische Lobbys.
+    - Tritt Freundesgruppen für Matches bei.
+    - Suche nach kompetitiven Custom-Lobbys.
+  </Card>
+</CardGrid>
+
+Durch ein systematisches Vorgehen bei Serverstörungen kannst du deine Matches kompetitiv und unterhaltsam halten.
+
+<Checklist
+  id="server-health"
+  title="Checkliste für einen gesunden Server:"
+  items={[
+    "Überprüfe, ob der störende Spieler gegen die Spielregeln verstößt",
+    "Kommuniziere mit den Teammitgliedern, bevor du eine Abstimmung startest",
+    "Melde schwere Exploits direkt an das Roblox-Moderationssystem",
+    "Halte den kompetitiven Geist freundlich und konstruktiv"
+  ]}
+/>
+
+<Callout type="info" title="Serverleistung">
+Wenn nach einem Vote-Kick Ruckler auftreten, kann dies an den Ende 2025 implementierten Korrekturen für die Charakter-Replikation liegen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Wie startet man einen Vote-Kick in Defuse Division?",
+    answer: "Öffne das Chat-Fenster durch Drücken der Taste „/“ und gib „/votekick“ gefolgt vom exakten Benutzernamen des Spielers ein. Das Team muss dann abstimmen, um den Kick zu bestätigen."
+  },
+  {
+    question: "Kann man jemanden kicken, weil er einen Clutch nicht geschafft hat?",
+    answer: "Obwohl das System es technisch zulässt, wenn das Team mit „Ja“ stimmt, gilt dies als toxisches Verhalten und Missbrauch des Kick-Systems."
+  },
+  {
+    question: "Was passiert, wenn ein Vote-Kick fehlschlägt?",
+    answer: "Wenn die Abstimmung nicht genügend Stimmen erhält, bevor der Timer abläuft, wird eine Abklingzeit ausgelöst, die verhindert, dass sofort eine neue Abstimmung gestartet werden kann."
+  },
+  {
+    question: "Funktioniert das Vote-Kick-System auf dem Handy?",
+    answer: "Ja, mobile Spieler können die Chat-Oberfläche öffnen und den Befehl manuell eingeben, um eine Abstimmung zu starten oder an einer aktiven Abstimmung teilzunehmen."
+  }
+]} />
+
+<Callout type="tip" title="Benötigst du weitere Hilfe?">
+Konsultiere das offizielle Defuse Division Entwicklerforum-Changelog für die neuesten Updates zu Serverbefehlen und Steuerung.
+</Callout>
+
+</Section>

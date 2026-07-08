@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Comandos de servidor privado de Defuse Division: Guía de administrador y configuración",
+  description: "Domina los comandos de servidor privado de Defuse Division con nuestra guía completa de 2026. Aprende la configuración de administrador, la gestión de jugadores y herramientas de práctica táctica.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Private+Server+Commands+Guide",
+  date: "2026-07-08",
+  author: "Equipo de la Wiki de Defuse Division",
+  keywords: "defuse division, comandos de servidor privado, roblox, administración, guía de táctica"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Los comandos de servidor privado de Defuse Division** son esenciales para gestionar sesiones de práctica y partidas personalizadas.
+- **El acceso de administrador** requiere permisos específicos otorgados por el propietario del servidor o a través de la configuración del juego en Roblox.
+- **La práctica táctica** es el caso de uso principal para estos comandos, permitiendo utilidad infinita y reinicios de ronda.
+- **La sintaxis de los comandos** suele seguir un sistema basado en prefijos (por ejemplo, ":comando nombrejugador").
+- **Las opciones de personalización** permiten a los administradores volar, cambiar la velocidad de caminata y modificar la física del juego para realizar pruebas.
+</Callout>
+
+<Section icon={Map} title="Introducción a los servidores privados de Defuse Division">
+
+En el panorama competitivo de los shooters tácticos de Roblox, los **comandos de servidor privado de Defuse Division** sirven como la columna vertebral para equipos serios y organizadores de la comunidad. Ya sea que busques organizar un torneo de alto nivel o simplemente quieras un entorno tranquilo para practicar tus "nades" (granadas) y estrategias de retoma, entender la consola administrativa es innegociable.
+
+Los servidores privados en Defuse Division ofrecen un entorno sandbox donde las reglas estándar del matchmaking público pueden doblarse o romperse para facilitar el aprendizaje. Al utilizar el conjunto completo de **comandos de servidor privado de Defuse Division**, los propietarios pueden controlar el flujo del tiempo, el posicionamiento de los jugadores e incluso las leyes de la física dentro de su instancia. Esta guía de 2026 proporciona la lista más actualizada de comandos y procedimientos de configuración para asegurar que tu servidor funcione sin problemas.
+
+| Función | Beneficio del servidor privado | Control por comandos |
+| :--- | :--- | :--- |
+| **Práctica** | Tiempo ilimitado para alineaciones de utilidad | Alto |
+| **Scrims** | Entorno controlado para 5v5 | Total |
+| **Pruebas** | Verificar puntos de wallbang y daño | Moderado |
+| **Moderación** | Eliminar jugadores disruptivos al instante | Absoluto |
+
+<Callout type="tip" title="Consejo Profesional">
+La mayoría de los comandos en Defuse Division usan dos puntos (:) como prefijo predeterminado. Si un comando no funciona, verifica si el propietario del servidor ha cambiado el prefijo en el menú de configuración.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comandos esenciales de administrador y jugador">
+
+Gestionar un servidor requiere un equilibrio entre utilidad y moderación. Los siguientes **comandos de servidor privado de Defuse Division** son los más utilizados por los administradores para mantener el orden y facilitar escenarios de juego específicos. Estos comandos se escriben normalmente de forma directa en el chat del juego.
+
+| Comando | Sintaxis | Efecto |
+| :--- | :--- | :--- |
+| **Volar (Fly)** | :fly [jugador] | Activa el vuelo para el jugador objetivo |
+| **Dejar de volar** | :unfly [jugador] | Desactiva el vuelo para el jugador objetivo |
+| **Velocidad** | :speed [jugador] [núm] | Establece la velocidad de caminata de un jugador |
+| **Salto** | :jp [jugador] [núm] | Modifica la altura del salto |
+| **Teletransporte** | :tp [j1] [j2] | Teletransporta al jugador 1 al jugador 2 |
+| **Traer (Bring)** | :bring [jugador] | Teletransporta a un jugador a tu ubicación |
+
+Más allá del simple movimiento, los comandos de moderación son vitales para mantener tu espacio privado seguro frente a "trolls" o invitados no deseados que puedan haber encontrado tu enlace.
+
+| Moderación | Sintaxis | Duración |
+| :--- | :--- | :--- |
+| **Expulsar (Kick)** | :kick [jugador] [motivo] | Eliminación inmediata |
+| **Banear (Ban)** | :ban [jugador] [motivo] | Eliminación permanente del servidor |
+| **Silenciar (Mute)** | :mute [jugador] | Desactiva el chat del jugador |
+| **Desilenciar** | :unmute [jugador] | Activa el chat del jugador |
+
+<Callout type="warning" title="Advertencia">
+Ten cuidado al usar el comando `:ban`. En los servidores privados, los baneos a menudo se almacenan en el almacén de datos del servidor y pueden persistir en diferentes sesiones a menos que se revoquen manualmente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de configuración del servidor paso a paso">
+
+Configurar tu entorno para aceptar **comandos de servidor privado de Defuse Division** es el primer paso hacia una práctica de nivel profesional. Sigue estos pasos para asegurar que tus permisos de administrador estén correctamente configurados para la temporada 2026.
+
+<Steps>
+  <Step num="1" title="Comprar o unirse a un servidor privado">
+    Navega a la página del juego Defuse Division en Roblox. Haz clic en la pestaña "Servers" (Servidores) y crea un servidor privado. Ten en cuenta que algunos servidores pueden requerir una suscripción mensual de Robux, mientras que otros son gratuitos dependiendo de las promociones actuales de los desarrolladores.
+  </Step>
+  <Step num="2" title="Acceder al menú de administrador">
+    Una vez dentro del servidor, busca un icono de "Settings" (Configuración) o "Admin" en el HUD. Si no hay ningún icono visible, intenta escribir `:cmds` en el chat para ver si el sistema de comandos está activo.
+  </Step>
+  <Step num="3" title="Asignar roles de administrador">
+    Como propietario, puedes otorgar a otros permiso para usar **comandos de servidor privado de Defuse Division**. Usa el comando `:admin [nombreusuario]` para dar poderes administrativos a un amigo de confianza para la sesión.
+  </Step>
+  <Step num="4" title="Configurar las reglas del juego">
+    Usa comandos tácticos para preparar tu práctica. Por ejemplo, usa `:freezetime 0` para eliminar el retraso al inicio de la ronda o `:infammo on` para permitir la práctica infinita de granadas.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Configuración completada">
+Una vez seguidos estos pasos, tu servidor estará listo para un entrenamiento táctico de alto nivel. Ahora puedes usar toda la gama de comandos para personalizar la experiencia.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Niveles de permisos avanzados">
+
+No todos los administradores son iguales. En Defuse Division, los permisos a menudo están divididos en niveles para evitar que los moderadores de nivel bajo cierren accidentalmente el servidor o baneen al propietario. Entender estos niveles es crucial al gestionar una comunidad grande o un equipo competitivo.
+
+<CardGrid cols={3}>
+  <Card title="Propietario">
+    - **Acceso Total** a todos los comandos
+    - Puede otorgar/revocar el estatus de Administrador
+    - Capacidad para cerrar el servidor
+  </Card>
+  <Card title="Administrador">
+    - Acceso a movimiento y moderación
+    - Puede expulsar y banear temporalmente
+    - Puede cambiar el estado del juego (ej. reiniciar)
+  </Card>
+  <Card title="Moderador">
+    - Acceso a utilidades básicas
+    - Puede silenciar y expulsar jugadores
+    - Acceso limitado a comandos de movimiento
+  </Card>
+</CardGrid>
+
+| Rol | Movimiento | Moderación | Estado del Juego |
+| :--- | :--- | :--- | :--- |
+| **Propietario** | Sí | Sí | Sí |
+| **Administrador** | Sí | Sí | Limitado |
+| **Moderador** | Limitado | Sí | No |
+
+<Callout type="info" title="Nota">
+El comando `:whois [jugador]` es excelente para verificar el nivel de permiso actual de un usuario si no estás seguro de quién tiene acceso a comandos específicos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Comandos de práctica táctica">
+
+Para los jugadores que buscan mejorar su habilidad, los **comandos de servidor privado de Defuse Division** ofrecen herramientas especializadas que simulan escenarios de juego reales. Estos son particularmente útiles para aprender "lineups" (puntos específicos para lanzar granadas) o probar ángulos de "pre-fire".
+
+| Objetivo táctico | Comando sugerido | Uso práctico |
+| :--- | :--- | :--- |
+| **Entrenamiento de granadas** | :viewlineups / :infammo | Ver trayectoria y practicar lanzamientos |
+| **Posicionamiento** | :setpos [x,y,z] | Regresar exactamente al mismo punto para pruebas |
+| **Tiempos (Timing)** | :timer [segundos] | Probar cuánto tiempo toma rotar |
+| **Visibilidad** | :esp [on/off] | Ver contornos de jugadores a través de paredes (Solo Admin) |
+
+Estos comandos transforman el juego de un shooter estándar a un laboratorio para la excelencia táctica. Al dominar los comandos `:setpos` y `:bring`, un entrenador puede mover a todo un equipo a través del mapa instantáneamente para demostrar una estrategia específica.
+
+<Callout type="tip" title="Consejo de Eficiencia">
+Usa el comando `:bind` (si el script de administrador lo admite) para asignar comandos frecuentes como `:respawn` o `:fly` a teclas específicas de tu teclado para un acceso más rápido.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación para la gestión del servidor">
+
+Antes de organizar una scrim o una sesión de práctica, revisa esta lista para asegurar que tus **comandos de servidor privado de Defuse Division** y el entorno estén optimizados para el rendimiento.
+
+<Checklist
+  id="server-prep"
+  title="Requisitos previos a la partida:"
+  items={[
+    "Verificar que todos los jugadores estén en la lista blanca (whitelist)",
+    "Establecer el mapa correcto usando :map [nombre_mapa]",
+    "Activar/Desactivar el fuego amigo según las reglas de la partida",
+    "Reiniciar todas las estadísticas de los jugadores usando :resetstats",
+    "Confirmar que todos los administradores entiendan las reglas de conducta"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo encuentro una lista de todos los comandos disponibles del servidor privado de Defuse Division?",
+    answer: "Normalmente puedes escribir ':cmds' o ':help' en el chat del juego. Esto abrirá una interfaz gráfica o listará los comandos disponibles para los que tienes permiso."
+  },
+  {
+    question: "¿Puedo usar estos comandos en servidores públicos?",
+    answer: "No, los comandos de administrador están estrictamente limitados a servidores privados donde se te han otorgado permisos. Intentar usarlos en partidas públicas no funcionará."
+  },
+  {
+    question: "¿Qué debo hacer si los comandos dejan de funcionar?",
+    answer: "Primero, verifica tu prefijo. Si es correcto, es posible que el servidor necesite un reinicio. Usa ':shutdown' si eres el propietario, o vuelve a unirte al servidor para refrescar el script."
+  },
+  {
+    question: "¿Hay alguna forma de guardar mis configuraciones de administrador?",
+    answer: "La mayoría de los servidores privados de Defuse Division guardan el estatus de 'Propietario' automáticamente, pero los roles de 'Administrador' o 'Moderador' pueden necesitar ser reasignados en cada sesión a menos que el servidor use un almacén de datos persistente."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+Mantente siempre actualizado con el Discord oficial de Defuse Division o los grupos de la comunidad, ya que los desarrolladores añaden frecuentemente nuevos **comandos de servidor privado de Defuse Division** para mejorar la experiencia competitiva en 2026.
+</Callout>
+
+</Section>

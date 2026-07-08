@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Befehle für private Server in Entschärfungs-Division: Admin-Handbuch & Einrichtung",
+  description: "Meistern Sie die Befehle für private Server in Entschärfungs-Division mit unserem umfassenden Leitfaden für 2026. Lernen Sie Admin-Einrichtung, Spieler-Management und taktische Übungswerkzeuge.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Private+Server+Commands+Guide",
+  date: "2026-07-08",
+  author: "Entschärfungs-Division Wiki-Team",
+  keywords: "Entschärfungs-Division, private Server-Befehle, Admin-Leitfaden, Roblox, Taktik-Shooter, Befehlssyntax"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Befehle für private Server in Entschärfungs-Division** sind essenziell für die Verwaltung von Übungssitzungen und benutzerdefinierten Matches.
+- **Admin-Zugriff** erfordert spezifische Berechtigungen, die vom Serverbesitzer oder über die Roblox-Spieleinstellungen vergeben werden.
+- **Taktische Übungen** sind der Hauptanwendungsfall für diese Befehle und ermöglichen unbegrenzte Utility-Nutzung und Runden-Resets.
+- **Die Befehlssyntax** folgt normalerweise einem präfixbasierten System (z. B. „:befehl spielername“).
+- **Anpassungsoptionen** erlauben es Admins zu fliegen, die Laufgeschwindigkeit zu ändern und die Spielphysik zu Testzwecken zu modifizieren.
+</Callout>
+
+<Section icon={Map} title="Einführung in private Server von Entschärfungs-Division">
+
+In der kompetitiven Landschaft der Roblox-Taktik-Shooter bilden **Befehle für private Server in Entschärfungs-Division** das Rückgrat für ambitionierte Teams und Community-Organisatoren. Egal, ob Sie ein hochkarätiges Turnier ausrichten möchten oder einfach nur eine ruhige Umgebung suchen, um Ihre „Nades“ (Granaten) und Retake-Strategien zu üben – das Verständnis der Admin-Konsole ist unverzichtbar.
+
+Private Server in Entschärfungs-Division bieten eine Sandbox-Umgebung, in der die Standardregeln des öffentlichen Matchmakings gebeugt oder gebrochen werden können, um das Lernen zu erleichtern. Durch die Nutzung der vollständigen Palette an **Befehlen für private Server in Entschärfungs-Division** können Besitzer den Zeitfluss, die Spielerpositionierung und sogar die Gesetze der Physik innerhalb ihrer Instanz steuern. Dieser Leitfaden für 2026 bietet die aktuellste Liste von Befehlen und Einrichtungsverfahren, um einen reibungslosen Betrieb Ihres Servers zu gewährleisten.
+
+| Feature | Vorteil auf privatem Server | Befehlskontrolle |
+| :--- | :--- | :--- |
+| **Übung** | Unbegrenzte Zeit für Utility-Lineups | Hoch |
+| **Scrims** | Kontrollierte Umgebung für 5v5 | Vollständig |
+| **Testen** | Wallbang-Spots und Schaden prüfen | Moderat |
+| **Moderation** | Störende Spieler sofort entfernen | Absolut |
+
+<Callout type="tip" title="Profi-Tipp">
+Die meisten Befehle in Entschärfungs-Division verwenden einen Doppelpunkt (:) als Standard-Präfix. Wenn ein Befehl nicht funktioniert, prüfen Sie, ob der Serverbesitzer das Präfix im Einstellungsmenü geändert hat.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Essenzielle Admin- und Spielerbefehle">
+
+Die Verwaltung eines Servers erfordert ein Gleichgewicht zwischen Utility und Moderation. Die folgenden **Befehle für private Server in Entschärfungs-Division** werden am häufigsten von Administratoren verwendet, um die Ordnung aufrechtzuerhalten und spezifische Gameplay-Szenarien zu ermöglichen. Diese Befehle werden normalerweise direkt in den Spiel-Chat eingegeben.
+
+| Befehl | Syntax | Effekt |
+| :--- | :--- | :--- |
+| **Fly** | :fly [Spieler] | Aktiviert das Fliegen für den Zielspieler |
+| **Unfly** | :unfly [Spieler] | Deaktiviert das Fliegen für den Zielspieler |
+| **Speed** | :speed [Spieler] [Zahl] | Legt die Laufgeschwindigkeit eines Spielers fest |
+| **JumpPower** | :jp [Spieler] [Zahl] | Ändert die Sprunghöhe |
+| **Teleport** | :tp [P1] [P2] | Teleportiert Spieler 1 zu Spieler 2 |
+| **Bring** | :bring [Spieler] | Teleportiert einen Spieler zu Ihrem Standort |
+
+Über einfache Bewegungen hinaus sind Moderationsbefehle entscheidend, um Ihren privaten Bereich vor „Trollen“ oder ungebetenen Gästen zu schützen, die eventuell Ihren Link gefunden haben.
+
+| Moderation | Syntax | Dauer |
+| :--- | :--- | :--- |
+| **Kick** | :kick [Spieler] [Grund] | Sofortige Entfernung |
+| **Ban** | :ban [Spieler] [Grund] | Permanente Entfernung vom Server |
+| **Mute** | :mute [Spieler] | Deaktiviert den Spieler-Chat |
+| **Unmute** | :unmute [Spieler] | Aktiviert den Spieler-Chat |
+
+<Callout type="warning" title="Warnung">
+Seien Sie vorsichtig bei der Verwendung des `:ban`-Befehls. Auf privaten Servern werden Bans oft im Datenspeicher des Servers hinterlegt und können über verschiedene Sitzungen hinweg bestehen bleiben, sofern sie nicht manuell aufgehoben werden.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Anleitung zur Servereinrichtung">
+
+Die Einrichtung Ihrer Umgebung zur Annahme von **Befehlen für private Server in Entschärfungs-Division** ist der erste Schritt zu professionellem Training. Befolgen Sie diese Schritte, um sicherzustellen, dass Ihre Admin-Berechtigungen für die Saison 2026 korrekt konfiguriert sind.
+
+<Steps>
+  <Step num="1" title="Privaten Server kaufen oder beitreten">
+    Navigieren Sie zur Spielseite von Entschärfungs-Division auf Roblox. Klicken Sie auf den Reiter „Server“ und erstellen Sie einen privaten Server. Beachten Sie, dass einige Server ein monatliches Robux-Abonnement erfordern können, während andere je nach aktuellen Entwickler-Promotions kostenlos sind.
+  </Step>
+  <Step num="2" title="Das Admin-Menü aufrufen">
+    Suchen Sie im Server nach einem „Einstellungen“- oder „Admin“-Symbol im HUD. Wenn kein Symbol sichtbar ist, versuchen Sie, `:cmds` in den Chat einzugeben, um zu sehen, ob das Befehlssystem aktiv ist.
+  </Step>
+  <Step num="3" title="Admin-Rollen zuweisen">
+    Als Besitzer können Sie anderen die Erlaubnis erteilen, **Befehle für private Server in Entschärfungs-Division** zu nutzen. Verwenden Sie den Befehl `:admin [Benutzername]`, um einem vertrauenswürdigen Freund für die Sitzung Admin-Rechte zu geben.
+  </Step>
+  <Step num="4" title="Spielregeln konfigurieren">
+    Nutzen Sie taktische Befehle, um Ihre Übung einzurichten. Verwenden Sie beispielsweise `:freezetime 0`, um die Verzögerung zu Rundenbeginn zu entfernen, oder `:infammo on`, um endloses Granatentraining zu ermöglichen.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Einrichtung abgeschlossen">
+Sobald diese Schritte befolgt wurden, ist Ihr Server bereit für taktisches Training auf hohem Niveau. Sie können nun die gesamte Palette der Befehle nutzen, um das Erlebnis anzupassen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Erweiterte Berechtigungsstufen">
+
+Nicht alle Admins sind gleichgestellt. In Entschärfungs-Division sind Berechtigungen oft abgestuft, um zu verhindern, dass Moderatoren niedrigerer Stufen versehentlich den Server abschalten oder den Besitzer bannen. Das Verständnis dieser Stufen ist entscheidend bei der Verwaltung einer großen Community oder eines kompetitiven Teams.
+
+<CardGrid cols={3}>
+  <Card title="Besitzer">
+    - **Vollständiger Zugriff** auf alle Befehle
+    - Kann Admin-Status vergeben/entziehen
+    - Fähigkeit, den Server abzuschalten
+  </Card>
+  <Card title="Admin">
+    - Zugriff auf Bewegung & Moderation
+    - Kann kicken und temporär bannen
+    - Kann den Spielstatus ändern (z. B. Neustart)
+  </Card>
+  <Card title="Moderator">
+    - Zugriff auf grundlegende Utilities
+    - Kann Spieler stummschalten und kicken
+    - Eingeschränkter Zugriff auf Bewegungsbefehle
+  </Card>
+</CardGrid>
+
+| Rolle | Bewegung | Moderation | Spielstatus |
+| :--- | :--- | :--- | :--- |
+| **Besitzer** | Ja | Ja | Ja |
+| **Admin** | Ja | Ja | Eingeschränkt |
+| **Moderator** | Eingeschränkt | Ja | Nein |
+
+<Callout type="info" title="Hinweis">
+Der Befehl `:whois [Spieler]` ist hervorragend geeignet, um die aktuelle Berechtigungsstufe eines Nutzers zu überprüfen, wenn Sie unsicher sind, wer Zugriff auf bestimmte Befehle hat.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Taktische Übungsbefehle">
+
+Für Spieler, die ihre Fähigkeiten verbessern wollen, bieten **Befehle für private Server in Entschärfungs-Division** spezialisierte Werkzeuge, die reale Spielszenarien simulieren. Diese sind besonders nützlich, um „Lineups“ (spezifische Punkte zum Werfen von Granaten) zu lernen oder „Pre-Fire“-Winkel zu testen.
+
+| Taktisches Ziel | Vorgeschlagener Befehl | Praktische Anwendung |
+| :--- | :--- | :--- |
+| **Granatentraining** | :viewlineups / :infammo | Flugbahn sehen und Würfe üben |
+| **Positionierung** | :setpos [x,y,z] | Zu Testzwecken an exakt dieselbe Stelle zurückkehren |
+| **Timing** | :timer [Sekunden] | Testen, wie lange eine Rotation dauert |
+| **Sichtbarkeit** | :esp [on/off] | Spielerumrisse durch Wände sehen (nur Admin) |
+
+Diese Befehle verwandeln das Spiel von einem Standard-Shooter in ein Labor für taktische Exzellenz. Durch das Beherrschen der Befehle `:setpos` und `:bring` kann ein Coach ein ganzes Team sofort über die Karte bewegen, um eine spezifische Strategie zu demonstrieren.
+
+<Callout type="tip" title="Effizienz-Tipp">
+Verwenden Sie den Befehl `:bind` (sofern vom Admin-Skript unterstützt), um häufige Befehle wie `:respawn` oder `:fly` auf bestimmte Tasten Ihrer Tastatur zu legen, um schneller darauf zugreifen zu können.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checkliste für das Servermanagement">
+
+Bevor Sie ein Scrim oder eine Übungssitzung hosten, gehen Sie diese Checkliste durch, um sicherzustellen, dass Ihre **Befehle für private Server in Entschärfungs-Division** und die Umgebung auf Leistung optimiert sind.
+
+<Checklist
+  id="server-prep"
+  title="Anforderungen vor dem Match:"
+  items={[
+    "Überprüfen, ob alle Spieler auf der Whitelist stehen",
+    "Die richtige Karte mit :map [Kartenname] festlegen",
+    "Friendly Fire basierend auf Match-Regeln aktivieren/deaktivieren",
+    "Alle Spieler-Scores mit :resetstats zurücksetzen",
+    "Bestätigen, dass alle Admins die Verhaltensregeln verstehen"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Wie finde ich eine Liste aller verfügbaren Befehle für private Server in Entschärfungs-Division?",
+    answer: "Normalerweise können Sie ':cmds' oder ':help' in den Spiel-Chat eingeben. Dies öffnet eine Benutzeroberfläche (GUI) oder listet die verfügbaren Befehle auf, für die Sie eine Berechtigung haben."
+  },
+  {
+    question: "Kann ich diese Befehle auf öffentlichen Servern verwenden?",
+    answer: "Nein, Admin-Befehle sind streng auf private Server beschränkt, auf denen Ihnen Berechtigungen erteilt wurden. Der Versuch, sie in öffentlichen Matches zu verwenden, wird nicht funktionieren."
+  },
+  {
+    question: "Was soll ich tun, wenn die Befehle nicht mehr funktionieren?",
+    answer: "Prüfen Sie zuerst Ihr Präfix. Wenn dieses korrekt ist, muss der Server möglicherweise neu gestartet werden. Verwenden Sie ':shutdown', wenn Sie der Besitzer sind, oder treten Sie dem Server neu bei, um das Skript zu aktualisieren."
+  },
+  {
+    question: "Gibt es eine Möglichkeit, meine Admin-Einstellungen zu speichern?",
+    answer: "Die meisten privaten Server in Entschärfungs-Division speichern den Status 'Besitzer' automatisch, aber Rollen wie 'Admin' oder 'Moderator' müssen möglicherweise in jeder Sitzung neu zugewiesen werden, es sei denn, der Server verwendet einen permanenten Datenspeicher."
+  }
+]} />
+
+<Callout type="info" title="Schlusswort">
+Bleiben Sie immer über den offiziellen Discord von Entschärfungs-Division oder Community-Gruppen auf dem Laufenden, da die Entwickler häufig neue **Befehle für private Server in Entschärfungs-Division** hinzufügen, um das kompetitive Erlebnis im Jahr 2026 zu verbessern.
+</Callout>
+
+</Section>

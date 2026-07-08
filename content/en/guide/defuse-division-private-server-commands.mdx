@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "defuse division private server commands: Admin Guide & Setup",
+  description: "Master defuse division private server commands with our comprehensive 2026 guide. Learn admin setup, player management, and tactical practice tools.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Private+Server+Commands+Guide",
+  date: "2026-07-08",
+  author: "defuse division Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **defuse division private server commands** are essential for managing practice sessions and custom matches.
+- **Admin Access** requires specific permissions granted by the server owner or via the Roblox game settings.
+- **Tactical Practice** is the primary use case for these commands, allowing for infinite utility and round resets.
+- **Command Syntax** usually follows a prefix-based system (e.g., ":command playername").
+- **Customization** options allow admins to fly, change walkspeed, and modify game physics for testing.
+</Callout>
+
+<Section icon={Map} title="Introduction to Defuse Division Private Servers">
+
+In the competitive landscape of Roblox tactical shooters, **defuse division private server commands** serve as the backbone for serious teams and community organizers. Whether you are looking to host a high-stakes tournament or simply want a quiet environment to practice your "nades" and retake strategies, understanding the administrative console is non-negotiable. 
+
+Private servers in Defuse Division offer a sandbox environment where the standard rules of public matchmaking can be bent or broken to facilitate learning. By utilizing the full suite of **defuse division private server commands**, owners can control the flow of time, player positioning, and even the laws of physics within their instance. This 2026 guide provides the most up-to-date list of commands and setup procedures to ensure your server runs smoothly.
+
+| Feature | Private Server Benefit | Command Control |
+| :--- | :--- | :--- |
+| **Practice** | Unlimited time for utility lineups | High |
+| **Scrims** | Controlled environment for 5v5 | Full |
+| **Testing** | Check wallbang spots and damage | Moderate |
+| **Moderation** | Remove disruptive players instantly | Absolute |
+
+<Callout type="tip" title="Pro Tip">
+Most commands in Defuse Division use a colon (:) as the default prefix. If a command does not work, check if the server owner has changed the prefix in the settings menu.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Essential Admin and Player Commands">
+
+Managing a server requires a balance between utility and moderation. The following **defuse division private server commands** are the most frequently used by administrators to maintain order and facilitate specific gameplay scenarios. These commands are typically typed directly into the game chat.
+
+| Command | Syntax | Effect |
+| :--- | :--- | :--- |
+| **Fly** | :fly [player] | Enables flight for the target player |
+| **Unfly** | :unfly [player] | Disables flight for the target player |
+| **Speed** | :speed [player] [num] | Sets the walkspeed of a player |
+| **JumpPower** | :jp [player] [num] | Modifies the jump height |
+| **Teleport** | :tp [p1] [p2] | Teleports player 1 to player 2 |
+| **Bring** | :bring [player] | Teleports a player to your location |
+
+Beyond simple movement, moderation commands are vital for keeping your private space secure from "trolls" or uninvited guests who might have found your link.
+
+| Moderation | Syntax | Duration |
+| :--- | :--- | :--- |
+| **Kick** | :kick [player] [reason] | Immediate removal |
+| **Ban** | :ban [player] [reason] | Permanent removal from server |
+| **Mute** | :mute [player] | Disables player chat |
+| **Unmute** | :unmute [player] | Enables player chat |
+
+<Callout type="warning" title="Warning">
+Be careful when using the `:ban` command. In private servers, bans are often stored in the server's data store and may persist across different sessions unless manually revoked.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Server Setup Guide">
+
+Setting up your environment to accept **defuse division private server commands** is the first step toward professional-grade practice. Follow these steps to ensure your admin permissions are correctly configured for the 2026 season.
+
+<Steps>
+  <Step num="1" title="Purchase or Join a Private Server">
+    Navigate to the Defuse Division game page on Roblox. Click on the "Servers" tab and create a private server. Note that some servers may require a monthly Robux subscription, while others are free depending on current developer promotions.
+  </Step>
+  <Step num="2" title="Access the Admin Menu">
+    Once inside the server, look for a "Settings" or "Admin" icon on the HUD. If no icon is visible, try typing `:cmds` in the chat to see if the command system is active.
+  </Step>
+  <Step num="3" title="Assign Admin Roles">
+    As the owner, you can grant others permission to use **defuse division private server commands**. Use the command `:admin [username]` to give a trusted friend administrative powers for the session.
+  </Step>
+  <Step num="4" title="Configure Game Rules">
+    Use tactical commands to set up your practice. For example, use `:freezetime 0` to remove the start-of-round delay or `:infammo on` to allow for endless grenade practice.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Setup Complete">
+Once these steps are followed, your server is ready for high-level tactical training. You can now use the full range of commands to customize the experience.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Advanced Permission Levels">
+
+Not all admins are created equal. In Defuse Division, permissions are often tiered to prevent lower-level moderators from accidentally shutting down the server or banning the owner. Understanding these tiers is crucial when managing a large community or a competitive team.
+
+<CardGrid cols={3}>
+  <Card title="Owner">
+    - **Full Access** to all commands
+    - Can grant/revoke Admin status
+    - Ability to shutdown the server
+  </Card>
+  <Card title="Admin">
+    - Access to movement & moderation
+    - Can kick and temporary ban
+    - Can change game state (e.g., restart)
+  </Card>
+  <Card title="Moderator">
+    - Access to basic utility
+    - Can mute and kick players
+    - Limited movement command access
+  </Card>
+</CardGrid>
+
+| Role | Movement | Moderation | Game State |
+| :--- | :--- | :--- | :--- |
+| **Owner** | Yes | Yes | Yes |
+| **Admin** | Yes | Yes | Limited |
+| **Moderator** | Limited | Yes | No |
+
+<Callout type="info" title="Note">
+The `:whois [player]` command is excellent for checking a user's current permission level if you are unsure who has access to specific commands.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Tactical Practice Commands">
+
+For players looking to improve their skill, **defuse division private server commands** offer specialized tools that simulate real-game scenarios. These are particularly useful for learning "lineups" (specific spots to throw grenades) or testing "pre-fire" angles.
+
+| Tactical Goal | Suggested Command | Practical Use |
+| :--- | :--- | :--- |
+| **Nade Training** | :viewlineups / :infammo | See trajectory and practice throws |
+| **Positioning** | :setpos [x,y,z] | Return to the exact same spot for testing |
+| **Timing** | :timer [seconds] | Test how long it takes to rotate |
+| **Visibility** | :esp [on/off] | See player outlines through walls (Admin only) |
+
+These commands transform the game from a standard shooter into a laboratory for tactical excellence. By mastering the `:setpos` and `:bring` commands, a coach can move an entire team across the map instantly to demonstrate a specific strategy.
+
+<Callout type="tip" title="Efficiency Tip">
+Use the `:bind` command (if supported by the admin script) to map frequent commands like `:respawn` or `:fly` to specific keys on your keyboard for faster access.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Server Management Checklist">
+
+Before hosting a scrim or a practice session, go through this checklist to ensure your **defuse division private server commands** and environment are optimized for performance.
+
+<Checklist
+  id="server-prep"
+  title="Pre-Match Requirements:"
+  items={[
+    "Verify all players are on the whitelist",
+    "Set the correct map using :map [mapname]",
+    "Enable/Disable friendly fire based on match rules",
+    "Reset all player scores using :resetstats",
+    "Confirm that all admins understand the rules of conduct"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I find a list of all available defuse division private server commands?",
+    answer: "You can usually type ':cmds' or ':help' in the game chat. This will open a GUI or list the available commands you have permission to use."
+  },
+  {
+    question: "Can I use these commands in public servers?",
+    answer: "No, admin commands are strictly limited to private servers where you have been granted permissions. Attempting to use them in public matches will not work."
+  },
+  {
+    question: "What should I do if the commands stop working?",
+    answer: "First, check your prefix. If that is correct, the server might need a restart. Use ':shutdown' if you are the owner, or rejoin the server to refresh the script."
+  },
+  {
+    question: "Is there a way to save my admin settings?",
+    answer: "Most Defuse Division private servers save the 'Owner' status automatically, but 'Admin' or 'Moderator' roles may need to be re-assigned each session unless the server uses a persistent datastore."
+  }
+]} />
+
+<Callout type="info" title="Final Note">
+Always stay updated with the official Defuse Division Discord or community groups, as developers frequently add new **defuse division private server commands** to enhance the competitive experience in 2026.
+</Callout>
+
+</Section>

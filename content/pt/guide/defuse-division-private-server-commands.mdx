@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "comandos de servidor privado do Divisão de Desarmamento: Guia de Administração e Configuração",
+  description: "Domine os comandos de servidor privado do Divisão de Desarmamento com nosso guia completo de 2026. Aprenda configuração de admin, gerenciamento de jogadores e ferramentas de prática tática.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Private+Server+Commands+Guide",
+  date: "2026-07-08",
+  author: "Equipe da Wiki do Divisão de Desarmamento",
+  keywords: "comandos, servidor privado, Divisão de Desarmamento, admin, guia, roblox, prática tática"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **comandos de servidor privado do Divisão de Desarmamento** são essenciais para gerenciar sessões de prática e partidas personalizadas.
+- **Acesso de Administrador** requer permissões específicas concedidas pelo dono do servidor ou através das configurações de jogo do Roblox.
+- **Prática Tática** é o principal caso de uso para esses comandos, permitindo utilitários infinitos e reinicializações de rodada.
+- **Sintaxe de Comando** geralmente segue um sistema baseado em prefixo (ex: ":comando nomejogador").
+- **Customização** permite que admins voem, alterem a velocidade de caminhada e modifiquem a física do jogo para testes.
+</Callout>
+
+<Section icon={Map} title="Introdução aos Servidores Privados do Divisão de Desarmamento">
+
+No cenário competitivo dos shooters táticos do Roblox, os **comandos de servidor privado do Divisão de Desarmamento** servem como a espinha dorsal para equipes sérias e organizadores de comunidades. Esteja você procurando sediar um torneio de alto nível ou simplesmente queira um ambiente tranquilo para praticar suas "nades" e estratégias de retake, entender o console administrativo é inegociável.
+
+Os servidores privados no Divisão de Desarmamento oferecem um ambiente sandbox onde as regras padrão do matchmaking público podem ser dobradas ou quebradas para facilitar o aprendizado. Ao utilizar o conjunto completo de **comandos de servidor privado do Divisão de Desarmamento**, os proprietários podem controlar o fluxo do tempo, o posicionamento dos jogadores e até as leis da física dentro de sua instância. Este guia de 2026 fornece a lista mais atualizada de comandos e procedimentos de configuração para garantir que seu servidor funcione perfeitamente.
+
+| Recurso | Benefício do Servidor Privado | Controle de Comando |
+| :--- | :--- | :--- |
+| **Prática** | Tempo ilimitado para lineups de utilitários | Alto |
+| **Scrims** | Ambiente controlado para 5v5 | Total |
+| **Testes** | Verificar pontos de wallbang e dano | Moderado |
+| **Moderação** | Remover jogadores disruptivos instantaneamente | Absoluto |
+
+<Callout type="tip" title="Dica Profissional">
+A maioria dos comandos no Divisão de Desarmamento usa dois pontos (:) como prefixo padrão. Se um comando não funcionar, verifique se o dono do servidor alterou o prefixo no menu de configurações.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comandos Essenciais de Administrador e Jogador">
+
+Gerenciar um servidor requer um equilíbrio entre utilidade e moderação. Os seguintes **comandos de servidor privado do Divisão de Desarmamento** são os mais frequentemente usados por administradores para manter a ordem e facilitar cenários específicos de jogabilidade. Esses comandos são normalmente digitados diretamente no chat do jogo.
+
+| Comando | Sintaxe | Efeito |
+| :--- | :--- | :--- |
+| **Fly** | :fly [jogador] | Ativa o voo para o jogador alvo |
+| **Unfly** | :unfly [jogador] | Desativa o voo para o jogador alvo |
+| **Speed** | :speed [jogador] [num] | Define a velocidade de caminhada de um jogador |
+| **JumpPower** | :jp [jogador] [num] | Modifica a altura do pulo |
+| **Teleport** | :tp [p1] [p2] | Teleporta o jogador 1 para o jogador 2 |
+| **Bring** | :bring [jogador] | Teleporta um jogador para a sua localização |
+
+Além da movimentação simples, os comandos de moderação são vitais para manter seu espaço privado seguro contra "trolls" ou convidados indesejados que possam ter encontrado seu link.
+
+| Moderação | Sintaxe | Duração |
+| :--- | :--- | :--- |
+| **Kick** | :kick [jogador] [motivo] | Remoção imediata |
+| **Ban** | :ban [jogador] [motivo] | Remoção permanente do servidor |
+| **Mute** | :mute [jogador] | Desativa o chat do jogador |
+| **Unmute** | :unmute [jogador] | Ativa o chat do jogador |
+
+<Callout type="warning" title="Aviso">
+Tenha cuidado ao usar o comando `:ban`. Em servidores privados, os banimentos são frequentemente armazenados no banco de dados do servidor e podem persistir em diferentes sessões, a menos que sejam revogados manualmente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia Passo a Passo de Configuração do Servidor">
+
+Configurar seu ambiente para aceitar **comandos de servidor privado do Divisão de Desarmamento** é o primeiro passo para uma prática de nível profissional. Siga estas etapas para garantir que suas permissões de admin estejam configuradas corretamente para a temporada de 2026.
+
+<Steps>
+  <Step num="1" title="Compre ou Entre em um Servidor Privado">
+    Navegue até a página do jogo Divisão de Desarmamento no Roblox. Clique na aba "Servers" e crie um servidor privado. Note que alguns servidores podem exigir uma assinatura mensal de Robux, enquanto outros são gratuitos dependendo das promoções atuais dos desenvolvedores.
+  </Step>
+  <Step num="2" title="Acesse o Menu de Admin">
+    Uma vez dentro do servidor, procure por um ícone de "Settings" ou "Admin" no HUD. Se nenhum ícone estiver visível, tente digitar `:cmds` no chat para ver se o sistema de comandos está ativo.
+  </Step>
+  <Step num="3" title="Atribua Cargos de Admin">
+    Como dono, você pode conceder permissão a outros para usar os **comandos de servidor privado do Divisão de Desarmamento**. Use o comando `:admin [nomeusuario]` para dar poderes administrativos a um amigo de confiança para a sessão.
+  </Step>
+  <Step num="4" title="Configure as Regras do Jogo">
+    Use comandos táticos para configurar sua prática. Por exemplo, use `:freezetime 0` para remover o atraso de início de rodada ou `:infammo on` para permitir prática infinita de granadas.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Configuração Concluída">
+Uma vez seguidas estas etapas, seu servidor está pronto para treinamento tático de alto nível. Você agora pode usar toda a gama de comandos para personalizar a experiência.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Níveis de Permissão Avançados">
+
+Nem todos os admins são criados iguais. No Divisão de Desarmamento, as permissões são frequentemente hierarquizadas para evitar que moderadores de nível inferior fechem acidentalmente o servidor ou banam o dono. Entender esses níveis é crucial ao gerenciar uma grande comunidade ou uma equipe competitiva.
+
+<CardGrid cols={3}>
+  <Card title="Dono">
+    - **Acesso Total** a todos os comandos
+    - Pode conceder/revogar status de Admin
+    - Capacidade de desligar o servidor
+  </Card>
+  <Card title="Admin">
+    - Acesso à movimentação e moderação
+    - Pode expulsar (kick) e banir temporariamente
+    - Pode alterar o estado do jogo (ex: reiniciar)
+  </Card>
+  <Card title="Moderador">
+    - Acesso a utilitários básicos
+    - Pode silenciar (mute) e expulsar jogadores
+    - Acesso limitado a comandos de movimentação
+  </Card>
+</CardGrid>
+
+| Cargo | Movimentação | Moderação | Estado do Jogo |
+| :--- | :--- | :--- | :--- |
+| **Dono** | Sim | Sim | Sim |
+| **Admin** | Sim | Sim | Limitado |
+| **Moderador** | Limitado | Sim | Não |
+
+<Callout type="info" title="Nota">
+O comando `:whois [jogador]` é excelente para verificar o nível de permissão atual de um usuário se você não tiver certeza de quem tem acesso a comandos específicos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Comandos de Prática Tática">
+
+Para jogadores que buscam melhorar suas habilidades, os **comandos de servidor privado do Divisão de Desarmamento** oferecem ferramentas especializadas que simulam cenários de jogo real. Estes são particularmente úteis para aprender "lineups" (pontos específicos para lançar granadas) ou testar ângulos de "pre-fire".
+
+| Objetivo Tático | Comando Sugerido | Uso Prático |
+| :--- | :--- | :--- |
+| **Treino de Granadas** | :viewlineups / :infammo | Ver trajetória e praticar arremessos |
+| **Posicionamento** | :setpos [x,y,z] | Retornar ao ponto exato para testes |
+| **Timing** | :timer [segundos] | Testar quanto tempo leva para rotacionar |
+| **Visibilidade** | :esp [on/off] | Ver contornos de jogadores através das paredes (Apenas Admin) |
+
+Esses comandos transformam o jogo de um shooter padrão em um laboratório de excelência tática. Ao dominar os comandos `:setpos` e `:bring`, um treinador pode mover uma equipe inteira pelo mapa instantaneamente para demonstrar uma estratégia específica.
+
+<Callout type="tip" title="Dica de Eficiência">
+Use o comando `:bind` (se suportado pelo script de admin) para mapear comandos frequentes como `:respawn` ou `:fly` para teclas específicas no seu teclado para acesso mais rápido.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Gerenciamento de Servidor">
+
+Antes de sediar uma scrim ou uma sessão de prática, passe por este checklist para garantir que seus **comandos de servidor privado do Divisão de Desarmamento** e o ambiente estejam otimizados para performance.
+
+<Checklist
+  id="server-prep"
+  title="Requisitos Pré-Jogo:"
+  items={[
+    "Verificar se todos os jogadores estão na lista branca (whitelist)",
+    "Definir o mapa correto usando :map [nomedomapa]",
+    "Ativar/Desativar fogo amigo com base nas regras da partida",
+    "Resetar todas as pontuações dos jogadores usando :resetstats",
+    "Confirmar que todos os admins entendem as regras de conduta"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como encontro uma lista de todos os comandos de servidor privado do Divisão de Desarmamento disponíveis?",
+    answer: "Você geralmente pode digitar ':cmds' ou ':help' no chat do jogo. Isso abrirá uma interface gráfica (GUI) ou listará os comandos disponíveis que você tem permissão para usar."
+  },
+  {
+    question: "Posso usar esses comandos em servidores públicos?",
+    answer: "Não, os comandos de admin são estritamente limitados a servidores privados onde você recebeu permissões. Tentar usá-los em partidas públicas não funcionará."
+  },
+  {
+    question: "O que devo fazer se os comandos pararem de funcionar?",
+    answer: "Primeiro, verifique seu prefixo. Se estiver correto, o servidor pode precisar de um reinício. Use ':shutdown' se você for o dono, ou entre novamente no servidor para atualizar o script."
+  },
+  {
+    question: "Existe uma maneira de salvar minhas configurações de admin?",
+    answer: "A maioria dos servidores privados do Divisão de Desarmamento salva o status de 'Dono' automaticamente, mas os cargos de 'Admin' ou 'Moderador' podem precisar ser reatribuídos a cada sessão, a menos que o servidor use um banco de dados persistente."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+Sempre mantenha-se atualizado com o Discord oficial do Divisão de Desarmamento ou grupos da comunidade, pois os desenvolvedores frequentemente adicionam novos **comandos de servidor privado do Divisão de Desarmamento** para aprimorar a experiência competitiva em 2026.
+</Callout>
+
+</Section>
